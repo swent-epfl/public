@@ -57,6 +57,6 @@ class CharacterRepository(context: Context) {
      */
     suspend fun getCharacters(): ApiResponse<CharactersResponse> {
         // TODO: Implement a cache strategy to handle network errors
-        return TODO("Provide the return value")
+        return ApiResponse.Error("To be implemented")
     }
 }
