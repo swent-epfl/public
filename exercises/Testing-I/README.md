@@ -1,6 +1,9 @@
 # Contents
 We prepared both question-and-answer exercises (for coverage, mock testing) and coding exercises (for TDD and BDD).
 
+> [!NOTE]
+> For the coding exercises, we recommend you to use **IntelliJ IDEA** to run them (not Android Studio) as they are not Android projects.
+
 ## Coverage exercise
 
 [Click for the exercise description](Q-coverage.md) and [solution](solutions/A-Coverage.md)
