@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Vector3Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-27T13:18:01" hostname="TruddyDuddi.local" time="0.025">
+  <properties/>
+  <testcase name="vectorIsZero()" classname="Vector3Test" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

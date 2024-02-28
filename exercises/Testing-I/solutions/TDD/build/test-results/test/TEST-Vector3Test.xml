@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Vector3Test" tests="23" skipped="0" failures="0" errors="0" timestamp="2024-02-27T13:11:15" hostname="TruddyDuddi.local" time="0.11">
+  <properties/>
+  <testcase name="dotWithCrossProductResultIsZero()" classname="Vector3Test" time="0.041"/>
+  <testcase name="zeroHasDeterministicHashcode()" classname="Vector3Test" time="0.001"/>
+  <testcase name="dotWithZeroIsZero()" classname="Vector3Test" time="0.002"/>
+  <testcase name="lengthOfVectorIsCorrect()" classname="Vector3Test" time="0.0"/>
+  <testcase name="zeroIsEqualToItself()" classname="Vector3Test" time="0.002"/>
+  <testcase name="dotFailsWithNullVector()" classname="Vector3Test" time="0.022"/>
+  <testcase name="lengthOfZeroIsZero()" classname="Vector3Test" time="0.001"/>
+  <testcase name="copyReturnsIdenticalCopy()" classname="Vector3Test" time="0.0"/>
+  <testcase name="isZeroReturnsTrueForZeroVector()" classname="Vector3Test" time="0.001"/>
+  <testcase name="scaledVectorIsCorrect()" classname="Vector3Test" time="0.0"/>
+  <testcase name="dotWithTwoNonzeroVectorIsCorrect()" classname="Vector3Test" time="0.003"/>
+  <testcase name="constructorAssignsCorrectComponents()" classname="Vector3Test" time="0.001"/>
+  <testcase name="zeroIsZeroVector()" classname="Vector3Test" time="0.001"/>
+  <testcase name="normalizedOfUnitVectorIsSelf()" classname="Vector3Test" time="0.001"/>
+  <testcase name="scaledVectorByZeroIsZero()" classname="Vector3Test" time="0.001"/>
+  <testcase name="crossFailsWithNullVector()" classname="Vector3Test" time="0.0"/>
+  <testcase name="zeroToStringUsesScientificNotation()" classname="Vector3Test" time="0.002"/>
+  <testcase name="crossWithUnitAxisIsCorrect()" classname="Vector3Test" time="0.001"/>
+  <testcase name="crossWithSelfIsZero()" classname="Vector3Test" time="0.0"/>
+  <testcase name="zeroIsNotEqualToNull()" classname="Vector3Test" time="0.001"/>
+  <testcase name="oneToStringUsesRegularNotation()" classname="Vector3Test" time="0.001"/>
+  <testcase name="normalizedOfLongVectorIsUnitLength()" classname="Vector3Test" time="0.002"/>
+  <testcase name="isZeroReturnsFalseForNonzeroVector()" classname="Vector3Test" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
