@@ -3,20 +3,20 @@ We prepared both question-and-answer exercises (for coverage, mock testing) and 
 
 ## Coverage exercise
 
-[Click for the exercise description](Testing-I/Q-coverage.md) and [solution](Testing-I/solutions/A-Coverage.md)
+[Click for the exercise description](Q-coverage.md) and [solution](solutions/A-Coverage.md)
 
 ## Mock testing exercise
 
-[Click for the exercise description](Testing-I/Q-mock.md) and [solution](Testing-I/solutions/A-mock.md)
+[Click for the exercise description](Q-mock.md) and [solution](solutions/A-mock.md)
 
 ## TDD coding exercise
 
-[Click for the exercise description](Testing-I/TDD) and [solution](Testing-I/solutions/TDD)
+[Click for the exercise description](TDD/README.md) and [solution](solutions/TDD)
 
 
 ## BDD coding exercise
 
-[Click for the exercise description](Testing-I/BDD) and [solution](Testing-I/solutions/BDD)
+[Click for the exercise description](BDD/README.md) and [solution](solutions/BDD)
 
 ## Other exercise you can do on your own
 
