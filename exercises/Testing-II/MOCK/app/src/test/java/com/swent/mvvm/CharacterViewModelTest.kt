@@ -12,6 +12,8 @@ import com.swent.mvvm.model.repository.CharacterRepository
 import io.mockk.Runs
 import io.mockk.coEvery
 import io.mockk.every
+import io.mockk.impl.annotations.RelaxedMockK
+import io.mockk.junit4.MockKRule
 import io.mockk.just
 import io.mockk.mockk
 import io.mockk.verify
@@ -26,95 +28,61 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.rules.TestRule
 import retrofit2.Response
-
 @ExperimentalCoroutinesApi
 class CharacterViewModelTest {
 
+    // This rules allows LiveData to be tested synchronously, important in our case!
     @get:Rule
-    var rule: TestRule = InstantTaskExecutorRule()
+    val instantTaskExecutorRule: InstantTaskExecutorRule = InstantTaskExecutorRule()
 
-    private lateinit var viewModel: CharacterViewModel
+    // This rule automatically initializes late-init properties with @MockK, @RelaxedMockK, etc.
+    @get:Rule
+    val mockkRule = MockKRule(this)
 
-    // TODO: initialize mock context using mockk
-    val mContextMock
+    // TODO: Initialize the ViewModel with the repository.
+    // Hint: Use CharacterViewModel(repository)
 
-    // TODO: initialize mock CharacterDao using mockk
-    val dao : CharacterDao
+    // Automatically initialize this mock and make it relaxed
+    // (no need to stub all methods, mockk will try its best to return default values)
+    @RelaxedMockK
+    lateinit var repository: CharacterRepository
 
-    // TODO: initialize mock RickAndMortyApiService using mockk
-    val apiservice: RickAndMortyApiService
+    // TODO: Mock an Observer for ApiResponse<CharactersResponse>.
+    // Hint: Use mockk<Observer<ApiResponse<CharactersResponse>>>(relaxed = true)
 
-    // TODO: you don't need to change repository, but try to make mock this as well, and see what happens.
-    private val repository = CharacterRepository(
-        mContextMock,
-        dao,
-        apiservice
-    )
-
-    private val observer : Observer<ApiResponse<CharactersResponse>> = mockk()
+    // TODO: Define a list of dummy characters for testing.
 
     @Before
     fun setUp() {
-        Dispatchers.setMain(Dispatchers.Unconfined) // Use Unconfined dispatcher for testing
+        Dispatchers.setMain(Dispatchers.Unconfined)
 
-        // TODO: uncomment the following statements, and understand why the following three statements are needed.
-//        coEvery { apiservice.getCharacters() } returns Response.success(
-//            CharactersResponse(
-//                listOf(Character("Test Character", "Human", "Test Image"))
-//            )
-//        )
-//        coEvery { dao.insertAll(any()) } just Runs
-//        every { observer.onChanged(any()) } just Runs
-
-        viewModel = CharacterViewModel(repository)
-        viewModel.characters.observeForever(observer)
+        // TODO: Fill in the setup method (check README.md for instructions).
     }
 
     @After
     fun tearDown() {
-        viewModel.characters.removeObserver(observer)
+        // TODO: Remove the observer from the ViewModel's LiveData.
+
+        // Reset the main coroutine dispatcher to the original dispatcher.
         Dispatchers.resetMain()
     }
 
     @Test
-    fun `when refresh, then repository getCharacters is invoked`() = runTest {
+    fun `when getAllCharacters called, then LiveData is updated`() {
+        // TODO: Call the refresh method on the ViewModel.
 
-        val mockResponse = ApiResponse.Success(
-            CharactersResponse(
-                listOf(Character("Test Character", "Human", "Test Image"))
-            )
-        )
-
-        val mockResponse2 = ApiResponse.Success(
-            CharactersResponse(
-                listOf(Character("Test2 Character", "Human", "Test Image"))
-            )
-        )
-
-        // TODO: fill in the mock behavior, such that the repository.getCharacters would always return mockResponse
-        coEvery { } returns
-
-        // Act
-        viewModel.refresh() // This internally calls getAllCharacters
-
-        // Assertions
-
-        // checking if onChanged was called with mockResponse
-        // TODO: fix the failed check
-        verify(exactly = 1) { observer.onChanged(mockResponse2) }
-
-        //TODO: add another assertion, to checking if onChanged was called with ApiResponse.Loading()
-        verify() { }
+        // TODO: Verify that the observer's onChanged was called with any value.
     }
 
     @Test
-    fun `when clear is called, then characters LiveData is empty`() = runTest {
+    fun `when clear is called, then characters LiveData is empty`() {
+        // TODO: Call the clear method on the ViewModel.
 
-        // Act
-        viewModel.clear()
+        // TODO: Verify that the observer's onChanged was called with an empty list.
+    }
 
-        // Assert
-        // TODO: fill in the assertion corresponding to `when clear is called, then characters LiveData is empty`
-        verify { observer.onChanged() }
+    @Test
+    fun `when getCharacters is called, then LiveData contains specific characters`() {
+        // TODO: Refresh characters and verify that LiveData was updated with specific characters.
     }
 }
