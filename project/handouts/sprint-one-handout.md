@@ -95,7 +95,7 @@ A SCRUM board is your holy grail for implementing a collaborative workflow. As y
 - [ ] Set up Firebase, including API keys.
 - [ ] Add deploy secrets to your repo.
 > [!WARNING]
-> Do not check-in API keys into your VCS. There should be a `.env` file in your `.giignore` that prevents accidental pushes, and you should use that file to store them when developing locally.
+> Do not check-in API keys into your VCS. There should be a `.env` file in your `.gitgnore` that prevents accidental pushes, and you should use that file to store them when developing locally.
 
 ## Sprint 1 Tasks
 
