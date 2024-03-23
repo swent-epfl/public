@@ -71,9 +71,8 @@ A SCRUM board is your holy grail for implementing a collaborative workflow. As y
 ### Setup Figma
 
 - [ ] Create a figma project and share with the rest of the team. 
-- [ ] Ensure everyone has access to Figma and link it in the project’s README.
-- [ ] Ensure all team members have access to the figma, and are able to create their own forks of it, for when they need to get exact styling and fonts.
-  - Having their own figma forks out of sync is a common mistake that teams often make in the beginning. Please try to avoid this anti-pattern.
+- [ ] Ensure everyone is in the same Figma team, and link the Figma file in the project’s README.
+- [ ] Ensure all team members have edit access to the figma, and are able to access it in `dev` mode for when they need to exact styling and fonts for elements.
 > [!WARNING]
 > It is important to note that working solely on figma and design for the entire semester (or even for an entire Milestone is unacceptable and will be penalized in this course). Figma work is important and part of the evaluation, however doing _only figma_ will do more harm than good. 
 
@@ -95,7 +94,7 @@ A SCRUM board is your holy grail for implementing a collaborative workflow. As y
 - [ ] Set up Firebase, including API keys.
 - [ ] Add deploy secrets to your repo.
 > [!WARNING]
-> Do not check-in API keys into your VCS. There should be a `.env` file in your `.gitgnore` that prevents accidental pushes, and you should use that file to store them when developing locally.
+> Do not check-in API keys into your VCS. There should be a `.env` file in your `.giignore` that prevents accidental pushes, and you should use that file to store them when developing locally.
 
 ## Sprint 1 Tasks
 
@@ -135,3 +134,14 @@ _[22.03.2024]_
 - [ ] Review the work finished in Sprint 1 with coaches; move tickets to "Done in Sprint #1".
 - [ ] Conduct and document Sprint Retrospective; add it to the GitHub Wiki.
 - [ ] Plan Sprint 2 with your coaches.
+
+
+
+### CHANGELOG
+
+[15.03.2024]: v1 is Released. 
+
+[21.03.2024]: v1.1 Updates
+
+- Updated figma guidelines : It is possible to edit the same figma within a team and access the CSS when `dev` mode is enabled. Therefore, the need to fork the figma is not there anymore.
+-  
