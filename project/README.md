@@ -45,7 +45,7 @@ Sensor usage should drive some key behavior and functionality in the app, such a
 
 ## Starting the Project
 
-1. Read the [handout for Sprint 1](./handouts/Sprint-one-handout.md); the list of TODOs will help you hit the ground running
+1. Read the [handout for Sprint 1](./handouts/sprint-one-handout.md); the list of TODOs will help you hit the ground running
 2. Look throught the [sample Android project](https://github.com/swent-epfl/Android-Sample) with gradle files, a CI script, and recommended project structure is available. This can provide inspiration for setting up your own. 
 3. For the first Sprint, your primary objective should be to ensure that the project is set up and everyone is in a position to start contributing.
 
