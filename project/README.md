@@ -1,162 +1,379 @@
 # EPFL Software Enterprise Project
 
-The CS-311 Project is aimed at teaching you how to work efficiently in teams and how to build and ship software products. To achieve this, you will work in a fashion inspired by the [SCRUM](https://www.scrum.org/learning-series/what-is-scrum/) development process. The [development process](#development-process) described for the project closely resembles how software is built in the real world. 
-You will build a project for Android based on the finalized project proposal submitted during the initial weeks of the course. 
+_[updated 29.03.2024]_
+
+CS-311 - The Software Enterprise (SwEnt) is a course that teaches you how to work efficiently in teams and how to build and ship software products. We will study a development process that is a simplified variant of [Scrum](https://www.Scrum.org/learning-series/what-is-Scrum/) and resembles closely how software is built in the real world. The outcome of the project will be an Android application of your own choosing, based on the finalized project proposal you submitted during the initial weeks of the course, but this is not an Android programming course.
 
 ## Learning Objectives
 
-The CS-311 project structure is designed to teach you the following - 
+The SwEnt project teaches you the following:
 
-- How to think, ideate, build and refine products that solve a real problem.
-- How to write robust and maintainable code as part of a team.
-- How to plan development time effectively to deliver value continuously.
-- How to review code and give constructive feedback to maintain code quality.
-- How to apply SCRUM in the real world.
-- How to deal with the pitfalls of real-world software engineering, such as dealing with incomplete documentation, bugs in tools and libraries, fixing code that only works on one developer's machine.
+- How to think, ideate, build and refine products that solve a real problem
+- How to develop, as a team, code that is robust and maintainable
+- How to plan development time to deliver value continuously
+- How to review code and give constructive feedback
+- How to employ an agile development method
+- How to deal with common pitfalls of real-world software development: incomplete documentation, bugs in tools and libraries, code that works in one place but not another, etc.
 
 ## App Requirements
 
-All apps must meet the basic requirements of functionality and resilience: apps must accomplish compelling tasks for clear use cases, in a way that is easy to use and consistent with the Android experience; and apps must work in the face of user errors, malice, and external issues such as a lack of Internet connectivity, with a test suite to demonstrate this.
+Your app is expected to meet basic requirements of functionality and resilience:  it must accomplish compelling tasks for clear use cases, be easy to use and consistent with the Android UX, and it must work in the face of user errors, malice, and external issues (e.g., lack of Internet connectivity), with a test suite to demonstrate that it does so.
 
-All apps must also meet the following requirements:
+The app must also meet the following SwEnt-specific requirements:
 
-- Split app model: the app must use a public cloud service, such as Google Firebase
-- User support: the app must have a concept of authentication, for instance using Android’s built-in Google authentication
-- Sensor use: the app must use at least one phone sensor, such as GPS, camera, or microphone, as part of a core feature of the app
-- Offline mode: the app must be usable without Internet connectivity, by paring down features compared to the normal experience.
+- Split app model: Your mobile app must use at least one public cloud service, such as Google Firebase
+- Multi-user support: Your app must support multiple users and have a concept of authentication, for instance using Android’s built-in Google authentication
+- Sensor use: Your app must use at least one phone sensor (e.g., GPS, camera, microphone) as part of a core feature of the app
+- Offline mode: Your app must be usable without Internet connectivity, e.g., by paring down features compared to the normal experience and/or using cached data
 
-Unless absolutely needed, teams are discouraged from writing backend that need self-hosting/deployment. This is to ensure (a) the app will still work in the future without requiring someone to set up and maintain a backend, and (b) the project scope is restricted enough for timely completion within the duration of the course.
+Review the "Mobile Platform" lecture to understand these requirements better.
+
+Unless absolutely needed, you should not write a backend that needs self-hosting/deployment. This avoids having the app stop working in the future because the backend is no longer maintained, and makes sure that the scope of the project enables you to complete it successfully by the end of the course.
 
 > [!NOTE]
-> You may choose to use firebase cloud functions if you wish, however please discuss your use-case with your coaches prior to deciding to use it. Only if your coaches approve the necessity of a backend, should you set one up.
+> You may choose to use Firebase cloud functions if you wish, but please discuss your use case with your coaches beforehand. You can go ahead only if they approve.
 
-Security, privacy, and vendor lock-in are valid concerns but outside the scope of the course project's considerations.
+Security, privacy, vendor lock-in, etc. are crucial real-world aspects, but we do not spend much time on them in SwEnt.
 
-Sensor usage should drive some behavior and functionality in the app, such as finding nearby points of interest with the GPS, or augmenting reality by drawing over a video feed. Merely getting sensor data and storing it in a field shown to users is too simple and not does not satisfy the minimum project requirements.
+Sensor usage should drive some key behavior and functionality in the app, such as finding nearby points of interest with the GPS, or augmenting reality by drawing over a video feed. Merely getting sensor data and storing it in a field shown to users is too simple and does not satisfy the SwEnt project requirements.
 
 > [!WARNING]
-> You can also use open-source alternatives to firebase if you wish, however again - 
-> 1. Ensure that you let your coaches know that you will be using a Firebase alternative like `appwrite` or `supabase`.
-> 2. Know that using something other than firebase will mean that you will get limited tech support, and you will largely be on your own when dealing with issues related to database and database-testing.
+> You can use open-source alternatives to Firebase, like `appwrite` or `supabase`, but:
+> 
+> 1. Let your coaches know that you will be using a Firebase alternative; and
+> 2. Beware that using something other than Firebase means that the SwEnt staff will be able to give you only limited tech support, and so you will largely be on your own when dealing with issues related to the database and related testing.
 
 ## Starting the Project
 
-1. A handout for Sprint 1, along with a list of TODOs to help you hit the ground running is provided [here](./handouts/sprint-one-handout.md).
-2. A sample Android Project with gradle files, a CI script, and recommended project structure is available [here](https://github.com/swent-epfl/Android-Sample). You can take inspiration from it when setting up your own project. 
-3. Your bootcamp code (and experience) will be an invaluable resource in helping you move fast in the beginning of the project.
-4. For the first Sprint, your primary objective should be to ensure the project is setup and everyone is in a position to start contributing.
+1. Read the [handout for Sprint 1](./handouts/Sprint-one-handout.md); the list of TODOs will help you hit the ground running
+2. Look throught the [sample Android project](https://github.com/swent-epfl/Android-Sample) with gradle files, a CI script, and recommended project structure is available. This can provide inspiration for setting up your own. 
+3. For the first Sprint, your primary objective should be to ensure that the project is set up and everyone is in a position to start contributing.
+
+The experience you gained during the bootcamp will help you move fast in the beginning of the project.
 
 ## Development Process
 
-The SCRUM development process relies on three key roles:
+As described in the "Collaborative Software Development" lecture, the Scrum development process relies on three key roles:
 
-1. Product Owner
-2. Scrum Master
-3. Developer(s)
+The **Product Owner (PO)** is primarily responsible for gathering user feedback and insights. The PO represents the customer and decides how to prioritize the various features.
 
-The Product Owner or PO is primarily responsible for gathering user feedback and insights, and deciding the product's priority, by dictating what features the team should implement next.
+The **Developer** is an individual member of the dev team. Developers implement the requirements laid out in Sprint tasks that are created and put on the Sprint Backlog by the dev team. These result from Product Backlog items produced by the PO.
 
-The Scrum Master or SM is primarily responsible for deciding how much work the team can take on in a Sprint such that they can reasonably finish the Sprint in time and deliver value by the end of the Sprint. Once the Sprint has started, the SM is responsible for conducting standups, and ensuring smooth functioning of the team - unblocking developers, involving the PO for clarifications when needed.
-
-The Developer is an IC (Individual Contributor) who is tasked with implementing the requirements laid out in a _ticket_ by the PO (almost always accompanied with a User Story). Where necessary, a _ticket_ must also come with a figma and a clear list of _Acceptance Criteria_. 
+The dev team decides autonomously how much work it can take on in a Sprint, and is collectively responsible to finish on time and deliver value by the end of the Sprint. The **Scrum Master (SM)** acts as a coordinator, not a manager, to help the dev team succeed. The SM ensures that regular standups take place, and that the team functions smoothly: helps remove blockers, engages with the PO for clarifications, etc.
 
 > [!NOTE]
-> You have seen such tickets given as User Stories in the [bootcamp](https://github.com/swent-epfl/bootcamp-template/blob/main/docs/bootcamp/UserStory.md).
+> You have seen such tickets given as user stories in the [bootcamp](https://github.com/swent-epfl/bootcamp-template/blob/main/docs/bootcamp/UserStory.md).
 
 ### Starting a Sprint
 
-Each Sprint in SCRUM starts with a planning meeting. During this meeting, the _Product Owner_ decides the product's priority by prioritizing the User Stories in the _Product Backlog_. Then, s/he works with the Scrum Master to decide which User Stories will be implemented during the Sprint. 
+Each Sprint in Scrum starts with a Sprint Planning meeting. During this meeting, the PO communicates the priorities for the items on the Product Backlog (PB), and the dev team commits to implementing during the Sprint the top N items on the PB, where N is decided by the dev team. 
 
-All _tickets_ for a Sprint are agreed upon at the start of the Sprint, frozen on the SCRUM board in the "Sprint Backlog", and assigned to Developers. Once the Sprint Backlog is frozen, each Developer breaks down their ticket into smaller Sprint Tasks and estimates the time for each task.
+Every PB item is typically accompanied by a user story (revisit the "Requirements" lecture for details); when necessary, a Figma design and/or a list of acceptance criteria is also included. When taking an item off the PB for implementation, the dev team breaks it down into Sprint tasks that go into the Scrum board in the Sprint Backlog, then assigned to Developers. For each Sprint task, the dev team creates a ticket in GitHub and estimates the time needed to complete that task.
+
+> [!NOTE]
+> You can expect your time estimates to be way off in the beginning of the project. As the course progresses and you acquire experience, these estimates should become increasingly more accurate.
 
 ### Working on Sprint Tasks
 
-To begin working on a new task, you should create a branch for the task, and begin your implementation. **You should push code frequently** to it; once the task is completed, including tests, then open a pull request. If you want early feedback on code that is not finished yet, use GitHub's "draft" pull requests. Once you have at least one accepting code review from a teammate, and your code passes continuous integration checks, merge the pull request.
+To begin working on a new task, you should first create a branch for the task, as per the "feature branch" workflow described in lecture. Push code frequently to the branch. Once the task is completed, including tests, open a pull request (PR). If you want early feedback on code that is not finished yet, use GitHub's "draft" PRs. Once you have at least one accepting code review from a teammate, and your code passes continuous integration (CI) checks, merge the PR and close the ticket. Review the "Collaborative Software Development" lecture for details.
 
-You may, at times, need to create multiple pull requests for a single task. For instance, if your task is to create a new module, and a teammate needs to use that module, you can create a pull request with just the module’s interface, so that you can agree with your teammate on what the interface should be. Similarly, if you realize you will not have time to finish a task in the current sprint, you can submit a pull request with a polished version of a smaller part of the task, including tests for just that part. 
+Sometimes, you might need to create multiple PRs for a single task. For instance, if your task is to create a new module, and a teammate needs to use that module, you can create a PR with just the module’s interface, so that you can agree with your teammate on what the interface should be. Similarly, if you realize you will not have time to finish a task in the current Sprint, you can submit a PR with a polished version of a smaller part of the task, including tests for just that part. 
 
-> [!NOTE]
-> It is normal for your time estimates to be occasionally inaccurate in the beginning. However, this should happen less often as the course progresses.
-
-While writing code for a task, you must balance two concerns: making clean self-contained code, and making code that is easy to evolve in the near future. Don’t make your design overly complex for hypothetical future changes that may never happen, but think about the next few tasks that are likely to come up and how they will fit in your code.
+While writing code for a task, don’t "overengineer" it to meet hypothetical future needs. Keep it focused on the task at hand, while designing it to be easy to modify and maintain in the future.
 
 > [!WARNING]
-> The most commonly seen anti-patterns when working on Sprint tasks are - 
-> 1. Not pushing regularly.
-> 2. Raising PRs shortly before a Sprint Review Meeting.
-> 3. Raising PRs with 1000s of LoC.
+> Some frequent anti-patterns we see in inexperienced students include:
+> 
+> - Not pushing regularly
+> - Submitting PRs for review shortly before a Sprint Review meeting
+> - Submitting PRs with many unrelated (or only loosely related) changes bundled together
 >
-> These are very bad practices and are strongly discouraged. Following good development practices is something you will be evaluated on during the project. We will depend on the `git` history when doing this evaluation, so please remember to push small, regular changes and create reasonable and well-contained PRs.
-
+> These are bad practices. One of the things we look for when evaluating your work is whether you use good development practices. We will rely on the `git` history to assess your development practices, so please remember to use meaningful commit messages, push small, regular changes, and create reasonable and well-contained PRs.
 
 ### Code Reviews
 
-Each pull request must be reviewed by at least one teammate, in a thorough and inquisitive fashion to uncover bugs, discuss design, and learn about changes.
-The Scrum Master is responsible for ensuring people review the pull requests they are assigned to in a timely fashion.
+Each pull request must be reviewed by at least one teammate, in a thorough and inquisitive fashion meant to uncover any bugs that lurk in the code, discuss design, and learn about changes. The SM ensures that devs review the PRs they are assigned to in a timely fashion, to not block other teammates.
 
-Read the entire code, and comment on code that looks wrong or that you think could be improved.
-Ask questions when you do not understand a change.
-Leave positive comments as well, such as congratulating the author for getting rid of an ugly hack.
+Read the entire code, and comment on code that looks wrong or that you think could be improved. Ask questions when you do not understand a change. Remember to leave positive comments as well (e.g., congratulate the author for getting rid of an ugly hack). 
 
 > [!NOTE]
-> A good heuristic for reviewing code is as follows - 
-> 1. When reviewing code for a new feature: look for design-pattern comments or near-team integration issues that may arise.
-> 2. When reviewing changes to existing code: Always remember that the code + the commit messages should satisfactorily explain the change.
+> A couple of things to keep in mind:
+> 
+> - When reviewing code for a _new feature_, check if design patterns are properly used, and identify issues that may arise upon integration
+> - When reviewing changes to _existing code_, the union of the code and the commit messages should explain the change in a way that will be understandable even a few months later
 
-You can prefix your comments with one word indicating the kind of comment it is, such as "important" or "nitpick" or "question".
-Make sure you talk about the code, not the author. "You are wrong" or "Your code is bad" will put your teammates on the defensive, whereas "Have you considered what happens when.." or "An improvement that I see here..." is constructive.
+You can prefix your comments with one word indicating the kind of comment it is, such as "Important" or "Nitpick" or "Question". Try to use prefixes consistently. Your comments should talk about the code, not the author.  For example, "you're wrong" will put your teammate on the defensive and make her/him less receptive to what you say; instead, "have you considered what happens when..." or "a possible improvement is..." would be more constructive.
 
-If you really have nothing to say, a simple “looks good to me” or “LGTM” for short is fine.
-This should only be the case for the occasional tiny pull request that fixes a simple bug, not for large changes for which there is always something to discuss or learn from.
+Revisit the "Collaborative Software Development" lecture for more tips on code reviews.
 
-Here are some good examples of code reviews in past projects:
+If you really have nothing to say, a simple “looks good to me” or “LGTM” is fine. This should only be the case for the occasional tiny pull request that fixes a simple bug, not for large changes for which there is always something to discuss and/or clarify.
+
+In SwEnt, all code reviews should be done in English, the lingua franca of the software development world.
+
+Here are some good examples of code reviews in past projects [
 [1](https://github.com/epfl-SDP/android/pull/255),
 [2](https://github.com/epfl-SDP/android/pull/410),
 [3](https://github.com/PalFinderTeam/palFinder/pull/82),
-[4](https://github.com/PalFinderTeam/palFinder/pull/302).
-
-And some examples from large open-source projects:
+[4](https://github.com/PalFinderTeam/palFinder/pull/302) ]
+and some examples from large open-source projects [
 [1](https://github.com/dotnet/runtime/pull/81725),
 [2](https://github.com/dotnet/runtime/pull/72712),
 [3](https://github.com/openjdk/jdk/pull/7431),
 [4](https://github.com/ruby/ruby/pull/5002),
-[5](https://github.com/lampepfl/dotty/pull/16612)
+[5](https://github.com/lampepfl/dotty/pull/16612) ].
 
 > [!NOTE]
-> Your coaches will review your PRs in the initial weeks of the project. This is a great opportunity to get early feedback during the Sprint on how you are progressing. You should consider creating "draft" PRs early on to get more feedback!
+> Your coaches will review your PRs in the initial weeks of the project in order to give you early feedback. We of course do not expect you to be code-review experts at the beginning of the course, but we do want to see you improve.
+
 
 ### Standup Meetings
 
-To help team members know what others are doing, you are **strongly encouraged** to hold what Scrum calls "standup meetings". These are short meetings, maximum 15 minutes. In standup meetings, each team member explains what they worked on since the previous standup, what they plan to work on next, and whether they are blocked on anything. 
+You are expected to hold at least two Scrum standups a week outside the Friday meeting. As described in lecture, these meetings last a few minutes, never more than 15 minutes. In a Standup, each developer covers exactly three things: what they worked on since the previous standup, what they plan to work on next, and what impediments they are facing. 
 
-**Standup meetings are not for extended discussion**. They are meant to serve two purposes:
+For reasons of efficiency and time savings, Standups are not for extended discussion &ndash; those happen one-on-one aside from the standup. A Standup keeps the team in sync and identifies any blocking issues. Additionally, it helps the team plan how to remove impediments, such as by organizing a separate meeting to discuss design issues or asking one member to help another.
 
-1. Keep the team in sync during the course of a Sprint. 
-2. Help the team identify any blocking issues.
+Your team should have at least two Standups per Sprint, at least one of which is fully in-person. The SM must ensure that these meetings happen. We will require the SM to submit a weekly meeting-minutes writeup of the Standups conducted during that Sprint, so that the coaches have visibility into how the Standups went.
 
-Together, these help in keeping inefficiencies to a minimum. Additionally, it helps the team in planning how to tackle blockers, such as holding a later meeting to discuss a design issue or asking one member to help another.
+If you find that your team is being inefficient, ask yourself whether there is sufficient intra-team communication.  Lack of communication is often a reason why teams that do not operate optimally. Reach out to your coaches if you need help.
 
-Your team should have at least two standup meetings per sprint. The Scrum Master is responsible for planning and conducting the standups. **The Scrum Master will also be required to submit a weekly meeting-minutes of the standups conducted during the sprint.**
+### Sprint Debrief + Review + Planning
 
-### Sprint Review Meetings
+You will meet your SwEnt coaches every Friday to perform the Debrief and Review for the current Sprint, and the Planning for the next Sprint. In the Debrief you will demo your Increment and receive feedback from "the customer". In the Review you will go over how the Sprint went, what worked well, what didn't work well, and how to fix it. 
 
-You will meet your SwEnt coaches every Friday. These meetings are meant to serve as Sprint Review Meetings. In these meetings, you will go over how the sprint went, what worked well, what didn't work well, what deliverables were finished in the Sprint and what you will do in the next Sprint. 
+Your coaches are not there to judge you, they are a resource for you: they give you input on how you can resolve issues, and help eliminate any inefficiencies in your development process. By the end of the course, we want you to be able to conduct these meetings on your own. Note that it is not your coaches who will decide your final grades, that will be done by the SwEnt staff.
 
-In these meetings, your coaches are there as a resource for you. They are there to give you inputs on how you can resolve issues, and improve upon any inefficiencies in your development process. 
+## Workload
 
-**Your coaches are not there to judge you. Your final grading is done by the SwEnt staff.**
+SwEnt carries 8 ECTS credits.  According to [the EPFL guidelines](https://www.epfl.ch/education/teaching/teaching-guide-2/getting-started/design-a-course_1/#:~:text=A%20full%2Dtime%20student%20is,of%20student%20work%2C%20per%20week), this corresponds to 240 hours of total study time. If we are to divide this evenly over the 14 weeks of the semester, it comes down to an average of a bit over 17 hours/week.  This is a big chunk of time in which you can accomplish a lot, but can also get easily lost. To help you plan, below are some ideas for how to break down your weekly SwEnt time.
 
+There are two major phases in the SwEnt project :
+
+- Milestones M1 and M2: Building v.1 of your app, which you can think of as a proof of concept (PoC)
+- Milestones M3 and M4: Finalize the PoC, while starting to learn about MVP (minimum viable product) and writing a PRD (product requirements doc) for the MVP 
+
+### M1 and M2
+
+During this time, you act as an individual contributor while learning how to engage in and contribute to team tasks. We recommend that you budget ~12h for individual contributions, ~3h for team contributions (planning, CI, QA, Figma, documentation, being Scrum Master, etc.), ~1h for your Scrum meetings during the week, and 1h for the Friday Sprint Debrief + Retrospective + Planning with your coaches. Below is a more detailed breakdown.
+
+> [!NOTE]
+> This is only indicative and will vary from team to team and week to week. If at any point you feel you are deviating significantly from this outline, please communicate with your coaches who will help you navigate better!
+
+<table>
+ <thead>
+  <tr>
+    <th>Task block</th>
+    <th>Task</th>
+    <th>Time</th>
+    <th>Block time per week</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="6">Design, infrastructure, organization<br>(each developer does a <i>subset</i> of these tasks every week)</td>
+    <td>Figma</td>
+    <td>1h30m</td>
+    <td rowspan="6">3h</td>
+  </tr>
+  <tr>
+    <td>Architecture diagrams / Schema planning</td>
+    <td>1h</td>
+  </tr>
+  <tr>
+    <td>PB maintenance as PO</td>
+    <td>30m</td>
+  </tr>
+  <tr>
+    <td>Manual QA (e.g., testing that the APK works)</td>
+    <td>30m</td>
+  </tr>
+  <tr>
+    <td>Act as SM</td>
+    <td>1h</td>
+  </tr>
+  <tr>
+    <td>CI, code maintenance (Sonar, coverage), etc.</td>
+    <td>1h</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Implementation<br>(each developer does <i>every</i> task each week)</td>
+    <td>Coding, testing, reading documentation, etc.</td>
+    <td>10h</td>
+    <td rowspan="4">12h</td>
+  </tr>
+  <tr>
+    <td>Code reviews</td>
+    <td>1h</td>
+  </tr>
+  <tr>
+    <td>Task estimation + breakdown into Sprint tasks</td>
+    <td>30m</td>
+  </tr>
+  <tr>
+    <td>Shepherd your PRs (to get them merged)</td>
+    <td>30m</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Scrum<br>(each developer does <i>every</i> task each week)</td>
+    <td>Standup meetings (2x / week)</td>
+    <td>30m</td>
+    <td rowspan="3">1h</td>
+  </tr>
+  <tr>
+    <td>Scrum board maintenance</td>
+    <td>15m</td>
+  </tr>
+  <tr>
+    <td>Individual retrospective</td>
+    <td>15m</td>
+  </tr>
+  <tr>
+    <td>Meeting with the coaches</td>
+    <td>Sprint Review + Retrospective + Planning</td>
+    <td>1h</td>
+    <td>1h</td>
+  </tr>
+</tbody>
+</table>
+
+
+### M3 and M4
+
+By now, you're becoming an expert in team work. You've spent a lot of time focused on development, and you will continue doing so. But some of the time you were spending on Figma, documentation, etc. will be devoted to writing a PRD for your MVP (~3h). To guide you in this effort, you will attend one lecture every week. Organization tasks should now take less time, because the experience you've accumulated will make you more efficient. 
+
+<table>
+  <thead>
+    <tr>
+      <th>Task block</th>
+      <th>Task </th>
+      <th>Time</th>
+      <th>Time/block<br>per week</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6"><br>Design, infrastructure, organization<br><font color="gray">(each developer does a <i>subset</i> of<br>&nbsp; these tasks every week)</font></td>
+      <td>Figma </td>
+      <td>30m</td>
+      <td rowspan="6">1h</td>
+    </tr>
+    <tr>
+      <td>Architecture diagrams / Schema planning</td>
+      <td>30m</td>
+    </tr>
+    <tr>
+      <td>PB maintenance</td>
+      <td>30m</td>
+    </tr>
+    <tr>
+      <td>Manual QA</td>
+      <td>30m</td>
+    </tr>
+    <tr>
+      <td>Act as SM</td>
+      <td>1h</td>
+    </tr>
+    <tr>
+      <td>CI, code maintenance (Sonar, coverage), etc.</td>
+      <td>30m</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Implementation<br><font color="gray">(each developer does <i>every</i><br>&nbsp; task each week)</font></td>
+      <td>Coding, testing, reading documentation, etc.</td>
+      <td>9h</td>
+      <td rowspan="4">11h</td>
+    </tr>
+    <tr>
+      <td>Code reviews</td>
+      <td>1h</td>
+    </tr>
+    <tr>
+      <td>Task estimation + breakdown into Sprint tasks</td>
+      <td>30m</td>
+    </tr>
+    <tr>
+      <td>Shepherd your PRs (to get them merged)</td>
+      <td>30m</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Scrum<br><font color="gray">(each developer does <i>every</i><br>&nbsp; task each week)</font></td>
+      <td>Standup meetings (2x / week)</td>
+      <td>30m</td>
+      <td rowspan="3">1h</td>
+    </tr>
+    <tr>
+      <td>Scrum board maintenance</td>
+      <td>15m</td>
+    </tr>
+    <tr>
+      <td>Individual retrospective</td>
+      <td>15m</td>
+    </tr>
+    <tr>
+      <td>Meeting with the coaches</td>
+      <td>Sprint Review + Retrospective + Planning</td>
+      <td>1h</td>
+      <td>1h</td>
+    </tr>
+    <tr>
+      <td rowspan="2">PRD<br><font color="gray">(each developer does <i>every</i><br>&nbsp; task each week)</font></td>
+      <td>Lectures</td>
+      <td>1h30m</td>
+      <td rowspan="2">3h</td>
+    </tr>
+    <tr>
+      <td>PRD writing</td>
+      <td>1h30m</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Grading
 
-The Project will be graded at 4 different points during the development cycle. Each "mark" or Milestone is chosen in a way that reflects enough time to have a "visible delta" on the project. It is anticipated that the pace of the project and team dynamics will change during each Milestone. The high-level breakdown of points assigned to each Milestone are as follows - 
+There will be four milestones in the grading of your project. Each milestone will give you enough time to have a visible delta from the previous milestone. You can expect the pace of the project and team dynamics to change from milestone to milestone, as you and your team accumulate experience. The breakdown, as % of your final course grade, is the following:
 
-| Milestone | Duration | Individual Grade | Group Grade |
-|-----------|--| ------------------|-------------|
-| Milestone 1 | 2 Weeks | 5% | 5% |
-| Milestone 2 | 3 Weeks | 10 % | 5% |
-| Milestone 3 | 3 Weeks | 12.5 % | 5% |
-| Milestone 4 | 2 Weeks | 17.5% | 15% |
-| **Total** | 10 Weeks | **45%** | **30%** |
+<table>
+  <thead>
+    <tr>
+      <th>Milestone</th>
+      <th>Duration</th>
+      <th>Individual grade</th>
+      <th>Team grade</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    	<td align="center">M1</td>
+    	<td>3 weeks</td>
+    	<td align="center">5%</td>
+    	<td align="center">5%</td>
+    </tr>
+    <tr>
+    	<td align="center">M2</td>
+    	<td>3 weeks</td>
+    	<td align="center">10%</td>
+    	<td align="center">6%</td>
+    </tr>
+    <tr>
+    	<td align="center">M3</td>
+    	<td>2 weeks</td>
+    	<td align="center">13%</td>
+    	<td align="center">6%</td>
+    </tr>
+    <tr>
+    	<td align="center">M4</td>
+    	<td>2 weeks</td>
+    	<td align="center">17%</td>
+    	<td align="center">13%</td>
+    </tr>
+    <tr>
+    	<td align="center"><strong>Total</strong></td>
+    	<td><strong>10 weeks</strong></td>
+    	<td align="center"><strong>45%</strong></td>
+    	<td align="center"><strong>30%</strong></td>
+    </tr> 	
+  </tbody>
+</table>
 
-The exact breakdown for each milestone will be shared in due course. However, the grading rubric is designed in a way that ensures that following the SCRUM process, and building and delivering value on a per-sprint basis will achieve (near) full grade.
+The grading of each milestone is designed such that you receive nearly full credit as long as you closely follow the Scrum process and you build and deliver value every Sprint. The exact breakdown for each milestone will be shared in due course. The percentages are not linear in the amount of time between milestones because we weigh different aspects differently as you gain experience (e.g., your ability to correctly estimate task duration is worth 0 for M1 but worth more for M4) and some aspects cumulate over time (e.g., how polished the features are matters little in early milestones but a lot more in M4). As a reminder, 5% of your grade will come from the bootcamp (individual), and 20% from the PRD (team).
+
+If you have any questions, please do not hesitate to reach out to your coaches or ask on Ed Discussion.
