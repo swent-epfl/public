@@ -1,6 +1,6 @@
 ## Milestone M1
 
-_[updated 3.04.2024]_
+_[updated 7.04.2024]_
 
 The SwEnt project has four graded milestones (see [README](../README.md#grading)). This handout concerns the first milestone, named M1.
 
