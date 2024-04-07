@@ -67,6 +67,9 @@ For M1, we will snapshot the PB and SB you have in GitHub at the deadline.
 
 You must set up your repo with a GitHub workflow to build the app's APK such that, at the end of every Sprint, you can create a new release at the push of a button. For M1, your coaches must be able to install the APK on their phone and manually navigate around your app. The app should start without a hitch, and the completed features should work bug-free.
 
+> [!NOTE]
+> You might find yourself with functionality that is to-be-defined or simply not robust enough for M1. That is fine. What is not fine is for the app to misbehave &ndash; at the very least, have a toast message indicating that a particular function is not yet supported.
+
 For M1, provide in Moodle the URL of the GitHub Actions workflow run that has the M1 APK in its artifacts; we will download the APK from the run's Artifacts section. 
 
 Consider creating a [release branch](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository) called "M1" so that you have a clean snapshot of all code and assets related to M1.
