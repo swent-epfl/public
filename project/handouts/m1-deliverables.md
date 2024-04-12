@@ -33,8 +33,8 @@ Your _team_ will need to prepare the following items and submit their URLs into 
 Additionally, each _individual_ student must prepare the following and submit them via the [M1 individual submission](https://moodle.epfl.ch/mod/quiz/view.php?id=1289974) on Moodle:
 
 1. An individual Retrospective for each Sprint ➡︎ _Google sheet_ shared with the coaches
-2. The PRs you created and were merged (≥2 by M1) ➡︎ _GitHub_
-3. The PRs you reviewed (≥2 by M1) ➡︎ _GitHub_
+2. The code PRs you created and were merged (≥2 by M1) ➡︎ _GitHub_
+3. The code PRs you reviewed (≥2 by M1) ➡︎ _GitHub_
 
 Further details on some of the deliverables appear below.
 
