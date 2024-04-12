@@ -23,18 +23,18 @@ During Sprint 2, the coaches will be reviewing your PRs  in order to guide you a
 Your _team_ will need to prepare the following items and submit their URLs into the [M1 team submission](https://moodle.epfl.ch/mod/quiz/view.php?id=1289972) on Moodle:
 
 1. Figma of the main user flows: wireframes, mockups, and screen linking between mockup screens ➡︎ _figma.com_
-- Architecture diagram ➡︎ _your GitHub README_
-- Product Backlog ➡︎ _GitHub_
-- Sprint Backlog for Sprint 4 ➡︎ _GitHub_
-- Code repo with configured CI, analyzed by Sonar, tested with at least 1 meaningful end-to-end test, and >80% line test coverage ➡︎ _GitHub_
-- Working, stable APK that features a first meaningful end-to-end user flow ➡︎ _GitHub_
-- Scrum process documents: 1 documented stand-up meeting per Sprint + 1 documented Sprint Retrospective per Sprint ➡︎ _Google sheets_ shared with the coaches
+2. Architecture diagram ➡︎ _your GitHub README_
+3. Product Backlog ➡︎ _GitHub_
+4. Sprint Backlog for Sprint 4 ➡︎ _GitHub_
+5. Code repo with configured CI, analyzed by Sonar, tested with at least 1 meaningful end-to-end test, and >80% line test coverage ➡︎ _GitHub_
+6. Working, stable APK that features a first meaningful end-to-end user flow ➡︎ _GitHub_
+7. Scrum process documents: 1 documented stand-up meeting per Sprint + 1 documented Sprint Retrospective per Sprint ➡︎ _Google sheets_ shared with the coaches
 
 Additionally, each _individual_ student must prepare the following and submit them via the [M1 individual submission](https://moodle.epfl.ch/mod/quiz/view.php?id=1289974) on Moodle:
 
-- An individual Retrospective for each Sprint ➡︎ _Google sheet_ shared with the coaches
-- The PRs you created and were merged (≥2 by M1) ➡︎ _GitHub_
-- The PRs you reviewed (≥2 by M1) ➡︎ _GitHub_
+1. An individual Retrospective for each Sprint ➡︎ _Google sheet_ shared with the coaches
+2. The PRs you created and were merged (≥2 by M1) ➡︎ _GitHub_
+3. The PRs you reviewed (≥2 by M1) ➡︎ _GitHub_
 
 Further details on some of the deliverables appear below.
 
