@@ -76,6 +76,8 @@ For M2, the production quality is not a key factor. What matters the most is tha
 
 The goal of SwEnt is to enable you, as a team, to run a software project from A-to-Z on your own. We therefore expect that the Sprint Review and Retrospective for Sprint 6 and the Sprint Planning for Sprint 7 will be organized and run entirely by you. The coaches will only watch and possibly ask questions. Of course, the sooner you achieve autonomy, the better&mdash;no need to wait until Sprint 6.
 
+Evaluation of your autonomy will include an assessment of your ability to define precise user stories, prioritize them in your PB, and scope them well enough to be broken down into Sprint tasks. We will also evaluate your ability to take on the right amount of work and deliver by the end of the Sprint a concrete value Increment.
+
 ## Grading
 
 The breakdown of the team and individual grades for M2 is as follows:
