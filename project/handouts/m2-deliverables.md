@@ -25,7 +25,7 @@ __Task Management__: As your proficiency with the technology stack improves, you
 
 ### M2 Deliverables
 
-Your _team_ will need to prepare the following items and submit their URLs via the [M2 team submission form]() [TBD]: 
+Your _team_ will need to prepare the following items and submit their URLs via the [M2 team submission form](https://moodle.epfl.ch/mod/questionnaire/view.php?id=1294073) [TBD]: 
 
 1. Updated Figma : Should cover, at the very least, the functional flows for both planned epics ➡︎ _figma.com_
 2. Updated architecture diagram ➡︎ _your GitHub README_
@@ -39,7 +39,7 @@ Your _team_ will need to prepare the following items and submit their URLs via t
 11. Scrum process documents: 1 documented stand-up meeting per Sprint + 1 documented Retrospective per Sprint ➡︎ _Google sheets_ shared with the coaches
 12. Demonstrated autonomy (at the latest during Sprint 6)
 
-Additionally, each _individual_ student must prepare the following item and submit them via the [M2 individual submission form]() [TBD]:
+Additionally, each _individual_ student must prepare the following item and submit them via the [M2 individual submission form](https://moodle.epfl.ch/mod/questionnaire/view.php?id=1294077) [TBD]:
 
 1. An individual Retrospective for each Sprint ➡︎ _Google sheet_ shared with the coaches
 2. The PRs you created and were merged (≥1 in each Sprint) ➡︎ _GitHub_
