@@ -1,6 +1,6 @@
 ## Milestone M2
 
-_[updated 25.04.2024]_
+_[updated 1.05.2024]_
 
 The SwEnt project has four graded milestones (see [README](../README.md)). This handout concerns the second milestone, named M2.
 
@@ -34,7 +34,7 @@ Your _team_ will need to prepare the following items and submit their URLs via t
 5. Sprint tasks for Sprint 7 ➡︎ _GitHub_
 6. M2 release branch with automated APK generation ➡︎ _GitHub_
 7. CI with automated testing that achieves >80% line test coverage ➡︎ _GitHub_
-9. A 2-minute video demo of your app ➡︎ _GitHub_
+9. A 2-minute video demo of your app targeted at potential customers/investors ➡︎ _platform of your choice_
 10. Working, stable APK that features at least 2 epics ➡︎ _GitHub_
 11. Scrum process documents: 1 documented stand-up meeting per Sprint + 1 documented Retrospective per Sprint ➡︎ _Google sheets_ shared with the coaches
 12. Demonstrated autonomy (at the latest during Sprint 6)
@@ -85,8 +85,9 @@ The breakdown of the team and individual grades for M2 is as follows:
 | Figma screens, wireframes, linking        |   10%    |
 | Architecture diagram                      |   5%     |
 | Sprint Backlog & Product Backlog          |   10%    |
-| Implementation (APK, code quality)        |   45%    |
-| Consistent delivery of value<sup>1</sup>  |   5%     |
+| Implementation (APK, code quality)        |   40%    |
+| Demo video                                |    5%    |
+| Consistent delivery of value<sup>1</sup>  |    5%    |
 | Scrum process (documents, autonomy)       |   25%    |
 
 | **Total Individual Grade**                | **100%** |
