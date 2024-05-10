@@ -1,6 +1,6 @@
 ## Milestone M3
 
-_[updated 7.05.2024]_
+_[updated 10.05.2024]_
 
 The SwEnt project has four graded milestones (see [README](../README.md)). This handout concerns the third milestone.
 
@@ -32,7 +32,7 @@ Your _team_ will need to prepare the following items and submit their URLs via t
 3. Product Backlog ➡︎ _GitHub_
 4. Sprint Backlog for Sprint 9 ➡︎ _GitHub_
 5. Sprint tasks for Sprint 9 ➡︎ _GitHub_
-6. CI with automated testing (>80% line coverage) and code complexity tracking (<50) ➡︎ _GitHub_ and _SonarCloud_
+6. CI with automated testing (>80% line coverage) and code complexity tracking (<50 per file) ➡︎ _GitHub_ and _SonarCloud_
 7. Polished video of your app demo (≤2 minutes), aimed at potential customers ➡︎ _platform of your choice_
 8. High quality APK showcasing 2 complete epics ➡︎ _GitHub_
 9. Scrum process documents: 1 documented stand-up meeting per Sprint + 1 documented Retrospective per Sprint ➡︎ _Google sheets_ shared with the coaches
@@ -58,7 +58,7 @@ You must set up your repo with a GitHub workflow to build the APK automatically,
 
 #### Code and Test Quality
 
-You need to pay increasing attention to the reliability, security, and maintainability of your code. In this vein, you will start using SonarCloud's _cognitive complexity_ metric to assess the difficulty of understanding the code you wrote. This metric is an evolution of the classic cyclomatic complexity we taught in the [Testing Fundamentals lecture](https://moodle.epfl.ch/pluginfile.php/3322745/mod_resource/content/2/Wk2.2%20-%20Testing%20I%20-%20Fundamentals%20%28Spring%202024%29.pdf). By augmenting your integration with SonarCloud to track cognitive complexity, you will better understand how to refactor your code to make it easy to read and maintain. For M3, we expect you to have a complexity of no more than 50. For a deeper understanding of the metric, you can read [the whitepaper](https://www.sonarsource.com/docs/CognitiveComplexity.pdf).
+You need to pay increasing attention to the reliability, security, and maintainability of your code. In this vein, you will start using SonarCloud's _cognitive complexity_ metric to assess the difficulty of understanding the code you wrote. This metric is an evolution of the classic cyclomatic complexity we taught in the [Testing Fundamentals lecture](https://moodle.epfl.ch/pluginfile.php/3322745/mod_resource/content/2/Wk2.2%20-%20Testing%20I%20-%20Fundamentals%20%28Spring%202024%29.pdf). By augmenting your integration with SonarCloud to track cognitive complexity, you will better understand how to refactor your code to make it easy to read and maintain. For M3, we expect each of your code files to have cognitive complexity less than 50. For a deeper understanding of the metric, you can read [the whitepaper](https://www.sonarsource.com/docs/CognitiveComplexity.pdf).
 
 > [!TIP]
 > The Sonar tool gives you source-code-level suggestions for how to reduce cognitive complexity. Just go to a Sonar run and navigate to _Measures &rarr; Complexity &rarr; Cognitive Complexity_, then open any file with high complexity and click on the dot next to a code block. Alternatively, you can go to _Issues &rarr; Adaptability_ and see the list of source-code locations that are increasing cognitive complexity.
