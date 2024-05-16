@@ -75,7 +75,7 @@ It is time to start thinking about your PRD, which will be due at the end of the
 
 ## Grading
 
-The breakdown of the team and individual grades for M2 is as follows:
+The breakdown of the team and individual grades for M3 is as follows:
 
 | **Total Team Grade**                      | **100%** |
 |-------------------------------------------|----------|
