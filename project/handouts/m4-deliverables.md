@@ -71,8 +71,8 @@ The breakdown of the team and individual grades for M4 is as follows:
 | APK Functionality           | 15%      |
 | APK Usability               | 5%       |
 | Design and Maintainability  | 15%      |
-| Code Testing                | 25%      |
 | Documentation               | 10%      |
+| Code Testing                | 25%      |
 | Demo video                  | 2%       |
 | Team autonomy               | 3%       |
 
