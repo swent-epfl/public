@@ -1,6 +1,6 @@
  ## Milestone M4
 
- _[updated 17.05.2024]_
+ _[updated 31.05.2024]_
 
  The SwEnt project has four graded milestones (see [README](../README.md)). This handout concerns the fourth and final milestone.
 
@@ -25,7 +25,7 @@ These aspects are important to getting feedback from initial customers, and then
 
  ### M4 Deliverables
 
- Your _team_ will need to prepare the following items and submit their URLs via the [M4 team submission form](https://moodle.epfl.ch/):
+ Your _team_ will need to prepare the following items and submit their URLs via the [M4 team submission form](https://moodle.epfl.ch/mod/questionnaire/view.php?id=1297521):
 
 1. Up-to-date Figma ➡︎ _figma.com_
 2. Up-to-date architecture diagram ➡︎ _your GitHub README_
@@ -35,7 +35,7 @@ These aspects are important to getting feedback from initial customers, and then
 6. Scrum process documents: 1 documented stand-up meeting per Sprint + 1 documented Retrospective per Sprint ➡︎ _Google sheets_ shared with the coaches
 7. Team autonomy
 
-Additionally, each _individual_ student must prepare the following items and submit them via the [M4 individual submission form](https://moodle.epfl.ch/): 
+Additionally, each _individual_ student must prepare the following items and submit them via the [M4 individual submission form](https://moodle.epfl.ch/mod/questionnaire/view.php?id=1297537): 
 
 1. An individual Retrospective for each Sprint ➡︎ _Google sheet_ shared with the coaches
 2. The PRs you created and were merged (≥3 PRs total, ≥1 each Sprint) ➡︎ _GitHub_
@@ -76,12 +76,12 @@ The breakdown of the team and individual grades for M4 is as follows:
 | Demo video                  | 2%       |
 | Team autonomy               | 3%       |
 
-| **Total Individual Grade**                                                  | **100%** |
-|-----------------------------------------------------------------------------|----------|
-| Coding contributions over the project's lifetime (including M4)<sup>1</sup> | 50%      |
-| Code-health contributions over the project's lifetime (including M4)        | 25%      |
-| Participation<sup>2</sup>                                                   | 10%      |
-| Ownership, leadership and autonomy<sup>3</sup>                              | 15%      |
+| **Total Individual Grade**                                                      | **100%** |
+|---------------------------------------------------------------------------------|----------|
+| Coding contributions over the project's lifetime (including M4)<sup>1</sup>     | 50%      |
+| Code-health contributions over the project's lifetime (including M4)            | 25%      |
+| Participation over the project's lifetime (including M4)<sup>2</sup>            | 10%      |
+| Ownership and leadership over the project's lifetime (including M4)<sup>3</sup> | 15%      |
 
 <sup>1</sup>
 We realize that, by now, a lot of the major functionality has been developed, so some PRs in M4 may end up being smaller (e.g., addressing bug fixes, tweaking features).
