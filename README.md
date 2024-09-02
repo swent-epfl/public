@@ -1,10 +1,22 @@
 # EPFL CS-311: The Software Enterprise 
 
 > [!CAUTION]
-> This document is presently in draft form.
-> It is guaranteed to change before the start of the semester, so please check back at that time for definitive information.
+> This document is presently in draft form. It is guaranteed to change before the start of the semester, so please check back at that time for definitive information.
 
-## Description
+
+## Table of Contents
+- [Course Description](#description)
+- [Staff](#staff)
+- [Schedule](#schedule)
+- [Prerequisites](#prerequisites)
+- [App Requirements](#app-requirements)
+- [Grading](#grading)
+- [Attendance Policy](#attendance-policy)
+- [Workload](#workload)
+- [Collaboration Policy](#collaboration-policy)
+- [Hardware Requirements](#hardware-requirements)
+
+## Course Description
 
 Welcome to "The software enterprise - From ideas to products". 
 The goal of this course is to teach you how to use software to turn ideas into solutions that work in the real world. 
@@ -15,17 +27,6 @@ The course has two phases:
 2. __Project__ (weeks 4&ndash;14): You develop, in teams, an Android app that brings your own idea to life.
 The course staff guides you in this journey from idea to product.
 The project has three milestones during the semester.
-
-## Table of Contents
-- [Staff](#staff)
-- [Schedule](#schedule)
-- [Prerequisites](#prerequisites)
-- [App Requirements](#app-requirements)
-- [Grading](#grading)
-- [Attendance Policy](#attendance-policy)
-- [Workload](#workload)
-- [Collaboration Policy](#collaboration-policy)
-- [Hardware Requirements](#hardware-requirements)
 
 ## Staff
 
