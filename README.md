@@ -33,7 +33,7 @@ The project has three milestones during the semester.
 Instructor: [Prof. George Candea](https://dslab.epfl.ch/people/candea)
 
 Head TA: Yonghao Zou<br>
-TAs: Sara Anejjar, Jérémy Chaverot, Florian Déjean, Albert Fares, Alexandre Goumaz, Andrew Limond, Gaël Conde Losada, Ludovic Mermod, Alexandre Messmer, Lorenzo Padrini, Yuchen Qian, Cléo Renaud, David Schroeter ... and more ... 
+TAs: Sara Anejjar, Ugo Balducci, Jérémy Chaverot, Florian Déjean, Albert Fares, Alexandre Goumaz, Andrew Limond, Gaël Conde Losada, Ludovic Mermod, Alexandre Messmer, Lorenzo Padrini, Yuchen Qian, Cléo Renaud, David Schroeter ... and more ... 
 
 The staff is reachable at swent-staff@dslab.org for all private issues.
 For questions whose answers could benefit other students, use the Ed forum (accessed via [Moodle](https://moodle.epfl.ch/course/view.php?id=18350)).
@@ -49,6 +49,12 @@ For questions whose answers could benefit other students, use the Ed forum (acce
 
 - For 1h immediately after each lecture. During recitations, the course staff answer your questions about the lecture materials and assist you with the bootcamp.  Most of your work on the bootcamp is to be done independently, outside the recitations.
 
+#### Coaching
+
+Each student team will be assigned 1-2 coaches, who will guide and support the team throughout the semester, providing expertise and feedback to help students achieve their project goals.
+
+The team meets with their coach(es) once a week on Friday, for 1h in the 9:15&ndash;13:00 interval (TBD together with the coaches), in one of the following rooms (TBA): [INF 019](https://plan.epfl.ch/?room==INF%20019), [ELG 116](https://plan.epfl.ch/?room==ELG%20116), [ELE 111](https://plan.epfl.ch/?room==ELE%20111), [ELG 120](https://plan.epfl.ch/?room==ELG%20120), [BC 04](https://plan.epfl.ch/?room==BC%2004), [DIA 005](https://plan.epfl.ch/?room==DIA%20005), [MED 2 2423](https://plan.epfl.ch/?room==MED%202%202423), or [MA A1 10](https://plan.epfl.ch/?room==MA%20A1%2010)
+
 #### Week-by-week Schedule
 
 | Week    | Topics                                                                                                                       | Deliverable                            |
@@ -63,18 +69,12 @@ For questions whose answers could benefit other students, use the Ed forum (acce
 | W10-W13 | Project                                                                                                                      |                                        |
 | W14     | Project                                                                                                                      | Milestone M3 + <br> Feedback survey #2 |
 
-All deliverables are due at 23:59 on the Friday of the week indicated above.
+All project deliverables (M1, M2, M3) are due at the start of the coaching meeting on the Friday of the week indicated above&mdash;this will be the end of that week's Sprint. The bootcamp deliverables (B1, B2, B3) are due at 23:59 on the Monday following the week shown above.
 
 We use the two surveys to collect systematic student feedback that is statistically significant.
 We use it as input to improving the course.
 The surveys are not graded, but are a required part of the deliverable, so a submission is incomplete until the survey has been filled in.
 Budget 15 minutes per survey.
-
-#### Project meetings
-
-Each student team will be assigned 1-2 coaches, who will guide and support the team throughout the semester, providing expertise and feedback to help students achieve their project goals.
-
-The team meets with their coach(es) once a week on Friday, for 1h in the 9:15&ndash;13:00 interval (TBD together with the coaches), in one of the following rooms (TBA): [INF 019](https://plan.epfl.ch/?room==INF%20019), [ELG 116](https://plan.epfl.ch/?room==ELG%20116), [ELE 111](https://plan.epfl.ch/?room==ELE%20111), [ELG 120](https://plan.epfl.ch/?room==ELG%20120), [BC 04](https://plan.epfl.ch/?room==BC%2004), [DIA 005](https://plan.epfl.ch/?room==DIA%20005), [MED 2 2423](https://plan.epfl.ch/?room==MED%202%202423), or [MA A1 10](https://plan.epfl.ch/?room==MA%20A1%2010)
 
 #### Battle of the Apps (BOTA)
 
@@ -83,6 +83,16 @@ The top-three teams win substantial prizes.
 Participation is entirely optional, and it does not affect your course grade.
 
 The BOTA will take place on Thursday, 19.12.2024 from 10:15&mdash;13:00 in [STCC - Cloud C](https://plan.epfl.ch/?room==STCC%207%208025).
+
+## Attendance Policy
+
+In-person attendance of the coaching meetings is mandatory, and is a crucial part of the learning process and of the evaluation. The first such meeting will take place in week 4, after the last bootcamp deliverable.
+
+You have two joker passes: The _big joker_ pass allows you to entirely miss one coaching meeting during the semester penalty-free, no questions asked. The _little joker_ pass allows you to attend one such meeting over videoconference instead of in-person, penalty-free and no questions asked.
+Once you've used your joker passes, no further absences are accepted, except as outlined in the [corresponding FAQ](faq.md#which-absences-are-excusable).
+
+Attendance of lectures and bootcamp sessions (recitations) is not mandatory, but nevertheless is essential to learning the material.
+We find that students who do not attend lectures and exercises in-person routinely end up spending much more time on the bootcamp and the project than students who do attend diligently, and in the end perform less well in SwEnt.
 
 ## Prerequisites
 
@@ -165,16 +175,6 @@ Normally, the overall course grade = 45% _Project<sub>indiv</sub>_ + 50% _Projec
 However, if _Project<sub>indiv</sub>_ &lt; 4, then the course grade = 90% _Project<sub>indiv</sub>_ + 10% _Bootcamp_.
 
 Late submissions will be penalized 2% per hour of lateness (e.g., a 1-day late submsision will carry a ~50% penalty).  Early submissions are encouraged but cannot receive bonus points, as per EPFL policy.
-
-## Attendance Policy
-
-In-person attendance of the Friday project meetings with coaches is mandatory, and is a crucial part of the learning process and of the evaluation.
-
-You have two joker passes: The _big joker_ pass allows you to entirely miss one coaching meeting during the semester penalty-free, no questions asked. The _little joker_ pass allows you to attend one such meeting over videoconference instead of in-person, penalty-free and no questions asked.
-Once you've used your joker passes, no further absences are accepted, except as outlined in the [corresponding FAQ](faq.md#which-absences-are-excusable).
-
-Attendance of lectures and bootcamp sessions (recitations) is not mandatory, but nevertheless is essential to learning the material.
-We find that students who do not attend lectures and exercises in-person routinely end up spending much more time on the bootcamp and the project than students who do attend diligently, and in the end perform less well in SwEnt.
 
 ## Workload
 
