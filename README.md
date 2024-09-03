@@ -123,12 +123,12 @@ For example, we assume you already master the following material from CS-214:
   - Git basics [
       [video](https://mediaspace.epfl.ch/media/%5BCS214+W02+SE%5D+Git+Basics+%282023-09-27%29/0_99hhrxbc/56193) |
       [slides](https://docs.google.com/presentation/d/1_UzBDq1LUXArWw7jmdIH92p7iCx8f8LpHnyYxeTSW80/edit#slide=id.p) |
-      [exercises](https://cs-214.epfl.ch/exercises/git/index.html#git-i-single-user-version-control) ]
+      [exercises](https://cs-214.epfl.ch/exercises/git-1/) ]
   - [Git demo](https://cs-214.epfl.ch/lectures/git-1/index.html)
   - Advanced Git [
       [video](https://mediaspace.epfl.ch/media/%5BCS214+W09+SE%5D+Le+retour+du+Git+%282023-11-15%29+/0_zh3nzz51/56193) |
       [slides](https://docs.google.com/presentation/d/1hHQ3H5HjcG1-nkh4-PBp87KytX5G1YNZTnQ2C3mdTw8/edit#slide=id.g29b8eadca7d_0_0) |
-      [exercises](https://cs-214.epfl.ch/exercises/git/index.html#git-ii-distributed-version-control) ]
+      [exercises](https://cs-214.epfl.ch/exercises/git-2/) ]
 - Debugging [
       [video](https://mediaspace.epfl.ch/media/%5BCS214+W03+SE%5D+How+to+diagnose+%28almost%29+anything+%282023-10-04%29/0_mligtzar/56193) |
       [slides](https://docs.google.com/presentation/d/1I3fXaKDzVTmz2Kq1a9UWMj98B-pX0vqbBTAO_qzhPXM/edit#slide=id.p) ]
