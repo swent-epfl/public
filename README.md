@@ -18,7 +18,7 @@
 
 ## Course Description
 
-Welcome to "The software enterprise - From ideas to products". 
+Welcome to "The Software Enterprise: From Ideas to Products". 
 The goal of this course is to teach you how to use software to turn ideas into solutions that work in the real world. 
 The course has two phases:
 
@@ -108,17 +108,14 @@ For example, we assume you already master the following material from CS-214:
   - From tests to proofs I [
       [video](https://mediaspace.epfl.ch/media/%5BCS214+W04+SE%5D+From+tests+to+proofs+I+++II+%282023-10-11%29/0_6nouohk3?st=1401) | 
       [slides](https://docs.google.com/presentation/d/1vxyJeF8FLka4PiGTLQw6Pxm71UwmbEYi4tq2-s3lElM/edit#slide=id.p)  | 
-      [exercises](https://cs-214.epfl.ch/exercises/se/index.html#debugging-with-tests-and-specs) |
-      [ex. solutions](https://cs-214.epfl.ch/exercises/se-solution-7f7be72c1ff9/#diagnosing-and-fixing-issues-weeks-3-4-5) ]
+      [exercises](https://cs-214.epfl.ch/exercises/se/index.html#debugging-with-tests-and-specs) ]
   - From tests to proofs II [
       [video](https://mediaspace.epfl.ch/media/%5BCS214+W05+SE%5D+From+tests+to+proofs+II+++II+%282023-10-18%29/0_nrvx06wj/56193) |
       [slides](https://docs.google.com/presentation/d/1EdZju6XAKm8oQaWfUcUQD_lAbMCn6U3WidN7sMUzZm0/edit#slide=id.p) |
-      [exercises](https://cs-214.epfl.ch/exercises/se/index.html#understanding-different-kinds-of-tests) |
-      [ex. solutions](https://cs-214.epfl.ch/exercises/se-solution-7f7be72c1ff9/#preventing-issues-using-tests-and-specs-week-4-5) ]
+      [exercises](https://cs-214.epfl.ch/exercises/se/index.html#understanding-different-kinds-of-tests) ]
   - Automated software testing [
       [video](https://mediaspace.epfl.ch/media/%5BCS214+W12+SE%5D+Automated+software+testing+%282023-12-06%29/0_izqiyisq/56193) |
-      [slides](https://docs.google.com/presentation/d/1scx1jGxBjhqN08_EMT7oWuRWnXVwgESaeMOk5gt29vQ/edit#slide=id.g29b8eadca7d_0_0) |
-      no exercises ]
+      [slides](https://docs.google.com/presentation/d/1scx1jGxBjhqN08_EMT7oWuRWnXVwgESaeMOk5gt29vQ/edit#slide=id.g29b8eadca7d_0_0) ]
 - Version control
   - Git basics [
       [video](https://mediaspace.epfl.ch/media/%5BCS214+W02+SE%5D+Git+Basics+%282023-09-27%29/0_99hhrxbc/56193) |
