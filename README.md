@@ -1,10 +1,11 @@
-# EPFL CS-311: The Software Enterprise 
+# EPFL CS-311: The Software Enterprise
 
 > [!CAUTION]
-> This document is presently in draft form. It is guaranteed to change before the start of the semester, so please check back at that time for definitive information.
-
+> This document can change from time to time, so please check it often.
+> The last time it was updated was 8.09.2024.
 
 ## Table of Contents
+
 - [Course Description](#description)
 - [Staff](#staff)
 - [Schedule](#schedule)
@@ -15,6 +16,7 @@
 - [Workload](#workload)
 - [Collaboration Policy](#collaboration-policy)
 - [Hardware Requirements](#hardware-requirements)
+- [Further Questions](#further-questions)
 
 ## Course Description
 
@@ -22,8 +24,8 @@ Welcome to "The Software Enterprise: From Ideas to Products".
 The goal of this course is to teach you how to use software to turn ideas into solutions that work in the real world. 
 The course has two phases:
 
-1. __Fundamentals__ (weeks 1&ndash;3): The basics of software development that were not covered in previous courses, using both theory (lectures) and practice (bootcamp). The goal is to enable all students to start developing a software product that brings one or more ideas to life.   
-    
+1. __Fundamentals__ (weeks 1&ndash;3): The basics of software development that were not covered in previous courses, using both theory (lectures) and practice (bootcamp). The goal is to enable all students to start developing a software product that brings one or more ideas to life.
+
 2. __Project__ (weeks 4&ndash;14): You develop, in teams, an Android app that brings your own idea to life.
 The course staff guides you in this journey from idea to product.
 The project has three milestones during the semester.
@@ -33,9 +35,9 @@ The project has three milestones during the semester.
 Instructor: [Prof. George Candea](https://dslab.epfl.ch/people/candea)
 
 Head TA: Yonghao Zou<br>
-TAs: Sara Anejjar, Ugo Balducci, Jérémy Chaverot, Florian Déjean, Albert Fares, Alexandre Goumaz, Andrew Limond, Gaël Conde Losada, Ludovic Mermod, Alexandre Messmer, Lorenzo Padrini, Yuchen Qian, Cléo Renaud, David Schroeter ... and more ... 
+TAs: Sara Anejjar, Ugo Balducci, Jérémy Chaverot, Florian Déjean, Albert Fares, Alexandre Goumaz, Andrew Limond, Gaël Conde Losada, Ludovic Mermod, Alexandre Messmer, Lorenzo Padrini, Yuchen Qian, Cléo Renaud, David Schroeter, David Kalajdzic, Edouard Michelin ... and more ...
 
-The staff is reachable at swent-staff@dslab.org for all private issues.
+The staff is reachable at <swent-staff@dslab.org> for all private issues.
 For questions whose answers could benefit other students, use the Ed forum (accessed via [Moodle](https://moodle.epfl.ch/course/view.php?id=18350)).
 
 ## Schedule
@@ -59,7 +61,7 @@ The team meets with their coach(es) once a week on Friday, for 1h in the 9:15&nd
 
 | Week    | Topics                                                                                                                       | Deliverable                            |
 |---------|------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| W1      | Requirements and user stories <br> The mobile platform (devices, OSes, infrastructure & services, applications, UX)          | Milestone B1 + <br> Team composition   |
+| W1      | Requirements and user stories [[slides](https://moodle.epfl.ch/pluginfile.php/3317323/mod_resource/content/4/Wk1.A.pdf) \| [videos](https://mediaspace.epfl.ch/playlist/dedicated/60382/0_orzu1on2/)] <br> The mobile platform (devices, OSes, infrastructure & services, applications, UX)          | [Milestone B1](#bootcamp) + <br> Team composition   |
 | W2      | Testing: Concepts, metrics, TDD, BDD, mocks, dependency injection, UI testing                                                | Milestone B2 + <br> App description    |
 | W3      | Agile development processes, collaborative workflows, coding standards<br>Continuous integration/continuous delivery (CI/CD) | Milestone B3                           |
 | W4-W5 | Project                                                                                                                      |                                        |
@@ -75,6 +77,10 @@ We use the two surveys to collect systematic student feedback that is statistica
 We use it as input to improving the course.
 The surveys are not graded, but are a required part of the deliverable, so a submission is incomplete until the survey has been filled in.
 Budget 15 minutes per survey.
+
+#### Bootcamp
+
+In order to do the bootcamp, you must have submitted to us your GitHub ID, as explained [here](https://moodle.epfl.ch/mod/forum/discuss.php?d=105828). Unless you complete this step, you will not be able to start your bootcamp. After we receive your GitHub ID, we will set up a private repo for you (this might take up to a day). Once that is set up, you will be able to start your bootcamp by following the instructions at `https://github.com/swent-epfl/bootcamp-f24-<your GitHubID>/README.md`.
 
 #### Battle of the Apps (BOTA)
 
@@ -106,8 +112,8 @@ For example, we assume you already master the following material from CS-214:
 
 - The basics of software testing
   - From tests to proofs I [
-      [video](https://mediaspace.epfl.ch/media/%5BCS214+W04+SE%5D+From+tests+to+proofs+I+++II+%282023-10-11%29/0_6nouohk3?st=1401) | 
-      [slides](https://docs.google.com/presentation/d/1vxyJeF8FLka4PiGTLQw6Pxm71UwmbEYi4tq2-s3lElM/edit#slide=id.p)  | 
+      [video](https://mediaspace.epfl.ch/media/%5BCS214+W04+SE%5D+From+tests+to+proofs+I+++II+%282023-10-11%29/0_6nouohk3?st=1401) |
+      [slides](https://docs.google.com/presentation/d/1vxyJeF8FLka4PiGTLQw6Pxm71UwmbEYi4tq2-s3lElM/edit#slide=id.p)  |
       [exercises](https://cs-214.epfl.ch/exercises/se/index.html#debugging-with-tests-and-specs) ]
   - From tests to proofs II [
       [video](https://mediaspace.epfl.ch/media/%5BCS214+W05+SE%5D+From+tests+to+proofs+II+++II+%282023-10-18%29/0_nrvx06wj/56193) |
@@ -129,7 +135,6 @@ For example, we assume you already master the following material from CS-214:
 - Debugging [
       [video](https://mediaspace.epfl.ch/media/%5BCS214+W03+SE%5D+How+to+diagnose+%28almost%29+anything+%282023-10-04%29/0_mligtzar/56193) |
       [slides](https://docs.google.com/presentation/d/1I3fXaKDzVTmz2Kq1a9UWMj98B-pX0vqbBTAO_qzhPXM/edit#slide=id.p) ]
-      
 
 ## App Requirements
 
@@ -156,7 +161,7 @@ Sensor usage should drive some behavior in the app, such as finding nearby point
 > If you wish to use a different framework/language, we might be able to make an exception if the case is well argued and the entire team wants this.
 > Please get in touch with the staff.
 
-## Grading 
+## Grading
 
 The bootcamp spans the first 3 weeks and has weekly deliverables (B1, B2, B3)&mdash;these are all entirely individual work.
 Each deliverable is equally weighted in computing the _Bootcamp_ grade = ⅓ B1 + ⅓ B2 + ⅓ B3.
@@ -180,7 +185,7 @@ You will likely experience variations in the weekly rhythm, especially around de
 
 The average 17 hours/week workload might appear inconsistent with the course description, which shows 2h lecture + 10h project + 1h exercises per week (thus a total of 13h per week).  This is because total student workload includes both timetabled time and non-timetabled work (see [EPFL guidelines](https://www.epfl.ch/education/teaching/teaching-guide-2/getting-started/design-a-course_1/)). The average student in SwEnt will need to spend the full 17 hours/week to pass the course&mdash;13 hours/week is not enough.
 
-## Collaboration Policy 
+## Collaboration Policy
 
 Members of a team are of course allowed to discuss the project and share code for it. Members of different teams can discuss their project and programming issues, but not share code without prior written permission of the course instructor (not the coaches!).
 Bootcamp code, however, shall not be shared with anyone else.
@@ -194,12 +199,17 @@ Use of any outside sources without fulfilling the above conditions is considered
 
 Cheating, plagiarism, and any form of dishonesty will be handled with the maximum severity permitted under EPFL rules. If you are in doubt whether an action on your part is acceptable, please ask the course staff privately via the staff e-mail list before proceeding. Asking afterward is too late.
 
-## Hardware Requirements 
+## Hardware Requirements
 
-Students will develop, test, and execute the bootcamp and project on their own laptops. 
+Students will develop, test, and execute the bootcamp and project on their own laptops.
 We strongly recommend a minimum of 16GB of RAM (to run Android Studio), 50GB of available storage (Android Studio, Android SDK, emulator system images, course project files, etc.) on SSD or better, and WiFi.
 You can probably manage with a lesser configuration, but it can be slow.
 
-We provide Windows and Linux virtual machines in the EPFL VDI infrastructure in case your laptop breaks down or you do not have the recommended configuration.
+We provide Windows and Linux virtual machines in the [EPFL VDI](https://www.epfl.ch/campus/services/wp-content/uploads/2020/09/Livret_Accueil_VDI_v2.docx) infrastructure in case your laptop breaks down or you do not have the recommended configuration.
 
 Ideally, each team should have at least one Android phone capable of demo-ing the team's application.
+
+## Further Questions
+
+For answers to a list of frequently asked questions, please see the [SwEnt FAQ](faq.md).
+If your question is not addressed there either, please email sweng-staff@dslab.org.
