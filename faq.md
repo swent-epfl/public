@@ -23,7 +23,7 @@ There are several methods to get help in SwEnt:
 2. The next step is to post your question on Ed. Here you would get help from your peers, as well as the course staff. You can even post anonymously to your peers, if you are shy (though the staff always knows the identity of the poster). The most effective way to get help is to explain what you have already done to try and answer the question on your own &ndash; if others see that you invested time in getting an answer, they will be more willing to invest their time too in helping you find the answer.
 3. If this fails, reach out to your coaches. The same criterion as above applies: explain what you have done to solve the problem on your own.
 4. If the coaches cannot help, then email swent-staff@dslab.org.
-5. If you have a private matter that you wish to discuss exclusively with Prof. Candea (e.g., a personal situation that is affecting you emotionally), then send him email directly.
+5. If you have a private matter that you wish to discuss exclusively with Prof. Candea (e.g., a personal situation that is affecting you emotionally), then send him emails directly.
 
 The SwEnt staff is here to help you become someone who successfully solves the world's problems using software.
 Providing you with the right amount of support (and not more at the right point in time (an not earlier) is central to our pedagogical mission.
@@ -43,7 +43,7 @@ We will then assess whether your _entire_ team wishes to adopt a different frame
 
 ## Why does SwEnt use curving?
 
-THe form of curving we use in SwEnt helps normalize the scores to adapt to the difficulty/ease of the milestone, and it provides a consistent method for evaluating performance across different cohorts (so that a grade of X in SwEnt means the same thing this year as it will next year). The manual thresholding we do mitigates the effect of extreme scores, so that outliers don't skew the grades.
+The form of curving we use in SwEnt helps normalize the scores to adapt to the difficulty/ease of the milestone, and it provides a consistent method for evaluating performance across different cohorts (so that a grade of X in SwEnt means the same thing this year as it will next year). The manual thresholding we do mitigates the effect of extreme scores, so that outliers don't skew the grades.
 
 We do spend a lot of time making sure that the grades are computed fairly, and we rely on more than a decade of experience teaching this course.
 By now, we have converged onto the fairest and most correct grading scheme we can think of for a course like this one. 
@@ -54,7 +54,7 @@ So if you think there is a better way to grade, then please present a well thoug
 
 All Scrum ceremonies are to be done in English, even if everyone in the team and the coaches speak French.
 
-The reasons is that you will have to be fluent in English if you are to be competitive as a software engineer. 
+The reason is that you will have to be fluent in English if you are to be competitive as a software engineer. 
 In your career, you will inevitably be part of multi-lingual, multi-cultural teams in which the lingua franca will be English. 
 So, alongside learning Scrum, Kotlin, Android, etc. we want you to learn how to communicate with other software developers in English.
 
@@ -88,12 +88,12 @@ We recommend that you meet in-person more frequently during the start of the sem
 
 __Fun__: Working with your team in-person leads to spontaneous interactions and the ability to directly observe and engage with peers’ work, which leads to serendipitous learning moments. In-person collaboration makes it easy to pair-program, troubleshoot together, and share insights in real-time. It's a lot more fun to learn together than separately. In remote settings, technical issues, an incomplete view of each other, and communication barriers make it hard for people to create a rapport.
 
-__Mindshare__: Achieving mindshare is one the most important goals of a team, and in-person interaction is by far the easiest way to accomplish this. Mindshare leads to smoother and more efficient operation, helps avoid misunderstandings, and provides strong incentives to resolve conflicts. Misunderstandings and conflicts are the classic undoings of teams.
+__Mindshare__: Achieving mindshare is one the most important goals of a team, and in-person interaction is by far the easiest way to accomplish this. Mindshare leads to smoother and more efficient operations, helps avoid misunderstandings, and provides strong incentives to resolve conflicts. Misunderstandings and conflicts are the classic undoings of teams.
 
 __Accountability and motivation__: Regular in-person meetings help ensure everyone stays on track, identify potential roadblocks early, and motivate the team members. A central part of Scrum, the agile method we practice in SwEnt, is the daily standup, and the role of this standup is to get everyone on the same page and keep the team members accountable and motivated. Improved distribution of workload: In-person discussions facilitate a fairer and more transparent process of assigning responsibilities and adjusting load. You will make estimates during sprint planning, but these estimates have serious margins of error, and thus need to be adjusted during the sprint.
 _You must learn to walk before you run._
 
-When moving from in-person interaction to on-line interaction, teams lose something very precious: non-verbal communication. This includes facial expressions (smiles, frowns, raised eyebrows, etc.), body language (posture, gestures, eye contact, etc.), paralanguage (tone of voice, pitch, volume, pace), touch (handshakes, pats on the back, etc.), and appearance. Humans have evolved to use all these in order to transmit information to each other. In teams, non-verbal communication builds trust and rapport, non-verbal cues offer insights beyond spoken words (e.g., body language and tone of voice reveal a person's true emotions, leading to a better understanding of their message and potential concerns; much of this is lost over Zoom or Discord). Non-verbal communication enhances collaboration: nodding, gestures, and mirroring body language signal agreement, engagement, and active listening, making discussions more productive and inclusive. Non-verbal signals prevent misunderstandings, especially in cross-cultural teams. We realize that many of you may be unaware of this, because you had the misfortune of starting your university studies during the Covid pandemic that imposed remote learning.
+When moving from in-person interaction to online interaction, teams lose something very precious: non-verbal communication. This includes facial expressions (smiles, frowns, raised eyebrows, etc.), body language (posture, gestures, eye contact, etc.), paralanguage (tone of voice, pitch, volume, pace), touch (handshakes, pats on the back, etc.), and appearance. Humans have evolved to use all these in order to transmit information to each other. In teams, non-verbal communication builds trust and rapport, and non-verbal cues offer insights beyond spoken words (e.g., body language and tone of voice reveal a person's true emotions, leading to a better understanding of their message and potential concerns; much of this is lost over Zoom or Discord). Non-verbal communication enhances collaboration: nodding, gestures, and mirroring body language signal agreement, engagement, and active listening, making discussions more productive and inclusive. Non-verbal signals prevent misunderstandings, especially in cross-cultural teams. We realize that many of you may be unaware of this, because you had the misfortune of starting your university studies during the Covid pandemic that imposed remote learning.
 
 The meeting between your team and the coaches also must be in-person, and here are some of the reasons:
 
