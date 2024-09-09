@@ -61,7 +61,7 @@ The team meets with their coach(es) once a week on Friday, for 1h in the 9:15&nd
 
 | Week    | Topics                                                                                                                       | Deliverable                            |
 |---------|------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| W1      | Requirements and user stories [[slides](https://moodle.epfl.ch/pluginfile.php/3317323/mod_resource/content/5/Wk1.A%20v.2.pdf) \| [videos](https://mediaspace.epfl.ch/playlist/dedicated/60382/0_orzu1on2/)] <br> The mobile platform (devices, OSes, infrastructure & services, applications, UX)          | [Milestone B1](#bootcamp) + <br> Team composition   |
+| W1      | Requirements and user stories [[slides](https://moodle.epfl.ch/pluginfile.php/3317323/mod_resource/content/5/Wk1.A%20v.2.pdf) \| [videos](https://mediaspace.epfl.ch/playlist/dedicated/0_538mw022/)] <br> The mobile platform (devices, OSes, infrastructure & services, applications, UX)          | [Milestone B1](#bootcamp) + <br> Team composition   |
 | W2      | Testing: Concepts, metrics, TDD, BDD, mocks, dependency injection, UI testing                                                | Milestone B2 + <br> App description    |
 | W3      | Agile development processes, collaborative workflows, coding standards<br>Continuous integration/continuous delivery (CI/CD) | Milestone B3                           |
 | W4-W5 | Project                                                                                                                      |                                        |
