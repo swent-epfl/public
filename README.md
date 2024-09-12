@@ -2,7 +2,7 @@
 
 > [!CAUTION]
 > This document can change from time to time, so please check it often.
-> The last time it was updated was 8.09.2024.
+> The last time it was updated was 12.09.2024.
 
 ## Table of Contents
 
@@ -61,7 +61,7 @@ The team meets with their coach(es) once a week on Friday, for 1h in the 9:15&nd
 
 | Week    | Topics                                                                                                                       | Deliverable                            |
 |---------|------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| W1      | Requirements and user stories [[slides](https://moodle.epfl.ch/pluginfile.php/3317323/mod_resource/content/5/Wk1.A%20v.2.pdf) \| [videos](https://mediaspace.epfl.ch/playlist/dedicated/0_538mw022/)] <br> The mobile platform (devices, OSes, infrastructure & services, applications, UX)          | [Milestone B1](#bootcamp) + <br> Team composition   |
+| W1      | Requirements and user stories [[slides](https://moodle.epfl.ch/pluginfile.php/3317323/mod_resource/content/4/Wk1.A.pdf) \| [videos](https://mediaspace.epfl.ch/playlist/dedicated/60382/0_orzu1on2/)] <br> The mobile platform (devices, OSes, infrastructure & services, applications, UX)          | [Milestone B1](#bootcamp) + <br> Team composition   |
 | W2      | Testing: Concepts, metrics, TDD, BDD, mocks, dependency injection, UI testing                                                | Milestone B2 + <br> App description    |
 | W3      | Agile development processes, collaborative workflows, coding standards<br>Continuous integration/continuous delivery (CI/CD) | Milestone B3                           |
 | W4-W5 | Project                                                                                                                      |                                        |
@@ -77,6 +77,12 @@ We use the two surveys to collect systematic student feedback that is statistica
 We use it as input to improving the course.
 The surveys are not graded, but are a required part of the deliverable, so a submission is incomplete until the survey has been filled in.
 Budget 15 minutes per survey.
+
+> [!IMPORTANT]  
+> [CS-300 (Modèles stochastiques)](https://moodle.epfl.ch/course/view.php?id=14236) students: Beware that the CS-300 midterm is in the afternoon on Friday 15.11, a few hours after the deadline for the SwEnt milestone M2.
+> We tried to negotiate a different date, but were unable to find a solution.
+> Please plan accordingly ahead of time.
+
 
 #### Bootcamp
 
@@ -165,10 +171,7 @@ Sensor usage should drive some behavior in the app, such as finding nearby point
 
 The bootcamp spans the first 3 weeks and has weekly deliverables (B1, B2, B3)&mdash;these are all entirely individual work.
 Each deliverable is equally weighted in computing the _Bootcamp_ grade = ⅓ B1 + ⅓ B2 + ⅓ B3.
-The bootcamp consists of two parts: _standard_ and _advanced_.
-We expect all students to be able to complete the standard part; the advanced part is meant for students who want to learn more and gain extra experience.
-Correctly completing the standard part will earn you grade of 5.5 for any given deliverable.
-If, in addition, you correctly complete the advanced part, you will earn a grade of 6.0.
+See your bootcamp documentation for more details.
 
 The project spans the remaining 11 weeks and has 3 milestones (M1, M2, M3) with concrete deliverables. For each milestone, students receive separate grades for individual and team performance. The overall individual _Project<sub>indiv</sub>_ grade and team _Project<sub>team</sub>_ grade are computed as 20% M1 + 30% M2 + 50% M3.
 
@@ -176,7 +179,7 @@ Normally, the overall course grade = 45% _Project<sub>indiv</sub>_ + 50% _Projec
 
 However, if _Project<sub>indiv</sub>_ &lt; 4, then the course grade = 90% _Project<sub>indiv</sub>_ + 10% _Bootcamp_.
 
-Late submissions will be penalized 2% per hour of lateness (e.g., a 1-day late submsision will carry a ~50% penalty).  Early submissions are encouraged but cannot receive bonus points, as per EPFL policy.
+Late submissions will be penalized 2% per hour of lateness (e.g., a 1-day late submission will carry a ~50% penalty).  Early submissions are encouraged but cannot receive bonus points, as per EPFL policy.
 
 ## Workload
 
@@ -206,6 +209,7 @@ We strongly recommend a minimum of 16GB of RAM (to run Android Studio), 50GB of 
 You can probably manage with a lesser configuration, but it can be slow.
 
 We provide Windows and Linux virtual machines in the [EPFL VDI](https://www.epfl.ch/campus/services/wp-content/uploads/2020/09/Livret_Accueil_VDI_v2.docx) infrastructure in case your laptop breaks down or you do not have the recommended configuration.
+See [this tutorial](tutorials/VDIGuide.md) for how to get started.
 
 Ideally, each team should have at least one Android phone capable of demo-ing the team's application.
 
