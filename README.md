@@ -35,7 +35,7 @@ The project has three milestones during the semester.
 Instructor: [Prof. George Candea](https://dslab.epfl.ch/people/candea)
 
 Head TA: Yonghao Zou<br>
-TAs: Sara Anejjar, Ugo Balducci, Jérémy Chaverot, Florian Déjean, Albert Fares, Alexandre Goumaz, Andrew Limond, Gaël Conde Losada, Ludovic Mermod, Alexandre Messmer, Lorenzo Padrini, Yuchen Qian, Cléo Renaud, David Schroeter, David Kalajdzic, Edouard Michelin ... and more ...
+TAs: Sara Anejjar, Ugo Balducci, Jérémy Barghorn, Jérémy Chaverot, Florian Déjean, Albert Fares, Alexandre Goumaz, Lea Grieder, David Kalajdzic, Andrew Limond, Gaël Conde Losada, Ludovic Mermod, Alexandre Messmer, Edouard Michelin, Lorenzo Padrini, Yuchen Qian, Cléo Renaud, David Schroeter, John Taylor... and more ...
 
 The staff is reachable at <swent-staff@dslab.org> for all private issues.
 For questions whose answers could benefit other students, use the Ed forum (accessed via [Moodle](https://moodle.epfl.ch/course/view.php?id=18350)).
@@ -61,7 +61,7 @@ The team meets with their coach(es) once a week on Friday, for 1h in the 9:15&nd
 
 | Week    | Topics                                                                                                                       | Deliverable                            |
 |---------|------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| W1      | Requirements and user stories [[slides](lectures/Wk1.A%20-%20Requirements%20and%20User%20Stories.pdf) \| [videos](https://mediaspace.epfl.ch/playlist/dedicated/60382/0_orzu1on2/)] <br> The mobile platform [[slides](lectures/Wk1.B%20-%20The%20Mobile%20Platform.pdf) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZMyuALs9gJ06adyG3LKmmPe)]          | [Milestone B1](#bootcamp) + <br> [Team composition](https://moodle.epfl.ch/mod/choicegroup/view.php?id=1281076)   |
+| W1      | Requirements and user stories [[slides](lectures/Wk1.A%20-%20Requirements%20and%20User%20Stories.pdf) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZNzQwSrggaGKObGjMlxIRhI)] <br> The mobile platform [[slides](lectures/Wk1.B%20-%20The%20Mobile%20Platform.pdf) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZMyuALs9gJ06adyG3LKmmPe)]          | [Milestone B1](#bootcamp) + <br> [Team composition](https://moodle.epfl.ch/mod/choicegroup/view.php?id=1281076)   |
 | W2      | Testing: Concepts, metrics, TDD, BDD, mocks, dependency injection, UI testing                                                | Milestone B2 + <br> App description    |
 | W3      | Agile development processes, collaborative workflows, coding standards<br>Continuous integration/continuous delivery (CI/CD) | Milestone B3                           |
 | W4-W5 | Project                                                                                                                      |                                        |
@@ -147,7 +147,7 @@ For example, we assume you already master the following material from CS-214:
 > [!NOTE]
 > You are responsible for forming 7-student teams and then submitting your team's composition with deliverable B1.
 > As a team, you decide on the problem you want to solve and the description of the app, both of which you must submit with deliverable B2.
-> If you wish, check out [these app examples](apps) for inspiration.
+> If you wish, check out [these app examples](project/Examples.md) for inspiration.
 
 All apps must meet the basic requirements of functionality and resilience: apps must accomplish compelling tasks for clear use cases, in a way that is easy to use and consistent with the Android experience; and apps must work in the face of user errors, malice, and external issues such as a lack of Internet connectivity, with a test suite to demonstrate this.
 
