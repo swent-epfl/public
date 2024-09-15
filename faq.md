@@ -1,10 +1,11 @@
 # Frequently Asked Questions
 
- _[updated 10.09.2024]_
+ _[updated 15.09.2024]_
 
 ## Table of Contents
 - [How can I get help?](#how-can-i-get-help)
-- [Can we use a different tech stack than Kotlin/Jetpack?](#can-we-use-a-different-tech-stack-than-kotlinjetpack)
+- [Why use Kotlin/Jetpack instead of cross-platform frameworks?](#why-use-kotlinjetpack-instead-of-cross-platform-frameworks)
+- [Can we use something other than Kotlin/Jetpack for our project?](#can-we-use-something-other-than-kotlinjetpack-for-our-project)
 - [Why does SwEnt use curving?](#why-does-swent-use-curving)
 - [Can we do the Scrum ceremonies in French?](#can-we-do-the-scrum-ceremonies-in-french)
 - [Which absences are excusable?](#which-absences-are-excusable)
@@ -31,7 +32,21 @@ There are several methods to get help in SwEnt:
 The SwEnt staff is here to help you become someone who successfully solves the world's problems using software.
 Providing you with the right amount of support (and not more) at the right point in time (and not earlier) is central to our pedagogical mission.
 
-## Can we use a different tech stack than Kotlin/Jetpack?
+## Why use Kotlin/Jetpack instead of cross-platform frameworks?
+
+Cross-platform frameworks, like Flutter or React Native, can significantly speed up development, by allowing a single codebase to target both Android and iOS. This reduces the time, cost, and effort needed to maintain two separate native codebases. They have features that make it easier to test and debug simultaneously across multiple platforms. They are great candidates if the goal is to reach both platforms quickly without needing separate teams for each.
+
+So why do so many developers in the real world opt for native code? There are three main reasons:
+
+- _Performance_:  Both Kotlin/Java (Android) and Swift (iOS) compile to native machine code, which results in fast, responsive apps that consume less battery for the same functionality compared to an interpreted language. This is particularly important for games, AR/VR apps, etc.  Some cross-platform frameworks can incur overhead due to intermediate layers, like JavaScript having to be interpreted in V8 (for React Native). cross-platform frameworks have been improving (e.g., Flutter uses its own rendering engine), but they're still not on par with fully native apps in all cases.
+
+- _Look & feel_: Using native languages and frameworks makes it easier to incorporate the platform's unique design guidelines (e.g., Material Design on Android) and build apps that look and feel consistent with that platform. Cross-platform frameworks result in UIs that feel less "native" or familiar to users. Flutter, for instance, delivers the exact same UI on both Android and iOS (and hence relies on a custom rendering engine to draw the UI directly, rather than relying on native platform UI components). Many cross-platform frameworks allow customization that can get close to native feel if done well, though this may require significant effort.
+
+- _Native access_: With Kotlin/Java (Android) and Swift (iOS) you get direct access to all of the platform's APIs, including hardware integrations, platform-specific UI components, advanced OS capabilities, etc. Cross-platform frameworks can do so too, through plugins or bridges, but typically lag behind native support. So developers might end up having to write some native code themselves anyway, which defeats the purpose. So, for complex apps that require deep platform integration (e.g., financial, enterprise, security-sensitive apps), native development is often preferred, because it provides a level of control and integration that is not available in a cross-platform framework.
+
+In the SwEnt course, we focus on a single platform and use a native framework in order to avoid facing too many development challenges at once.
+
+## Can we use something other than Kotlin/Jetpack for our project?
 
 We are open to making exceptions to the Kotlin/Jetpack policy, as long as you make a good case for it.
 
