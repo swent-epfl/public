@@ -71,7 +71,7 @@ The team meets with their coach(es) once a week on Friday, for 1h in the 9:15&nd
 | W10-W13 | Project                                                                                                                      |                                        |
 | W14     | Project                                                                                                                      | Milestone M3 + <br> Feedback survey #2 |
 
-All project deliverables (M1, M2, M3) are due at the start of the coaching meeting on the Friday of the week indicated above&mdash;this will be the end of that week's Sprint. The bootcamp deliverables (B1, B2, B3) are due at 23:59 on the Monday following the week shown above.
+All project deliverables are due at the end of that week's sprint, before the start of the Sprint ceremonies: _M1_ on 18-Oct, _M2_ on 15-Nov, and _M3_ on 20-Dec. The bootcamp deliverables (B1, B2, B3) are due at 23:59 on the Monday following the week shown above.
 
 We use the two surveys to collect systematic student feedback that is statistically significant.
 We use it as input to improving the course.
