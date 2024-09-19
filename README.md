@@ -2,7 +2,7 @@
 
 > [!CAUTION]
 > This document can change from time to time, so please check it often.
-> The last time it was updated was 17.09.2024.
+> The last time it was updated was 19.09.2024.
 
 ## Table of Contents
 
@@ -62,7 +62,7 @@ The team meets with their coach(es) once a week on Friday, for 1h in the 9:15&nd
 | Week    | Topics                                                                                                                       | Deliverable                            |
 |---------|------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
 | W1      | Requirements and User Stories [[slides](lectures/Wk1.A%20-%20Requirements%20and%20User%20Stories.pdf) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZNzQwSrggaGKObGjMlxIRhI)] <br> The Mobile Platform [[slides](lectures/Wk1.B%20-%20The%20Mobile%20Platform.pdf) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZMyuALs9gJ06adyG3LKmmPe)]          | [Milestone B1](#bootcamp) + <br> [Team composition](https://moodle.epfl.ch/mod/choicegroup/view.php?id=1281076)   |
-| W2      | Testing Fundamentals: Concepts, Metrics, TDD, BDD [[slides](lectures/Wk2.A%20-%20Testing%20Fundamentals.pdf) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZMRgp3gw1cRA0VrQOphp-SA)] <br>Advanced Testing: Mocks, Dependency Injection, UI Testing                                                | [Milestone B2](#bootcamp) + <br> App description    |
+| W2      | Testing Fundamentals: Concepts, Metrics, TDD, BDD [[slides](lectures/Wk2.A%20-%20Testing%20Fundamentals.pdf) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZMRgp3gw1cRA0VrQOphp-SA)] <br>Advanced Testing: Mocks, Dependency Injection, UI Testing [[slides](lectures/Wk2.B%20-%20Advanced%20Testing.pdf) \| [videos](https://www.youtube.com/watch?v=yrOH3XrDBuU&list=PLr41P4J9F0ZM1ebUm2QoLquU-yHA9bm6Z)]                                               | [Milestone B2](#bootcamp) + <br> App description    |
 | W3      | Agile development processes, collaborative workflows, coding standards<br>Continuous integration/continuous delivery (CI/CD) | Milestone B3                           |
 | W4-W5 | Project                                                                                                                      |                                        |
 | W6      | Project                                                                                                                      | Milestone M1 + <br> Feedback survey #1 |
