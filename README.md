@@ -35,7 +35,7 @@ The project has three milestones during the semester.
 Instructor: [Prof. George Candea](https://dslab.epfl.ch/people/candea)
 
 Head TA: Yonghao Zou<br>
-TAs: Sara Anejjar, Ugo Balducci, Jérémy Chaverot, Florian Déjean, Albert Fares, Alexandre Goumaz, Lea Grieder, Jérémy Hugentobler, David Kalajdzic, Andrew Limond, Gaël Conde Losada, Ludovic Mermod, Alexandre Messmer, Edouard Michelin, Lorenzo Padrini, Yuchen Qian, Cléo Renaud, David Schroeter, John Taylor
+TAs: Sara Anejjar, Ugo Balducci, Jérémy Chaverot, Gaël Conde Losada, Florian Déjean, Albert Fares, Alexandre Goumaz, Lea Grieder, Jérémy Hugentobler, David Kalajdzic, Andrew Limond, Ludovic Mermod, Alexandre Messmer, Edouard Michelin, Lorenzo Padrini, Yuchen Qian, Cléo Renaud, David Schroeter, John Taylor
 
 The staff is reachable at <swent-staff@dslab.org> for all private issues.
 For questions whose answers could benefit other students, use the Ed forum (accessed via [Moodle](https://moodle.epfl.ch/course/view.php?id=18350)).
