@@ -1,5 +1,9 @@
 # EPFL Software Enterprise Project
 
+> [!CAUTION]  
+> This document is for the old edition of the course.
+> The one for this edition is coming soon.
+
 _[updated 29.03.2024]_
 
 CS-311 - The Software Enterprise (SwEnt) is a course that teaches you how to work efficiently in teams and how to build and ship software products. We will study a development process that is a simplified variant of [Scrum](https://www.Scrum.org/learning-series/what-is-Scrum/) and resembles closely how software is built in the real world. The outcome of the project will be an Android application of your own choosing, based on the finalized project proposal you submitted during the initial weeks of the course, but this is not an Android programming course.

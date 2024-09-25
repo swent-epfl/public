@@ -1,5 +1,9 @@
  ## Milestone M4
 
+> [!CAUTION]  
+> This document is for the old edition of the course.
+> The one for this edition is coming soon.
+
  _[updated 31.05.2024]_
 
  The SwEnt project has four graded milestones (see [README](../README.md)). This handout concerns the fourth and final milestone.

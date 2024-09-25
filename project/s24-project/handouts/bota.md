@@ -1,5 +1,9 @@
 # The Battle of the Apps (BOTA)
 
+> [!CAUTION]  
+> This document is for the old edition of the course.
+> The one for this edition is coming soon.
+
  _[updated 27.05.2024]_
 
 <table cellpadding="0">

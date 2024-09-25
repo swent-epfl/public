@@ -1,5 +1,9 @@
 ## Sprint 1 Handout: Android Development and Scrum Management
 
+> [!CAUTION]  
+> This document is for the old edition of the course.
+> The one for this edition is coming soon.
+
 ### Overview
 
 _[15.03.2024]_
