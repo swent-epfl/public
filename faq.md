@@ -10,7 +10,7 @@
 - [Can we do the Scrum ceremonies in French?](#can-we-do-the-scrum-ceremonies-in-french)
 - [Which absences are excusable?](#which-absences-are-excusable)
 - [Why are my hours invested not counted in grading?](#why-are-my-hours-invested-not-counted-in-grading)
-- [Why is present at the weekly Scrum ceremonies mandatory?](#why-is-presence-at-the-weekly-scrum-ceremonies-mandatory)
+- [Why is presence at the weekly Scrum ceremonies mandatory?](#why-is-presence-at-the-weekly-scrum-ceremonies-mandatory)
 - [Is there any grade penalty if we use external sources?](#is-there-any-grade-penalty-if-we-use-external-sources)
 - [How can I accurately acknowledge contributions to my codebase?](#how-can-i-accurately-acknowledge-contributions-to-my-codebase)
 - [What if one of our teammates is lazy?](#what-if-one-of-our-teammates-is-lazy)
