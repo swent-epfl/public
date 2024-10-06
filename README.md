@@ -2,7 +2,7 @@
 
 > [!CAUTION]
 > This document can change from time to time, so please check it often.
-> The last time it was updated was 24.09.2024.
+> The last time it was updated was 6.10.2024.
 
 ## Table of Contents
 
