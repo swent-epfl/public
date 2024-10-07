@@ -1,12 +1,9 @@
 # EPFL CS-311: The Software Enterprise
 
-> [!CAUTION]
-> This document can change from time to time, so please check it often.
-> The last time it was updated was 6.10.2024.
+_Last updated: October 7, 2024_
 
 ## Table of Contents
 
-- [Course Description](#description)
 - [Staff](#staff)
 - [Schedule](#schedule)
 - [Prerequisites](#prerequisites)
@@ -18,7 +15,7 @@
 - [Hardware Requirements](#hardware-requirements)
 - [Further Questions](#further-questions)
 
-## Course Description
+<hr>
 
 Welcome to "The Software Enterprise: From Ideas to Products". 
 The goal of this course is to teach you how to use software to turn ideas into solutions that work in the real world. 
@@ -64,12 +61,12 @@ The team meets with their coach(es) once a week on Friday, for 1h in the 9:15&nd
 | Wk1      | Requirements and User Stories [[slides](lectures/Wk1.A%20-%20Requirements%20and%20User%20Stories.pdf) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZNzQwSrggaGKObGjMlxIRhI)] <br> The Mobile Platform [[slides](lectures/Wk1.B%20-%20The%20Mobile%20Platform.pdf) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZMyuALs9gJ06adyG3LKmmPe)]          | [Milestone B1](#bootcamp) + <br> [Team composition](https://moodle.epfl.ch/mod/choicegroup/view.php?id=1281076)   |
 | Wk2      | Testing Fundamentals: Concepts, Metrics, TDD, BDD [[slides](lectures/Wk2.A%20-%20Testing%20Fundamentals.pdf) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZMRgp3gw1cRA0VrQOphp-SA)] <br>Advanced Testing: Mocks, Dependency Injection, UI Testing [[slides](lectures/Wk2.B%20-%20Advanced%20Testing.pdf) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZM1ebUm2QoLquU-yHA9bm6Z)]                                               | [Milestone B2](#bootcamp) + <br> [App description](https://moodle.epfl.ch/mod/quiz/view.php?id=1305118)    |
 | Wk3      | Agile development processes, collaboration workflows, CI/CD <br>[[slides](lectures/Wk3.A%20-%20Collaborative%20Software%20Development.pdf) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZOs2o4OGpMvKeBipnklTyWi) \| [Scrum podcast (by AI)](https://open.spotify.com/show/4XV7k68M5rjkW1gdlNreDU)] | [Milestone B3](#bootcamp)                           |
-| Wk4-Wk5 | Project                                                                                                                      |                                        |
-| Wk6      | Project                                                                                                                      | Milestone M1 + <br> Feedback survey #1 |
-| Wk7-Wk8   | Project                                                                                                                      |                                        |
-| Wk9      | Project                                                                                                                      | Milestone M2                           |
-| Wk10-Wk13 | Project                                                                                                                      |                                        |
-| Wk14     | Project                                                                                                                      | Milestone M3 + <br> Feedback survey #2 |
+| Wk4-Wk5 | [Project](project/README.md)                                                                                                                      |                                        |
+| Wk6      | [Project](project/README.md)                                                                                                                      | Milestone M1 + <br> Feedback survey #1 |
+| Wk7-Wk8   | [Project](project/README.md)                                                                                                                      |                                        |
+| Wk9      | [Project](project/README.md)                                                                                                                      | Milestone M2                           |
+| Wk10-Wk13 | [Project](project/README.md)                                                                                                                      |                                        |
+| Wk14     | [Project](project/README.md)                                                                                                                      | Milestone M3 + <br> Feedback survey #2 |
 
 All project deliverables are due at the end of that week's sprint, before the start of the Sprint ceremonies: _M1_ on 18-Oct, _M2_ on 15-Nov, and _M3_ on 20-Dec. The bootcamp deliverables (B1, B2, B3) are due at 23:59 on the Monday following the week shown above.
 

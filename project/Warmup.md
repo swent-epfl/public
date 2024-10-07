@@ -1,5 +1,15 @@
 # Project Warmup
 
+_Last updated: October 7, 2024_
+
+## Table of Contents
+
+- [Initial Setup](#initial-setup)
+- [Preparation for Sprint 1](#preparation-for-sprint-1)
+- [After the First Coaching Meeting](#after-the-first-coaching-meeting)
+
+<hr>
+
 Welcome to the first step in your project, where you will use software to solve a _real_ problem for _real_ people.
 This checklist will guide you through some preparatory steps that will set you and your team up for success.
 These steps are intended to be taken prior to the first formal meeting with your coaches&mdash;at that meeting, will plan your Sprint 1.
@@ -99,12 +109,22 @@ While the formal Sprint planning will occur during the first formal meeting with
 - [ ] Add tasks to the Scrum board and assign them to the relevant team members; ensure that everyone has *at least one task to complete* before Friday 4.10.2024.
 - [ ] Nominate a Scrum Master for Sprint 1.
 - [ ] Start developing Figma wireframes for the main screens to outline the user interface and experience.
-  
+
 After every meeting, you will need to keep track of all important decisions in one place. This will help team members refer back to them when needed, ensuring that everyone knows how to handle defined procedures and avoid confusion. A good place to define this is in the Wiki of your organization in GitHub. Capture in this Wiki the results of this first team meeting (decisions, code review processes, communication protocol, naming conventions, etc.) Make it a habit to update the Wiki as new decisions are taken in the team.
 
 **4. Prepare for the Coaching Meeting**
 
 - [ ] Finalize the project setup so you can present your progress to your coaches.
 - [ ] Ensure your Scrum board is up to date with tasks and progress.
+
+## After the First Coaching Meeting
+
+ - [ ] Make sure you have a Scrum Master (SM) from among the team members
+ - [ ] Make sure you have a Product Owner (PO) from among the team members
+ - [ ] Make sure all the infrastructure is set up, and the CI is running
+ - [ ] Have at least two in-person stand-up meetings before the next Friday
+ - [ ] The SM keeps minutes of the stand-up meetings (see [README](./README.md) for details)
+ - [ ] Ensure that the Scrum board is updated regularly
+ - [ ] When you complete a task, submit a PR as described in the [README](./README.md)
 
 By following this checklist, your team will be well prepared to collaborate effectively, initiate your project successfully, and make the most of your Sprint 1 planning meeting.
