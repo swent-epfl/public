@@ -1,6 +1,6 @@
 # EPFL CS-311: The Software Enterprise
 
-_Last updated: October 10, 2024_
+_Last updated: October 18, 2024_
 
 ## Table of Contents
 
@@ -66,7 +66,7 @@ The team meets with their coach(es) once a week on Friday, for 1h in the 9:15&nd
 | Wk7-Wk8   | [Project](project/README.md)                                                                                                                      |                                        |
 | Wk9      | [Project](project/README.md)                                                                                                                      | Milestone M2                           |
 | Wk10-Wk13 | [Project](project/README.md)                                                                                                                      |                                        |
-| Wk14     | [Project](project/README.md)                                                                                                                      | Milestone M3 + <br> Feedback survey #2 |
+| Wk14     | [Project](project/README.md)<br>_(no coaching meeting on 20-Dec)_                                                                                                                      | Milestone M3 + <br> Feedback survey #2 |
 
 All project deliverables are due at the end of that week's sprint, before the start of the Sprint ceremonies: _M1_ on 18-Oct, _M2_ on 15-Nov, and _M3_ on 20-Dec. The bootcamp deliverables (B1, B2, B3) are due at 23:59 on the Monday following the week shown above.
 
