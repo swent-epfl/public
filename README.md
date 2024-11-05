@@ -1,6 +1,6 @@
 # EPFL CS-311: The Software Enterprise
 
-_Last updated: October 18, 2024_
+_Last updated: November 5, 2024_
 
 ## Table of Contents
 
@@ -64,7 +64,7 @@ The team meets with their coach(es) once a week on Friday, for 1h in the 9:15&nd
 | Wk4-Wk5 | [Project](project/README.md)                                                                                                                      |                                        |
 | Wk6      | [Project](project/README.md)                                                                                                                      | [Milestone M1](project/M1.md) + <br> Feedback survey #1 |
 | Wk7-Wk8   | [Project](project/README.md)                                                                                                                      |                                        |
-| Wk9      | [Project](project/README.md)                                                                                                                      | Milestone M2                           |
+| Wk9      | [Project](project/README.md)                                                                                                                      | [Milestone M2](project/M2.md)                           |
 | Wk10-Wk13 | [Project](project/README.md)                                                                                                                      |                                        |
 | Wk14     | [Project](project/README.md)<br>_(no coaching meeting on 20-Dec)_                                                                                                                      | Milestone M3 + <br> Feedback survey #2 |
 
