@@ -62,18 +62,18 @@ The team meets with their coach(es) once a week on Friday, for 1h in the 9:15&nd
 | Wk2      | Testing Fundamentals: Concepts, Metrics, TDD, BDD [[slides](lectures/Wk2.A%20-%20Testing%20Fundamentals.pdf) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZMRgp3gw1cRA0VrQOphp-SA)] <br>Advanced Testing: Mocks, Dependency Injection, UI Testing [[slides](lectures/Wk2.B%20-%20Advanced%20Testing.pdf) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZM1ebUm2QoLquU-yHA9bm6Z)]                                               | [Milestone B2](#bootcamp) + <br> [App description](https://moodle.epfl.ch/mod/quiz/view.php?id=1305118)    |
 | Wk3      | Agile development processes, collaboration workflows, CI/CD <br>[[slides](lectures/Wk3.A%20-%20Collaborative%20Software%20Development.pdf) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZOs2o4OGpMvKeBipnklTyWi) \| [Scrum podcast (by AI)](https://open.spotify.com/show/4XV7k68M5rjkW1gdlNreDU)] | [Milestone B3](#bootcamp)                           |
 | Wk4-Wk5 | [Project](project/README.md)                                                                                                                      |                                        |
-| Wk6      | [Project](project/README.md)                                                                                                                      | [Milestone M1](project/M1.md) + <br> Feedback survey #1 |
+| Wk6      | [Project](project/README.md)                                                                                                                      | [Milestone M1](project/M1.md) |
 | Wk7-Wk8   | [Project](project/README.md)                                                                                                                      |                                        |
 | Wk9      | [Project](project/README.md)                                                                                                                      | [Milestone M2](project/M2.md)                           |
 | Wk10-Wk13 | [Project](project/README.md)                                                                                                                      |                                        |
-| Wk14     | [Project](project/README.md)<br>_(no coaching meeting on 20-Dec)_                                                                                                                      | Milestone M3 + <br> Feedback survey #2 |
+| Wk14     | [Project](project/README.md)<br>_(no coaching meeting on 20-Dec)_                                                                                                                      | [Milestone M3](project/M3.md) + <br> Feedback survey |
 
-All project deliverables are due at the end of that week's sprint, before the start of the Sprint ceremonies: _M1_ on 18-Oct, _M2_ on 15-Nov, and _M3_ on 20-Dec. The bootcamp deliverables (B1, B2, B3) are due at 23:59 on the Monday following the week shown above.
+All project deliverables are due at the end of that week's Sprint, before the start of the Sprint ceremonies: _M1_ on 18-Oct, _M2_ on 15-Nov, and _M3_ on 20-Dec. The bootcamp deliverables (B1, B2, B3) are due at 23:59 on the Monday following the week shown above.
 
-We use the two surveys to collect systematic student feedback that is statistically significant.
+We might use surveys to collect systematic student feedback that is statistically significant.
 We use it as input to improving the course.
-The surveys are not graded, but are a required part of the deliverable, so a submission is incomplete until the survey has been filled in.
-Budget 15 minutes per survey.
+The surveys are not graded, but are a required part of the corresponding deliverable, so a submission is incomplete until the survey has been filled in.
+Budget 15 minutes to complete a survey.
 
 > [!IMPORTANT]  
 > [CS-300 (Modèles stochastiques)](https://moodle.epfl.ch/course/view.php?id=14236) students: Beware that the CS-300 midterm is in the afternoon on Friday 15.11, a few hours after the deadline for the SwEnt milestone M2.
