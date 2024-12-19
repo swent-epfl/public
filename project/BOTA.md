@@ -107,11 +107,11 @@ Preparing for and participating in this competition is a reward in and of itself
 
 Additionally, we will reward the top three teams as follows:
 
-|                              |   Prize for *each* team member  |
+|                              |   Prize   |
 |------------------------------|---------------------------------|
-| Team in 1<sup>st</sup> place | 75-CHF Digitec gift certificate |
-| Team in 2<sup>nd</sup> place | 50-CHF Digitec gift certificate |
-| Team in 3<sup>rd</sup> place | 25-CHF Digitec gift certificate |
+| Team in 1<sup>st</sup> place | 500-CHF Digitec gift certificate |
+| Team in 2<sup>nd</sup> place | 300-CHF Digitec gift certificate |
+| Team in 3<sup>rd</sup> place | 150-CHF Digitec gift certificate |
 
 Everyone who comes to the BOTA will receive a SwEnt sticker for their laptop. We hope all students in SwEnt will come, including those whose teams are not demo-ing their app.
 
