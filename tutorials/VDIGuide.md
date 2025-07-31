@@ -37,12 +37,8 @@ As we said before, we asked IT to set up special folders. The full list of the f
 ```
 /home/$USER/Android
 /home/$USER/AndroidStudioProjects
-/home/$USER/.config
 /home/$USER/.java
-/home/$USER/.cache
-/home/$USER/.gradle
 /home/$USER/.android
-/home/$USER/.bashrc
 ```
 
 Folders that start with ```.``` will store the temporary results of building your app. However, to achieve persistence, reading and writing these folders are slow. So, if you find that building, indexing, and downloading in these folders are slow, that’s the normal case.
