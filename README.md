@@ -53,7 +53,7 @@ For questions whose answers could benefit other students, use the [Ed forum](htt
 
 #### Battle of the Apps (BOTA)
 
-- The BOTA will take place on Friday, 19.12.2024 from 9:15&ndash;13:00 in [STCC - Cloud C](https://plan.epfl.ch/?room==STCC%207%208025)
+- The BOTA will take place on Friday, 19-Dec from 9:15&ndash;13:00 in [STCC - Cloud C](https://plan.epfl.ch/?room==STCC%207%208025)
 - This is a special event in which you can present and demo your app to an audience consisting of your class mates, the teaching staff, and other attendees from outside SwEnt.
 The top-three teams win substantial prizes.
 Participation is entirely optional, and it does not affect your course grade.
