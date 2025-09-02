@@ -60,26 +60,23 @@ Participation is entirely optional, and it does not affect your course grade.
 
 #### Week-by-week Schedule
 
-| Week    | Topics                                                                                                                       | Deliverable                            |
+| Week    | Topics                                                                                                                       | Deliverable(s)                            |
 |---------|------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| Wk1      | Tools, Requirements, User Stories <br> The Mobile Platform <br>  | Bootcamp B1 + <br> Team composition <!-- (https://moodle.epfl.ch/mod/choicegroup/view.php?id=1281076) -->   |
-| Wk2      | Testing Fundamentals: Concepts, Metrics, TDD, BDD <br> Agile Development, Collaboration workflows, CI/CD | Bootcamp B2 + <br> App description <!-- https://moodle.epfl.ch/mod/quiz/view.php?id=1305118 -->    |
-| Wk3      |  Advanced Testing: Mocks, Dependency Injection, UI Testing <br>1<sup>st</sup> coaching meeting | Bootcamp B3                           |
+| Wk1      | Tools, Requirements, User Stories <br> The Mobile Platform <br>  | Bootcamp B1 + Team composition <!-- (https://moodle.epfl.ch/mod/choicegroup/view.php?id=1281076) --> <br> due 15-Sep @ 23:59 |
+| Wk2      | Testing Fundamentals: Concepts, Metrics, TDD, BDD <br> Agile Development, Collaboration workflows, CI/CD | Bootcamp B2 + App description <!-- https://moodle.epfl.ch/mod/quiz/view.php?id=1305118 --> <br> due 23-Sep @ 23:59 |
+| Wk3      |  Advanced Testing: Mocks, Dependency Injection, UI Testing <br>1<sup>st</sup> coaching meeting | Bootcamp B3 <br> due 29-Sep @ 23:59 |
 | Wk4 | Project                                                                                                                      |                                        |
 | Wk5 | Project                                                                                                                      |                                        |
-| Wk6      | Project                                                                                                                      | Project M1 |
+| Wk6      | Project                                                                                                                      | Project M1 due 17-Oct @ 09:00 |
 |  | _Fall Break_ |
 | Wk7   | Project                                                                                                                      |                                        |
 | Wk8   | Project                                                                                                                      |                                        |
-| Wk9      | Project                                                                                                                      | Project M2                           |
+| Wk9      | Project                                                                                                                      | Project M2 due 14-Nov @ 09:00 |
 | Wk10 | Project                                                                                                                      |                                        |
 | Wk11 | Project                                                                                                                      |                                        |
 | Wk12 | Project                                                                                                                      |                                        |
 | Wk13 | Project                                                                                                                      |                                        |
-| Wk14     | Project<br>Battle of the Apps                                                                                                                      | Project M3 + <br> Feedback survey |
-
-- All _project_ deliverables are due at the end of that week's Sprint, before the start of the Sprint ceremonies: M1 on 17-Oct, M2 on 14-Nov, and M3 on 19-Dec
-- The _bootcamp_ deliverables (B1, B2, B3) are due at 23:59 on the Monday following the week shown above.
+| Wk14     | Project<br>Battle of the Apps                                                                                                                      | Project M3 due 19-Dec @ 09:00 <br> Feedback survey |
 
 We might use surveys to collect systematic student feedback that is statistically significant.
 We use it as input to improving the course.
@@ -98,10 +95,10 @@ Budget 15 minutes to complete a survey.
 
 #### Bootcamp
 
-In order to do the bootcamp, you must have submitted to us your GitHub ID, as explained on Moodle. 
+In order to do the bootcamp, you must have submitted to us your GitHub username, as explained on Moodle. 
 Unless you complete this step, you will not be able to start your bootcamp. 
-After we receive your GitHub ID, we will set up a private repo for you.
-Once that is set up, you will be able to start your bootcamp by following the instructions at `https://github.com/swent-epfl/bootcamp-25-<your GitHubID>/README.md`.
+After we receive your GitHub username, we will set up a private repo for you.
+Once that is set up, you will be able to start your bootcamp by following the instructions at <code>https://github.com/swent-epfl/bootcamp-25-<i>yourGitHubUsename</i>/README.md</code>.
 
 ## Attendance Policy
 
