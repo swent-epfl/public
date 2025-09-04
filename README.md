@@ -1,6 +1,6 @@
 # EPFL CS-311: The Software Enterprise
 
-_Last updated: September 1, 2025_
+_Last updated: September 4, 2025_
 
 ## Table of Contents
 
@@ -62,8 +62,8 @@ Participation is entirely optional, and it does not affect your course grade.
 
 | Week    | Topics                                                                                                                       | Deliverable(s)                            |
 |---------|------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| Wk1      | Tools, Requirements, User Stories <br> The Mobile Platform <br>  | Bootcamp B1 + Team composition <!-- (https://moodle.epfl.ch/mod/choicegroup/view.php?id=1281076) --> <br> due 15-Sep @ 23:59 |
-| Wk2      | Testing Fundamentals: Concepts, Metrics, TDD, BDD <br> Agile Development, Collaboration workflows, CI/CD | Bootcamp B2 + App description <!-- https://moodle.epfl.ch/mod/quiz/view.php?id=1305118 --> <br> due 23-Sep @ 23:59 |
+| Wk1      | Tools, Requirements, User Stories [[draft slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk1.A%20-%20Tools%2C%20Requirements%2C%20User%20Stories.pdf?forcedownload=1)] <br> The Mobile Platform <br>  | Bootcamp B1 + [Team composition](https://moodle.epfl.ch/mod/choicegroup/view.php?id=1342023) <!-- (https://moodle.epfl.ch/mod/choicegroup/view.php?id=1281076) --> <br> due 15-Sep @ 23:59 |
+| Wk2      | Testing Fundamentals: Concepts, Metrics, TDD, BDD <br> Agile Development, Collaboration workflows, CI/CD | Bootcamp B2 + [App description](https://moodle.epfl.ch/mod/quiz/view.php?id=1305118) <!-- https://moodle.epfl.ch/mod/quiz/view.php?id=1305118 --> <br> due 23-Sep @ 23:59 |
 | Wk3      |  Advanced Testing: Mocks, Dependency Injection, UI Testing <br>1<sup>st</sup> coaching meeting | Bootcamp B3 <br> due 29-Sep @ 23:59 |
 | Wk4 | Project                                                                                                                      |                                        |
 | Wk5 | Project                                                                                                                      |                                        |
