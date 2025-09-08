@@ -62,6 +62,8 @@ Do not edit this README, and make sure you preserve the structure of the CSV fil
   </tbody>
 </table>
 
+> [!NOTE]
+> Initially the Continuous Integration (CI) will fail, as it runs the tests to check your code automatically. By the end of B1, make sure your last commit of B1 successfully passes all the CI checks. To see if your code passes, go to the Actions tab in your GitHub repository.
 
 ## B1 Grading
 

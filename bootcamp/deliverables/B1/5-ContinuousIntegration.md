@@ -3,17 +3,18 @@
 
 During the bootcamp, your code will be tested automatically through **Continuous Integration (CI)**. For now, the CI runs on a self-hosted machine at EPFL. Later in your project, you will switch to GitHub-provided Actions runners.
 
-This page will guide you through enabling CI and understanding the tools involved.
+This page will guide you through understanding the CI and the tools involved.
 
-## Enabling workflows
+## Continuous Integration with GitHub Actions
 
-First, enable workflows on your repository:
+CI ensures your code compiles and tests pass every time you push.  
 
-1. Go to   `https://github.com/swent-epfl/bootcamp-25-<GitHub username>/actions`
-2. Click **“I understand my workflows, go ahead and enable them”**.
+The configuration is defined in `.github/workflows/CI.yaml`. It runs three jobs:
 
-<p align="center"><img alt="Enable workflows in GitHub Actions" src="assets/5-ContinuousIntegration/Screenshot_20240908_172306.png" width="80%" /></p>
-
+1. **Build & test** — compiles the app and runs all tests (can take ~10 minutes, as it's run on a virtual Android device).  
+2. **User story checks** — validates that your `userStories.txt` file has the correct format. You will write the user stories in the [User Stories](7-UserStories.md) step.
+3. **Time tracking** — validates that the actualTime file has been completed.
+   
 ## Code Coverage
 
 Throughout the semester, we measure code coverage using [JaCoCo](https://www.eclemma.org/jacoco/).  
@@ -158,14 +159,6 @@ To do that, duplicate any `androidTestImplementation` dependencies as `testImple
 </details>
 
 
-## Continuous Integration with GitHub Actions
-
-CI ensures your code compiles and tests pass every time you push.  
-
-The configuration is defined in `.github/workflows/CI.yaml`. It runs two jobs:
-
-1. **Build & test** — compiles the app and runs all tests (can take ~10 minutes).  
-2. **User story checks** — validates that your `userStories.txt` file has the correct format. You will write the user stories in the [User Stories](7-UserStories.md) step.
 
 ### Common issue
 
