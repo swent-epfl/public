@@ -1,6 +1,6 @@
 # EPFL CS-311: The Software Enterprise
 
-_Last updated: September 8, 2025_
+_Last updated: September 9, 2025_
 
 ## Table of Contents
 
@@ -193,7 +193,7 @@ Students will develop, test, and execute the bootcamp and project on their own l
 We strongly recommend a minimum of 16GB of RAM (to run Android Studio), 50GB of available storage (Android Studio, Android SDK, emulator system images, course project files, etc.) on SSD or better, and WiFi.
 You can probably manage with a lesser configuration, but it can be slow.
 
-We provide Windows and Linux virtual machines in the [EPFL VDI](https://support.epfl.ch/epfl?id=epfl_kb_article_view&sysparm_article=KB0016486) infrastructure in case your laptop breaks down or you do not have the recommended configuration.
+We provide Linux virtual machines in the [EPFL VDI](https://support.epfl.ch/epfl?id=epfl_kb_article_view&sysparm_article=KB0016486) infrastructure in case your laptop breaks down or you do not have the recommended configuration.
 See [this tutorial](tutorials/VDIGuide.md) for how to get started with VDI in SwEnt.
 
 Ideally, each team should have at least one Android phone capable of demo-ing the team's application.
