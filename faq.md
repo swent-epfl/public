@@ -1,9 +1,10 @@
 # Frequently Asked Questions
 
- _[updated 15.09.2024]_
+_Last updated: September 10, 2025_
 
 ## Table of Contents
 - [How can I get help?](#how-can-i-get-help)
+- [Can I choose the time of the Friday meeting with coaches?](#can-i-choose-the-time-of-the-friday-meeting-with-coaches)
 - [Why use Kotlin/Jetpack instead of cross-platform frameworks?](#why-use-kotlinjetpack-instead-of-cross-platform-frameworks)
 - [Can we use something other than Kotlin/Jetpack for our project?](#can-we-use-something-other-than-kotlinjetpack-for-our-project)
 - [Why does SwEnt use curving?](#why-does-swent-use-curving)
@@ -15,6 +16,8 @@
 - [How can I accurately acknowledge contributions to my codebase?](#how-can-i-accurately-acknowledge-contributions-to-my-codebase)
 - [What if one of our teammates is lazy?](#what-if-one-of-our-teammates-is-lazy)
 - [What if one of our teammates is too forceful?](#what-if-one-of-our-teammates-is-too-forceful)
+- [Why do Figma wireframes in addition to mockups?](#why-do-figma-wireframes-in-addition-to-mockups)
+
 
 ## How can I get help?
 
@@ -23,14 +26,21 @@ In real life, it is primarily on your own that you find answers, and next in lin
 While still a student, the course staff is here to help, but most importantly they are here to prepare you to be self-sufficient in the real world.
 There are several methods to get help in SwEnt:
 
-1. We teach you several methods for how to find information on your own self-sufficiency. The first step is to use online resources on your own (documentation, tutorials, etc.) to understand the context around your question and its answer.  Web search provides a good way to find answers, though the context may be missing. LLMs provide excellent starting points in your search, because they can understand the broader context of your question, but their answers can occasionally be the result of hallucinations.
-2. The next step is to post your question on Ed. Here you would get help from your peers, as well as the course staff. You can even post anonymously to your peers, if you are shy (though the staff always knows the identity of the poster). The most effective way to get help is to explain what you have already done to try and answer the question on your own &ndash; if others see that you invested time in getting an answer, they will be more willing to invest their time too in helping you find the answer.
+1. We teach you several methods for how to find information on your own, in a self-sufficient manner. The first step is to use online resources on your own (documentation, tutorials, etc.) to understand the context around your question and its answer.  Web search provides a good way to find answers, though the context may be missing. LLMs provide excellent starting points in your search, because they can understand the broader context of your question, but sometimes their plausably looking answers can lead you down the wrong path and waste your time.
+2. The next step is to post your question on Ed. Here you would get help from your peers, as well as the course staff. You can even post anonymously to your peers, if you are shy (the staff always knows the identity of the poster). The best way to get help is to explain what you have already done to try and answer the question on your own&mdash;if others see that you invested time in getting an answer, they will be more willing to also invest their own time to help you find the answer.
 3. If this fails, reach out to your coaches. The same criterion as above applies: explain what you have done to solve the problem on your own.
 4. If the coaches cannot help, then email swent-staff@dslab.org.
 5. If you have a private matter that you wish to discuss exclusively with Prof. Candea (e.g., a personal situation that is affecting you emotionally), then send him email directly.
 
 The SwEnt staff is here to help you become someone who successfully solves the world's problems using software.
-Providing you with the right amount of support (and not more) at the right point in time (and not earlier) is central to our pedagogical mission.
+Providing you with the right amount of support (and not more) at the right point in time (and not earlier) is central to our  mission.
+
+## Can I choose the time of the Friday meeting with coaches?
+
+Mostly yes. 
+If you have a commitment for an hour or two on Friday mornings (e.g., you're a student assistant in a course, you're taking another course whose lecture is at that time, etc.) you can discuss with your team and find a time that works for the entire team to meet in-person with the coaches.
+The coaches will then ask each of their teams for their availabilities and will strive to schedule the meetings such that everyone can be accommodated.
+With a bit of flexibility on your part, this will be easy to resolve.
 
 ## Why use Kotlin/Jetpack instead of cross-platform frameworks?
 
@@ -40,7 +50,7 @@ So why do so many developers in the real world opt for native code? There are th
 
 - _Performance_:  Both Kotlin/Java (Android) and Swift (iOS) compile to native machine code, which results in fast, responsive apps that consume less battery for the same functionality compared to an interpreted language. This is particularly important for games, AR/VR apps, etc.  Some cross-platform frameworks can incur overhead due to intermediate layers, like JavaScript having to be interpreted in V8 (for React Native). cross-platform frameworks have been improving (e.g., Flutter uses its own rendering engine), but they're still not on par with fully native apps in all cases.
 
-- _Look & feel_: Using native languages and frameworks makes it easier to incorporate the platform's unique design guidelines (e.g., Material Design on Android) and build apps that look and feel consistent with that platform. Cross-platform frameworks result in UIs that feel less "native" or familiar to users. Flutter, for instance, delivers the exact same UI on both Android and iOS (and hence relies on a custom rendering engine to draw the UI directly, rather than relying on native platform UI components). Many cross-platform frameworks allow customization that can get close to native feel if done well, though this may require significant effort.
+- _Look & feel_: Using native languages and frameworks makes it easier to incorporate the platform's unique design guidelines (e.g., Material Design on Android) and build apps that look and feel consistent with that platform. Cross-platform frameworks result in UIs that feel less "native" or familiar to users. Flutter, for instance, delivers the exact same UI on both Android and iOS (and hence relies on a custom rendering engine to draw the UI directly, rather than relying on native platform UI components). Many cross-platform frameworks allow customization that can get close to native feel if done well, though this can require significant effort.
 
 - _Native access_: With Kotlin/Java (Android) and Swift (iOS) you get direct access to all of the platform's APIs, including hardware integrations, platform-specific UI components, advanced OS capabilities, etc. Cross-platform frameworks can do so too, through plugins or bridges, but typically lag behind native support. So developers might end up having to write some native code themselves anyway, which defeats the purpose. So, for complex apps that require deep platform integration (e.g., financial, enterprise, security-sensitive apps), native development is often preferred, because it provides a level of control and integration that is not available in a cross-platform framework.
 
@@ -61,15 +71,15 @@ We will then assess whether your _entire_ team wishes to adopt a different frame
 
 ## Why does SwEnt use curving?
 
-The form of curving we use in SwEnt helps normalize the scores to adapt to the difficulty/ease of the milestone, and it provides a consistent method for evaluating performance across different cohorts (so that a grade of X in SwEnt means the same thing this year as it will next year). The manual thresholding we do mitigates the effect of extreme scores, so that outliers don't skew the grades.
+The form of curving we use in SwEnt helps normalize the scores to adapt to the difficulty of the milestone, and it provides a consistent method for evaluating performance across different cohorts (so that a grade of X in SwEnt means the same thing this year as it did last year). The manual thresholding we do mitigates the effect of extreme scores, so that outliers don't skew the grades.
 
 We do spend a lot of time making sure that the grades are computed fairly, and we rely on more than a decade of experience teaching this course.
-By now, we have converged onto the fairest and most correct grading scheme we can think of for a course like this one. 
+By now, we have converged onto a fair and correct grading scheme for a course like this one. 
 We do however always want to hear arguments for how the grading (or any aspect of the course) can be improved; many of the changes we made were actually ideas we got from students.
 
 ## Can we do the Scrum ceremonies in French?
 
-All Scrum ceremonies are to be done in English, even if everyone in the team and the coaches speak French.
+All Scrum ceremonies are to be done in English, both on Fridays with the coaches and within the team on its own, even if everyone in the team and the coaches speak French.
 
 The reasons is that you will have to be fluent in English if you are to be competitive as a software engineer. 
 In your career, you will inevitably be part of multi-lingual, multi-cultural teams in which the lingua franca will be English. 
@@ -139,6 +149,13 @@ Just like above, please contact your coaches as soon as it becomes apparent that
 This is unprofessional, but there can be many reasons for this, and the coaches can help you work through it.
 Do not persist in suffering just out of camaraderie.
 
+## Why do Figma wireframes in addition to mockups?
+
+Wireframes are important for thinking about layout, structure, hierarchy, functionality, etc. before diving into aesthetics.
+Mockups are more detailed and have the full visual design, including colors, typography, etc.
+One can easily get bogged down into aesthetics and end up compromising on structure if they don't start with wireframes.
+And this can come back to bite them later (i.e., spend more time later than they would've if they had done the wireframes).
+
 ## Why is presence at the weekly Scrum ceremonies mandatory?
 
 This is probably the first time you get to develop software collaboratively in a large team, and this involves many challenges.
@@ -194,4 +211,4 @@ It is impossible for an engineer to be effective at remote collaboration before 
 SwEnt aims to teach you how to work as a team in-person, and this must come before you can operate as a team remotely.
 You must learn to walk before you run.
 
-If you look at the software industry, we're seeing a marked shift from the peak of fully-remote work towards a greater degree of in-person interaction, trending toward a hybrid model. Companies that initially went fully remote have experienced challenges with long-term remote work (in particular w.r.t. collaboration and the sense of belonging), which has led them to revise their policies to encourage more in-person time, even though this means an increase in costs for leasing office space. We implement such a hybrid approach in SwEnt: there is one time period (Friday morning) when you are required to invariably be on-campus, and the other days of on-campus activities with your team can be scheduled at the convenience of the team. When scheduling this in-person time, keep in mind that your primary goal at this point is to get the best education you can, because it is the best investment you can make for your future.
+If you look at the software industry, there is an increasing shift from the peak of fully-remote work during Covid towards a greater degree of in-person interaction, trending toward a hybrid model. Companies that initially went fully remote have experienced challenges with long-term remote work (in particular w.r.t. collaboration and the sense of belonging), which has led them to revise their policies to encourage more in-person time, even though this means an increase in costs for leasing office space. We implement such a hybrid approach in SwEnt: there is one time period (Friday morning) when you are required to invariably be on-campus, and the other days of on-campus activities with your team can be scheduled at the convenience of the team. When scheduling this in-person time, keep in mind that your primary goal at this point is to get the best education you can, because it is the best investment you can make for your future. As a future employee you will have to be better than the AI.
