@@ -1,6 +1,6 @@
 # EPFL CS-311: The Software Enterprise
 
-_Last updated: September 9, 2025_
+_Last updated: September 12, 2025_
 
 ## Table of Contents
 
@@ -76,7 +76,7 @@ Participation is entirely optional, and it does not affect your course grade.
 | Wk11 | Project                                                                                                                      |                                        |
 | Wk12 | Project                                                                                                                      |                                        |
 | Wk13 | Project                                                                                                                      |                                        |
-| Wk14     | Project<br>Battle of the Apps                                                                                                                      | Project M3 due 19-Dec @ 09:00 <br> Feedback survey |
+| Wk14     | Project<br>Battle of the Apps                                                                                                                      | Project M3 due 18-Dec @ 09:00 <br> Feedback survey |
 
 We might use surveys to collect systematic student feedback that is statistically significant.
 We use it as input to improving the course.
