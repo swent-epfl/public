@@ -3,7 +3,7 @@
 The Bootcamp consists of three milestones, each one with its own set of deliverables to be pushed to your individual repository according to the following deadlines:
 
 - [B1: Environment setup and getting started with Android](B1/README.md) due on 15-Sep at 23:59
-- _B2: Building and testing the ToDo app_ due on 23-Sep at 23:59
+- [B2: Building and testing the ToDo app](B2/README.md) due on 23-Sep at 23:59
 - _B3: Advanced features_ due on 29.09.2025 at 23:59
 
 The steps you follow as you complete the three milestones will guide you from the basics to more advanced concepts of Android development. Good luck, and happy coding!
@@ -31,8 +31,8 @@ Commit and push often, in order to avoid any bad surprises (loss of connectivity
 We will grade your Bootcamp automatically by running a series of tests on your code.
 There are two types of tests:
 
-- the *public tests*, which are already available in the Bootcamp repository
-- the *staff tests*, which are private and will be used only for grading
+- the _public tests_, which are already available in the Bootcamp repository
+- the _staff tests_, which are private and will be used only for grading
 
 To make sure that we can run our tests on your code, we provide you a skeleton of the app.
 You can modify the skeleton, as long as you keep the original signatures of the provided classes, methods, and functions.
@@ -45,7 +45,5 @@ If you modify any signature, building your app will fail, which will ultimately 
 > For example, if a function `foo(a: Int)` is provided, you can change it to `foo(a: Int, b: String = "default")`.
 > However, make sure to not modify the name of the existing parameters/properties.
 
-### Commit Messages
-
-With each milestone, we will grade the quality of your commit messages.
+For each bootcamp milestone, we will grade the quality of your commit messages.
 Make sure you read this [guide on how to write good commit messages](/bootcamp/docs/CommitMessages.md) before starting the Bootcamp.
