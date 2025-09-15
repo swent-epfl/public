@@ -71,8 +71,6 @@ We use the belt system described in the [README](../../README.md) to grade your 
   - Your commit messages are good
 - <span style="background-color: #87CEFA;">Blue Belt</span>: In addition to Green,
   - Pass all the staff B2 tests for [CreateAToDo](2-CreateAToDo.md), [View List of ToDos](3-TodoList.md) and [Edit a ToDo](4-EditATodo.md)
-  - Your commit messages are good
-  - Your commit messages are good
 - <span style="background-color: #3F3F3F; color: white;">Black Belt</span>: In addition to Blue,
   - Pass the staff B2 End to End test
   - Your commit messages are perfect

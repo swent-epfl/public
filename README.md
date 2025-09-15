@@ -1,6 +1,6 @@
 # EPFL CS-311: The Software Enterprise
 
-_Last updated: September 14, 2025_
+_Last updated: September 15, 2025_
 
 ## Table of Contents
 

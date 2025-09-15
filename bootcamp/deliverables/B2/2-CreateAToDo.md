@@ -51,6 +51,22 @@ For database operation failures, make exceptions to propagate to the ViewModel s
 > the fields from your ToDo data class. When you call `getAllTodos`, you are retrieving all documents from this collection
 > and converting them back into Kotlin objects.
 
+### Requirements for the Firestore Repository
+
+Here are the requirements for the `ToDosRepositoryFirestore` class:
+
+- `ToDo`s objects are identified by their `uid` property.
+- No two `ToDo`s can have the same `uid`.
+  You can decide how to handle this in your implementation (e.g., throw an exception, overwrite the existing todo, etc.).
+- The repository should not manage the `uid` of a `ToDo`.
+  If you want to create a new `ToDo` with a new `uid`, you must generate it before calling `addTodo`.
+
+Once you are done with your implementation, you can test it using the provided `ToDosRepositoryFirestoreTest` test suite.
+
+> [!NOTE]
+> This test suite uses the Firebase emulator.
+> Make sure to start it first by running `firebase emulators:start` in your terminal.
+
 ## Add a Todo Screen
 
 When creating a new todo, a simple form appears with fields for the task's title, description, assignee, location, and due date. Each field maps directly to a property of the todo model. At the bottom of the screen, a Save button lets the user submit the task. Pressing it creates and stores a new todo in Firestore.
@@ -59,7 +75,7 @@ When creating a new todo, a simple form appears with fields for the task's title
 
 Remember the `Greeting` composable from B1? This one is very similar.
 
-Entering a date can be tricky, so for simplicity we'll use strings in the format `DD/MM/YYYY`. 
+Entering a date can be tricky, so for simplicity we'll use strings in the format `DD/MM/YYYY`.
 When the user saves a Todo, you can convert the string to a `Timestamp` using the [`SimpleDateFormat`](https://docs.oracle.com/en/java/javase/24/docs/api/java.base/java/text/SimpleDateFormat.html) class.
 
 > [!NOTE]
@@ -78,7 +94,7 @@ Providing immediate feedback helps prevent frustration and ensures users underst
 
 To implement this, use `OutlinedTextField` components to handle user input validation and to display error messages. See [official documentation](https://developer.android.com/develop/ui/compose/quick-guides/content/validate-input#validate_input_as_the_user_types_2) for more details.
 
-## Requirements
+### Requirements for the View
 
 Here are the requirements for the `AddTodoScreen`:
 
@@ -87,27 +103,27 @@ Here are the requirements for the `AddTodoScreen`:
   - Description (with sufficient height to span multiple lines of text)
   - Assignee
   - Location
-  - Due Date in the following format: *dd/MM/yyyy* (every other format should be considered invalid), which can be converted to `Timestamp` when the todo is saved.
-- Input fields must be validated as follows:
-  - Title, Description, Assignee and Date are mandatory fields: they cannot be empty, or blank.
-  - The Date must be in the format *dd/MM/yyyy* (e.g., 25/12/2023).
-  - Location is optional for B2. It can be left empty or blank.
-- An error message should appear when a field contains invalid input, before the user move focus away or click "Save".
-- User should only be able to add todos with valid data. Adding a todo is done by pressing the Save button.
+  - Due Date in the following format: `dd/mm/yyyy` (every other format should be considered invalid)
+- Title, Description, Assignee and Date are mandatory fields: they cannot be empty, or blank.
+- The Date must be in the format `dd/mm/yyyy` (e.g., 25/12/2023).
+- Location is optional for B2. It can be left empty or blank.
+- When the user types in an invalid input, an error message should be displayed without any user action (e.g., pressing a button, moving focus away).
+  It means that, if the user enters *15/10/25* as the date, the error message should be visible when the user types the last character.
+- User can only add todos with valid data. Adding a todo is done by pressing the Save button.
 - When the user clicks on the Save button, they should be redirected to the Overview screen. The newly added Todo must be present in the list. No additional action is required from the user to see the new todo.
 - Redirection is considered as forward navigation.
 - All the requirements from B1 must still be satisfied.
 - All UI elements for `AddToDo` screen must be visible on a 1080x2400 screen (Medium phone on Android Studio), as this screen size is used in the automated tests.
 
-## Test your implementation
+### Test your implementation
 
 Once you're done with your implementation, build and run the app to check that everything works as expected. Don’t forget to update the `BootcampApp` composable in `MainActivity.kt` with your code.
 
-We provide you a test suite `AddToDoScreenTest` to help you perform some basic checks on your implementation. Since the tests may use the Firebase emulator, start it first with:
+We provide you several test suites for this step: `AddToDoScreenB2Test`, `AddToDoFirestoreEmulatedTest`, and `NavigationB2Test`. Note that `NavigationB2Test` also includes tests for the EditTodo screen that you will implement in a following step.
 
-```bash
-firebase emulators:start
-```
+> [!NOTE]
+> Some tests use the Firebase emulator.
+> Make sure to start it first by running `firebase emulators:start` in your terminal.
 
 Some requirements are not covered by the provided tests. You will have to write your own tests.
 

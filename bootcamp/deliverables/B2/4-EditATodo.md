@@ -23,30 +23,20 @@ It mirrors the AddToDo interface but have these extra features.
 
 </p>
 
-### Error handling
+### Requirements
 
-Similar to what you did in AddToDo, use `OutlinedTextField` components to handle user input validation and to display error messages. See [official documentation](https://developer.android.com/develop/ui/compose/quick-guides/content/validate-input#validate_input_as_the_user_types_2) for more details.
+Here are the requirements for the `EditToDoScreen`:
 
----
-
-## Requirements
-
-- **UI layout**  
-  - All input fields follow the same validation rules as in `AddToDoScreen` (title mandatory, date format, error messages, etc.).  
-  - Fields are **pre-filled** with the current values of the selected todo.  
-  - Provide a **Save button** to confirm changes.  
-  - Provide a **Delete button** to remove the todo.  
-  - Provide a **Status button** that cycles through enum values in order (CREATED → STARTED → … → ARCHIVED → CREATED).  
-  - Provide a **Back button** to return to the Overview screen.  
-  - All UI elements must be visible on a 1080x2400 screen (Medium phone on Android Studio), as this screen size is used in the automated tests.
-
-- **Navigation**  
-  - Save button does nothing if inputs are invalid.  
-  - If valid → return to the **Overview screen** in a fresh state.  
-  - On delete → return to the **Overview screen** in a fresh state.  
-
-- **Refresh**  
-  - On save or delete, fetch todos before navigating, so the Overview screen can immediately reflect the changes.  
+- When the user clicks on a ToDo in the Overview screen, they should be navigated to the Edit ToDo screen for that specific todo.
+  The input fields must be pre-filled with the current values of the selected todo.
+- The user can edit the following fields: Title, Description, Assignee, Location, Due Date, and Status.
+  They follow the same validation rules as in `AddToDoScreen` (title is mandatory, date format must be `dd/mm/yyyy`, etc.).
+- The user can change the status of the todo by clicking the Status button, which cycles through the enum values in order (`CREATED` → `STARTED` → `ENDED` → `ARCHIVED` → `CREATED` → …).
+- The user can delete a todo by clicking the Delete button.
+- The user can save changes by clicking the Save button only if all inputs are valid.
+- When the user saves valid changes or deletes the todo, they should be redirected to the Overview screen. The updated list of todos must be displayed and it should reflect the changes made. As usual, redirection is considered as forward navigation (state is *not* restored).
+- The user can navigate back to the Overview screen using the system back button or the top app bar back button. In this case, any unsaved changes should be discarded, and the Overview screen should display the list of todos as it was before navigating to the Edit ToDo screen.
+- All UI elements must be visible on a 1080x2400 screen (Medium phone on Android Studio), as this screen size is used in the automated tests.
 
 > [!NOTE]  
 > For the moment:  
@@ -62,14 +52,14 @@ Similar to what you did in AddToDo, use `OutlinedTextField` components to handle
 
 Once you're done with your implementation, build and run the app to check that everything works as expected. Don't forget to update the `BootcampApp` composable in `MainActivity.kt` with your code.
 
-To perform basic checks to see if your implementation meets the requirements, run the `EditToDoScreenTest` and `NavigationB2Test` suite. Since the tests may use the Firebase emulator, start it first with:
+For this step, we provide you with two test suites: `EditToDoScreenTest` and `EditToDoFirestoreEmulatedTest`. At this point, you can also use the `NavigationB2Test` test suite, which includes navigation tests for both the AddToDo and EditToDo screens.
 
-```bash
-firebase emulators:start
-```
+> [!NOTE]
+>
+> Some tests use the Firebase emulator.
+> Make sure to start it first by running `firebase emulators:start` in your terminal.
 
-As usual, you'll need to attach test tags to your UI components to pass our tests. All the required tags are in the `AddToDoScreenTestTags`, `EditToDoScreenTestTags`, and `OverviewScreenTestTags` objects. Check the [Figma testing mockup](https://www.figma.com/design/IDm3NGS988Myo01P0Wa0Cr/TO-DO-APP-Mockup-FALL?node-id=435-3350) to see where to put each tag.
-
+As usual, you'll need to attach test tags to your UI components to pass our tests. All the required tags are in the `AddToDoScreenTestTags`, `EditToDoScreenTestTags`, `NavigationTestTags`, and `OverviewScreenTestTags` objects. Check the [Figma testing mockup](https://www.figma.com/design/IDm3NGS988Myo01P0Wa0Cr/TO-DO-APP-Mockup-FALL?node-id=435-3350) to see where to put each tag.
 
 Finally, make sure your app builds the signature check files.
 
