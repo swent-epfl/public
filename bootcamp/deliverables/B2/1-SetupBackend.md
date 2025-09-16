@@ -13,10 +13,10 @@ This section of the bootcamp will get you started with Firebase's Firestore data
 
 We'll walk you through setting up your account and preparing your app for both online and local (emulated) backend operations.
 
-> [!NOTE]
-> All the required libraries **are already in the provided repository**.
-> For compatibility reasons, we deactivated the Google services plugin in the `app/build.gradle.kts` file.
-> You can reactivate it by removing the comment on the line `// alias(libs.plugins.gms)` in the plugins section of the file.
+> [!WARNING]
+> All the required libraries **are already in the provided repository**.  
+> For compatibility reasons, we deactivated the Google services plugin in the `app/build.gradle.kts` file for B1.  
+> Please, activate it now by removing the comment on the line `// alias(libs.plugins.gms)` in the plugins section of the file as this step depends on it.
 >
 > Please use only the provided versions of the libraries, as other versions may cause compatibility issues.
 
