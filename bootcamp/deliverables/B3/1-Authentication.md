@@ -27,7 +27,7 @@ You need to enable Google as a sign-in method in the Firebase console: go to **P
 After enabling Google Sign-in, you must download an updated `google-services.json` file from Firebase, as enabling this authentication method generates additional configuration data that your app needs.
 
 You will also use the MVVM architecture that you already used for the todos and the map.
-You can take a look at [this lecture](https://github.com/swent-epfl/private/blob/main/bootcamp/docs/MVVM.md) for a quick refresh on the MVVM pattern.
+You can take a look at [this lecture](https://github.com/swent-epfl/public/blob/main/bootcamp/docs/MVVM.md) for a quick refresh on the MVVM pattern.
 
 ## Sign-In With Google
 
