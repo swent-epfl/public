@@ -36,22 +36,22 @@ Make sure you preserve the structure of the CSV file.
     </tr>
     <tr>
       <td>3</td>
-      <td>Implement the <a href="1-Authentication.md">Authentication</a> user story</td>
+      <td>Implement <a href="1-Authentication.md">authentication</a></td>
       <td>180</td>
     </tr>
     <tr>
       <td>4</td>
-      <td>Implement the <a href="2-AccessControl.md">Access Control</a> user story</td>
+      <td>Implement <a href="2-AccessControl.md">access control</a></td>
       <td>60</td>
     </tr>
     <tr>
       <td>5</td>
-      <td>Implement the <a href="3-LocationBasedTodos.md">Reverse geocoding</a> user story</td>
+      <td>Implement <a href="3-LocationBasedTodos.md">reverse geocoding</a></td>
       <td>150</td>
     </tr>
     <tr>
       <td>6</td>
-      <td>Implement the <a href="4-GoogleMaps.md">Maps</a> user story</td>
+      <td>Implement <a href="4-GoogleMaps.md">maps</a></td>
       <td>60</td>
     </tr>
     <tr>
