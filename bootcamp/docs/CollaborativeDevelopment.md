@@ -1,6 +1,6 @@
 # Collaborative Development
 
-We covered collaborative development in lecture [[slides](lectures/Wk3.A%20-%20Collaborative%20Software%20Development.pdf) \| [videos](https://www.youtube.com/watch?v=Lnu1rsIjtk4&list=PLr41P4J9F0ZOs2o4OGpMvKeBipnklTyWi)], and here is a refresher.
+We covered collaborative development in lecture [[slides](https://github.com/swent-epfl/public/blob/main/lectures/Wk3.A%20-%20Collaborative%20Software%20Development.pdf) \| [videos](https://www.youtube.com/watch?v=Lnu1rsIjtk4&list=PLr41P4J9F0ZOs2o4OGpMvKeBipnklTyWi)], and here is a refresher.
 
 ## Collaborative workflow
 
@@ -65,7 +65,7 @@ To be effective in your code reviews, you can:
 Let’s walk through an example: You are developping the ToDo App as a team, and you are working on the feature that allows users to edit a to-do in the app.
 
 1. **Create a feature branch**:
-   
+
 ```bash
 git branch feature/edit-todo
 git checkout feature/edit-todo
@@ -73,19 +73,18 @@ git checkout feature/edit-todo
 
 2. **Write the code**, and once it's ready for review, go to your GitHub repository, and open a **Pull Request**. Set the base branch to `main` and compare it with your branch `feature/edit-todo`.
 
-
     A good PR title might be:  `Add feature to edit to-dos`,
-   
+
    and a clear description might look like this:
 
     >
     > **What?**  
     > This PR adds a feature that allows users to edit to-do items. Users can change the title, description, assignee, location, and due date.
     >
-    >   **Why?**  
+    > **Why?**  
     > To improve user control and flexibility when managing to-dos.
     >
-    >   **How?**  
+    > **How?**  
     > The feature is implemented using `EditToDo.kt` for the UI and `EditToDoViewModel` for handling logic and repository interactions.
 
 3. **Include any additional information** such as dependencies, how you tested the code, or screenshots/recordings of the feature in action.

@@ -3,8 +3,8 @@
 The Bootcamp consists of three milestones, each one with its own set of deliverables to be pushed to your individual repository according to the following deadlines:
 
 - [B1: Environment setup and getting started with Android](B1/README.md) due on 15-Sep at 23:59
-- [B2: Building and testing the ToDo app](B2/README.md) due on 23-Sep at 23:59
-- _B3: Advanced features_ due on 29.09.2025 at 23:59
+- [B2: Building a ToDo app](B2/README.md) due on 23-Sep at 23:59
+- [B3: Third-party APIs and test coverage](B3/README.md) due on 29.09.2025 at 23:59
 
 The steps you follow as you complete the three milestones will guide you from the basics to more advanced concepts of Android development. Good luck, and happy coding!
 
