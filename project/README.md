@@ -1,4 +1,4 @@
-# Software Enterprise Project
+# Software Enterprise Project (Fall 2024)
 
 _Last updated: October 7, 2024_
 

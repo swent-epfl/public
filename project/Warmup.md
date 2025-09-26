@@ -1,4 +1,4 @@
-# Project Warmup
+# Project Warmup (Fall 2024)
 
 _Last updated: October 7, 2024_
 
