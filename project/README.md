@@ -1,6 +1,6 @@
-# Software Enterprise Project (Fall 2024)
+# Software Enterprise Project
 
-_Last updated: October 7, 2024_
+_Last updated: September 29, 2025_
 
 ## Table of Contents
 
@@ -13,6 +13,7 @@ _Last updated: October 7, 2024_
   - [Doing Sprint Tasks](#doing-sprint-tasks)
   - [Reviewing Code](#reviewing-code)
   - [Stand-Up Meetings](#stand-up-meetings)
+  - [Using AI](#using-ai)
 - [Milestones](#milestones)
   - [M1 and M2](#m1-and-m2)
   - [M3](#m3)
@@ -41,7 +42,7 @@ Each Sprint concludes with a collaborative session with your coaches on Friday o
 
 ### Sprint Review
 - __Sprint Goal__ (SG): The primary focus of the Review is on whether the previously defined SG was achieved, so start by discussing the SG and how the completed work contributes to it. If you didn't define a concrete SG for your first Sprint, no worries, but make sure you do it for every Sprint thereafter.
-- __Increment__: Stakeholders (in this case, the coaches) inspect the Increment and provide feedback on its functionality, usability, and completeness. Normally this would include a demo. Ask the coaches questions you have about the app's functionality. Don't panic if you have nothing to demo in your firs Sprint, you're still learning. 
+- __Increment__: Stakeholders (in this case, the coaches) inspect the Increment and provide feedback on its functionality, usability, and completeness. Normally this would include a demo. Ask the coaches questions you have about the app's functionality. Don't panic if you have nothing to demo in your first Sprint, you're still learning. 
 - Review __completed tasks__ with the coaches, and make sure that both time estimates and actual time spent are recorded. Give/receive feedback on design, process, and progress. Move issues to _Done in S1_ status.
 - Go over the SM's __minutes of the stand-up meetings__.
 - Product Owner (PO) discusses relevant changes that could influence future development, such as maturing thoughts on the app and its audience. In the real world, the PO could bring in __updates on the market or business environment__, competitors, etc.
@@ -54,9 +55,9 @@ The goal of the Retrospective is to inspect and adapt the team's processes for c
 - __What went well__: Team discusses the positive aspects of the Sprint, identifying successful practices and approaches.
 - __What did not go well__: Openly discuss the challenges, obstacles, and areas for improvement encountered during the Sprint. Be honest about challenges, even if they seem minor&mdash;early identification of issues can prevent them from becoming bigger problems later.  As part of this, discuss the previous Sprint's tasks that were not completed, to understand why.
 - __Improvement opportunities__: Team brainstorms on how to address issues and enhance the process, tools, and collaboration. If you come up with many points, prioritize which action items to focus on first, so that you tackle the most impactful ones in the next Sprint. If you identify a couple key points to improve for the next Sprint, it's already great.
-- __Action items__: Team agrees on specific, actionable steps they will take to improve in the next Sprint. These get captured in a [Team Retrospective](https://docs.google.com/spreadsheets/d/1EpmeUVE7J9-zdgW0oHAf1t28btwbfphWlLq7dfq27oQ/) document that you should link from your project's GitHub wiki.
+- __Action items__: Team agrees on specific, actionable steps they will take to improve in the next Sprint. These get captured in a _**Team Retrospective**_ document that you should link from your project's GitHub wiki. (A link individualized for your team will be provided.)
 
-We also ask that each team member do an [Individual Retrospective](https://docs.google.com/spreadsheets/d/1Mg8TMhpitMvxdpQa9F8InfYHlmvrfqtM0Qly0pzRheQ/). This self-assessment is not part of standard Scrum, but it is a key ingredient to improving yourself as a professional, so you should develop the habit of doing such retrospectives regularly.
+We also ask that each team member do an _**Individual Retrospective**_ (link will be provided). This self-assessment is not part of standard Scrum, but it is a key ingredient to improving yourself as a professional, so you should develop the habit of doing such retrospectives regularly.
 
 ### Sprint Planning
 
@@ -66,10 +67,10 @@ Having reflected on the previous Sprint, you are now ready to plan the next one:
 - __Select PB items__: Team reviews the prioritized PB and selects items that align with the SG _and_ can realistically be completed within a 1-week Sprint. Every PB item is typically accompanied by a user story (see the [Requirements](../README.md#schedule) lecture) and, when necessary, a Figma design and/or a list of acceptance criteria along with a definition of Done. The selection of PB items should take into account not only the team's work capacity but also dependencies and the definition of Done.
 - __Sprint Backlog__ (SB): For each selected PB item, break it down into Sprint tasks, and create an issue in GitHub for each one.  Estimate the effort (in person-hours) needed to complete each task. Keep an eye on overall workload. Populate the SB in your Scrum board with these tasks. The SB will help you track progress, identify dependencies, and ensure that everyone understands the work involved.
 - __Assign tasks__: Decide who will take on which specific tasks. Keep an eye on workload distribution and individual expertise; adjust estimated effort if warranted. Discuss the overall approach to the work, identifying any potential roadblocks or dependencies. At the end of this exercise, the team makes a collective commitment to deliver the chosen PB items.
-- __Clarifications &amp; Risk__: All uncertainties or ambiguities regarding the selected PB items needs to be clarified during Sprint Planning. Give ample thought to potential risks or dependencies that could impact the Sprint, and develop mitigation strategies if necessary.
+- __Clarifications &amp; Risk__: All uncertainties or ambiguities regarding the selected PB items need to be clarified during Sprint Planning. Give ample thought to potential risks or dependencies that could impact the Sprint, and develop mitigation strategies if necessary.
 
 > [!IMPORTANT]  
-> The dev team decides autonomously how much work it can take on in a Sprint, and is collectively responsible to finish on time and deliver value by the end of the Sprint.  It is not the coaches who decide or impose the workload.
+> The dev team decides autonomously how much work it can take on in a Sprint, and is collectively responsible for finishing on time and deliver value by the end of the Sprint.  It is not the coaches who decide or impose the workload.
 
 > [!NOTE]
 > You can expect your time estimates to be (way) off in the beginning of the project. As the course progresses and you acquire experience, these estimates should become increasingly more accurate, and be spot-on by the end of the semester.
@@ -135,16 +136,42 @@ and some examples from large open-source projects [
 
 ### Stand-Up Meetings
 
-You are expected to hold **at least two Scrum stand-ups** a week outside the Friday meeting, at least one of which is in-person. As described in the [Collaborative Development](../README.md#schedule) lecture, these meetings last a few minutes, never more than 15 minutes. The SM is responsible to make sure that these happen. We provide [a template](https://docs.google.com/spreadsheets/d/1_4hAXq7VQH6l9B82_v7ms3etmXsN28vKFrpXwbIVScw/) for the SM to take minutes of the meetings; this helps keep things organized and gives coaches visibility into how things are going.
+You are expected to hold **at least two Scrum stand-ups** a week outside the Friday meeting, at least one of which is in-person. As described in the [Collaborative Development](../README.md#schedule) lecture, these meetings last a few minutes, never more than 15 minutes. The SM is responsible to make sure that these happen. We will provide _**a template**_ for the SM to take minutes of the meetings; this helps keep things organized and gives coaches visibility into how things are going.
 
 For reasons of efficiency and time savings, stand-ups are not for extended discussions&mdash;those happen one-on-one outside the team-wide stand-up.
-The SM is reponsible to coordinate the removal of impediments (e.g., by organizing a separate meeting to discuss specific design issues), and all team members are responsible for doing their utmost to remove those impediments.
+The SM is responsible to coordinate the removal of impediments (e.g., by organizing a separate meeting to discuss specific design issues), and all team members are responsible for doing their utmost to remove those impediments.
 
 If you find that your team is being inefficient, ask yourself whether there is sufficient intra-team communication.  Lack of communication is the number-one reason why teams operate poorly. Reach out to your coaches if you need help.
 
+### Using AI
+
+AI tools can be powerful accelerators of your work and, as said in lecture, you are encouraged to use them.
+But they are not a substitute for your own understanding. 
+If you lean on them blindly, you’ll usually create more work for yourself (and your teammates). 
+Follow the workflow shown in the first lecture to make AI work _for_ you, not _against_ you.
+
+> [!WARNING]
+> As mentioned [here](https://github.com/swent-epfl/private/blob/main/faq.md#how-can-i-accurately-acknowledge-contributions-to-my-codebase), 
+you must always acknowledge the use of AI, or else it will be considered plagiarism.
+
+Think of AI as a summer intern: it can write boilerplate code, draft, review and suggest things, etc. but you are the senior engineer. You are responsible for quality, clarity, and correctness of everything you commit.
+
+Coaches will regularly ask you to justify your work. For example: 
+
+- Walk me through what this code does...
+- Why did you design it this way?
+- Why did you pick this API or framework?
+- Why did you say this in your PR review?
+- How would you implement this suggestion you wrote in your review?
+
+If you cannot explain or defend what you wrote, it will count against you, regardless of who/what wrote it.  In summary:
+- Use AI to explore, draft, and accelerate
+- Acknowledge AI every time it contributes
+- Own your output: you must understand and be able to justify everything in GitHub or in Scrum documents
+
 ## Milestones
 
-The project is divided into three milestones, and at each milestone we will provide you more formal feedback than during the weekly meetings, along with a grade.
+The project is divided into three milestones, and at each milestone we will provide you with more formal feedback than during the weekly meetings, along with a grade.
 Each milestone gives you the opportunity to demonstrate a significant delta relative to the previous milestones, so you should formulate your SGs in such a way that you accomplish this.
 The pace of the project and team dynamics will change as you progress through the milestones, as you and your team accumulate experience. 
 The [milestone weights](../README.md#grading) are not linear in the number of Sprints because we weigh different aspects differently as you gain experience (e.g., we don't expect you to be able to estimate task effort well during M1, but during M3 you should already be very good at it).
@@ -170,10 +197,10 @@ We recommend that you budget ~12h for individual contributions, ~3h for team con
 </thead>
 <tbody>
   <tr>
-    <td rowspan="6">Design, infrastructure, organization<br>(each developer does a <i>subset</i> of these tasks every week)</td>
+    <td rowspan="6">Design, infrastructure, organization<br><font color="gray">(each developer does a <i>subset</i> of these tasks every week)</font></td>
     <td>Figma</td>
     <td>1h30m</td>
-    <td rowspan="6">3h</td>
+    <td rowspan="6">≤3h per person</td>
   </tr>
   <tr>
     <td>Architecture diagrams / Schema planning</td>
@@ -196,7 +223,7 @@ We recommend that you budget ~12h for individual contributions, ~3h for team con
     <td>1h</td>
   </tr>
   <tr>
-    <td rowspan="4">Implementation<br>(each developer does <i>every</i> task each week)</td>
+    <td rowspan="4">Implementation<br><font color="gray">(each developer does <i>every</i> task each week)</font></td>
     <td>Coding, testing, reading documentation, etc.</td>
     <td>10h</td>
     <td rowspan="4">12h</td>
@@ -214,7 +241,7 @@ We recommend that you budget ~12h for individual contributions, ~3h for team con
     <td>30m</td>
   </tr>
   <tr>
-    <td rowspan="3">Scrum<br>(each developer does <i>every</i> task each week)</td>
+    <td rowspan="3">Scrum<br><font color="gray">(each developer does <i>every</i> task each week)</font></td>
     <td>Standup meetings (2x / week)</td>
     <td>30m</td>
     <td rowspan="3">1h</td>
@@ -255,7 +282,7 @@ As you head toward the final milestone and the Battle of the Apps, you're becomi
       <td rowspan="6"><br>Design, infrastructure, organization<br><font color="gray">(each developer does a <i>subset</i> of these tasks every week)</font></td>
       <td>Figma </td>
       <td>30m</td>
-      <td rowspan="6">1h</td>
+      <td rowspan="6">≤1h per person</td>
     </tr>
     <tr>
       <td>Architecture diagrams / Schema planning</td>
@@ -328,4 +355,4 @@ As you head toward the final milestone and the Battle of the Apps, you're becomi
   </tbody>
 </table>
 
-If you have any questions, please see the [FAQ](../faq.md) and/or reach out to your coaches and/or ask [on Ed](https://moodle.epfl.ch/mod/lti/view.php?id=1280679).
+If you have any questions, please see the [FAQ](../faq.md) and/or reach out to your coaches and/or ask on Ed.

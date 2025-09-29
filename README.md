@@ -1,6 +1,6 @@
 # EPFL CS-311: The Software Enterprise
 
-_Last updated: September 25, 2025_
+_Last updated: September 29, 2025_
 
 ## Table of Contents
 
@@ -64,17 +64,17 @@ Participation is entirely optional, and it does not affect your course grade.
 |---------|------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
 | Wk1      | Tools, Requirements, User Stories [[slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk1.A%20-%20Tools%2C%20Requirements%2C%20User%20Stories.pdf?forcedownload=1)] <br> The Mobile Platform  [[slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk1.B%20-%20The%20Mobile%20Platform.pdf?forcedownload=1)] <br>  | [Bootcamp B1](bootcamp/README.md) + [Team composition](https://moodle.epfl.ch/mod/choicegroup/view.php?id=1342023) <!-- (https://moodle.epfl.ch/mod/choicegroup/view.php?id=1281076) --> <br> due 15-Sep @ 23:59 |
 | Wk2      | Testing Fundamentals: Concepts &amp; Metrics [[slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk2.A%20-%20Testing%20Fundamentals.pdf?forcedownload=1)] <br>&nbsp;&nbsp;&nbsp;&nbsp;TDD [[slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk2.A%20-%20Testing%20Fundamentals%20-%20TDD.pdf?forcedownload=1) \| [video](https://youtu.be/weLFZSx6KpA)], BDD [[slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk2.A%20-%20Testing%20Fundamentals%20-%20BDD.pdf?forcedownload=1) \| [video](https://youtu.be/qt5PDa50-VE)] <br> Agile Development, Collaboration workflows, CI/CD [[draft slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk3.A%20-%20Collaborative%20Software%20Development.pdf?forcedownload=1)] <br>&nbsp;&nbsp;&nbsp;Commit Messages [[slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk3.A%20-%20Collaborative%20Software%20Development%20-%20Commit%20Messages.pdf?forcedownload=1) \| [video](https://www.youtube.com/watch?v=vbNDUFe5U6I)], Coding Standards [[slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk3.A%20-%20Collaborative%20Software%20Development%20-%20Coding%20Standards.pdf?forcedownload=1) \| [video](https://www.youtube.com/watch?v=t5fAWsdzBzA)] | [Bootcamp B2](bootcamp/README.md) + [App description](https://moodle.epfl.ch/mod/quiz/view.php?id=1305118) <br> due 23-Sep @ 23:59 |
-| Wk3      |  Advanced Testing: Mocks, Dependency Injection, UI Testing [[slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk3.A%20-%20Advanced%20Testing.pdf?forcedownload=1) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZM1ebUm2QoLquU-yHA9bm6Z)] <br>1<sup>st</sup> coaching meeting | Bootcamp B3 <br> due 29-Sep @ 23:59 |
-| Wk4 | Project                                                                                                                      |                                        |
-| Wk5 | Project                                                                                                                      |                                        |
-| Wk6      | Project                                                                                                                      | Project M1 due 17-Oct @ 09:00 |
+| Wk3      |  Advanced Testing: Mocks, Dependency Injection, UI Testing [[slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk3.A%20-%20Advanced%20Testing.pdf?forcedownload=1) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZM1ebUm2QoLquU-yHA9bm6Z)] <br>1<sup>st</sup> coaching meeting | [Bootcamp B3](bootcamp/README.md) <br> due 29-Sep @ 23:59 |
+| Wk4 | [Project](project/README.md)                                                                                                                      |       [Warmup](project/Warmup.md) due  3-Oct @ 09:00                                  |
+| Wk5 | [Project](project/README.md)                                                                                                                      |                                        |
+| Wk6      | [Project](project/README.md)                                                                                                                      | Project M1 due 17-Oct @ 09:00 |
 |  | _Fall Break_ |
-| Wk7   | Project                                                                                                                      |                                        |
-| Wk8   | Project                                                                                                                      |                                        |
-| Wk9      | Project                                                                                                                      | Project M2 due 14-Nov @ 09:00 |
-| Wk10 | Project                                                                                                                      |                                        |
-| Wk11 | Project                                                                                                                      |                                        |
-| Wk12 | Project                                                                                                                      |                                        |
+| Wk7   | [Project](project/README.md)                                                                                                                      |                                        |
+| Wk8   | [Project](project/README.md)                                                                                                                      |                                        |
+| Wk9      | [Project](project/README.md)                                                                                                                      | Project M2 due 14-Nov @ 09:00 |
+| Wk10 | [Project](project/README.md)                                                                                                                      |                                        |
+| Wk11 | [Project](project/README.md)                                                                                                                      |                                        |
+| Wk12 | [Project](project/README.md)                                                                                                                      |                                        |
 | Wk13 | Project                                                                                                                      |                                        |
 | Wk14     | Project<br>Battle of the Apps                                                                                                                      | Project M3 due 18-Dec @ 09:00 <br> Feedback survey |
 
