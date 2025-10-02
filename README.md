@@ -1,6 +1,6 @@
 # EPFL CS-311: The Software Enterprise
 
-_Last updated: September 29, 2025_
+_Last updated: October 2, 2025_
 
 ## Table of Contents
 
@@ -165,6 +165,15 @@ The project spans the remaining 11 weeks and has 3 milestones (M1, M2, M3) with 
 > However, if _Project<sub>indiv</sub>_ &lt; 4, then the course grade = 90% _Project<sub>indiv</sub>_ + 10% _Bootcamp_.
 
 Late submissions will be penalized 2% per hour of lateness (e.g., a 1-day late submission will carry a ~50% penalty).  Early submissions are encouraged but cannot receive bonus points, as per EPFL policy.
+
+In SwEnt, we use a _belt system_ inspired by martial arts.
+Developing mastery is like building a house: first the foundation (White), then walls (Yellow), then a ceiling (Green), then the roof (Blue), and finally the pipes, wiring, parquet, lights, etc. (Black). You can’t add a roof without walls, and you can’t build walls without a foundation.
+The rule is simple: you only move forward once you’ve demonstrated mastery of what comes before. That way, your growth is solid and lasting.
+
+Deliverables (both in the Bootcamp and the Project) are grouped by belt.
+To earn points at belt level N+1, you must have fully earned belt N.
+For example, no Yellow-belt points until you’ve earned White, and no Black-belt points until you’ve completed Blue.
+
 
 ## Workload
 
