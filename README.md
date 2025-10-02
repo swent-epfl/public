@@ -174,6 +174,7 @@ Deliverables (both in the Bootcamp and the Project) are grouped by belt.
 To earn points at belt level N+1, you must have fully earned belt N.
 For example, no Yellow-belt points until you’ve earned White, and no Black-belt points until you’ve completed Blue.
 
+We offer nothing beyond Black belt&mdash;not because you've reached ultimate superiority but because you've reached the point where you can _self_-improve without our help, thereby beginning a lifelong journey of steadily deepening your mastery.
 
 ## Workload
 
