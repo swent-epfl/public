@@ -1,6 +1,6 @@
 # EPFL CS-311: The Software Enterprise
 
-_Last updated: October 2, 2025_
+_Last updated: October 3, 2025_
 
 ## Table of Contents
 
@@ -67,16 +67,16 @@ Participation is entirely optional, and it does not affect your course grade.
 | Wk3      |  Advanced Testing: Mocks, Dependency Injection, UI Testing [[slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk3.A%20-%20Advanced%20Testing.pdf?forcedownload=1) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZM1ebUm2QoLquU-yHA9bm6Z)] <br>1<sup>st</sup> coaching meeting | [Bootcamp B3](bootcamp/README.md) <br> due 29-Sep @ 23:59 |
 | Wk4 | [Project](project/README.md)                                                                                                                      |       [Warmup](project/Warmup.md) due  3-Oct @ 09:00                                  |
 | Wk5 | [Project](project/README.md)                                                                                                                      |                                        |
-| Wk6      | [Project](project/README.md)                                                                                                                      | Project M1 due 17-Oct @ 09:00 |
+| Wk6      | [Project](project/README.md)                                                                                                                      | [Project M1](project/M1.md) due 17-Oct @ 08:45 |
 |  | _Fall Break_ |
 | Wk7   | [Project](project/README.md)                                                                                                                      |                                        |
 | Wk8   | [Project](project/README.md)                                                                                                                      |                                        |
-| Wk9      | [Project](project/README.md)                                                                                                                      | Project M2 due 14-Nov @ 09:00 |
+| Wk9      | [Project](project/README.md)                                                                                                                      | Project M2 due 14-Nov @ 08:45 |
 | Wk10 | [Project](project/README.md)                                                                                                                      |                                        |
 | Wk11 | [Project](project/README.md)                                                                                                                      |                                        |
 | Wk12 | [Project](project/README.md)                                                                                                                      |                                        |
 | Wk13 | Project                                                                                                                      |                                        |
-| Wk14     | Project<br>Battle of the Apps                                                                                                                      | Project M3 due 18-Dec @ 09:00 <br> Feedback survey |
+| Wk14     | Project<br>Battle of the Apps                                                                                                                      | Project M3 due 18-Dec @ 08:45 <br> Feedback survey |
 
 We might use surveys to collect systematic student feedback that is statistically significant.
 We use it as input to improving the course.
