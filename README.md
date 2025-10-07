@@ -1,6 +1,6 @@
 # EPFL CS-311: The Software Enterprise
 
-_Last updated: October 3, 2025_
+_Last updated: October 7, 2025_
 
 ## Table of Contents
 
@@ -48,8 +48,7 @@ For questions whose answers could benefit other students, use the [Ed forum](htt
 #### Coaching meetings
 
 - Each student team will be assigned 2 coaches, who will guide and support the team throughout the semester, providing expertise and feedback to help students achieve their project goals.
-- The team meets with their coaches once a week on Friday, for 1h in the 9:15&ndash;12:00 interval (TBD together with the coaches), in a room TBA <!-- one of the following rooms (TBA): [INF 019](https://plan.epfl.ch/?room==INF%20019), [ELG 116](https://plan.epfl.ch/?room==ELG%20116), [ELG 120](https://plan.epfl.ch/?room==ELG%20120), [BC 04](https://plan.epfl.ch/?room==BC%2004), [DIA 005](https://plan.epfl.ch/?room==DIA%20005), [MED 2 2423](https://plan.epfl.ch/?room==MED%202%202423), or [MA A1 10](https://plan.epfl.ch/?room==MA%20A1%2010) -->
-- The coaching meetings are in-person and mandatory
+- The team meets with their coaches once a week on Friday, for 1h in the 9:15&ndash;12:00 interval, in one of the following rooms: [BC 04](https://plan.epfl.ch/?room==BC%2004), [CM 013](https://plan.epfl.ch/?room==CM%20013), [DIA 005](https://plan.epfl.ch/?room==DIA%20005), [ELG 116](https://plan.epfl.ch/?room==ELG%20116), [ELG 120](https://plan.epfl.ch/?room==ELG%20120), [INF 019](https://plan.epfl.ch/?room==INF%20019), [INF 213](https://plan.epfl.ch/?room==INF%20213), [MA A1 10](https://plan.epfl.ch/?room==MA%20A1%2010), [MED 2 2423](https://plan.epfl.ch/?room==MED%202%202423). The coaching meetings are in-person and mandatory. The time and room is TBD with your coaches.
 
 #### Battle of the Apps (BOTA)
 
