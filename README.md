@@ -70,7 +70,7 @@ Participation is entirely optional, and it does not affect your course grade.
 | | _Fall Break_ |
 | Wk7  | [Project Sprint 3](project/README.md)                        |                                                |
 | Wk8  | [Project Sprint 4](project/README.md)                        |                                                |
-| Wk9  | [Project Sprint 5](project/README.md)                        | M2 due 14-Nov @ 08:45                          |
+| Wk9  | [Project Sprint 5](project/README.md)                        | [M2](project/M2.md) due 14-Nov @ 08:45                          |
 | Wk10 | [Project Sprint 6](project/README.md)                        |                                                |
 | Wk11 | [Project Sprint 7](project/README.md)                        |                                                |
 | Wk12 | [Project Sprint 8](project/README.md)                        |                                                |
