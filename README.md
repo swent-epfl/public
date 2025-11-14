@@ -52,7 +52,7 @@ For questions whose answers could benefit other students, use the [Ed forum](htt
 
 #### Battle of the Apps (BOTA)
 
-- The BOTA will take place on Friday, 19-Dec from 9:15&ndash;13:00 in [STCC - Cloud C](https://plan.epfl.ch/?room==STCC%207%208025)
+- The BOTA will take place on Friday, 19-Dec from 9:15&ndash;13:00 in [STCC - Cloud C](https://plan.epfl.ch/?room==STCC%207%208025); see more details [here](project/BOTA.md).
 - This is a special event in which you can present and demo your app to an audience consisting of your class mates, the teaching staff, and other attendees from outside SwEnt.
 The top-three teams win substantial prizes.
 Participation is entirely optional, and it does not affect your course grade.
@@ -75,7 +75,7 @@ Participation is entirely optional, and it does not affect your course grade.
 | Wk11 | [Project Sprint 7](project/README.md)                        |                                                |
 | Wk12 | [Project Sprint 8](project/README.md)                        |                                                |
 | Wk13 | [Project Sprint 9](project/README.md)                        |                                                |
-| Wk14 | [Project Sprint 10](project/README.md)<br>Battle of the Apps | M3 due 18-Dec @ 08:45 <br> Feedback survey     |
+| Wk14 | [Project Sprint 10](project/README.md)<br>Battle of the Apps | [M3](project/M3.md) due 18-Dec @ 08:45 <br> Feedback survey     |
 
 We might use surveys to collect systematic student feedback that is statistically significant.
 We use it as input to improving the course.
