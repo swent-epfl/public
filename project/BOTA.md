@@ -15,7 +15,7 @@
       We will have to cut trials off at 9:45, to get the final preparations done.</p>
     </td>
     <td style="vertical-align: top;">
-      <a href="https://www.youtube.com/watch?v=373uGpyQPjM">
+      <a href="https://go.epfl.ch/bota24-short">
         <img src="bota.png" style="height:100%; width:auto;" alt="Watch the trailer">
       </a>
     </td>
@@ -46,7 +46,7 @@ Make sure you come before the BOTA and test that this works for your phone(s).
 > By default, this form of screencasting will not make the taps on your phone visible, so the audience will not know what you're doing on the phone.
 We recommend that you [enable "Show taps"](https://support.screenpal.com/portal/en/kb/articles/show-finger-taps-when-recording-on-your-android-device) beforehand, or adapt your demo script accordingly.
 
-The BOTA will be video-recorded.
+The BOTA will be video-recorded (here's [a video from last year](https://go.epfl.ch/bota24)).
 
 ## Participation
 
