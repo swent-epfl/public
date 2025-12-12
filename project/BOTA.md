@@ -1,6 +1,6 @@
 # The Battle of the Apps (BOTA)
 
- _Last update: November 7, 2025_
+ _Last update: December 12, 2025_
 
 <table cellpadding="0" style="height:100%;">
   <tr valign="top">
@@ -41,12 +41,22 @@ You will demo your app using one or two phones (your choice); no emulators.
 You will screencast your phone using the SwEnt Discord.
 From your phone, you will need to join the `#BOTA` channel, then screen-share your app to the channel, and we will project the screencast on the big screen.
 Make sure you come before the BOTA and test that this works for your phone(s).
+Make sure the Discord screen is shared before you go up on stage for your demo.
+Discord might "steal" your mic, so if you need the phone's mic for your demo, test this scenario beforehand.
 
 >[!NOTE]
 > By default, this form of screencasting will not make the taps on your phone visible, so the audience will not know what you're doing on the phone.
 We recommend that you [enable "Show taps"](https://support.screenpal.com/portal/en/kb/articles/show-finger-taps-when-recording-on-your-android-device) beforehand, or adapt your demo script accordingly.
 
+It is essential that your demo be live and interactive; simply playing back a video of your demo is not acceptable.
+However, you are welcome to incorporate slides, videos, or other things in your demo.
+If you have special needs (e.g., play sound, or any non-standard setup), make sure you check with us well ahead of time to confirm that it is possible, and come before BOTA to test it out.
+
+>[!NOTE]
+> On stage, normal people get nervous, adrenaline spikes, and that makes hands tremble. This can make it hard to type on small screens, even if you can do it during practice.
+
 The BOTA will be video-recorded (here's [a video from last year](https://go.epfl.ch/bota24)).
+If you do not wish to be video-recorded, please find an alternate team member to do the demo.
 
 ## Participation
 
@@ -54,44 +64,38 @@ Coaches will nominate specific teams for participation.
 Nominated teams are free to refuse to participate.
 If you wish to participate in the BOTA, announce it to your coaches several weeks in advance, and they will make a decision.
 
-You should minimize the number of team members going on stage to do the demo (but the entire team cna help with setup). 
-If you need an exception (e.g., because of your demo script), please ask the staff beforehand. 
+By default, only two members of each team can be on stage for the demo, and they should interact.
+We will provide two lapel mics, one for each presenter.
+However, if you need an exception (e.g., because of your demo script, or you need people to help with setup), no problem, just clear it with the staff beforehand.
 The entire team should attend the event and support their teammates.
 
 All teams participating in the BOTA are required to send to swent-staff@dslab.org one screenshot that is representative of their app at the latest by 13:00 the day before BOTA. 
-This screenshot will be used to identify your app for the audience.
+This screenshot will be used to identify your app for the audience and the judges.
 
-The BOTA will be attended by SwEnt students as well as external participants.
-You are welcome to invite friends and family to the BOTA.
+## Audience
 
-<!-- If you are in the audience, you will get to vote, as a team, by filling in a Google form. Each team will have a total of 30 points to distribute in the following way: 12 points for their top choice, 10 points for their 2nd choice, and 8 points for their 3rd choice. Together with the vote, you can submit a 1-sentence "nomination statement" that explains why you chose that particular team for that particular spot in your rankings.
+The BOTA will be attended by SwEnt students as well as external participants from across all walks of life.
+You are encouraged to invite friends and family to the BOTA.
 
->[!NOTE]
-> Consider sitting together as a team; this will make the decision process easier.
-
-Votes will remain anonymous to the audience, but not to the staff. You cannot vote for your own team, and you cannot vote more than once. Please vote carefully, because the staff will disqualify all votes that violate the rules.
-
-The results of the votes will be revealed on the big screen, one vote at a time. The optional nomination statements will be read out loud (except for inappropriate ones) during the reveal.
-
-The staff will vote only when necessary to break ties in the top-3 ranking.
-The coaches of the tied teams will not vote in such a tie-breaker. -->
+Everyone who comes to the BOTA will receive a SwEnt sticker for their laptop.
+We hope all students in SwEnt will come, including those whose teams are not demo-ing their app.
 
 ## The Prizes
 
 Preparing for and participating in this competition is a reward in and of itself, and everyone who participates wins the experience.
 Additionally, we will reward the top three teams as follows:
 
-|                              |   Team prize                      |
-|------------------------------|------------------------------------
-| Team in 1<sup>st</sup> place |  500-CHF Digitec gift certificate |
-| Team in 2<sup>nd</sup> place |  300-CHF Digitec gift certificate |
-| Team in 3<sup>rd</sup> place |  150-CHF Digitec gift certificate |
+| Rank                         |   Team prize                                          |
+|------------------------------|--------------------------------------------------------
+| Team in 1<sup>st</sup> place |  75-CHF Digitec gift certificate for each team member |
+| Team in 2<sup>nd</sup> place |  50-CHF Digitec gift certificate for each team member |
+| Team in 3<sup>rd</sup> place |  25-CHF Digitec gift certificate for each team member |
 
-
-There will be a panel of independent judges, combining people from industry, academia, investors,  and other domains.
-
-Everyone who comes to the BOTA will receive a SwEnt sticker for their laptop.
-We hope all students in SwEnt will come, including those whose teams are not demo-ing their app.
+There will be a panel of independent judges, consisting of industry professionals.
+Each judge will have a total of 30 points to distribute in the following way: 12 points to their top choice, 10 points to their 2nd choice, and 8 points to their 3rd choice.
+Together with their vote, they can submit feedback to the team as well as a reason for why they chose that particular team for that particular spot in their ranking.
+The results of the votes will be revealed on the big screen.
+The feedback and nomination reasons will be read out loud during the reveal.
 
 ## Recent Winners
 
