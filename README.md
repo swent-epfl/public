@@ -1,6 +1,6 @@
 # EPFL CS-311: The Software Enterprise
 
-_Last updated: October 7, 2025_
+_Last updated: December 15, 2025_
 
 ## Table of Contents
 
@@ -75,12 +75,12 @@ Participation is entirely optional, and it does not affect your course grade.
 | Wk11 | [Project Sprint 7](project/README.md)                        |                                                |
 | Wk12 | [Project Sprint 8](project/README.md)                        |                                                |
 | Wk13 | [Project Sprint 9](project/README.md)                        |                                                |
-| Wk14 | [Project Sprint 10](project/README.md)<br>Battle of the Apps | [M3](project/M3.md) due 18-Dec @ 08:45 <br> Feedback survey     |
+| Wk14 | [Project Sprint 10](project/README.md)<br>Battle of the Apps | [M3](project/M3.md) due 18-Dec @ 08:45 <br> [Feedback survey](https://moodle.epfl.ch/mod/questionnaire/view.php?id=1297936)     |
 
-We might use surveys to collect systematic student feedback that is statistically significant.
+We use a survey to collect systematic student feedback that is statistically significant.
 We use it as input to improving the course.
-The surveys are not graded, but are a required part of the corresponding deliverable, so a submission is incomplete until the survey has been filled in.
-Budget 15 minutes to complete a survey.
+The survey is not graded, but is a required part of the corresponding deliverable, so a submission is incomplete until the survey has been filled in.
+Budget 15 minutes to complete the survey.
 
 > [!IMPORTANT]  
 > Since this is a project course where your teammates depend on you, it is not possible to withdraw from the course after the registration deadline.
