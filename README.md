@@ -75,7 +75,7 @@ Participation is entirely optional, and it does not affect your course grade.
 | Wk11 | [Project Sprint 7](project/README.md)                        |                                                |
 | Wk12 | [Project Sprint 8](project/README.md)                        |                                                |
 | Wk13 | [Project Sprint 9](project/README.md)                        |                                                |
-| Wk14 | [Project Sprint 10](project/README.md)<br>Battle of the Apps | [M3](project/M3.md) due 18-Dec @ 08:45 <br> [Feedback survey](https://moodle.epfl.ch/mod/questionnaire/view.php?id=1297936)     |
+| Wk14 | [Project Sprint 10](project/README.md)<br>[Battle of the Apps](project/BOTA.md) | [M3](project/M3.md) due 18-Dec @ 08:45 <br> [Feedback survey](https://moodle.epfl.ch/mod/questionnaire/view.php?id=1297936)     |
 
 We use a survey to collect systematic student feedback that is statistically significant.
 We use it as input to improving the course.
@@ -210,4 +210,5 @@ Ideally, each team should have at least one Android phone capable of demo-ing th
 ## Further Questions
 
 For answers to a list of frequently asked questions, please see the [SwEnt FAQ](faq.md).
+
 If your question is not addressed there either, please email swent-staff@dslab.org.
