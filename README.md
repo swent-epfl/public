@@ -1,6 +1,9 @@
-# EPFL CS-311: The Software Enterprise
+# EPFL CS-311 _The Software Enterprise: From Ideas to Products_
 
-_Last updated: December 15, 2025_
+_Last updated: September 4, 2026_
+
+> [!IMPORTANT]  
+> Of you are enrolled in CS-311, you should have received a notification email for confirming your account on our Steve platform. Please follow the procedure described in that email ASAP, so that we can produce your personalized bootcamp repository. You cannot start working on the bootcamp before that.
 
 ## Table of Contents
 
@@ -8,8 +11,8 @@ _Last updated: December 15, 2025_
 - [Schedule](#schedule)
 - [Prerequisites](#prerequisites)
 - [App Requirements](#app-requirements)
-- [Grading](#grading)
 - [Attendance Policy](#attendance-policy)
+- [Grading](#grading)
 - [Workload](#workload)
 - [Collaboration Policy](#collaboration-policy)
 - [Hardware Requirements](#hardware-requirements)
@@ -17,8 +20,8 @@ _Last updated: December 15, 2025_
 
 <hr>
 
-Welcome to "The Software Enterprise: From Ideas to Products". 
-The goal of this course is to teach you how to turn ideas into solutions for the real world through software.
+Welcome to the SwEnt course. 
+Our goal is to teach you how to turn ideas into solutions that solve real problems for real people.
 The course has two phases:
 
 1. __Fundamentals__ (weeks 1&ndash;3): The basics of software development that were not covered in previous courses, using both theory (lectures) and practice (bootcamp). The goal is to enable all students to start developing a software product that brings one or more ideas to life.
@@ -27,55 +30,163 @@ The course has two phases:
 The course staff guides you in this journey from idea to product.
 The project has three milestones during the semester.
 
+
 ## Staff
 
 - Instructor: [Prof. George Candea](https://dslab.epfl.ch/people/candea)
-- Head TA: [Fan Chung](https://fanchung.net/)<br>
+- Head TA: [Zhekai Jiang](https://people.epfl.ch/zhekai.jiang)
+- Coaches: [Adem Abdelbaki](https://people.epfl.ch/adem.abdelbaki),
+[Thibaud Babin](https://people.epfl.ch/thibaud.babin),
+[Youssef Benhayoun Sadafi](https://people.epfl.ch/youssef.benhayounsadafi),
+[André Cadet](https://people.epfl.ch/andre.cadet),
+[Nils Caspar](https://people.epfl.ch/nils.caspar),
+[Gaël Conde Losada](https://people.epfl.ch/gael.condelosada),
+[Ali El Azdi](https://people.epfl.ch/ali.elazdi),
+[Ali El Bouiri](https://people.epfl.ch/ali.elbouiri),
+[Noa Duron](https://people.epfl.ch/noa.duron),
+[Justin Favey](https://people.epfl.ch/justin.favey),
+[Rania Hida](https://people.epfl.ch/rania.hida),
+[Othmane Housni](https://people.epfl.ch/othmane.housni),
+[Morgane Magnin](https://people.epfl.ch/morgane.magnin),
+[Arthur Margeat](https://people.epfl.ch/arthur.margeat),
+[Rita Naimi](https://people.epfl.ch/rita.naimi),
+[Matteo Ossipow](https://people.epfl.ch/matteo.ossipow),
+[Alexis Poudens](https://people.epfl.ch/alexis.poudens),
+[Corentin Steinhauser](https://people.epfl.ch/corentin.steinhauser)
 
 The staff is reachable at <swent-staff@dslab.org> for all private issues.
 For questions whose answers could benefit other students, use the [Ed forum](https://moodle.epfl.ch/mod/lti/view.php?id=1280679).
+
 ## Schedule
 
-#### Lectures
+#### At a Glance
+<table>
+<tr>
+<td valign="top">Plenaries</td>
+<td>Monday 7-Sep / 10:15-12:00 in <a href="https://plan.epfl.ch/?room==CM%201%201">CM1</a><br>Friday 11-Sep / 10:15-12:00 in <a href="https://plan.epfl.ch/?room==CM%201%202">CM2</a><br>Monday 14-Sep / 10:15-12:00 in <a href="https://plan.epfl.ch/?room==CM%201%201">CM1</a><br>Friday 18-Sep / 10:15-12:00 in <a href="https://plan.epfl.ch/?room==CM%201%202">CM2</a></td>
+</tr>
+<tr>
+<td valign="top"><a href="exam/README.md">Exam</a></td>
+<td>Friday 25-Sep / 9:15-12:00 in <a href="https://plan.epfl.ch/?room==CM%201%202">CM2</a> + <a href="https://plan.epfl.ch/?room==CM%200%2013">CM 0 13</a> <!-- 60 seats --> +  <a href="https://plan.epfl.ch/?room==CM%201%20105">CM 1 105</a></td>
+</tr>
+<tr>
+<td valign="top">Coaching</td>
+<td>every Friday from 2-Oct to 11-Dec / time TBD, see rooms below</td>
+</tr>
+<tr>
+<td valign="top">BOTA</td>
+<td>Friday 18-Dec / 10:15-13:00 in <a href="https://plan.epfl.ch/?room==STCC%207%208025">STCC - Cloud C</a></td>
+</tr>
+</table>
 
-- Monday (8-Sep and 15-Sep) from 10:15&mdash;12:00 in the [CM1 auditorium](https://plan.epfl.ch/?room==CM%201%201)  _(22-Sep is a holiday)_
-- Friday (12-Sep and 19-Sep) from 9:15&mdash;11:00 in the [CM2 auditorium](https://plan.epfl.ch/?room=%3DCM%201%202)
 
-#### Recitations
+#### Plenaries
 
-- For 1h immediately after each lecture. During recitations, the course staff answer your questions about the lecture materials and assist you with the bootcamp.  Most of your work on the bootcamp is to be done independently, outside the recitations.
+We use a learner-centered flipped-classroom model.
+All lectures are provided as short videos online, and you watch them at your own pace.
+Then, during the plenaries, we get together in an auditorium to answer your questions about the lectures and the bootcamp.
+You can work on your bootcamp and/or watch the lectures also during the plenaries but, to maximally benefit from the plenaries, you should be doing this work beforehand. 
 
-#### Coaching meetings
+#### Exam
 
-- Each student team will be assigned 2 coaches, who will guide and support the team throughout the semester, providing expertise and feedback to help students achieve their project goals.
-- The team meets with their coaches once a week on Friday, for 1h in the 9:15&ndash;12:00 interval, in one of the following rooms: [BC 04](https://plan.epfl.ch/?room==BC%2004), [CM 013](https://plan.epfl.ch/?room==CM%20013), [DIA 005](https://plan.epfl.ch/?room==DIA%20005), [ELG 116](https://plan.epfl.ch/?room==ELG%20116), [ELG 120](https://plan.epfl.ch/?room==ELG%20120), [INF 019](https://plan.epfl.ch/?room==INF%20019), [INF 213](https://plan.epfl.ch/?room==INF%20213), [MA A1 10](https://plan.epfl.ch/?room==MA%20A1%2010), [MED 2 2423](https://plan.epfl.ch/?room==MED%202%202423). The coaching meetings are in-person and mandatory. The time and room is TBD with your coaches.
+At the end of the third week, there will be an exam on all the material covered in the first three weeks, including lectures and bootcamp.
+This material is essential for the project, which is why we test it on the exam.
+The exam will be a pen-and-paper written exam, closed-book, no-Internet, no-LLM.
+See the [exam page](exam/README.md) for details.
+
+#### Coaching
+
+Each student team will be assigned 2 coaches, who will guide and support the team throughout the semester, providing expertise and feedback to help students achieve their project goals.
+The team meets with their coaches once a week on Friday, for 1h in the 9:15&ndash;13:00 interval, in one of the following rooms:
+[INF 019](https://plan.epfl.ch/?room==INF%20019), 
+[INM 11](https://plan.epfl.ch/?room==INM%2011), 
+[CO 017](https://plan.epfl.ch/?room==CO%20017), 
+[CO 015](https://plan.epfl.ch/?room==CO%20015), 
+[CO 016](https://plan.epfl.ch/?room==CO%20016), 
+[CO 010](https://plan.epfl.ch/?room==CO%20010), 
+[CO 011](https://plan.epfl.ch/?room==CO%20011), 
+[CO 120](https://plan.epfl.ch/?room==CO%20120), 
+[DIA 005](https://plan.epfl.ch/?room==DIA%20005).
+The coaching meetings are in-person and mandatory. 
+The time and room for your team's meeting are TBD jointly with your coaches.
 
 #### Battle of the Apps (BOTA)
 
-- The BOTA will take place on Friday, 19-Dec from 9:15&ndash;13:00 in [STCC - Cloud C](https://plan.epfl.ch/?room==STCC%207%208025); see more details [here](project/BOTA.md).
-- This is a special event in which you can present and demo your app to an audience consisting of your class mates, the teaching staff, and other attendees from outside SwEnt.
-The top-three teams win substantial prizes.
+This is a special event in which you can present and demo your app to an audience consisting of your classmates, the teaching staff, and special invitees from outside SwEnt.
+There will be a jury of experts to judge the demos.
+The top three teams win substantial prizes.
 Participation is entirely optional, and it does not affect your course grade.
+The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&mdash;for details, [look here](project/BOTA.md).
+
 
 #### Week-by-week Schedule
 
-| Week    | Topics                                                                                                                       | Deliverable(s)                            |
-|---------|------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| Wk1      | Tools, Requirements, User Stories [[slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk1.A%20-%20Tools%2C%20Requirements%2C%20User%20Stories.pdf?forcedownload=1)] <br> The Mobile Platform  [[slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk1.B%20-%20The%20Mobile%20Platform.pdf?forcedownload=1)] <br>  | [Bootcamp B1](bootcamp/README.md) + [Team composition](https://moodle.epfl.ch/mod/choicegroup/view.php?id=1342023) <!-- (https://moodle.epfl.ch/mod/choicegroup/view.php?id=1281076) --> <br> due 15-Sep @ 23:59 |
-| Wk2      | Testing Fundamentals: Concepts &amp; Metrics [[slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk2.A%20-%20Testing%20Fundamentals.pdf?forcedownload=1)] <br>&nbsp;&nbsp;&nbsp;&nbsp;TDD [[slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk2.A%20-%20Testing%20Fundamentals%20-%20TDD.pdf?forcedownload=1) \| [video](https://youtu.be/weLFZSx6KpA)], BDD [[slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk2.A%20-%20Testing%20Fundamentals%20-%20BDD.pdf?forcedownload=1) \| [video](https://youtu.be/qt5PDa50-VE)] <br> Agile Development, Collaboration workflows, CI/CD [[slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk3.A%20-%20Collaborative%20Software%20Development.pdf?forcedownload=1)] <br>&nbsp;&nbsp;&nbsp;Commit Messages [[slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk3.A%20-%20Collaborative%20Software%20Development%20-%20Commit%20Messages.pdf?forcedownload=1) \| [video](https://www.youtube.com/watch?v=vbNDUFe5U6I)], Coding Standards [[slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk3.A%20-%20Collaborative%20Software%20Development%20-%20Coding%20Standards.pdf?forcedownload=1) \| [video](https://www.youtube.com/watch?v=t5fAWsdzBzA)] | [Bootcamp B2](bootcamp/README.md) + [App description](https://moodle.epfl.ch/mod/quiz/view.php?id=1305118) <br> due 23-Sep @ 23:59 |
-| Wk3      |  Advanced Testing: Mocks, Dependency Injection, UI Testing [[slides](https://moodle.epfl.ch/pluginfile.php/3464607/mod_folder/content/0/Wk3.A%20-%20Advanced%20Testing.pdf?forcedownload=1) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZM1ebUm2QoLquU-yHA9bm6Z)] <br>1<sup>st</sup> coaching meeting | [Bootcamp B3](bootcamp/README.md) <br> due 29-Sep @ 23:59 |
-| Wk4 | [Project Warmup](project/README.md)                           | [Warmup](project/Warmup.md) due  3-Oct @ 08:45 |
-| Wk5 | [Project Sprint 1](project/README.md)           |                                        |
-| Wk6  | [Project Sprint 2](project/README.md)                        | [M1](project/M1.md) due 17-Oct @ 08:45         |
-| | _Fall Break_ |
-| Wk7  | [Project Sprint 3](project/README.md)                        |                                                |
-| Wk8  | [Project Sprint 4](project/README.md)                        |                                                |
-| Wk9  | [Project Sprint 5](project/README.md)                        | [M2](project/M2.md) due 14-Nov @ 08:45                          |
-| Wk10 | [Project Sprint 6](project/README.md)                        |                                                |
-| Wk11 | [Project Sprint 7](project/README.md)                        |                                                |
-| Wk12 | [Project Sprint 8](project/README.md)                        |                                                |
-| Wk13 | [Project Sprint 9](project/README.md)                        |                                                |
-| Wk14 | [Project Sprint 10](project/README.md)<br>[Battle of the Apps](project/BOTA.md) | [M3](project/M3.md) due 18-Dec @ 08:45 <br> [Feedback survey](https://moodle.epfl.ch/mod/questionnaire/view.php?id=1297936)     |
+<table>
+<thead>
+<tr><th>Week</th><th>Topics</th><th align="center">Slides</th><th align="center">Videos</th><th>Deliverables</th></tr>
+</thead>
+<tbody>
+<tr><td rowspan="20" valign="top">Wk1</td><td><b>Agentic SW Development, Requirements, User Stories</b></td><td align="center"><!-- <a href="TODO">deck</a> --></td><td align="center"><!-- <a href="TODO">playlist</a> --></td><td rowspan="18" valign="top"><!-- <a href="bootcamp/README.md"> --> Bootcamp B1<!-- </a> --> + Team composition<!-- <a href="TODO">Team composition</a> --> <br> due Fri, 11-Sep @ 23:59</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Introduction</td><td align="center"><a href="https://drive.google.com/file/d/1GXf3MCy-fcfG1s0l9YmQuMwA4PZEPHIt/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/BuVPlFp4G3Q">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Agentic Software Development (part 1)</td><td align="center"><a href="https://drive.google.com/file/d/1AYv7qwH1uKl42Lha-l9lODfYnwy9Evs5/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/6ZEIdlLYiZY">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Agentic Software Development (part 2)</td><td align="center"><a href="https://drive.google.com/file/d/1tBQMQ_FUT6NGSScMMbAfDrkeFw9mToPr/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/bZJ0YpXxxFc">video</a></td></tr>
+<tr><td align="right">&raquo;&nbsp;Curated Playlist &ndash; <i>optional</i></td><td align="center"></td><td align="center">TBD</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Tools of the Trade</td><td align="center"><a href="https://drive.google.com/file/d/1ra85Rv2EMVjpapxR5vridqvTOoqypMQo/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/21wYBR-InKA">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Requirements</td><td align="center"><a href="https://drive.google.com/file/d/1lU0j6tVLpzMhWsCut3B5KPbb0HR_qYKM/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/7AbFphIDaRs">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;User Stories and INVEST</td><td align="center"><a href="https://drive.google.com/file/d/1ng7yTpFYbkvTOFzPZGCJwRLUC35BSbfs/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/tbf3sNT5JCw">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Validating and Prioritizing Requirements</td><td align="center"><a href="https://drive.google.com/file/d/1RWsnOHHE9W1Aa6SpqBb7bqXE9n_CIfHa/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/5oTkRcNK4Q4">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Epics</td><td align="center"><a href="https://drive.google.com/file/d/1PinFSZPqDla69jnlXJS6P7ZwyZsz4Ln2/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/l_spnWitbYM">video</a></td></tr>
+<tr><td><b>The Mobile Platform</b></td><td align="center"><!-- <a href="TODO">deck</a> --></td><td align="center"><!-- <a href="TODO">playlist</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;The Mobile Platform: Overview</td><td align="center"><a href="https://drive.google.com/file/d/1uT3Ft8MdYCt-6o19c_zkYy89c9RsFjoP/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=I4rPgsWEtEU">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;The Mobile Device</td><td align="center"><a href="https://drive.google.com/file/d/18qwo4llBPBq6JQsiRUxOVisuWx2iNRpV/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=Ornt-hS0F6s">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Mobile OS vs. Server OS</td><td align="center"><a href="https://drive.google.com/file/d/1GPf_-hICP0udMpht8fA0MtYmC4dduEBa/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=FEXEzNhveg4">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Inside A Mobile OS</td><td align="center"><a href="https://drive.google.com/file/d/1VFsC_hV5U16GOok0e4ya5jZnPUdlbnKl/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=6zYcDYlbtvs">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;The Split-App Model</td><td align="center"><a href="https://drive.google.com/file/d/1oL5cQG5iQJosz5Qc-oOqnMJQ-1v0UQt0/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=Cvfb7-fjczo">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;MVVM</td><td align="center"><a href="https://drive.google.com/file/d/1MAgbcML071eCwBYZxQ3hZSSG7jGmt6g9/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=3OsVxvfrNrw">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Components of A Mobile App</td><td align="center"><a href="https://drive.google.com/file/d/1QqxpwkUY2DnOKCk4on9RG0dT70SgMkd6/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=X_-CVsngxzQ">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Lifecycle of an Android Activity</td><td align="center"><a href="https://drive.google.com/file/d/1IIg8T3Z1h0YS2hprMiL1WCERPN3slTMY/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=UplTsKuonbM">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Modern Android Development</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td rowspan="18" valign="top">Wk2</td><td><b>Testing Fundamentals: Concepts &amp; Metrics</b></td><td align="center"><!-- <a href="TODO">deck</a> --></td><td align="center"><!-- <a href="TODO">playlist</a> --></td><td rowspan="18" valign="top"><!-- <a href="bootcamp/README.md"> -->Bootcamp B2<!-- </a> --> + App description<!-- <a href="TODO">App description</a> --> <br> due Thu, 17-Sep @ 23:59</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Levels of Testing</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;The Cost of Bugs</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;How Well Can We Test?</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Coverage Metrics</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Coverage in Practice</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;What Coverage Doesn't Catch</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Test-Driven Development (TDD)</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><a href="https://youtu.be/weLFZSx6KpA">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Behavior-Driven Development (BDD)</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><a href="https://youtu.be/qt5PDa50-VE">video</a></td></tr>
+<tr><td><b>Agile Development, Collaboration Workflows, CI/CD</b></td><td align="center"><!-- <a href="TODO">deck</a> --></td><td align="center"><!-- <a href="TODO">playlist</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Curiosity: How a Team Ships the Impossible</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Scrum I: The Team and the Backlog</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Scrum II: The Sprint and Its Events</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Branching and Pull Requests</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Code Review</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;CI/CD</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Writing Good Commit Messages</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><a href="https://www.youtube.com/watch?v=vbNDUFe5U6I">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Coding Standards</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><a href="https://www.youtube.com/watch?v=t5fAWsdzBzA">video</a></td></tr>
+<tr><td rowspan="8" valign="top">Wk3</td><td><b>Advanced Testing</b></td><td align="center"><!-- <a href="TODO">deck</a> --></td><td align="center"><!-- <a href="TODO">playlist</a> --></td><td rowspan="8" valign="top"><!-- <a href="bootcamp/README.md"> -->Bootcamp B3<!-- </a> --> <br> due Wed, 23-Sep @ 23:59</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Test Doubles: Mocks, Stubs, and Fakes</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dependency Injection</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dependency Injection with Hilt</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Regression Testing</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;UI Testing for Your App</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td><a href="exam/README.md"><b>Exam</b></a>: Friday 25-Sep, 9:15&ndash;12:00</td><td align="center"></td><td align="center"></td></tr>
+<tr><td>&raquo;&nbsp;Set up a get-to-know-you meeting with your coaches</td><td align="center"></td><td align="center"></td></tr>
+<tr><td valign="top">Wk4</td><td><a href="project/README.md"><b>Project</b></a>: Warmup</td><td align="center"></td><td align="center"></td><td valign="top"><!-- <a href="project/Warmup.md"> --> Warmup<!-- </a> --> due 2-Oct @ 08:45</td></tr>
+<tr><td valign="top">Wk5</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 1</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
+<tr><td valign="top">Wk6</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 2</td><td align="center"></td><td align="center"></td><td valign="top"><!-- <a href="project/M1.md"> --> M1<!-- </a> --> due 16-Oct @ 08:45</td></tr>
+<tr><td valign="top"></td><td><i>Fall Break &mdash; no classes</i></td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
+<tr><td valign="top">Wk7</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 3</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
+<tr><td valign="top">Wk8</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 4</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
+<tr><td valign="top">Wk9</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 5</td><td align="center"></td><td align="center"></td><td valign="top"><!-- <a href="project/M2.md"> --> M2<!-- </a> --> due 13-Nov @ 08:45</td></tr>
+<tr><td valign="top">Wk10</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 6</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
+<tr><td valign="top">Wk11</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 7</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
+<tr><td valign="top">Wk12</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 8</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
+<tr><td valign="top">Wk13</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 9</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
+<tr><td valign="top">Wk14</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 10<br><a href="project/BOTA.md">Battle of the Apps</a></td><td align="center"></td><td align="center"></td><td valign="top"><!-- <a href="project/M3.md"> --> M3<!-- </a> --> due 18-Dec @ 08:45 <br> Feedback survey<!-- <a href="TODO">Feedback survey</a> --> due 18-Dec @ 23:59</td></tr>
+</tbody>
+</table>
+
 
 We use a survey to collect systematic student feedback that is statistically significant.
 We use it as input to improving the course.
@@ -94,32 +205,23 @@ Budget 15 minutes to complete the survey.
 
 #### Bootcamp
 
-In order to do the bootcamp, you must have submitted to us your GitHub username, as explained on Moodle. 
+Sign up information to be announced.
+
+<!-- In order to do the bootcamp, you must have submitted to us your GitHub username, as explained on Moodle. 
 Unless you complete this step, you will not be able to start your bootcamp. 
 After we receive your GitHub username, we will set up a private repo for you.
-Once that is set up, you will be able to start your bootcamp by following the instructions at <code>https://github.com/swent-epfl/bootcamp-25-<i>yourGitHubUsename</i>/README.md</code>.
-
-## Attendance Policy
-
-In-person attendance of the coaching meetings is mandatory, and is a crucial part of the learning process and of the evaluation. The first such meeting will take place in week 4, after the last bootcamp deliverable.
-
-You have two joker passes: The _big joker_ pass allows you to entirely miss one coaching meeting during the semester penalty-free, no questions asked. The _little joker_ pass allows you to attend one such meeting over videoconference instead of in-person, penalty-free and no questions asked.
-Once you've used your joker passes, no further absences are accepted, except as outlined in the [corresponding FAQ](faq.md#which-absences-are-excusable).
-
-Attendance of lectures and bootcamp sessions (recitations) is not mandatory, but nevertheless is essential to learning the material.
-We find that students who do not attend lectures and exercises in-person routinely end up spending much more time on the bootcamp and the project than students who do attend diligently, and in the end perform less well in SwEnt.
+Once that is set up, you will be able to start your bootcamp by following the instructions at <code>https://github.com/swent-epfl/bootcamp-26-<i>yourGitHubUsername</i>/README.md</code>. -->
 
 ## Prerequisites
 
-SwEnt has several strict prerequisites that we build upon; we move fast and do not have time to recap material from this prerequisite courses. 
+SwEnt has several strict prerequisites that we build upon; we move fast and do not have time to recap the prerequisite material. 
 First, you must be a **proficient programmer** in Java-like languages.
-Second, you must have **successfully passed** these courses in order to take SwEnt:
+Second, you must have **successfully passed** the following two courses in order to take SwEnt:
 
 - CS-214 Software construction (BA3)
 - CS-202 Computer systems (BA4)
-- CS-173 Fundamentals of Digital Systems (BA2)
 
-For example, we will assume that you already master the following material from [CS-214](https://cs-214.epfl.ch):
+For example, you must already master the following material from [CS-214](https://cs-214.epfl.ch):
 
 - The basics of software testing (From tests to proofs I, From tests to proofs II, Automated software testing)
 - Version control (Git basics, Git demo, Advanced Git)
@@ -150,32 +252,48 @@ Sensor usage should drive some behavior in the app, such as finding nearby point
 > If you wish to use a different framework/language, we might be able to make an exception if the case is well argued and the entire team wants this.
 > Please get in touch with the staff.
 
+## Attendance Policy
+
+In-person attendance of the coaching meetings is mandatory, and is a crucial part of the learning process and of the evaluation. The first such meeting will take place in week 4, after the last bootcamp deliverable.
+
+You have two joker passes: The _big joker_ pass allows you to entirely miss one coaching meeting during the semester penalty-free, no questions asked. The _little joker_ pass allows you to attend one such meeting over videoconference instead of in-person, penalty-free and no questions asked.
+Once you've used your joker passes, no further absences are accepted, except as outlined in the [corresponding FAQ](faq.md#which-absences-are-excusable).
+
+The [exam](exam/README.md) assumes you viewed all the online lectures; attendance of plenaries is not mandatory, but strongly recommended for learning the material.
+
 ## Grading
 
-The bootcamp spans the first 3 weeks and has weekly deliverables (B1, B2, B3)&mdash;these are all entirely individual work.
-Each deliverable is equally weighted in computing the _Bootcamp_ grade = ⅓ B1 + ⅓ B2 + ⅓ B3.
-See your bootcamp documentation for more details.
-
-The project spans the remaining 11 weeks and has 3 milestones (M1, M2, M3) with concrete deliverables. For each milestone, students receive separate grades for individual and team performance. The overall individual _Project<sub>indiv</sub>_ grade and team _Project<sub>team</sub>_ grade are computed as 20% M1 + 30% M2 + 50% M3.
-
-
-> [!IMPORTANT]  
-> Normally, the overall course grade = 45% _Project<sub>indiv</sub>_ + 50% _Project<sub>team</sub>_ + 5% _Bootcamp_.  In other words, half the course grade is based on your team's performance and half on your individual performance.
-> However, if _Project<sub>indiv</sub>_ &lt; 4, then the course grade = 90% _Project<sub>indiv</sub>_ + 10% _Bootcamp_.
-
-Late submissions will be penalized 2% per hour of lateness (e.g., a 1-day late submission will carry a ~50% penalty).  Early submissions are encouraged but cannot receive bonus points, as per EPFL policy.
-
 In SwEnt, we use a _belt system_ inspired by martial arts.
-Developing mastery is like building a house: first the foundation (White), then walls (Yellow), then a ceiling (Green), then the roof (Blue), and finally the pipes, wiring, parquet, lights, etc. (Black). You can’t add a roof without walls, and you can’t build walls without a foundation.
-The rule is simple: you only move forward once you’ve demonstrated mastery of what comes before. That way, your growth is solid and lasting.
+You start out with a White belt.
+Developing mastery is like building a house: first the foundation (after which you earn a Yellow belt), then walls (Green), then a roof (Blue), and finally the pipes, the wiring, the heating, the lights, etc. (Black).
+You can’t add a roof without walls, and you can’t build walls without a foundation.
+The rule is simple: you only move forward once you’ve demonstrated mastery of what comes before&mdash;this way, your growth is solid and lasting.
 
-Deliverables (both in the Bootcamp and the Project) are grouped by belt.
-To earn points at belt level N+1, you must have fully earned belt N.
-For example, no Yellow-belt points until you’ve earned White, and no Black-belt points until you’ve completed Blue.
+Requirements are always grouped by belt.
+To earn points at a given belt level, you must have earned your belt that precedes this level.
+For example, you cannot get points toward earning a Green belt until you get your Yellow belt.
 
 We offer nothing beyond Black belt&mdash;not because you've reached ultimate superiority but because you've reached the point where you can _self_-improve without our help, thereby beginning a lifelong journey of steadily deepening your mastery.
 
+The bootcamp spans the first 3 weeks and has weekly deliverables (B1, B2, B3)&mdash;these are all entirely individual work.
+The bootcamp is not graded directly, but constitutes essential material for the [exam](exam/README.md).
+
+The project spans the remaining 11 weeks and has 3 milestones (M1, M2, M3) with concrete deliverables.
+For each milestone, students receive separate grades for individual and team performance. The overall individual _Project<sub>indiv</sub>_ grade and team _Project<sub>team</sub>_ grade are computed as 20% M1 + 30% M2 + 50% M3.
+
+
+> [!IMPORTANT]  
+> Normally, the overall course grade = 25% _Exam_ + 25% _Project<sub>indiv</sub>_ + 50% _Project<sub>team</sub>_.
+In other words, half the course grade is based on your team's performance and half on your individual performance.
+> However, if _Project<sub>indiv</sub>_ &lt; 4, then the course grade = 25% _Exam_ + 75% _Project<sub>indiv</sub>_.
+
+Late submissions will be penalized 2% per hour of lateness (e.g., a 1-day late submission will carry a 48% penalty).  
+This policy applies to both individual and team deliverables.
+Early submissions are encouraged but cannot receive bonus points, as per EPFL policy.
+
 ## Workload
+
+SwEnt is a heavy-duty course in which it is essential to work smart, not just work hard.
 
 This is an 8-credit course; the [EPFL guidelines](https://www.epfl.ch/education/teaching/teaching-guide-2/getting-started/design-a-course_1/) indicate that you should expect to spend a total of 8x30=240 hours of work over the course of the semester. For a 14-week semester, this averages to **a little over 17 h per week**.
 You will likely experience variations in the weekly rhythm, especially around deadlines.
@@ -205,10 +323,11 @@ You can probably manage with a lesser configuration, but it can be slow.
 We provide Linux virtual machines in the [EPFL VDI](https://support.epfl.ch/epfl?id=epfl_kb_article_view&sysparm_article=KB0016486) infrastructure in case your laptop breaks down or you do not have the recommended configuration.
 See [this tutorial](tutorials/VDIGuide.md) for how to get started with VDI in SwEnt.
 
-Ideally, each team should have at least one Android phone capable of demo-ing the team's application.
+Each team must have at least one Android phone capable of demo-ing the team's application.
+If this is a problem for your team, please contact the course staff before the project starts.
 
 ## Further Questions
 
 For answers to a list of frequently asked questions, please see the [SwEnt FAQ](faq.md).
 
-If your question is not addressed there either, please email swent-staff@dslab.org.
+If your question is not addressed there either, please email <swent-staff@dslab.org>.
