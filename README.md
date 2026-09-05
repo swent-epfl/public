@@ -3,7 +3,7 @@
 _Last updated: September 4, 2026_
 
 > [!IMPORTANT]  
-> Of you are enrolled in CS-311, you should have received a notification email for confirming your account on our Steve platform. Please follow the procedure described in that email ASAP, so that we can produce your personalized bootcamp repository. You cannot start working on the bootcamp before that.
+> Of you were enrolled in CS-311 on IS Academia as of 4.09.2026, you should have received a notification email for confirming your account on our Steve platform. Please follow the procedure described in that email ASAP, so that we can produce your personalized bootcamp repository. You cannot start working on the bootcamp before that.
 
 ## Table of Contents
 
@@ -126,7 +126,7 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><th>Week</th><th>Topics</th><th align="center">Slides</th><th align="center">Videos</th><th>Deliverables</th></tr>
 </thead>
 <tbody>
-<tr><td rowspan="20" valign="top">Wk1</td><td><b>Agentic SW Development, Requirements, User Stories</b></td><td align="center"><!-- <a href="TODO">deck</a> --></td><td align="center"><!-- <a href="TODO">playlist</a> --></td><td rowspan="18" valign="top"><!-- <a href="bootcamp/README.md"> --> Bootcamp B1<!-- </a> --> + Team composition<!-- <a href="TODO">Team composition</a> --> <br> due Fri, 11-Sep @ 23:59</td></tr>
+<tr><td rowspan="20" valign="top">Wk1</td><td><b>Agentic SW Development, Requirements, User Stories</b></td><td align="center"><a href="https://drive.google.com/file/d/13kr1tmPjChxrZyv7qhj54qZ3lL-EmpWc/view?usp=sharing"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=BuVPlFp4G3Q&list=PLNdp1V-YAmog"><b>playlist</b></a></td><td rowspan="18" valign="top"><!-- <a href="bootcamp/README.md"> --> Bootcamp B1<!-- </a> --> + Team composition<!-- <a href="TODO">Team composition</a> --> <br> due Fri, 11-Sep @ 23:59</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Introduction</td><td align="center"><a href="https://drive.google.com/file/d/1GXf3MCy-fcfG1s0l9YmQuMwA4PZEPHIt/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/BuVPlFp4G3Q">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Agentic Software Development (part 1)</td><td align="center"><a href="https://drive.google.com/file/d/1AYv7qwH1uKl42Lha-l9lODfYnwy9Evs5/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/6ZEIdlLYiZY">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Agentic Software Development (part 2)</td><td align="center"><a href="https://drive.google.com/file/d/1tBQMQ_FUT6NGSScMMbAfDrkeFw9mToPr/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/bZJ0YpXxxFc">video</a></td></tr>
@@ -136,7 +136,7 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;User Stories and INVEST</td><td align="center"><a href="https://drive.google.com/file/d/1ng7yTpFYbkvTOFzPZGCJwRLUC35BSbfs/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/tbf3sNT5JCw">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Validating and Prioritizing Requirements</td><td align="center"><a href="https://drive.google.com/file/d/1RWsnOHHE9W1Aa6SpqBb7bqXE9n_CIfHa/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/5oTkRcNK4Q4">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Epics</td><td align="center"><a href="https://drive.google.com/file/d/1PinFSZPqDla69jnlXJS6P7ZwyZsz4Ln2/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/l_spnWitbYM">video</a></td></tr>
-<tr><td><b>The Mobile Platform</b></td><td align="center"><!-- <a href="TODO">deck</a> --></td><td align="center"><!-- <a href="TODO">playlist</a> --></td></tr>
+<tr><td><b>The Mobile Platform</b></td><td align="center"><a href="https://drive.google.com/file/d/1JOQRiNX1ehjKadE0TBaxI2n0uDXdQc-q/view?usp=drive_link"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=I4rPgsWEtEU&list=PLWfkLFDrKvEg"><b>playlist</b></a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;The Mobile Platform: Overview</td><td align="center"><a href="https://drive.google.com/file/d/1uT3Ft8MdYCt-6o19c_zkYy89c9RsFjoP/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=I4rPgsWEtEU">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;The Mobile Device</td><td align="center"><a href="https://drive.google.com/file/d/18qwo4llBPBq6JQsiRUxOVisuWx2iNRpV/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=Ornt-hS0F6s">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Mobile OS vs. Server OS</td><td align="center"><a href="https://drive.google.com/file/d/1GPf_-hICP0udMpht8fA0MtYmC4dduEBa/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=FEXEzNhveg4">video</a></td></tr>
