@@ -1,8 +1,8 @@
 # Setting Up Your Development Environment
 
-Before we start coding, we need to prepare a **development environment**.  This ensures everyone works with the same tools and avoids setup issues later in the bootcamp.
+Before we start coding, we need to prepare a **development environment**.  This ensures everyone works with the same tools and avoids setup issues later in the Bootcamp.
 
-We’ll focus on **Android app development**, using the following tools:
+We do Android app development using the following tools:
 
 | Purpose              | Tool                |
 |----------------------|---------------------|
@@ -12,22 +12,19 @@ We’ll focus on **Android app development**, using the following tools:
 | CI                   | **GitHub Actions**  |
 | Design mockups       | **Figma**           |
 
-You don’t need to master these all at once — we’ll introduce each tool when you first need it.  For example, you’ll use Kotlin and Android Studio right away, but Espresso (testing) and Figma (design) will come later in the bootcamp.
+You don’t need to master these all at once&mdash;we’ll introduce each tool when you first need it.  For example, you’ll use Kotlin and Android Studio right away, but Espresso (testing) and Figma (design) will come later in the Bootcamp.
   
 > [!IMPORTANT]  
-> Some parts of the tech stack can be changed if you really want to, but you must first check with the staff to ensure compatibility.  
-> If you choose a different setup, be aware that we may not be able to help you troubleshoot problems.
+> Some parts of the tech stack can be changed if you really want to and are comfortable doing so. The staff are available to guide in making this decision. If you choose a different setup, beware that we may not be able to help you troubleshoot problems.
 
-We recommend [Android Studio](https://developer.android.com/studio) as your IDE (Integrated Development Environment).  It is the official tool for Android apps and runs on **Windows, macOS, and Linux**. 
+[Android Studio](https://developer.android.com/studio) is the official IDE (Integrated Development Environment) for Android apps and runs on Windows, macOS, and Linux. 
 > [!IMPORTANT]  
-> Your computer should have at least **16 GB RAM** and a recent CPU.  
-> If your computer cannot handle Android Studio smoothly, please use [EPFL VDI](https://support.epfl.ch/epfl?id=epfl_kb_article_view&sysparm_article=KB0017020).  
-> See [this tutorial](../../../tutorials/VDIGuide.md) for setup instructions.
+> Your computer should have at least **16 GB RAM** and a recent CPU. If your computer cannot handle Android Studio smoothly, please use [EPFL VDI](https://support.epfl.ch/epfl?id=epfl_kb_article_view&sysparm_article=KB0017020).  See [this tutorial](../../../tutorials/VDIGuide.md) for setup instructions.
 
 
 ## Cloning the Repository
 
-Let's start by cloning the **template repository** for the bootcamp, which already has the necessary dependencies & configuration configured.
+Start by cloning the **template repository** for the bootcamp, which already has the necessary dependencies & configuration configured.
 
 1. **Check Git**:  
    Make sure Git is installed on your system:  
@@ -53,7 +50,7 @@ You can connect to GitHub in two ways:
 If you already use SSH keys for GitHub, you can clone via SSH instead:
 
 ```bash
-git clone git@github.com:swent-epfl/bootcamp-25-<GitHub username>.git
+git clone git@github.com:swent-epfl/bootcamp-26-<GitHub username>.git
 ```
 
 If you’ve never set up SSH keys before, follow [this guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
@@ -63,7 +60,7 @@ If you’ve never set up SSH keys before, follow [this guide](https://docs.githu
 Run:
 
 ```bash
-git clone https://github.com/swent-epfl/bootcamp-25-<GitHub username>.git
+git clone https://github.com/swent-epfl/bootcamp-26-<GitHub username>.git
 ```
 
 When prompted for a password, enter your **Personal Access Token** (not your GitHub password). Create a token here: [Generate new token](https://github.com/settings/tokens). See [GitHub’s guide](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) for details.
@@ -71,9 +68,12 @@ When prompted for a password, enter your **Personal Access Token** (not your Git
 
 ## Set Up Android Studio
 
-Download and install [Android Studio](https://developer.android.com/studio).  If you already have it installed, update to the latest version.  For detailed steps, see the [official installation guide](https://developer.android.com/studio/install.html).
+Download and install [Android Studio](https://developer.android.com/studio).  If you already have it installed, update to the latest version.  For this bootcamp use **Android Studio Quail 3 | 2026.1.3** (or newer).  For detailed steps, see the [official installation guide](https://developer.android.com/studio/install.html).
 
 During installation and the first-run setup wizard, choose the **default options**.
+
+> [!NOTE]  
+> The Android Gradle Plugin used in this bootcamp requires **JDK 17** for the build toolchain. Prefer the JDK bundled with Android Studio, or point `JAVA_HOME` at a JDK 17 install.
 
 
 ### Open the SDK Manager
@@ -91,7 +91,7 @@ When Android Studio launches:
 
 In the **SDK Platforms** tab:
 
-- Check **Android 14.0 (API Level 34.0)**.  If you see versions like `34-ext12`, the `ext` means *extension level* (monthly patches). Always install the **latest ext** available.
+- Check **Android 17.0 ("Cinnamon Bun") (API Level 37)**.
 - Click **Apply** to install
 
 ![SDK Selection Screenshot](assets/1-EnvironmentSetup/androidVersionSelection.png)
@@ -99,13 +99,13 @@ In the **SDK Platforms** tab:
 In the **SDK Tools** tab:
 
 1. Enable **Show Package Details** (bottom right)  
-2. Under **Android SDK Build Tools**, select version **34.0.0**. 
+2. Under **Android SDK Build Tools**, select version **36.0.0** (or the latest `36.x.x` shown). 
 3. Click **Apply** to install (if not already installed)
 
 
 ### (Optional) GitHub Copilot
 
-You may install [GitHub Copilot](https://github.com/features/copilot) if you'd like AI code suggestions in Android Studio.  This is **optional** — it can help with writing boilerplate, but is not mandatory for the bootcamp.
+You may install [GitHub Copilot](https://github.com/features/copilot) if you'd like AI code suggestions in Android Studio.  It can help with writing boilerplate.  However, be extra cautious, because if you let Copilot do too much of the work for you, you will deprived of acquiring the knowledge and understanding needed for the exam.  Doing the Bootcamp is entirely an exercise meant to help you understand in depth the lecture concepts and the Android ecosystem.
 
 ![Install Copilot Screenshot](assets/1-EnvironmentSetup/howToInstallCopilotOnAndroidStudio.png)
 
@@ -116,8 +116,7 @@ Finally, open the cloned repository in Android Studio.  It should load as an And
 
 ## Managing Project Dependencies and Build Scripts with Gradle
 
-Android projects use [Gradle](https://docs.gradle.org/current/userguide/userguide.html), a popular build system in the Java ecosystem.  Gradle takes care of tasks like compilation, dependency management, and testing.  
-Each project is described by one or more `build.gradle` files, which define how the project should be built.
+Android projects use [Gradle](https://docs.gradle.org/current/userguide/userguide.html), a popular build system in the Java ecosystem.  Gradle takes care of tasks like compilation, dependency management, and testing.  Each project is described by one or more `build.gradle` files, which define how the project should be built.
 
 > [!NOTE]  
 > Gradle build files can be written in two different syntaxes:  
@@ -141,10 +140,17 @@ Now, open **`app/build.gradle.kts`**. This file defines the **build configuratio
 
 Check that you have these values for the SDK (software development kit):
 
-- `compileSdk = 34` → the Android version your app is compiled against.  
+- `compileSdk = 37` → the Android version your app is compiled against.  
 - `minSdk = 29` → the lowest Android version your app can run on.  
 
-Also check that the `compileOptions` section sets both `sourceCompatibility` and `targetCompatibility` to `JavaVersion.VERSION_11`. This ensures your code is compiled with Java 11 features.
+Also check that the `compileOptions` section sets both `sourceCompatibility` and `targetCompatibility` to `JavaVersion.VERSION_17`. This matches the JDK **17** toolchain used by Gradle and Android Studio.
+
+The template’s version catalog and Gradle wrapper should match this bootcamp toolchain (do not change these unless staff tells you to):
+
+- **Android Gradle Plugin (AGP)** `9.3.0`  
+- **Gradle** `9.5.0` (see `gradle/wrapper/gradle-wrapper.properties`)  
+- **Kotlin** `2.3.0` (the `kotlinCompose` plugin in the version catalog)  
+- **Compose BOM** `2026.08.00` and **Firebase BOM** `34.18.0`
 
 ##  The Bootcamp Dependencies
 In Gradle, there are two important concepts:
@@ -164,7 +170,7 @@ As your project grows, version conflicts between libraries are common. Using a v
 You may also add dependencies directly in `app/build.gradle.kts` under the `dependencies` section, for example:
 
 ```kotlin
-implementation("androidx.core:core-ktx:1.13.1")
+implementation("androidx.core:core-ktx:1.19.0")
 ```
 
 > [!IMPORTANT]  
@@ -176,11 +182,11 @@ implementation("androidx.core:core-ktx:1.13.1")
 
 ## Create an Emulator to Run the App
 
-Before running your app, you need an emulator (an Android Virtual Device, AVD).  
+Before running your app, you need an emulator. An emulator is a virtual Android phone (Android Virtual Device, or AVD) that runs on your computer, so you can install and test your app without using a physical device.
 
 1. In Android Studio, go to **Tools → Device Manager**.  
-2. Click **Create Device** and keep the default phone profile (e.g., Pixel 8).  
-3. Select the system image (**API 34.0 UpsideDownCake; Andriod 14**) and download it if needed.  
+2. Click **Create Device** and keep the default phone profile (e.g., Pixel 10a).  
+3. Select the system image (**API 37 / 37.0; Android 17 ("Cinnamon Bun")**) and download it if needed.  
 4. Keep the default system configuration and finish setup.  
 
 Your new emulator should appear in the Device Manager. You can now close the manager.
@@ -188,8 +194,7 @@ Your new emulator should appear in the Device Manager. You can now close the man
 To run your app, go to **Run → Run 'app'**.  
 It will take a few moments to boot the emulator, then Android will start and launch your app.
 
-You can also run the app on a physical Android phone. This is often faster than the emulator. See the [official guide](https://developer.android.com/codelabs/basic-android-kotlin-compose-connect-device#0) for setup instructions.
-
+You can also run the app on a physical Android phone. This is often faster than the emulator. See the [official guide](https://developer.android.com/codelabs/basic-android-kotlin-compose-connect-device#0) for setup instructions.  Keep the emulator around, though: it lets you check your app on screen sizes and Android versions you don't own.
 
 ### Troubleshooting with the Command Line
 
@@ -206,13 +211,11 @@ The emulator tools are bundled with Android Studio, or you can install them sepa
 
 ## Commit messages
 
-We will review and grade the commit messages you push.  
-Make sure to follow the guidelines from lecture and the [commit message document](/bootcamp/docs/CommitMessages.md).
+Commit message quality is part of the belt requirements for each milestone. Make sure to follow the guidelines from lecture and the [commit message document](/bootcamp/docs/CommitMessages.md).
 
 ## What to commit
 
-Not all files should be committed to GitHub.  
-We provide a `.gitignore` that excludes build outputs and local configs.  
+Not all files should be committed to GitHub.  We provide a `.gitignore` that excludes build outputs and local configs.  
 
 You should commit:  
 - `src/main/java` — your app’s source code  
@@ -253,7 +256,7 @@ chmod +x .git/hooks/pre-commit
 
 ## Java version note
 
-Pre-commit hooks run with your local Java installation. If you see errors, make sure your `JAVA_HOME` or default Java version matches the one used by Android Studio.
+Pre-commit hooks run with your local Java installation. If you see errors, make sure your `JAVA_HOME` or default Java version matches the one used by Android Studio. Java is involved even though you have written only Kotlin: the Kotlin compiler emits JVM bytecode, and Gradle and the compiler themselves run on the JVM. A working JDK is needed to build the project even though it contains no Java source.
 
 You're done. Congrats!
 

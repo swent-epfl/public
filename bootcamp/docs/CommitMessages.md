@@ -66,7 +66,7 @@ Fixed bug in code
 
 The [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification is a standardized format for commit messages. This convention adds a type and optional scope to your commit message, making it easier to understand the purpose of the commit at a glance.
 
-Over the years, this practice has gained popularity, more and more developers and enterprise are using this convention. It increases the clarity of each commit, and the standardized format for the message allows scripts to classify commits, for example to automatically generate a changelog or trigger specific job in the CI/CD (release a patch on a `fix`, etc.).
+Over the years, this practice has gained popularity, more and more developers and enterprises are using this convention. It increases the clarity of each commit, and the standardized format for the message allows scripts to classify commits, for example to automatically generate a changelog or trigger specific jobs in the CI/CD (e.g., to release a patch on a `fix` commit).
 
 Structure of a Conventional Commit:
 

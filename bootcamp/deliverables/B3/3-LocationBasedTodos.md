@@ -1,5 +1,8 @@
 # Location-based To-Dos
 
+> [!NOTE]
+> Build this feature with your three agents, following [Three agents, one you](AgenticWorkflow.md). You orchestrate, review and own.
+
 ## Geo-Coding - Nominatim
 
 When a user is creating a new to-do, entering GPS coordinates for the location may not be very user-friendly. This is where Geocoding comes in handy. It allows the user to input text, which will then be converted into GPS coordinates. This is similar to how Google Maps works — you enter text and it provides a precise location on the map. Since the geocoding feature in the Google Maps API is not free, we will be using Nominatim[^1]. To query the API, we will use OkHTTP.
@@ -67,8 +70,10 @@ Your implementation should ensure that:
 - The user can input a location as text when creating or editing a to-do.
   The text is then converted into GPS coordinates using the Nominatim API.
 - The user can select one of the suggestions from a dropdown menu.
-  The dropdown menu should not contain more than 5 suggestions.
-- All queries to the Nominatim API must comply with the Nominatim usage policy.
+  The dropdown menu should not contain more than `MAX_LOCATION_SUGGESTIONS_DISPLAYED` (5) suggestions.
+- On the Edit screen, the location field **starts empty** and shows the todo's current location as its **placeholder**. It is now a search field, so typing must drive a fresh Nominatim query. This is different from the other fields, which stay pre-filled as in B2.
+- Each screen (Add and Edit) shows its own top bar, tagged `TOP_BAR_TITLE` and `GO_BACK_BUTTON`. In B3 the top bar moves out of `BootcampApp` into each screen, because the tests render the screens on their own.
+- All queries to the Nominatim API must comply with the Nominatim usage policy: send a real `User-Agent` header that identifies your app, and make at most one request per second.
 
 ## Test your implementation
 

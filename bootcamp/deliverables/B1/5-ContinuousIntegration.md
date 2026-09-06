@@ -1,7 +1,7 @@
 
 # Setting up the Continuous Integration
 
-During the bootcamp, your code will be tested automatically through **Continuous Integration (CI)**. For now, the CI runs on a self-hosted machine at EPFL. Later in your project, you will switch to GitHub-provided Actions runners.
+During the Bootcamp, your code will be tested automatically through **Continuous Integration (CI)**. For now, the CI runs on a cluter of self-hosted machines at EPFL. Later in your project, you will switch to GitHub-provided Actions runners.
 
 This page will guide you through understanding the CI and the tools involved.
 
@@ -9,22 +9,30 @@ This page will guide you through understanding the CI and the tools involved.
 
 CI ensures your code compiles and tests pass every time you push.  
 
-The configuration is defined in `.github/workflows/CI.yaml`. It runs three jobs:
+The configuration is defined in `.github/workflows/CI.yml`.
 
-1. **Build & test** — compiles the app and runs all tests (can take ~10 minutes, as it's run on a virtual Android device).  
-2. **User story checks** — validates that your `userStories.txt` file has the correct format. You will write the user stories in the [User Stories](7-UserStories.md) step.
-3. **Time tracking** — validates that the actualTime file has been completed.
-   
+Near the top of that file, one line selects which milestone CI is grading:
+
+```yaml
+BOOTCAMP_PART: B1   # change to B2 (later B3) when you start the next milestone
+```
+
+CI always runs a few always-on checks, plus the tests for the **current part**. For that part you will typically see:
+
+1. **`{part}-public`** runs the public tests for the current part, then the staff tests on that same emulator. **Public must pass** for this job to be green (and for solutions unlock). Staff may fail; that only shows as a warning and does not block the unlock of the solutions.
+2. **Always-on checks** — formatting / assemble / lint.
+3. **User story checks** — validates that your `userStories.txt` file has the correct format. You will write the user stories in the [User Stories](7-UserStories.md) step.
+4. **Time tracking** — validates that the `actualTimeB*.csv` files have been completed for the milestones you have started.
+
 ## Code Coverage
 
-Throughout the semester, we measure code coverage using [JaCoCo](https://www.eclemma.org/jacoco/).  
-This is already installed in your project — you don’t need to configure it yourself.
+Throughout the semester, we measure code coverage using [JaCoCo](https://www.eclemma.org/jacoco/). This is already installed in your project, so you don’t need to configure it yourself.
 
 
 To generate a coverage report:
 
 ```bash
-./gradlew check connectedCheck jacocoTestReport
+./gradlew check connectedCheck jacocoTestReport -B1
 ```
 
 The HTML report will be located at:
@@ -67,25 +75,36 @@ tasks.register("jacocoTestReport", JacocoReport::class) {
         html.required = true
     }
 
-    val fileFilter = listOf(
+    val fileFilter =
+        listOf(
             "**/R.class",
             "**/R$*.class",
             "**/BuildConfig.*",
             "**/Manifest*.*",
             "**/*Test*.*",
             "android/**/*.*",
-    )
-    val debugTree = fileTree("${project.buildDir}/tmp/kotlin-classes/debug") {
-        exclude(fileFilter)
-    }
+            "**/sigchecks/**",
+        )
+    val debugTree =
+        fileTree(project.layout.buildDirectory) {
+            include(
+                // AGP 9 compiles Kotlin with its built-in compiler, which writes here
+                "intermediates/built_in_kotlinc/debug/compileDebugKotlin/classes/**",
+                // Fallback for the AGP 8 layout
+                "tmp/kotlin-classes/debug/**",
+            )
+            exclude(fileFilter)
+        }
     val mainSrc = "${project.projectDir}/src/main/java"
 
     sourceDirectories.setFrom(files(mainSrc))
     classDirectories.setFrom(files(debugTree))
-    executionData.setFrom(fileTree(project.buildDir) {
-        include("outputs/unit_test_code_coverage/debugUnitTest/testDebugUnitTest.exec")
-        include("outputs/code_coverage/debugAndroidTest/connected/*/coverage.ec")
-    })
+    executionData.setFrom(
+        fileTree(project.layout.buildDirectory) {
+            include("outputs/unit_test_code_coverage/debugUnitTest/testDebugUnitTest.exec")
+            include("outputs/code_coverage/debugAndroidTest/connected/*/coverage.ec")
+        }
+    )
 }
 ```
 
@@ -102,20 +121,17 @@ If you use tools like [Hilt](https://developer.android.com/training/dependency-i
 In Android, tests can run in two ways:
 
 1. **`androidTest/` (instrumented tests)**  
-   Run on a real or emulated device.  
-   Used for **UI tests** (buttons, screens, navigation) or anything needing the Android system.  
+   Run on a real or emulated device. Used for **UI tests** (buttons, screens, navigation) or anything needing the Android system.  
 
 2. **`test/` (unit tests)**  
-   Run directly on your computer. 
-   Used for **logic tests** (calculations, helpers, small classes).  
+   Run directly on your computer. Used for **logic tests** (calculations, helpers, small classes).  
 
 
-The problem: UI tests in `androidTest/` are slow.  
-**Robolectric** lets you write some UI tests in `test/`, so they run faster.  
+The problem: UI tests in `androidTest/` are slow. **Robolectric** lets you write some UI tests in `test/`, so they run faster.  
 
 You may use it to speed up development, but note:  
-- They may not behave exactly like on a real device.  
-- Debugging is harder since there is no visual feedback.  
+- They may not behave exactly like on a real device  
+- Debugging is harder since there is no visual feedback  
 
 <details>
 <summary>Optional: How to set up Robolectric</summary>
@@ -123,7 +139,7 @@ You may use it to speed up development, but note:
 Add Robolectric to your dependencies:
 
 ```gradle
-testImplementation("org.robolectric:robolectric:4.11.1")
+testImplementation("org.robolectric:robolectric:4.16.1")
 ```
 
 By default, unit tests run twice: once for **debug** and once for **release** builds.  
@@ -140,7 +156,7 @@ tasks.withType<Test> {
 Create `app/src/test/assets/robolectric.properties`:
 
 ```properties
-sdk=34
+sdk=36
 qualifiers=w360dp-h640dp-xhdpi
 ```
 

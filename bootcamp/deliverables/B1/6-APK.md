@@ -1,9 +1,10 @@
 # Building An APK
 
-During the bootcamp and throughout the semester, you will have to ship regularly some APK build in order to showcase your new features.
+During the project, you will have to regularly ship an APK in order to showcase your new features.
 
 In this tutorial, you will learn how to create an APK file and how to install it on your phone.
-We recommend running `gradle ktfmtFormat` and optimize your import before building too (on `app/src/main` folder > right-click > analyze > Code Cleanup).
+Before building, we recommend running `./gradlew ktfmtFormat` as well as optimizing your imports (right-click on the `app/src/main` folder > analyze > Code Cleanup).
+
 
 ## How To Generate an APK File
 

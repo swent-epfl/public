@@ -1,9 +1,8 @@
 # User Stories
 
-As you saw in the lectures, user requirements are often written as **user stories**[^1].  
-They describe the desired functionality from the end user's perspective and help you focus on what matters to them.
+As you saw in the lectures, user requirements are often written as **user stories**.  They describe the desired functionality from the end user's perspective and help you focus on what matters to them.
 
-In this bootcamp, you will implement features based on the following user stories:
+In this Bootcamp, you will implement features based on the following user stories:
 
 - As a user, I want to sign up and log into the app, so that my ToDos are kept across devices.  
 - As a user, I want to create a new ToDo, so that I can add new tasks to my list.  
@@ -11,8 +10,7 @@ In this bootcamp, you will implement features based on the following user storie
 - As a user, I want to edit and view details of my ToDos, so that I can update tasks or review their detailed descriptions.  
 - As a user, I want to add locations to my ToDos and see them on a map, so that I can plan my work based on where tasks are.  
 
-We provide these initial stories to give you a sense of the ToDo app.  
-Now it’s your turn: **write two new user stories** that extend or improve the app. Think about what you would expect from a ToDo app!
+We provide these initial stories to give you a sense of the ToDo app.  Now it’s your turn: **Write two new user stories** that extend or improve the app. Think about what you would expect from a ToDo app!
 
 ---
 
@@ -24,18 +22,16 @@ Now it’s your turn: **write two new user stories** that extend or improve the 
 
 > [!NOTE]
 >
-> Make sure that each line contains exactly one user story.
+> Example of a valid `userStories.txt` file:
 >
-> Example of valid `userStories.txt` file:
->
-> ```markdown
+> ```text
 > 1   As a user, I want to sign up and log into the app, so that my ToDos are kept across devices.
 > 2   As a user, I want to create a new ToDo, so that I can add new tasks to my list.
 > ```
 >
-> Example of invalid `userStories.txt` file:
+> Example of an invalid `userStories.txt` file:
 >
-> ```markdown
+> ```text
 > 1   As a user, I want to sign up and log into the app, 
 > 2   so that my ToDos are kept across devices.
 > 3
@@ -44,6 +40,14 @@ Now it’s your turn: **write two new user stories** that extend or improve the 
 
 ---
 
-Congratulations ! You’ve completed the first deliverable of the bootcamp. Take a short break, and check that your Continuous Integration (CI) is green.
+Congratulations! You’ve completed the first deliverable of the bootcamp. Take a short break, and check that your Continuous Integration (CI) is green.
 
-[^1]: https://en.wikipedia.org/wiki/User_story
+## Solutions
+
+Now that you have finished B1, make sure the **`B1-public`** job is green **on `main`** (push to `main`, or a PR into `main`, with `BOOTCAMP_PART: B1`). 
+
+Once you run the public tests, we strongly recommend that you also run the **staff** tests and work through the tests that fail, to understand why.  This work will deepend your understanding of what you wrote.
+
+After **`B1-public`** becomes green, a branch named `B1-solution` will be created automatically in your repository with the reference solution. You can look at that branch to compare with your work; it is not merged into `main` for you. 
+
+When you start B2, set `BOOTCAMP_PART: B2` in `.github/workflows/CI.yml` yourself.

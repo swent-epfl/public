@@ -5,7 +5,7 @@
 
 *Firestore* is a NoSQL cloud database that follows a key-value store model. For a detailed overview of its features, please see the official documentation[^2].
 
-In this milesone, we will use Firebase/Firestore and the *Firebase Emulator Suite*, which allows you to test your app locally without making live network calls or modifying production data. This enables more robust testing and simplifies debugging.
+In this milestone, we will use Firebase/Firestore and the *Firebase Emulator Suite*, which allows you to test your app locally without making live network calls or modifying production data. This enables more robust testing and simplifies debugging.
 
 ## Objective
 
@@ -14,11 +14,9 @@ This section of the bootcamp will get you started with Firebase's Firestore data
 We'll walk you through setting up your account and preparing your app for both online and local (emulated) backend operations.
 
 > [!WARNING]
-> All the required libraries **are already in the provided repository**.  
-> For compatibility reasons, we deactivated the Google services plugin in the `app/build.gradle.kts` file for B1.  
-> Please, activate it now by removing the comment on the line `// alias(libs.plugins.gms)` in the plugins section of the file as this step depends on it.
+> All the required libraries **are already in the provided repository**. Please use only the provided versions of the libraries, as other versions may cause compatibility issues.
 >
-> Please use only the provided versions of the libraries, as other versions may cause compatibility issues.
+> For compatibility reasons, the Google Services plugin is deactivated in `app/build.gradle.kts` for B1. You will re-enable it **after** you add `google-services.json` (a step below), because the plugin fails to sync when that file is not present yet.
 
 ## 1 - Setting Up Firestore for our App
 
@@ -56,11 +54,14 @@ If you forgot to download the JSON file :
 > [!NOTE]
 > Regarding the 'Adding the SDK of Firebase' you may ignore it as it is already present in the project template.
 
-To add **Firestore**, the database, to the project, go to 'Product categories' (on the left side of the website). Click on 'Build'  and find 'Firestore Database'. Then click on 'Create database'.
+> [!IMPORTANT]
+> Now that `google-services.json` is in the `app/` folder, re-enable the Google Services plugin: in `app/build.gradle.kts`, remove the comment on the line `// alias(libs.plugins.gms)` in the `plugins` block, then sync Gradle. Doing it now (and not earlier) avoids a sync failure caused by the missing file.
+
+To add **Firestore**, the database, to the project, open **Build > Firestore Database** from the left sidebar of the console (the exact menu wording may vary slightly), then click 'Create database'.
 
 <p align="center"><img alt="overview Screen" src="assets/addFirestore.png" width="80%" /></p>
 
-Select "eur3" for the database location. Click "next" and select 'Start in test mode', which temporarily enables read and write access requiring security configuration.
+For the database location, pick a European multi-region such as `eur3` if the picker offers it. If you cannot type or select it, any location works for the bootcamp, so keep the default and move on. Click "next" and select 'Start in test mode', which temporarily enables read and write access requiring security configuration.
 Finally, click 'Create'. You now have your Firestore database ready to go!
 
 ### GitHub Secret : encoding the file
@@ -115,22 +116,13 @@ However, it's useful to understand how they are managed, as you will add more li
    # gradle/libs.versions.toml
 
    [versions]
-   gms = "4.4.2"
-
-   # Firebase Libraries
-   firebaseAuth = "23.0.0"
-   firebaseAuthKtx = "23.0.0"
-   firebaseDatabaseKtx = "21.0.0"
-   firebaseFirestore = "25.1.0"
-   firebaseUiAuth = "8.0.0"
+   gms = "4.5.0"
+   firebaseBom = "34.18.0"
 
    [libraries]
-   # Firebase Libraries
-   firebase-auth = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuth" }
-   firebase-auth-ktx = { module = "com.google.firebase:firebase-auth-ktx", version.ref = "firebaseAuthKtx" }
-   firebase-database-ktx = { module = "com.google.firebase:firebase-database-ktx", version.ref = "firebaseDatabaseKtx" }
-   firebase-firestore = { module = "com.google.firebase:firebase-firestore", version.ref = "firebaseFirestore" }
-   firebase-ui-auth = { module = "com.firebaseui:firebase-ui-auth", version.ref = "firebaseUiAuth" }
+   firebase-auth = { module = "com.google.firebase:firebase-auth" }
+   firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+   firebase-firestore = { module = "com.google.firebase:firebase-firestore" }
    ```
 
 2. Top-level `build.gradle.kts`:
@@ -147,14 +139,14 @@ However, it's useful to understand how they are managed, as you will add more li
 
    ```kotlin
    # app/build.gradle.kts
-    dependencies {
-        // Firebase
-        implementation(libs.firebase.database.ktx)
-        implementation(libs.firebase.firestore)
-        implementation(libs.firebase.ui.auth)
-        implementation(libs.firebase.auth.ktx)
-        implementation(libs.firebase.auth)
-        ...
+   dependencies {
+       implementation(platform(libs.firebase.bom))
+       androidTestImplementation(platform(libs.firebase.bom))
+
+       // Firebase
+       implementation(libs.firebase.firestore)
+       implementation(libs.firebase.auth)
+       ...
    }
    ```
 
@@ -162,7 +154,7 @@ However, it's useful to understand how they are managed, as you will add more li
 
 ### Summary
 
-By defining the Firebase and Google Play services libraries in `libs.versions.toml`, you centralize the management of library versions, making it easier to update and maintain dependencies across your project. This approach keeps your `build.gradle.kts` files clean and focused on their specific configuration needs.
+By defining the Firebase BOM and Google Play services libraries in `libs.versions.toml`, you centralize the management of library versions, making it easier to update and maintain dependencies across your project. This approach keeps your `build.gradle.kts` files clean and focused on their specific configuration needs. The Firebase artifacts themselves do not declare a version, the BOM supplies it.
 
 </details>
 
@@ -194,49 +186,43 @@ Firebase Emulators[^4] simulate Firebase services locally on your machine. This 
 
 To install the Firebase Emulator Suite, you will need the following:
 
-- [Node.js](https://nodejs.org/en/download) version 16.0 or higher
-- [Java JDK](https://jdk.java.net/) version 11 or higher
+- [Node.js](https://nodejs.org/en/download) version **20** or higher
+- [Java JDK](https://jdk.java.net/) version **21** (current Firebase Emulator Suite / `firebase-tools` requires JDK 21+)
 - [The Firebase CLI](https://firebase.google.com/docs/cli)
 
 Once everything is installed, run `firebase login` and set the credentials to the account you used to create your Firebase project. After signing in, you should be able to see your Firebase projects by running `firebase projects:list`.
 
-Next, run `firebase init` from the root directory of your application. You will be prompted with the following:
+The repository already ships the Firebase config (`firebase.json`, the Firestore rules and the emulator setup), so you do **not** run `firebase init`: it would clash with those existing files. The only thing missing is the link to your project. From the root directory of your application, run:
 
-- Firebase features: select **Emulators**.
-- Project Setup: select **Use an existing project** and choose the bootcamp project.
-- Emulators Setup
-  - Emulators: choose the **Authentication Emulator** and **Firestore Emulator**. You can later add more emulators if needed.
-  - Ports: choose the default values.
-  - Emulator UI: select yes.
-  - Download the emulators: select yes.
+```sh
+firebase use --add
+```
 
-At this point, you should be all set and can begin testing with the emulators.
-
-> [!WARNING]  
-> After installation, make sure that the project defined in `app/google-services.json` is the same as the one defined in `./firebaserc`. If not, run `firebase use --add` and select the correct Firebase project.
+and select your bootcamp project (the same one defined in `app/google-services.json`). This creates the missing `.firebaserc` file. At this point you are all set and can begin testing with the emulators.
 
 ### Usage
 
 The Firebase emulators can be started by running `firebase emulators:start`. After they're running, open the dashboard at `http://localhost:4000/`.
 
-To connect your app to the emulators, call the following methods **before making any other Firebase API calls**.
+> [!NOTE]
+> The provided tests already connect to the emulators for you (see the next section), so you do **not** need the snippet below to pass them. It is only useful if you want to run the **app itself** against the emulators for manual debugging.
+
+To point the app at the emulators during a manual debug run, call these methods **before any other Firebase API call**, and only in debug builds (never in release):
 
 ```kotlin
-Firebase.firestore.useEmulator("10.0.2.2", 8080)
-Firebase.auth.useEmulator("10.0.2.2", 9099)
+import com.google.firebase.Firebase
+import com.google.firebase.auth.auth
+import com.google.firebase.firestore.firestore
+
+if (BuildConfig.DEBUG) {
+  Firebase.firestore.useEmulator("10.0.2.2", 8080)
+  Firebase.auth.useEmulator("10.0.2.2", 9099)
+}
 ```
 
-Make sure to pass the correct port numbers as arguments if you're not using the default ones.
+Pass the correct port numbers as arguments if you are not using the default ones.
 
-Since Android does not allow cleartext traffic (HTTP, plaintext) to `10.0.2.2` by default, add the following configuration into your `AndroidManifest.xml` file to enable communication between the emulator and your app.
-
-```xml
-<application
-    ...
-    android:usesCleartextTraffic="true"
-    ...
-</application>
-```
+`10.0.2.2` is the special alias the Android emulator uses for your laptop. The bootcamp template already includes a **debug** network security config that allows cleartext HTTP to that host, so you do not need to add `android:usesCleartextTraffic="true"`.
 
 ### Usage in Android tests
 
@@ -264,4 +250,4 @@ For advanced usage such as state import/export or CI integration, refer to the [
 
 Congrats, you're done!
 
-> [Next Step: Create A Todo](2-CreateAToDo.md)
+> [Next Step: Set Up Agent](AgenticWorkflow.md)

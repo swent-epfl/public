@@ -1,5 +1,8 @@
 # Create A Todo
 
+> [!NOTE]
+> Build this feature with your coding agent, following [Your first coding agent](AgenticWorkflow.md). You specify and review; the agent implements.
+
 ## Model for the Todo
 
 In the previous milestone, B1, you already set up the model layer of the app and got familiar with the MVVM architecture.
@@ -23,7 +26,10 @@ In this step, you will implement the `ToDosRepositoryFirestore` class.
 This class serves as the bridge between the database, [Firestore](https://firebase.google.com/bootcamp/docs/firestore), and the rest of the app.
 
 Firestore works with objects in the form of `Map<String,Any>`, so converting objects from and to `Map`s is necessary.
-You can do it manually or use a [JSON library](https://kotlinlang.org/api/kotlinx.serialization/kotlinx-serialization-json/kotlinx.serialization.json/-json/)
+You can do it manually or use a [JSON library](https://kotlinlang.org/api/kotlinx.serialization/kotlinx-serialization-json/kotlinx.serialization.json/-json/).
+
+> [!NOTE]
+> The bootcamp template already includes **kotlinx-serialization-json**. If you use `@Serializable` / `Json.encodeToString`, add the Kotlin serialization plugin through the version catalog (same Kotlin version as the template). Do **not** add a hardcoded plugin line such as `id("org.jetbrains.kotlin.plugin.serialization") version "1.9.0"`.
 
 Each method of the class `ToDosRepositoryFirestore` should perform its Firestore operations using **suspend functions**.
 This is important because database operations are asynchronous: using suspend functions ensures that they run without blocking the main thread, and errors can be handled properly within a coroutine context. If you're not familiar with coroutines, check the official [Kotlin coroutines documentation](https://developer.android.com/kotlin/coroutines).
@@ -37,6 +43,7 @@ For database operation failures, make exceptions to propagate to the ViewModel s
 > You can also directly use the getter method for the data type, such as `getString()`.
 > - Create a helper method to convert a `DocumentSnapshot` from Firestore into your `ToDo` data class.
 > You may not need the inverse.
+> - The `ToDo` holds a nested `Location` object. Make sure the full `Location` (name, latitude, longitude) is written to and read back from Firestore, so a saved todo round-trips exactly; the tests check this.
 > - Use `await()` from `kotlinx.coroutines.tasks` to suspend execution until a Firestore operation completes.
 > - Catch exceptions only within helper methods; let all other Firestore errors propagate to be handled by the caller.
 > - If you are still not sure how to use the `Task` type, explore the examples in the Firestore code.
@@ -61,7 +68,7 @@ Here are the requirements for the `ToDosRepositoryFirestore` class:
 - The repository should not manage the `uid` of a `ToDo`.
   If you want to create a new `ToDo` with a new `uid`, you must generate it before calling `addTodo`.
 
-Once you are done with your implementation, you can test it using the provided `ToDosRepositoryFirestoreTest` test suite.
+Once you are done with your implementation, you can test it using the provided `ToDosRepositoryFirestoreTestB2` test suite.
 
 > [!NOTE]
 > This test suite uses the Firebase emulator.
@@ -105,21 +112,22 @@ Here are the requirements for the `AddTodoScreen`:
   - Location
   - Due Date in the following format: `dd/mm/yyyy` (every other format should be considered invalid)
 - Title, Description, Assignee and Date are mandatory fields: they cannot be empty, or blank.
-- The Date must be in the format `dd/mm/yyyy` (e.g., 25/12/2023).
+- The Date must be in the format `dd/mm/yyyy` (e.g., 25/12/2023). The format is **strict**: a two digit day, a two digit month and a four digit year. A single digit day or month (`1/3/2025`), a two digit year (`12/03/25`) or other separators (`12-03-2025`) are invalid. `SimpleDateFormat` is lenient by default and would wrongly accept these, so enforce the exact format yourself. A calendar impossible date such as `31/02/2023` is not checked and counts as valid.
 - Location is optional for B2. It can be left empty or blank.
 - When the user types in an invalid input, an error message should be displayed without any user action (e.g., pressing a button, moving focus away).
   It means that, if the user enters *15/10/25* as the date, the error message should be visible when the user types the last character.
+- Use a **single** error message node, tagged `ERROR_MESSAGE`, for the current error. The tests match exactly one such node, so do not add a separate tagged error message per field.
 - User can only add todos with valid data. Adding a todo is done by pressing the Save button.
 - When the user clicks on the Save button, they should be redirected to the Overview screen. The newly added Todo must be present in the list. No additional action is required from the user to see the new todo.
 - Redirection is considered as forward navigation.
 - All the requirements from B1 must still be satisfied.
-- All UI elements for `AddToDo` screen must be visible on a 1080x2400 screen (Medium phone on Android Studio), as this screen size is used in the automated tests.
+- All UI elements for `AddToDo` screen must be visible on a 1080x2424 screen (Pixel 10a on Android Studio), as this screen size is used in the automated tests.
 
 ### Test your implementation
 
 Once you're done with your implementation, build and run the app to check that everything works as expected. Don’t forget to update the `BootcampApp` composable in `MainActivity.kt` with your code.
 
-We provide you several test suites for this step: `AddToDoScreenB2Test`, `AddToDoFirestoreEmulatedTest`, and `NavigationB2Test`. Note that `NavigationB2Test` also includes tests for the EditTodo screen that you will implement in a following step.
+We provide you several test suites for this step: `AddToDoScreenB2Test`, `AddToDoFirestoreEmulatedTestB2`, and `NavigationB2Test`. Note that `NavigationB2Test` also includes tests for the EditTodo screen that you will implement in a following step.
 
 > [!NOTE]
 > Some tests use the Firebase emulator.

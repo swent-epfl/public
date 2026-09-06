@@ -5,7 +5,9 @@ This milestone focuses on setting up your Android development infrastructure, pl
 The following tasks should be completed for the first milestone.
 We provide an estimated amount of time for each step.
 After you complete a step, fill in the _actual_ time you spent in the `actualTimeB1.csv` CSV file that is already in the top folder of your individual repo.
-Do not edit this README, and make sure you preserve the structure of the CSV file.
+Do not edit this README, and make sure you preserve the structure of the CSV file. 
+The most important part of tracking time is for you to get better at estimating how fast you can do things.
+A secondary benefit is that it help us track how much students spend on each step, and we can then improve the Bootcamp.
 
 <table>
     <colgroup>
@@ -63,31 +65,23 @@ Do not edit this README, and make sure you preserve the structure of the CSV fil
 </table>
 
 > [!NOTE]
-> Initially the Continuous Integration (CI) will fail, as it runs the tests to check your code automatically. By the end of B1, make sure your last commit of B1 successfully passes all the CI checks. To see if your code passes, go to the Actions tab in your GitHub repository.
+> Initially the Continuous Integration (CI) will fail, as it runs the tests to check your code automatically. By the end of B1, make sure your last commit successfully passes the **`B1-public`** job (with `BOOTCAMP_PART: B1` in `.github/workflows/CI.yml`). To see if your code passes, go to the Actions tab in your GitHub repository.
 
-## B1 Grading
+## B1 Requirements
 
 > [!IMPORTANT]
-> Automated grading will apply to the `main` branch of your repo, based on the last commit you make and push **before 23:59 on 15.09.2025**.
-> If you start working on B2 before the deadline for B1, do so on a branch called `milestone-B2`, which you then merge into `main` after the B1 deadline.
+> Work on (or PR into) **`main`**, with `BOOTCAMP_PART: B1` in `.github/workflows/CI.yml`. As soon as the **`B1-public`** job is green on `main`, we will push the B1 reference solutions to your repo on the `B1-solution` branch. The sooner you complete `B1`, the sooner that happens, the sooner you will get to see how the staff solved it, and the sooner you can move on to `B2`. However, make sure you complete `B1` before the end of Friday, 11.09.2026, otherwise you risk falling irrecoverably behind.
 
-We use the belt system described in the [README](../../README.md) to grade your Bootcamp.
-
-### Requirements
+Here is the level of difficulty of the various steps, using the belt system described in the [README](../../README.md):
 
 - <span style="background-color: #f2f2f2;">White Belt</span> : You committed something to the repository before the deadline
 - <span style="background-color: #FCE883;">Yellow Belt</span>: In addition to White,
   - Pass all the public tests for [Greeting](2-GettingStartedWithAndroid.md) and [Todo List](3-TodoList.md)
-  - Your commit messages are acceptable
-  - The two user stories are acceptable
+  - You respected the template for the commit messages
+  - You wrote the two [user stories](7-UserStories.md)
 - <span style="background-color: #77DD77;">Green Belt</span>: In addition to Yellow,
   - Pass all the public tests for [Navigation](4-Navigation.md)
-  - Your commit messages are good
-  - The two user stories are good
 - <span style="background-color: #87CEFA;">Blue Belt</span>: In addition to Green,
-  - Pass all the staff tests for [TodoList](3-TodoList.md) and [Navigation](4-Navigation.md)
-  - Your commit messages are good
-  - The two user stories are good
+  - Pass all the staff tests for [TodoList](3-TodoList.md)
 - <span style="background-color: #3F3F3F; color: white;">Black Belt</span>: In addition to Blue,
-  - Your commit messages are perfect
-  - The two user stories are perfect
+  - Pass all the staff tests for [Navigation](4-Navigation.md)

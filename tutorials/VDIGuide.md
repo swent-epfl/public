@@ -9,10 +9,12 @@ First, please check the [official document](https://support.epfl.ch/epfl?id=epfl
 
 IT only configured the Ubuntu environment for us, so if you are not familiar with Linux, please learn the basic operations, be patient, and try to solve problems by searching, asking ChatGPT, and getting help from us.
 
-Android Studio is already installed on the machine. After starting the machine, open a terminal (it should be on the dock on the left) and run the following command to launch Android Studio:
+Android Studio is already installed on the machine. After starting the machine, click on Menu (top-left corner) – Programming – Android Studio to launch it.
+
+Alternatively, open a terminal (it should be on the dock on the left) and run the following command to launch Android Studio:
 
 ```shell
-/opt/android-studio/bin/studio.sh
+/snap/android-studio/bin/studio.sh
 ```
 
 You will see some output in the terminal, which you can usually ignore. Android Studio should now appear. Next, follow the documentation in your Bootcamp repo to initialize Android Studio.

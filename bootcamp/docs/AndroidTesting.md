@@ -37,6 +37,8 @@ Espresso allows you to work with the elements of your application as a white box
 > To add a tag to a composable, use the following modifier to it `Modifier.testTag("my_tag")`
 
 ```kotlin
+import androidx.compose.ui.test.junit4.v2.createComposeRule
+
 // This annotation is here to make the test is appropriate for JVM environment (with Robolectric)
 @RunWith(AndroidJUnit4::class)
 class MyComposeEspressoTest {
@@ -135,6 +137,8 @@ class ComposeMainScreen(semanticsProvider: SemanticsNodeInteractionsProvider) :
 Here is an example of Kaspresso test for Jetpack Compose for a static screen.
 
 ```kotlin
+import androidx.compose.ui.test.junit4.v2.createComposeRule
+
 @RunWith(AndroidJUnit4::class)
 class ComposeSimpleFlakyTest : TestCase(
     kaspressoBuilder = Kaspresso.Builder.withComposeSupport() // Enable Jetpack Compose support in Kaspresso
@@ -180,8 +184,8 @@ Firebase Emulators[^1] simulate Firebase services locally on your machine. This 
 
 ### Installation
 To install the Firebase Emulator Suite, you will need the following:
-- [Node.js](https://nodejs.org/en/download) version 16.0 or higher
-- [Java JDK](https://jdk.java.net/) version 11 or higher
+- [Node.js](https://nodejs.org/en/download) version **20** or higher
+- [Java JDK](https://jdk.java.net/) version **21** (current Firebase Emulator Suite / `firebase-tools` requires JDK 21+)
 - [The Firebase CLI](https://firebase.google.com/docs/cli)
 
 Once everything is installed, run `firebase login` and give the credentials to the account you used to create your Firebase project. After signing in, you should be able to see your Firebase projects by running `firebase projects:list`.
@@ -205,19 +209,16 @@ The Firebase emulators can be started using `firebase emulators:start`. Once sta
 
 To connect your app to the emulators, call the following methods before any other Firebase calls.
 ```kotlin
+import com.google.firebase.Firebase
+import com.google.firebase.auth.auth
+import com.google.firebase.firestore.firestore
+
 Firebase.firestore.useEmulator("10.0.2.2", 8080)
 Firebase.auth.useEmulator("10.0.2.2", 9099)
 ```
 Make sure to pass the correct ports if you did not select the default ones.
 
-As Android by default does not allow cleartext traffic on `10.0.2.2`, add the following to your `AndroidManifest.xml` file to enable communication between the emulator and your app.
-```xml
-<application
-    ...
-    android:usesCleartextTraffic="true">
-    ...
-</application>
-```
+`10.0.2.2` is the special alias the Android emulator uses for your laptop. The bootcamp template already includes a **debug** network security config that allows cleartext HTTP to that host, so you do not need to add `android:usesCleartextTraffic="true"`.
 
 ### Usage in Android tests
 To use the Firebase Emulators in Android tests, we provide for you the  `FirebaseEmulatedTest` class. Extend your test classes by it for example as follows:
@@ -232,7 +233,6 @@ Then, launch the emulators as usual using `firebase emulators:start` and run the
 > The created accounts and documents in Firestore are cleared after each test. This ensures each test runs independently of the others.
 
 For advanced usage such as state import/export or CI integration, refer to the [Firebase documentation](https://firebase.google.com/docs/emulator-suite/install_and_configure).
-
 [^1]: https://firebase.google.com/docs/emulator-suite
 
 ---

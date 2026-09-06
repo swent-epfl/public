@@ -1,6 +1,6 @@
 # Navigating Between Different Screens
 
-In the previous steps of the bootcamp, you implemented two UI components. Currently, you cannot start the app and see both screens at the same time. In this step, you'll implement the app's navigation system.
+In the previous steps of the Bootcamp, you implemented two UI components. Currently, you cannot start the app and see both screens at the same time. In this step, you'll implement the app's navigation system.
 
 ## Implementing the Navigation
 
@@ -46,6 +46,9 @@ As the navigation system is a core component of a mobile application, it does no
 - When the user is in a tab and clicks on the same tab icon again, it should not reset the screen.
   For example: if the user clicks on the Overview tab, scrolls down, and clicks Overview again, the list should still be scrolled down.
 
+> [!TIP]
+> The last two requirements are subtle together. With the usual bottom-bar pattern, navigating to a tab with `popUpTo(startDestination) { launchSingleTop = true }` keeps the start destination on the back stack, so its scroll position survives **even a tab switch**: that satisfies "same tab keeps its state" but breaks "switching tabs resets the state". Look at the `saveState` / `restoreState` navigation options and at what happens to the start destination's back-stack entry, and think about keeping state only when re-selecting the current tab while starting the other tabs fresh.
+
 ### Test your implementation
 
 Once you are done with your implementation, build and run the app to see if it works as expected.
@@ -53,9 +56,7 @@ Make sure to modify the content of the `BootcampApp` composable in the `MainActi
 
 To check that your implementation satisfies the requirements, run the `NavigationB1Test` suite.
 
-As usual, you will need to attach *test tags* to your UI components to pass our tests. All the required test tags are provided in the `OverviewScreenTestTags`, `MapScreenTestTags`, and `NavigationTestTags` objects. Please have a look at the [Figma Testing mockup](https://www.figma.com/design/IDm3NGS988Myo01P0Wa0Cr/TO-DO-APP-Mockup-FALL?node-id=435-3350) mockup to see where to place each tag.
-
-Also, make sure that your app builds the signature check files.
+As usual, you will need to attach *test tags* to your UI components to pass our tests. All the required test tags are provided in the `OverviewScreenTestTags`, `MapScreenTestTags`, and `NavigationTestTags` objects. Please have a look at the [Figma Testing mockup](https://www.figma.com/design/IDm3NGS988Myo01P0Wa0Cr/TO-DO-APP-Mockup-FALL?node-id=435-3350) to see where to place each tag.
 
 ## Additional resources
 

@@ -29,14 +29,15 @@ Here are the requirements for the `EditToDoScreen`:
 
 - When the user clicks on a ToDo in the Overview screen, they should be navigated to the Edit ToDo screen for that specific todo.
   The input fields must be pre-filled with the current values of the selected todo.
+- The screen's top bar title is exactly `Edit Todo`.
 - The user can edit the following fields: Title, Description, Assignee, Location, Due Date, and Status.
   They follow the same validation rules as in `AddToDoScreen` (title is mandatory, date format must be `dd/mm/yyyy`, etc.).
-- The user can change the status of the todo by clicking the Status button, which cycles through the enum values in order (`CREATED` → `STARTED` → `ENDED` → `ARCHIVED` → `CREATED` → …).
+- The user can change the status of the todo by clicking the Status button, which cycles through the enum values in order (`CREATED` → `STARTED` → `ENDED` → `ARCHIVED` → `CREATED` → …). The button's label shows **only** the status name (for example `CREATED`), nothing else.
 - The user can delete a todo by clicking the Delete button.
 - The user can save changes by clicking the Save button only if all inputs are valid.
 - When the user saves valid changes or deletes the todo, they should be redirected to the Overview screen. The updated list of todos must be displayed and it should reflect the changes made. As usual, redirection is considered as forward navigation (state is *not* restored).
 - The user can navigate back to the Overview screen using the system back button or the top app bar back button. In this case, any unsaved changes should be discarded, and the Overview screen should display the list of todos as it was before navigating to the Edit ToDo screen.
-- All UI elements must be visible on a 1080x2400 screen (Medium phone on Android Studio), as this screen size is used in the automated tests.
+- All UI elements must be visible on a 1080x2424 screen (Pixel 10a on Android Studio), as this screen size is used in the automated tests.
 
 > [!NOTE]  
 > For the moment:  
@@ -52,7 +53,7 @@ Here are the requirements for the `EditToDoScreen`:
 
 Once you're done with your implementation, build and run the app to check that everything works as expected. Don't forget to update the `BootcampApp` composable in `MainActivity.kt` with your code.
 
-For this step, we provide you with two test suites: `EditToDoScreenTest` and `EditToDoFirestoreEmulatedTest`. At this point, you can also use the `NavigationB2Test` test suite, which includes navigation tests for both the AddToDo and EditToDo screens.
+For this step, we provide you with two test suites: `EditToDoScreenB2Test` and `EditToDoFirestoreEmulatedTestB2`. At this point, you can also use the `NavigationB2Test` test suite, which includes navigation tests for both the AddToDo and EditToDo screens.
 
 > [!NOTE]
 >
@@ -66,3 +67,11 @@ Finally, make sure your app builds the signature check files.
 ---
 
 Congratulations! You have completed the second deliverable of the bootcamp. Don’t forget to check that your Continuous Integration (CI) pipeline is passing before moving on.
+
+## Solutions
+
+When the **`B2-public`** job is green **on `main`** (push to `main`, or a PR into `main`, with `BOOTCAMP_PART: B2`), a branch named `B2-solution` is created automatically in your repository with the reference solutions. You can browse or check out that branch to compare with your work.
+
+> [!NOTE]
+>
+> The unlock script runs on a schedule. Expect the branch to appear within about **20 minutes to 1 hour** after the CI succeeds on `main`.

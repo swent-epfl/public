@@ -100,25 +100,29 @@ Once you're done with your implementation, build and run the app to check that e
 You can check if your rule is correct by running the `firebase/firestore/test/src/index.test.ts` test suite we provided by running the following command in your terminal:
 
 ```bash
-# Start the emulators in a separate terminal
-firebase emulators:start
+# Start the Firestore emulator in a separate terminal and leave it running
+firebase emulators:start --only firestore
 
-# Go to the `firebase/firestore/test` directory
+# In another terminal, go to the `firebase/firestore/test` directory
 cd firebase/firestore/test
 
 # Install dependencies
 npm install
 
-# Run the tests
-npm test
+# Run the tests against the running emulator.
+# Do NOT use `npm test`: it starts its own emulator and clashes on the busy ports.
+npm run main
 ```
+
+> [!TIP]
+> Use a Firebase CLI installed with `npm install -g firebase-tools`; the standalone binary can crash the tests with `ERR_REQUIRE_ESM`. If the tests fail with a `different Firestore SDK` error, your `node_modules` is stale: run `rm -rf node_modules && npm install`.
 
 Additionally, we recommend running the B2 test suites to verify that your app still functions properly after implementing access control.
 
 You're done! Your app is now secured against any malicious request.
 
 > [!NOTE]  
-> Please click [here](./3-LocationBasedTodos.md) to proceed to the next step.
+> Please click [here](./AgenticWorkflow.md) to proceed to the next step.
 
 [^1]: <https://firebase.google.com/docs/firestore/security/get-started>
 [^2]: <https://firebase.google.com/docs/rules/rules-language>

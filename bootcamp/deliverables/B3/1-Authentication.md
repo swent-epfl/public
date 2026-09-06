@@ -96,3 +96,9 @@ You should write your own tests to ensure that your implementation is correct.
 As in B1, you will need to attach test tags to your UI components to pass our tests. All required test tags are defined in the `SignInScreenTestTags` and `OverviewScreenTestTags` objects. Check [Figma Testing mockup](https://www.figma.com/design/IDm3NGS988Myo01P0Wa0Cr/TO-DO-APP-Mockup-FALL?node-id=435-3350&p=f) to see where each tag should be placed.
 
 Finally, make sure that your app builds the signature check files.
+
+---
+
+Congrats, you're done!
+
+> [Next Step: Access Control](2-AccessControl.md)

@@ -155,7 +155,6 @@ In your `AndroidManifest.xml` file, in the `<application>` tag, we usually direc
 Then in `app/build.gradle.kts` in the section `android` we added the following :
 
 ```kts
-import org.jetbrains.kotlin.util.capitalizeDecapitalize.toLowerCaseAsciiOnly
 import java.io.FileInputStream
 import java.util.Properties
 
@@ -212,6 +211,14 @@ Finally, make sure that your app builds the signature check files.
 ---
 
 Congrats, you're done!
+
+## Solutions
+
+When the **`B3-public`** job is green **on `main`** (push to `main`, or a PR into `main`, with `BOOTCAMP_PART: B3`), a branch named `B3-solution` is created automatically in your repository with the reference solutions. You can browse or check out that branch to compare with your work, it is not merged into `main` for you.
+
+> [!NOTE]
+>
+> The unlock script runs on a schedule. Expect the branch to appear within about **20 minutes to 1 hour** after the CI succeeds on `main`.
 
 > [Return to the Table of Contents](./README.md)
 

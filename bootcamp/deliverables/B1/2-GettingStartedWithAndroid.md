@@ -1,32 +1,32 @@
 # Getting Started with Android Application Development
 
-We're going to kickstart your career as an Android software engineer by creating a user-friendly greeting application. In this step, you'll build a *Greeting App*: the user types their name and the app displays a greeting.
+Let's kickstart your career as an Android software engineer by creating a user-friendly greeting application. In this step, you'll build a *Greeting App*: the user types their name and the app displays a greeting.
 
 ## Greeting App
 
-The Greeting App is the first step of the bootcamp, and its objective is to help you discover the Android ecosystem. This app has only one feature: when the user enters their name, a greeting message is displayed.
+The Greeting App is the first step of the Bootcamp, and its objective is to help you discover the Android ecosystem. This app has only one feature: when the user enters their name, a greeting message is displayed.
 
 At the end of this step, your app should look like this:
 
 <p align="center"><img alt="Greeting 2.0 app screenshot-1" src="assets/2-GettingStartedWithAndroid/Greeting2.0VEmpty.png" width="20%" /> <img alt="Greeting 2.0 app screenshot-2" src="assets/2-GettingStartedWithAndroid/Greeting2.0VFilled.png" width="20%" /></p>
 
 In the following sections we will describe how to build and test the app. If you get stuck:
-- Follow the Android documentation links.
-- Look up your question in a search engine (e.g., Stack Overflow).
-- Ask a question in the course forum.
+1. Follow the Android documentation links and read the docs
+1. Look up your question with an LLM, a search engine, or on Stack Overflow
+1. Ask a question in the course forum
 
 ## Jetpack Compose
 
-We use Jetpack Compose to create UIs, which allows you to build them entirely in Kotlin code.  It is fully declarative, meaning you describe your UI by calling a series of functions that transform data into a UI hierarchy. When the underlying data changes, the framework automatically re-executes these functions, updating the UI hierarchy for you.
+You will use Jetpack Compose to create UIs, which allows you to build them entirely in Kotlin code.  It is fully declarative, meaning you describe your UI by calling a series of functions that transform data into a UI hierarchy. When the underlying data changes, the framework automatically re-executes these functions, updating the UI hierarchy for you.
 
-To get started with Jetpack Compose, please go through [this Android codelab](https://developer.android.com/codelabs/jetpack-compose-basics#0), focusing only on steps 1 to 7. Later steps go beyond what you need for this step, so you can skip them for now. Codelabs are helpful because they explain concepts with working code examples and usually link to a GitHub repository containing demonstration code. We encourage you to explore the provided code while following the codelab.
+To get started with Jetpack Compose, go through [this Android codelab](https://developer.android.com/codelabs/jetpack-compose-basics#0), focusing only on steps 1 to 7. Later steps go beyond what you need for this step, so you can skip them for now. Codelabs are helpful because they explain concepts with working code examples and usually link to a GitHub repository containing demonstration code. We encourage you to explore the provided code while following the codelab.
 
 > [!IMPORTANT]
-> Throughout the bootcamp, we will give you various kinds of resources: Android documentation, codelabs, lecture videos, etc. We *strongly* advise you to read them, as we will not cover everything in the handouts.
+> Throughout the Bootcamp, we will give you various kinds of resources: Android documentation, codelabs, lecture videos, etc. We *strongly* advise you to read them, as we will not cover everything in the handouts. You must develop the skill to teach yourself the concepts and technologies you need to accomplish your task.
 
-Now you should have a basic understanding of what a Composable is, what `MainActivity` is, how to create Composables for UIs, and how to use `@Preview` to speed up development. If not, please review the codelab.
+Now you should have a basic understanding of what a Composable is, what `MainActivity` is, how to create Composables for UIs, and how to use `@Preview` to speed up development. If not, please go back to the codelab.
 
-Now, open file `MainActivity.kt`. Inside the `onCreate` function, the first Compose element you will see is named `BootcampTheme`; it is a composable that defines the theme of our Bootcamp app. You will also see `BootcampApp`, where you will implement your greeting logic.
+Open file `MainActivity.kt`. Inside the `onCreate` function, the first Compose element you will see is named `BootcampTheme`; it is a composable that defines the theme of your Bootcamp app. You will also see `BootcampApp`, where you will implement your greeting logic.
 
 ```kotlin
 class MainActivity : ComponentActivity() {
@@ -46,13 +46,13 @@ class MainActivity : ComponentActivity() {
 
 ### Implementing the App
 
-Now, try to complete `GreetingScreen()` Composable in `GreetingScreen.kt`. `GreetingScreen()` should display:
+Complete the `GreetingScreen()` Composable in `GreetingScreen.kt`. `GreetingScreen()` should display:
 
 - A text field to input a name
 - A button to validate the name
 - A greeting message
 
-Initially, the greeting message should be set to `"What's your name ?"`. When the user enters their name in the textbox and clicks the button, the greeting message should update to show `"Hi, <your name>"`.
+Initially, the greeting message should be set to `"What's your name ?"`. When the user enters their name in the textbox and clicks the button, the greeting message should update to show `"Hi <your name>"`.
 
 > [!TIP]
 > When you build Composables, it is helpful to use the `@Preview` annotation to see how they look without running the app on an emulator or device.
@@ -61,7 +61,7 @@ Initially, the greeting message should be set to `"What's your name ?"`. When th
 
 <p align="center"><img alt="Display all Gradle tasks" src="assets/2-GettingStartedWithAndroid/SplitViewForPreview.jpg" width="80%" /></p>
 
-After completing `GreetingScreen`, remember to modify `BootcampApp()` in `MainActivity.kt` to call your `GreetingScreen`.
+After completing `GreetingScreen`, you should modify `BootcampApp()` in `MainActivity.kt` to call your `GreetingScreen`.
 
 > [!NOTE]
 > You should not change the signature of the provided functions.
@@ -69,16 +69,14 @@ After completing `GreetingScreen`, remember to modify `BootcampApp()` in `MainAc
 > - Do not change the name of existing arguments.
 > - You may only add arguments with default values.
 >
-> To enforce this, we provide a signature check file `sigchecks/GreetingSigchecks.kt`.
-> Your build will fail if any non-optional argument is modified.
-> Always make sure your app builds successfully with this file included.
+> To enforce this, we provide a signature check file `sigchecks/GreetingSigchecks.kt`. Your build will fail if any non-optional argument is modified. Always make sure your app builds successfully with this file included. Ignore these instructions at your own peril.
 
 ### Building the App
 
 Before building your app, make sure you can see all Gradle tasks in Android Studio.  
 
 > [!NOTE]  
-> If your Gradle task list is empty or nearly empty, please do the following:
+> If your Gradle task list is empty or nearly empty, do the following:
 >
 > - In the Gradle menu, click the gear icon → **Gradle Settings**.
 > - In the new window, go to the **Experimental** tab and enable *“Configure all Gradle tasks …”*.  
@@ -103,35 +101,33 @@ If the code is not properly formatted, the build will fail. To format the code, 
 
 ### Testing Your Implementation
 
-Now, it's time to test your implementation! We provide the `GreetingScreenTest` suite for this purpose.
+Now, it's time to test your implementation! We provide the `GreetingScreenTestB1` suite for this purpose.
 
 Before running tests, you must add *test tags* to your Composables so the automated tests can find UI elements.
 
 - Add test tags using `modifier = Modifier.testTag("TAG_NAME")`.
-- The available tags are defined in `GreetingScreenTestTags` in the `GreetingScreen.kt` file.
-- You can see how the test tags are used in `GreetingScreenTest.kt`.
+- The available tags are defined in `GreetingScreenTestB1Tags` in the `GreetingScreen.kt` file.
+- You can see how the test tags are used in `GreetingScreenTestB1.kt`.
 
 To run the UI tests, set up an Android emulator or a physical device. You can find setup instructions in [this tutorial](/bootcamp/docs/AndroidTesting.md#configuring-the-emulator).
 
-Once ready, open `GreetingScreenTest.kt` and click the green ▶▶ button next to `class GreetingScreenTest {`. If the tests pass, you will see green check marks in the test panel, or "BUILD SUCCESSFUL" in the console.
+Once ready, open `GreetingScreenTestB1.kt` and click the green ▶▶ button next to `class GreetingScreenTestB1 {`. If the tests pass, you will see green check marks in the test panel, or "BUILD SUCCESSFUL" in the console.
 
 Alternatively, run the tests via command line:
 
 ```bash
 ./gradlew connectedAndroidTest   \
--Pandroid.testInstrumentationRunnerArguments.class=com.github.se.bootcamp.ui.GreetingScreenTest
+-Pandroid.testInstrumentationRunnerArguments.class=com.github.se.bootcamp.ui.GreetingScreenTestB1
 ```
 
 
 > [!NOTE]
-> We only check whether your User Interface (UI) meets the required functionality, not whether it looks exactly like our mockups or screenshots.
+> The tests only check whether your User Interface (UI) meets the required functionality, not whether it looks exactly like our mockups or screenshots.
 > For example, you can use any color scheme you like, as long as the required elements (such as the button) are present and usable.
 
 ## Additional Resources
 
-### Material Components
-
-Material is a catalog of components that allow you to quickly build your UI (e.g., search bar, time picker, etc.).
+**Material** is a catalog of components that allow you to quickly build your UI (e.g., search bar, time picker, etc.).
 
 For understanding which component to use for which element, refer to the [Material Design Guidelines](https://m3.material.io/components). This site explains how to design Android apps and choose components.
 
