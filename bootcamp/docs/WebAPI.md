@@ -60,7 +60,7 @@ Finally, for more types of data, you should check out [the Android data storage 
 
 You shouldn't be running I/O tasks on the main thread, as that thread is also responsible for UI updates. If the main thread is blocked, the user will see a frozen app, and might get impatient and close it.
 
-Take a look at [Kotlin coroutines](https://developer.android.com/kotlin/coroutines) (or equivalent asynchronous Java functions, such as the fancy [Futures](https://developer.android.com/reference/java/util/concurrent/Future) as seen in [the Asynchrony lecture](https://github.com/sweng-epfl/public/tree/main/lectures/Asynchrony)).
+Take a look at [Kotlin coroutines](https://developer.android.com/kotlin/coroutines) (or equivalent asynchronous Java functions, such as the fancy [Futures](https://developer.android.com/reference/java/util/concurrent/Future)).
 
 ### Step 6: Use a library
 

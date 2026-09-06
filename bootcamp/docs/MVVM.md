@@ -1,6 +1,6 @@
 # Implementing the MVVM Pattern
 
-The MVVM design pattern was covered in lecture [[slides](lectures/Wk1.B%20-%20The%20Mobile%20Platform.pdf) | [video](https://www.youtube.com/watch?v=WpmptzLYQkU)] at a high level, and here we explain how to implement it and how data flows between the different layers.
+The MVVM design pattern was covered in lecture at a high level, and here we explain how to implement it and how data flows between the different layers.
 In the bootcamp, you will implement various features using the MVVM pattern.
 
 ## App Structure Overview

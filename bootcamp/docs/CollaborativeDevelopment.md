@@ -1,6 +1,6 @@
 # Collaborative Development
 
-We covered collaborative development in lecture [[slides](https://github.com/swent-epfl/public/blob/main/lectures/Wk3.A%20-%20Collaborative%20Software%20Development.pdf) \| [videos](https://www.youtube.com/watch?v=Lnu1rsIjtk4&list=PLr41P4J9F0ZOs2o4OGpMvKeBipnklTyWi)], and here is a refresher.
+We covered collaborative development in lecture; here is a refresher.
 
 ## Collaborative workflow
 

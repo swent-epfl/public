@@ -1,7 +1,7 @@
 # Android Test
 
 This is Part Two of our Android testing tutorial, focusing on UI testing.
-We covered UI testing in the _Advanced Testing_ lecture [[slides](https://github.com/swent-epfl/public/blob/main/lectures/Wk2.B%20-%20Advanced%20Testing.pdf) \| [videos](https://www.youtube.com/watch?v=yrOH3XrDBuU&list=PLr41P4J9F0ZM1ebUm2QoLquU-yHA9bm6Z)]. Here we make it more concrete for the Android environment.
+We cover UI testing in the _Advanced Testing_ series of lectures. Here we make it more concrete for the Android environment.
 
 > **Part One : [Unit Testing](./UnitTesting.md)**
 
@@ -107,7 +107,7 @@ Kaspresso aim at providing :
 ### Page Objects Pattern
 
 Page object pattern is a test abstraction that describes the screen with some view elements using tags. These view items can be interacted with during tests.
-This is a similar concept to the Page Object Model mentioned in the _Advanced Testing_ lecture [[slides](https://github.com/swent-epfl/public/blob/main/lectures/Wk2.B%20-%20Advanced%20Testing.pdf) \| [videos](https://www.youtube.com/watch?v=yrOH3XrDBuU&list=PLr41P4J9F0ZM1ebUm2QoLquU-yHA9bm6Z)]. 
+This is a similar concept to the Page Object Model mentioned in the _Advanced Testing_ lecture series. 
 
 The description of the screen elements will be in a separate class.
 

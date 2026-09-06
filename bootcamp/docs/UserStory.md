@@ -1,12 +1,7 @@
 # User Story
 
 > [!TIP]
-> You can also review the lecture [slides](https://moodle.epfl.ch/pluginfile.php/3317323/mod_resource/content/4/Wk1.A.pdf) and the following related lecture videos:
-[Requirements Overview](https://mediaspace.epfl.ch/playlist/dedicated/60382/0_orzu1on2/0_18p5vaz4) |
-[Personas](https://mediaspace.epfl.ch/playlist/dedicated/60382/0_orzu1on2/0_15cl28jy) |
-[User Stories](https://mediaspace.epfl.ch/playlist/dedicated/60382/0_orzu1on2/0_rukisjsw) |
-[Requirements Validation](https://mediaspace.epfl.ch/playlist/dedicated/60382/0_orzu1on2/0_lnk2499i) |
-[Epics & Story Mapping](https://mediaspace.epfl.ch/playlist/dedicated/60382/0_orzu1on2/0_9bglhde9).
+> Before reading this tutorial, make sure you followed the lectures on _Requirements, Personas, User Stories, Requirements Validation,_ and _Epics_.
 
 A user story must follow the structure:
 

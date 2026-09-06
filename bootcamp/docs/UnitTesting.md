@@ -1,6 +1,6 @@
 # Unit testing
 
-This guide, in two parts, reviews the material covered in lectures, with a focus on testing in Android, covering **unit tests** and **UI tests**. By the end of this guide, you'll understand the difference between these types of tests and how to set up and use them in your Android projects. You can also refer to the lectures on _Testing Fundamentals_ [[slides](https://github.com/swent-epfl/public/blob/main/lectures/Wk2.A%20-%20Testing%20Fundamentals.pdf) \| [videos](https://www.youtube.com/playlist?list=PLr41P4J9F0ZMRgp3gw1cRA0VrQOphp-SA)] and _Advanced Testing_ [[slides](https://github.com/swent-epfl/public/blob/main/lectures/Wk2.B%20-%20Advanced%20Testing.pdf) \| [videos](https://www.youtube.com/watch?v=yrOH3XrDBuU&list=PLr41P4J9F0ZM1ebUm2QoLquU-yHA9bm6Z)]. 
+This guide, in two parts, reviews the material covered in lectures, with a focus on testing in Android, covering **unit tests** and **UI tests**. By the end of this guide, you'll understand the difference between these types of tests and how to set up and use them in your Android projects. You can also refer to the lectures in the _Testing Fundamentals_ and _Advanced Testing_ series. 
 
 When developing Android applications, it's crucial to ensure that both individual components and the entire app behave as expected. This is where unit tests and UI tests come in:
 
@@ -61,7 +61,7 @@ class ExampleUnitTest {
 
 ## Mocking & Dependency Injection
 
-Unit tests focus on testing methods or classes in isolation. To do so, we often need to mock dependencies so that we don't rely on the actual implementation, as we saw in the _Advanced Testing_ lecture [[slides](https://github.com/swent-epfl/public/blob/main/lectures/Wk2.B%20-%20Advanced%20Testing.pdf) \| [videos](https://www.youtube.com/watch?v=yrOH3XrDBuU&list=PLr41P4J9F0ZM1ebUm2QoLquU-yHA9bm6Z)]. 
+Unit tests focus on testing methods or classes in isolation. To do so, we often need to mock dependencies so that we don't rely on the actual implementation, as we saw in the _Advanced Testing_ series of lectures. 
 
 ### Example
 
