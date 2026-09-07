@@ -42,7 +42,7 @@ As part of the Bootcamp, you will experience some of the pitfalls of real-world 
 Each week has one deliverable, corresponding to one milestone. The deliverables are described in the [README](deliverables/README.md) in the [deliverables](deliverables/) folder. You do not need to turn these in to us, they're to give you an indication of the expected pace. 
 
 > [!IMPORTANT]  
-> The Bootcamp is not a graded assignment. It's role is to help you ground in practice the concepts taught in lecture, and to get you ready for the project. 
+> The Bootcamp is not a graded assignment. Its role is to help you ground in practice the concepts taught in lecture, and to get you ready for the project. 
 
 > [!WARNING]  
 > The Bootcamp is required material for the [exam](/exam/README.md). Do not use an LLM or agents to write the code, because that will deprive you of gaining the knowledge and practice needed on the exam. You are encouraged however to use an LLM to help you understand deeper the bootcamp, and an agent can review the code you write and suggest improvements.
@@ -57,11 +57,11 @@ By pushing your solution to your individual repository `https://github.com/swent
 ### General Principles
 
 - We have five tiers of performance, defined by analogy to the belts in martial arts:
-  - <span style="background-color: #f2f2f2;">White Belt</span> is where students start. Typically the lack of effort and investment (and more rarely the lack of ability) keeps some students within this tier, where they do not achieve a satisfactory command of the basics, and so they do not pass the course.
-  - <span style="background-color: #FCE883;">Yellow Belt</span> is for students who have more or less learned the basics, but do not demonstrate much more than a basic competence.
-  - <span style="background-color: #77DD77;">Green Belt</span> is for average students, i.e., those who have a good command of the basics and know some of the more advanced topics but not all.
-  - <span style="background-color: #87CEFA;">Blue Belt</span> is for the good students, i.e., those who fully master the basics and are in good command of the more advanced aspects of the course.
-  - <span style="background-color: #3F3F3F; color: white;">Black Belt</span> is for those who demonstrate full mastery and true excellence.
+  - ⚪ **White Belt** is where students start. Typically the lack of effort and investment (and more rarely the lack of ability) keeps some students within this tier, where they do not achieve a satisfactory command of the basics, and so they do not pass the course.
+  - 🟡 **Yellow Belt** is for students who have more or less learned the basics, but do not demonstrate much more than a basic competence.
+  - 🟢 **Green Belt** is for average students, i.e., those who have a good command of the basics and know some of the more advanced topics but not all.
+  - 🔵 **Blue Belt** is for the good students, i.e., those who fully master the basics and are in good command of the more advanced aspects of the course.
+  - ⚫ **Black Belt** is for those who demonstrate full mastery and true excellence.
 - It gets progressively _harder_ to achieve higher tiers (e.g., going from Blue to Black is much harder than going from Yellow to Green), but does not require progressively _more work_ (e.g., going from Blue to Black does not require more time than going from Yellow to Green). In other words, what distinguishes tiers is the amount of ingenuity, creativity, insight, and refinement required to achieve the desired outcome. We don't reward the volume of work invested.  Sometimes, one could make up for lack of ingenuity by taking the more tedious path and working longer hours (e.g., debugging by hand instead of using the appropriate tools), but that comes at the expense of doing other things. Work smarter, not harder. 
 - In order to move to an upper tier, you must fulfill all requirements for the lower tiers. For example, to reach the Blue Belt tier, you must first have met every requirement for the Green Belt (and recursively for Yellow and White).
 
