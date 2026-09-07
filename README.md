@@ -1,9 +1,9 @@
 # EPFL CS-311 _The Software Enterprise: From Ideas to Products_
 
-_Last updated: September 4, 2026_
+_Last updated: September 7, 2026_
 
 > [!IMPORTANT]  
-> Of you were enrolled in CS-311 on IS Academia as of 4.09.2026, you should have received a notification email for confirming your account on our Steve platform. Please follow the procedure described in that email ASAP, so that we can produce your personalized bootcamp repository. You cannot start working on the bootcamp before that.
+> Of you were enrolled in CS-311 on IS Academia as of 6.09.2026, you should have received a notification email for confirming your account on our Steve platform. Please follow the procedure described in that email ASAP, so that we can produce your personalized bootcamp repository. You cannot start working on the bootcamp before that.
 
 ## Table of Contents
 
@@ -263,6 +263,8 @@ The [exam](exam/README.md) assumes you viewed all the online lectures; attendanc
 
 ## Grading
 
+<img align="right" width="320" src="assets/black-belts-2025.jpg" alt="The SwEnt students who earned a Black belt last year, together with the instructor" />
+
 In SwEnt, we use a _belt system_ inspired by martial arts.
 You start out with a White belt.
 Developing mastery is like building a house: first the foundation (after which you earn a Yellow belt), then walls (Green), then a roof (Blue), and finally the pipes, the wiring, the heating, the lights, etc. (Black).
@@ -287,9 +289,7 @@ For each milestone, students receive separate grades for individual and team per
 In other words, half the course grade is based on your team's performance and half on your individual performance.
 > However, if _Project<sub>indiv</sub>_ &lt; 4, then the course grade = 25% _Exam_ + 75% _Project<sub>indiv</sub>_.
 
-Late submissions will be penalized 2% per hour of lateness (e.g., a 1-day late submission will carry a 48% penalty).  
-This policy applies to both individual and team deliverables.
-Early submissions are encouraged but cannot receive bonus points, as per EPFL policy.
+Late submissions in the project will be penalized 2% per hour of lateness (e.g., a 1-day late submission will carry a 48% penalty).  This policy applies to both individual and team deliverables. Early submissions are encouraged but cannot receive bonus points, as per EPFL policy.
 
 ## Workload
 
