@@ -3,7 +3,7 @@
 _Last updated: September 7, 2026_
 
 > [!IMPORTANT]  
-> Of you were enrolled in CS-311 on IS Academia as of 6.09.2026, you should have received a notification email for confirming your account on our Steve platform. Please follow the procedure described in that email ASAP, so that we can produce your personalized bootcamp repository. You cannot start working on the bootcamp before that.
+> In order to start the bootcamp, you must be enrolled in CS-311 on IS Academia. If you were enrolled as of 8.09.2026, you should have received a notification email for confirming your account on the Steve platform. Follow the procedure described in that email ASAP, so that we can produce your personalized bootcamp repository. This is a manual process, so it may take some time.
 
 ## Table of Contents
 
