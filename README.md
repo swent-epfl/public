@@ -1,6 +1,6 @@
 # EPFL CS-311 _The Software Enterprise: From Ideas to Products_
 
-_Last updated: September 7, 2026_
+_Last updated: September 9, 2026_
 
 > [!IMPORTANT]  
 > In order to start the bootcamp, you must be enrolled in CS-311 on IS Academia. If you were enrolled as of 8.09.2026, you should have received a notification email for confirming your account on the Steve platform. Follow the procedure described in that email ASAP, so that we can produce your personalized bootcamp repository. This is a manual process, so it may take some time.
@@ -147,11 +147,11 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Lifecycle of an Android Activity</td><td align="center"><a href="https://drive.google.com/file/d/1IIg8T3Z1h0YS2hprMiL1WCERPN3slTMY/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=UplTsKuonbM">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Modern Android Development</td><td align="center"><a href="https://drive.google.com/file/d/11cKopMlVmtCwpot6UFlDnvqsvDBvJggU/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=sqrdwCVkvRs">video</a></td></tr>
 <tr><td rowspan="18" valign="top">Wk2</td><td><b>Testing Fundamentals: Concepts &amp; Metrics</b></td><td align="center"><!-- <a href="TODO">deck</a> --></td><td align="center"><!-- <a href="TODO">playlist</a> --></td><td rowspan="18" valign="top"><a href="bootcamp/README.md">Bootcamp B2</a> +<br>App description<br>due Thu, 17-Sep @ 23:59</td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Levels of Testing</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;The Cost of Bugs</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;How Well Can We Test?</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Coverage Metrics</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Coverage in Practice</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Levels of Testing</td><td align="center"><a href="https://drive.google.com/file/d/1lFBondvYlDjHikZuSkCXEqvG5z-KEO7q/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=URvMd41BIwI">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;The Cost of Bugs</td><td align="center"><a href="https://drive.google.com/file/d/10086QBuZSBhiLPEmfzwozM4KAGZQo3oi/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=ykDqtsdtPHI">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;How Well Can We Test?</td><td align="center"><a href="https://drive.google.com/file/d/1yX6vAEacnCy2IFB8UaK8hfMhbjfczwMz/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=wqhCiFLyk4Y">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Coverage Metrics</td><td align="center"><a href="https://drive.google.com/file/d/1j3rJAyKKTTIwl9lEB7PmXMJUmixj1Mi1/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=yMSbO17WDAs">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Coverage in Practice</td><td align="center"><a href="https://drive.google.com/file/d/1fnIuyyevoL5--dGTf_tEUDk3kVfJ6SuP/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=X2H2FrmylFw">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;What Coverage Doesn't Catch</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Test-Driven Development (TDD)</td><td align="center"><a href="https://drive.google.com/file/d/19TF5c77_uaUOuzVVY5WKCeJcdc1Y1v9n/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/weLFZSx6KpA">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Behavior-Driven Development (BDD)</td><td align="center"><a href="https://drive.google.com/file/d/1PNItauYWp_Tjiu6yMnqhPY3t8yABAUvR/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/qt5PDa50-VE">video</a></td></tr>
