@@ -1,6 +1,6 @@
 # EPFL CS-311 _The Software Enterprise: From Ideas to Products_
 
-_Last updated: September 9, 2026_
+_Last updated: September 10, 2026_
 
 > [!IMPORTANT]  
 > In order to start the bootcamp, you must be enrolled in CS-311 on IS Academia. If you were enrolled as of 8.09.2026, you should have received a notification email for confirming your account on the Steve platform. Follow the procedure described in that email ASAP, so that we can produce your personalized bootcamp repository. This is a manual process, so it may take some time.
@@ -146,13 +146,13 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Components of A Mobile App</td><td align="center"><a href="https://drive.google.com/file/d/1QqxpwkUY2DnOKCk4on9RG0dT70SgMkd6/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=X_-CVsngxzQ">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Lifecycle of an Android Activity</td><td align="center"><a href="https://drive.google.com/file/d/1IIg8T3Z1h0YS2hprMiL1WCERPN3slTMY/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=UplTsKuonbM">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Modern Android Development</td><td align="center"><a href="https://drive.google.com/file/d/11cKopMlVmtCwpot6UFlDnvqsvDBvJggU/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=sqrdwCVkvRs">video</a></td></tr>
-<tr><td rowspan="18" valign="top">Wk2</td><td><b>Testing Fundamentals: Concepts &amp; Metrics</b></td><td align="center"><!-- <a href="TODO">deck</a> --></td><td align="center"><!-- <a href="TODO">playlist</a> --></td><td rowspan="18" valign="top"><a href="bootcamp/README.md">Bootcamp B2</a> +<br>App description<br>due Thu, 17-Sep @ 23:59</td></tr>
+<tr><td rowspan="18" valign="top">Wk2</td><td><b>Testing Fundamentals: Concepts &amp; Metrics</b></td><td align="center"><a href="https://drive.google.com/file/d/1-nvjsBlQzczS3AriD9J1V19gD-4JIpk4/view?usp=drive_link"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=URvMd41BIwI&list=PLZHFw7py0sF4"><b>playlist</b></a></td><td rowspan="18" valign="top"><a href="bootcamp/README.md">Bootcamp B2</a> +<br>App description<br>due Thu, 17-Sep @ 23:59</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Levels of Testing</td><td align="center"><a href="https://drive.google.com/file/d/1lFBondvYlDjHikZuSkCXEqvG5z-KEO7q/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=URvMd41BIwI">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;The Cost of Bugs</td><td align="center"><a href="https://drive.google.com/file/d/10086QBuZSBhiLPEmfzwozM4KAGZQo3oi/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=ykDqtsdtPHI">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;How Well Can We Test?</td><td align="center"><a href="https://drive.google.com/file/d/1yX6vAEacnCy2IFB8UaK8hfMhbjfczwMz/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=wqhCiFLyk4Y">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Coverage Metrics</td><td align="center"><a href="https://drive.google.com/file/d/1j3rJAyKKTTIwl9lEB7PmXMJUmixj1Mi1/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=yMSbO17WDAs">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Coverage in Practice</td><td align="center"><a href="https://drive.google.com/file/d/1fnIuyyevoL5--dGTf_tEUDk3kVfJ6SuP/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=X2H2FrmylFw">video</a></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;What Coverage Doesn't Catch</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;What Coverage Doesn't Catch</td><td align="center"><a href="https://drive.google.com/file/d/1a9ty0D7bVA0h8fGjWMkBHD-aQGOy4Fcx/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=514JYysdVtc">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Test-Driven Development (TDD)</td><td align="center"><a href="https://drive.google.com/file/d/19TF5c77_uaUOuzVVY5WKCeJcdc1Y1v9n/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/weLFZSx6KpA">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Behavior-Driven Development (BDD)</td><td align="center"><a href="https://drive.google.com/file/d/1PNItauYWp_Tjiu6yMnqhPY3t8yABAUvR/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/qt5PDa50-VE">video</a></td></tr>
 <tr><td><b>Agile Development, Collaboration Workflows, CI/CD</b></td><td align="center"><!-- <a href="TODO">deck</a> --></td><td align="center"><!-- <a href="TODO">playlist</a> --></td></tr>
@@ -168,7 +168,7 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Test Doubles: Mocks, Stubs, and Fakes</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dependency Injection</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dependency Injection with Hilt</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Regression Testing</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Regression Testing</td><td align="center"><a href="https://drive.google.com/file/d/1DklepwL3NfqV-FXXinGyDf5oc-P1pOet/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=kNFqffUBj8o">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;UI Testing for Your App</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 <tr><td><a href="exam/README.md"><b>Exam</b></a>: Friday 25-Sep, 9:15&ndash;12:00</td><td align="center"></td><td align="center"></td></tr>
 <tr><td>&raquo;&nbsp;Set up a get-to-know-you meeting with your coaches</td><td align="center"></td><td align="center"></td></tr>

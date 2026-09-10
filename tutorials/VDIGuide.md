@@ -4,6 +4,8 @@
 
 First, please check the [official document](https://support.epfl.ch/epfl?id=epfl_kb_article_view&sysparm_article=KB0017020) about VDI machines to familiarize yourself with their usage. Learn how to log in to the platform and try to use an existing machine to understand the basic operations.
 
+Our course has a dedicated VM named "cs311-f26-uat-v2". Please select this one for your projects in this course, as the other generic ones may not have Android Studio and other dependencies installed.
+
 
 ## Run Android Studio on the machine
 
@@ -33,6 +35,9 @@ VDI machines are for temporary use, so files will be reset once you disconnect. 
 /home/$USER/.java
 /home/$USER/.gradle
 /home/$USER/.android
+/home/$USER/.ssh
+/home/$USER/.gitconfig
+/home/$USER/.git-credentials
 ```
 
 There are two unhidden directories in your home directory (`/home/$USER`): `Android` and `AndroidStudioProjects`. The `Android` directory is the default location for SDKs required by Android Studio, while `AndroidStudioProjects` stores your Android projects.
