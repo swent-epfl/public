@@ -1,6 +1,6 @@
 # EPFL CS-311 _The Software Enterprise: From Ideas to Products_
 
-_Last updated: September 10, 2026_
+_Last updated: September 12, 2026_
 
 > [!IMPORTANT]  
 > In order to start the bootcamp, you must be enrolled in CS-311 on IS Academia. If you were enrolled as of 8.09.2026, you should have received a notification email for confirming your account on the Steve platform. Follow the procedure described in that email ASAP, so that we can produce your personalized bootcamp repository. This is a manual process, so it may take some time.
@@ -126,6 +126,10 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><th>Week</th><th>Topics</th><th align="center">Slides</th><th align="center">Videos</th><th>Deliverables</th></tr>
 </thead>
 <tbody>
+
+<!------ WEEK 1 ------>
+
+  <!--- WK 1.A --->
 <tr><td rowspan="20" valign="top">Wk1</td><td><b>Agentic SW Development, Requirements, User Stories</b></td><td align="center"><a href="https://drive.google.com/file/d/13kr1tmPjChxrZyv7qhj54qZ3lL-EmpWc/view?usp=sharing"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=3V2ELATIni4&list=PLNdp1V-YAmog"><b>playlist</b></a></td><td rowspan="20" valign="top"><a href="bootcamp/README.md">Bootcamp B1</a> +<br>Team composition in Steve<br> due Fri, 11-Sep @ 23:59</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Introduction</td><td align="center"><a href="https://drive.google.com/file/d/1GXf3MCy-fcfG1s0l9YmQuMwA4PZEPHIt/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=-TU946Pckc8">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Agentic Software Development (part 1)</td><td align="center"><a href="https://drive.google.com/file/d/1AYv7qwH1uKl42Lha-l9lODfYnwy9Evs5/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/6ZEIdlLYiZY">video</a></td></tr>
@@ -136,6 +140,8 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;User Stories and INVEST</td><td align="center"><a href="https://drive.google.com/file/d/1ng7yTpFYbkvTOFzPZGCJwRLUC35BSbfs/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/tbf3sNT5JCw">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Validating and Prioritizing Requirements</td><td align="center"><a href="https://drive.google.com/file/d/1RWsnOHHE9W1Aa6SpqBb7bqXE9n_CIfHa/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/5oTkRcNK4Q4">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Epics</td><td align="center"><a href="https://drive.google.com/file/d/1PinFSZPqDla69jnlXJS6P7ZwyZsz4Ln2/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/l_spnWitbYM">video</a></td></tr>
+
+  <!--- WK 1.B --->
 <tr><td><b>The Mobile Platform</b></td><td align="center"><a href="https://drive.google.com/file/d/1JOQRiNX1ehjKadE0TBaxI2n0uDXdQc-q/view?usp=drive_link"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=I4rPgsWEtEU&list=PLWfkLFDrKvEg"><b>playlist</b></a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;The Mobile Platform: Overview</td><td align="center"><a href="https://drive.google.com/file/d/1uT3Ft8MdYCt-6o19c_zkYy89c9RsFjoP/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=I4rPgsWEtEU">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;The Mobile Device</td><td align="center"><a href="https://drive.google.com/file/d/18qwo4llBPBq6JQsiRUxOVisuWx2iNRpV/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=Ornt-hS0F6s">video</a></td></tr>
@@ -146,7 +152,11 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Components of A Mobile App</td><td align="center"><a href="https://drive.google.com/file/d/1QqxpwkUY2DnOKCk4on9RG0dT70SgMkd6/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=X_-CVsngxzQ">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Lifecycle of an Android Activity</td><td align="center"><a href="https://drive.google.com/file/d/1IIg8T3Z1h0YS2hprMiL1WCERPN3slTMY/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=UplTsKuonbM">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Modern Android Development</td><td align="center"><a href="https://drive.google.com/file/d/11cKopMlVmtCwpot6UFlDnvqsvDBvJggU/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=sqrdwCVkvRs">video</a></td></tr>
-<tr><td rowspan="18" valign="top">Wk2</td><td><b>Testing Fundamentals: Concepts &amp; Metrics</b></td><td align="center"><a href="https://drive.google.com/file/d/1-nvjsBlQzczS3AriD9J1V19gD-4JIpk4/view?usp=drive_link"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=URvMd41BIwI&list=PLZHFw7py0sF4"><b>playlist</b></a></td><td rowspan="18" valign="top"><a href="bootcamp/README.md">Bootcamp B2</a> +<br>App description<br>due Thu, 17-Sep @ 23:59</td></tr>
+
+<!------ WEEK 2 ------>
+
+  <!--- WK 2.A --->
+<tr><td rowspan="15" valign="top">Wk2</td><td><b>Testing Fundamentals: Concepts &amp; Metrics</b></td><td align="center"><a href="https://drive.google.com/file/d/1-nvjsBlQzczS3AriD9J1V19gD-4JIpk4/view?usp=drive_link"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=URvMd41BIwI&list=PLZHFw7py0sF4"><b>playlist</b></a></td><td rowspan="15" valign="top"><a href="bootcamp/README.md">Bootcamp B2</a> +<br>App description<br>due Thu, 17-Sep @ 23:59</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Levels of Testing</td><td align="center"><a href="https://drive.google.com/file/d/1lFBondvYlDjHikZuSkCXEqvG5z-KEO7q/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=URvMd41BIwI">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;The Cost of Bugs</td><td align="center"><a href="https://drive.google.com/file/d/10086QBuZSBhiLPEmfzwozM4KAGZQo3oi/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=ykDqtsdtPHI">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;How Well Can We Test?</td><td align="center"><a href="https://drive.google.com/file/d/1yX6vAEacnCy2IFB8UaK8hfMhbjfczwMz/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=wqhCiFLyk4Y">video</a></td></tr>
@@ -155,8 +165,18 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;What Coverage Doesn't Catch</td><td align="center"><a href="https://drive.google.com/file/d/1a9ty0D7bVA0h8fGjWMkBHD-aQGOy4Fcx/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=514JYysdVtc">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Test-Driven Development (TDD)</td><td align="center"><a href="https://drive.google.com/file/d/19TF5c77_uaUOuzVVY5WKCeJcdc1Y1v9n/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/weLFZSx6KpA">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Behavior-Driven Development (BDD)</td><td align="center"><a href="https://drive.google.com/file/d/1PNItauYWp_Tjiu6yMnqhPY3t8yABAUvR/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/qt5PDa50-VE">video</a></td></tr>
-<tr><td><b>Agile Development, Collaboration Workflows, CI/CD</b></td><td align="center"><!-- <a href="TODO">deck</a> --></td><td align="center"><!-- <a href="TODO">playlist</a> --></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Curiosity: How a Team Ships the Impossible</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+
+  <!--- WK 2.B --->
+<tr><td><b>Advanced Testing</b></td><td align="center"><!-- <a href="TODO">deck</a> --></td><td align="center"><!-- <a href="TODO">playlist</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Test Doubles: Mocks, Stubs, and Fakes</td><td align="center"><a href="https://drive.google.com/file/d/1XKh1dFWOIUSnI2Bi7-n0t9a_A7dIMoAB/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=ahUQ6vSBF7I">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dependency Injection</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dependency Injection with Hilt</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Regression Testing</td><td align="center"><a href="https://drive.google.com/file/d/1DklepwL3NfqV-FXXinGyDf5oc-P1pOet/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=kNFqffUBj8o">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;UI Testing for Your App</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+
+<!------ WEEK 3 ------>
+<tr><td rowspan="11" valign="top">Wk3</td><td><b>Agile Development, Collaboration Workflows, CI/CD</b></td><td align="center"><!-- <a href="TODO">--><b>full pdf</b></a></td><td align="center"><!--<a href="TODO">--><b>playlist</b></a></td><td rowspan="11" valign="top"><!-- <a href="bootcamp/README.md"> -->Bootcamp B3<!-- </a> --> <br> due Wed, 23-Sep @ 23:59</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Curiosity: Doing the Impossible</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Scrum I: The Team and the Backlog</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Scrum II: The Sprint and Its Events</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Branching and Pull Requests</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
@@ -164,14 +184,11 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;CI/CD</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Writing Good Commit Messages</td><td align="center"><a href="https://drive.google.com/file/d/1JjXkOzGVbd-3MIclaial4zcmi67X0BMc/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=vbNDUFe5U6I">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Coding Standards</td><td align="center"><a href="https://drive.google.com/file/d/1AIb53C4Ad_KcnBorQ8v6v7zt6PED_blg/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=t5fAWsdzBzA">video</a></td></tr>
-<tr><td rowspan="8" valign="top">Wk3</td><td><b>Advanced Testing</b></td><td align="center"><!-- <a href="TODO">deck</a> --></td><td align="center"><!-- <a href="TODO">playlist</a> --></td><td rowspan="8" valign="top"><!-- <a href="bootcamp/README.md"> -->Bootcamp B3<!-- </a> --> <br> due Wed, 23-Sep @ 23:59</td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Test Doubles: Mocks, Stubs, and Fakes</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dependency Injection</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dependency Injection with Hilt</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Regression Testing</td><td align="center"><a href="https://drive.google.com/file/d/1DklepwL3NfqV-FXXinGyDf5oc-P1pOet/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=kNFqffUBj8o">video</a></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;UI Testing for Your App</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 <tr><td><a href="exam/README.md"><b>Exam</b></a>: Friday 25-Sep, 9:15&ndash;12:00</td><td align="center"></td><td align="center"></td></tr>
 <tr><td>&raquo;&nbsp;Set up a get-to-know-you meeting with your coaches</td><td align="center"></td><td align="center"></td></tr>
+
+
+
 <tr><td valign="top">Wk4</td><td><a href="project/README.md"><b>Project</b></a>: Warmup</td><td align="center"></td><td align="center"></td><td valign="top"><!-- <a href="project/Warmup.md"> --> Warmup<!-- </a> --> due 2-Oct @ 08:45</td></tr>
 <tr><td valign="top">Wk5</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 1</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
 <tr><td valign="top">Wk6</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 2</td><td align="center"></td><td align="center"></td><td valign="top"><!-- <a href="project/M1.md"> --> M1<!-- </a> --> due 16-Oct @ 08:45</td></tr>
