@@ -1,6 +1,6 @@
 # EPFL CS-311 _The Software Enterprise: From Ideas to Products_
 
-_Last updated: September 12, 2026_
+_Last updated: September 14, 2026_
 
 > [!IMPORTANT]  
 > In order to start the bootcamp, you must be enrolled in CS-311 on IS Academia. If you were enrolled as of 8.09.2026, you should have received a notification email for confirming your account on the Steve platform. Follow the procedure described in that email ASAP, so that we can produce your personalized bootcamp repository. This is a manual process, so it may take some time.
@@ -168,7 +168,7 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 
   <!--- WK 2.B --->
 <tr><td><b>Advanced Testing</b></td><td align="center"><!-- <a href="TODO">deck</a> --></td><td align="center"><!-- <a href="TODO">playlist</a> --></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Test Doubles: Mocks, Stubs, and Fakes</td><td align="center"><a href="https://drive.google.com/file/d/1XKh1dFWOIUSnI2Bi7-n0t9a_A7dIMoAB/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=ahUQ6vSBF7I">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Test Doubles: Mocks, Stubs, and Fakes</td><td align="center"><a href="https://drive.google.com/file/d/1XKh1dFWOIUSnI2Bi7-n0t9a_A7dIMoAB/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=QqUIqVwLhzE">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dependency Injection</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dependency Injection with Hilt</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Regression Testing</td><td align="center"><a href="https://drive.google.com/file/d/1DklepwL3NfqV-FXXinGyDf5oc-P1pOet/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=kNFqffUBj8o">video</a></td></tr>
