@@ -2,9 +2,6 @@
 
 _Last updated: September 14, 2026_
 
-> [!IMPORTANT]  
-> In order to start the bootcamp, you must be enrolled in CS-311 on IS Academia. If you were enrolled as of 8.09.2026, you should have received a notification email for confirming your account on the Steve platform. Follow the procedure described in that email ASAP, so that we can produce your personalized bootcamp repository. This is a manual process, so it may take some time.
-
 ## Table of Contents
 
 - [Staff](#staff)
@@ -156,7 +153,7 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <!------ WEEK 2 ------>
 
   <!--- WK 2.A --->
-<tr><td rowspan="15" valign="top">Wk2</td><td><b>Testing Fundamentals: Concepts &amp; Metrics</b></td><td align="center"><a href="https://drive.google.com/file/d/1-nvjsBlQzczS3AriD9J1V19gD-4JIpk4/view?usp=drive_link"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=URvMd41BIwI&list=PLZHFw7py0sF4"><b>playlist</b></a></td><td rowspan="15" valign="top"><a href="bootcamp/README.md">Bootcamp B2</a> +<br>App description<br>due Thu, 17-Sep @ 23:59</td></tr>
+<tr><td rowspan="14" valign="top">Wk2</td><td><b>Testing Fundamentals: Concepts &amp; Metrics</b></td><td align="center"><a href="https://drive.google.com/file/d/1-nvjsBlQzczS3AriD9J1V19gD-4JIpk4/view?usp=drive_link"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=URvMd41BIwI&list=PLZHFw7py0sF4"><b>playlist</b></a></td><td rowspan="14" valign="top"><a href="bootcamp/README.md">Bootcamp B2</a> +<br>App description<br>due Thu, 17-Sep @ 23:59</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Levels of Testing</td><td align="center"><a href="https://drive.google.com/file/d/1lFBondvYlDjHikZuSkCXEqvG5z-KEO7q/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=URvMd41BIwI">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;The Cost of Bugs</td><td align="center"><a href="https://drive.google.com/file/d/10086QBuZSBhiLPEmfzwozM4KAGZQo3oi/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=ykDqtsdtPHI">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;How Well Can We Test?</td><td align="center"><a href="https://drive.google.com/file/d/1yX6vAEacnCy2IFB8UaK8hfMhbjfczwMz/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=wqhCiFLyk4Y">video</a></td></tr>
@@ -169,9 +166,8 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
   <!--- WK 2.B --->
 <tr><td><b>Advanced Testing</b></td><td align="center"><!-- <a href="TODO">deck</a> --></td><td align="center"><!-- <a href="TODO">playlist</a> --></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Test Doubles: Mocks, Stubs, and Fakes</td><td align="center"><a href="https://drive.google.com/file/d/1XKh1dFWOIUSnI2Bi7-n0t9a_A7dIMoAB/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=QqUIqVwLhzE">video</a></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dependency Injection</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dependency Injection with Hilt</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Regression Testing</td><td align="center"><a href="https://drive.google.com/file/d/1DklepwL3NfqV-FXXinGyDf5oc-P1pOet/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=kNFqffUBj8o">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dependency Injection</td><td align="center"><a href="https://drive.google.com/file/d/1Gs4JAkJ73bZ5rJf2HxO7wt3bXCXNlVYc/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=Z1uP8h80OyU">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Regression Testing</td><td align="center"><a href="https://drive.google.com/file/d/1jvjD5hflB1mwTaEw0LXY6VLyDodhhQuV/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=kNFqffUBj8o">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;UI Testing for Your App</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 
 <!------ WEEK 3 ------>
@@ -314,8 +310,6 @@ SwEnt is a heavy-duty course in which it is essential to work smart, not just wo
 
 This is an 8-credit course; the [EPFL guidelines](https://www.epfl.ch/education/teaching/teaching-guide-2/getting-started/design-a-course_1/) indicate that you should expect to spend a total of 8x30=240 hours of work over the course of the semester. For a 14-week semester, this averages to **a little over 17 h per week**.
 You will likely experience variations in the weekly rhythm, especially around deadlines.
-
-The average 17 hours/week workload might appear inconsistent with the course description, which shows 2h lecture + 10h project + 1h exercises per week, which adds up to 13h per week.  This is because total student workload includes both timetabled time and non-timetabled work (see [EPFL guidelines](https://www.epfl.ch/education/teaching/teaching-guide-2/getting-started/design-a-course_1/)). The average student in SwEnt will need to spend the full 17 hours/week to pass the course&mdash;13 hours/week is just not enough.
 
 ## Collaboration Policy
 

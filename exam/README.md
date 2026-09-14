@@ -1,6 +1,6 @@
 # SwEnt Exam
 
-_Last updated: September 1, 2026_
+_Last updated: September 14, 2026_
 
 
 After the bootcamp, there will be a written exam covering everything from the first three weeks, both the lectures and the bootcamp.
@@ -62,7 +62,7 @@ The following five steps will ensure success on the exam:
 
 **3. Note that the published slides are incomplete on purpose.** Some answers exist only in the videos and have been removed from the PDFs. If you revise from slides alone you will have gaps. Formulating your own answers based on what is said in the lectures and then going back to them to understand where you made a mistake is a fundamental technique for consolidating knowledge.
 
-**4. Take the mock exams under real conditions.** Don't just skim them. See more details below.
+**4. Solve the exam practice sets under real conditions.** Don't just skim them. See more details below.
 
 **5. Bring your questions to the plenaries.** They exist to answer them. There are four: Mon 7-Sep, Fri 11-Sep, Mon 14-Sep and Fri 18-Sep.
 
@@ -75,13 +75,14 @@ We provide you with two mock exams, to get you habituated to the real exam:
 
 | | Released | Covers |
 |---|---|---|
-| **Mock 1** | after B1 | week 1 material |
-| **Mock 2** | after B2 | weeks 1&ndash;2 material |
+| **Exam Practice Set 1** | after B1 | week 1 material |
+| **Exam Practice Set 2** | after B2 | weeks 1&ndash;2 material |
+| **Exam Practice Set 3** | after B3 | weeks 1&ndash;3 material |
 
 They are written in the same style as the real exam, so they tell you what the questions look like as well as whether you know the answers. They are not graded and there is nothing to hand in. They are purely for your own benefit.
 
 > [!IMPORTANT]
-> **Attempt the mock closed-book, in one sitting, before you look at the answers.**
+> **Attempt the practice sets closed-book, in one sitting, before you look at the answers.**
 >
 > This is crucial. Reading through the questions and the answer key together feels productive but teaches you almost nothing. Recognizing a correct answer is far easier than producing one, and it will leave you confident and unprepared. Sit down, give yourself the time, write your answers, and only then check the answer key.
 
