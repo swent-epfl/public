@@ -164,11 +164,11 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Behavior-Driven Development (BDD)</td><td align="center"><a href="https://drive.google.com/file/d/1PNItauYWp_Tjiu6yMnqhPY3t8yABAUvR/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/qt5PDa50-VE">video</a></td></tr>
 
   <!--- WK 2.B --->
-<tr><td><b>Advanced Testing</b></td><td align="center"><!-- <a href="TODO">deck</a> --></td><td align="center"><!-- <a href="TODO">playlist</a> --></td></tr>
+<tr><td><b>Advanced Testing</b></td><td align="center"><a href="https://drive.google.com/file/d/1SD9xGZN7fvugjcYxH_yjoIH70QUtuW_S/view?usp=drive_link"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=QqUIqVwLhzE&list=PLGN8NCM0C660"><b>playlist</b></a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Test Doubles: Mocks, Stubs, and Fakes</td><td align="center"><a href="https://drive.google.com/file/d/1XKh1dFWOIUSnI2Bi7-n0t9a_A7dIMoAB/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=QqUIqVwLhzE">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dependency Injection</td><td align="center"><a href="https://drive.google.com/file/d/1Gs4JAkJ73bZ5rJf2HxO7wt3bXCXNlVYc/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=nS6A4Kaiupc">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Regression Testing</td><td align="center"><a href="https://drive.google.com/file/d/1jvjD5hflB1mwTaEw0LXY6VLyDodhhQuV/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=kNFqffUBj8o">video</a></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;UI Testing for Your App</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;UI Testing for Your App</td><td align="center"><a href="https://drive.google.com/file/d/1E2JCYZyUf14-5GGsDsj8EZS7XdLr3EUZ/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=SIPYX5ZUEGs">video</a></td></tr>
 
 <!------ WEEK 3 ------>
 <tr><td rowspan="11" valign="top">Wk3</td><td><b>Agile Development, Collaboration Workflows, CI/CD</b></td><td align="center"><!-- <a href="TODO">--><b>full pdf</b></a></td><td align="center"><!--<a href="TODO">--><b>playlist</b></a></td><td rowspan="11" valign="top"><!-- <a href="bootcamp/README.md"> -->Bootcamp B3<!-- </a> --> <br> due Wed, 23-Sep @ 23:59</td></tr>
