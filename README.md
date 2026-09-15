@@ -1,6 +1,6 @@
 # EPFL CS-311 _The Software Enterprise: From Ideas to Products_
 
-_Last updated: September 14, 2026_
+_Last updated: September 15, 2026_
 
 ## Table of Contents
 
@@ -166,7 +166,7 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
   <!--- WK 2.B --->
 <tr><td><b>Advanced Testing</b></td><td align="center"><!-- <a href="TODO">deck</a> --></td><td align="center"><!-- <a href="TODO">playlist</a> --></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Test Doubles: Mocks, Stubs, and Fakes</td><td align="center"><a href="https://drive.google.com/file/d/1XKh1dFWOIUSnI2Bi7-n0t9a_A7dIMoAB/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=QqUIqVwLhzE">video</a></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dependency Injection</td><td align="center"><a href="https://drive.google.com/file/d/1Gs4JAkJ73bZ5rJf2HxO7wt3bXCXNlVYc/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=Z1uP8h80OyU">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dependency Injection</td><td align="center"><a href="https://drive.google.com/file/d/1Gs4JAkJ73bZ5rJf2HxO7wt3bXCXNlVYc/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=nS6A4Kaiupc">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Regression Testing</td><td align="center"><a href="https://drive.google.com/file/d/1jvjD5hflB1mwTaEw0LXY6VLyDodhhQuV/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=kNFqffUBj8o">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;UI Testing for Your App</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 
