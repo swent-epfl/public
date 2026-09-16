@@ -28,7 +28,7 @@ service cloud.firestore {
 }
 ```
 
-The above rules allow any document to be read and written to by anyone:
+The above rules allow any document to be read and written by anyone:
 
 - `match /{document=**}` means any document, at any nested level.
 - `allow read, write;` authorizes any request.
@@ -56,13 +56,14 @@ Before implementing any security rules, todos must first be associated with a us
 > [!TIP]
 >
 > With Firebase Authentication, each user has a unique identifier called a UID.
-> You can access the current user's UID using: Firebase.auth.currentUser?.uid
+> You can access the current user's UID using: `Firebase.auth.currentUser?.uid`
+> Set `ownerId` to that UID when creating or editing a ToDo (for example in your Add/Edit ViewModels, as in the reference solution).
 
 ## Filtering todos when querying
 
 Now that todos are associated with users, we can no longer simply fetch all todos from Firestore. This is because Firestore security rules are not filters, meaning that if you query all todos but some are created by other users, the entire request will fail.
 
-Instead, we must create a query that fits the constraints of the security rules, and thus make a query that fetches only todos created by the current user. You can learn how to securely query data on this [page](https://firebase.google.com/docs/firestore/security/rules-query#queries_and_security_rules). You can also read the API reference on query filters on this [page](https://firebase.google.com/docs/reference/android/com/google/firebase/firestore/Filter).
+Instead, we must create a query that fits the constraints of the security rules, and thus make a query that fetches only todos created by the current user (typically in your Firestore repository, filtering on `ownerId`). You can learn how to securely query data on this [page](https://firebase.google.com/docs/firestore/security/rules-query#queries_and_security_rules). You can also read the API reference on query filters on this [page](https://firebase.google.com/docs/reference/android/com/google/firebase/firestore/Filter).
 
 > [!NOTE]
 > You should now no longer see todos made by other users.
@@ -117,12 +118,14 @@ npm run main
 > [!TIP]
 > Use a Firebase CLI installed with `npm install -g firebase-tools`; the standalone binary can crash the tests with `ERR_REQUIRE_ESM`. If the tests fail with a `different Firestore SDK` error, your `node_modules` is stale: run `rm -rf node_modules && npm install`.
 
-Additionally, we recommend running the B2 test suites to verify that your app still functions properly after implementing access control.
+After you lock down the rules, do **not** expect every B2 instrumented test to stay green: some of them issue unfiltered Firestore reads that B3 rules correctly deny. Manually smoke-test the app (sign in, create a ToDo, sign in as another user and check isolation). For automated checks, prefer `./gradlew connectedCheck -B3 -public` and the rules suite below.
+
+When `BOOTCAMP_PART: B3`, CI also runs the Firestore rules tests (`npm test` under `firebase/firestore/test`) as part of the always-on checks—keep `firestore.rules` correct in the repo, not only in the Firebase console.
 
 You're done! Your app is now secured against any malicious request.
 
 > [!NOTE]  
-> Please click [here](./AgenticWorkflow.md) to proceed to the next step.
+> Click [here](./AgenticWorkflow.md) to proceed to the next step.
 
 [^1]: <https://firebase.google.com/docs/firestore/security/get-started>
 [^2]: <https://firebase.google.com/docs/rules/rules-language>

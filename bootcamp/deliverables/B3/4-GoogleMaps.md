@@ -5,8 +5,7 @@ Google Maps is an API that you are likely to use in your application. It can be 
 ## API Key
 
 Before being able to use Google Maps in your application, you will need to create an API key for Google Maps[^1].
-
-Unfortunately, Google asks for billing information to generate this API key, but there is a workaround:
+Google asks for billing information to generate this API key, but we give you a workaround below.
 
 First, go to your project's webpage and get its ID (either select the correct project, or create one):
 
@@ -35,18 +34,18 @@ The newly generated API key should appear on this same page with an orange trian
 
 To avoid publishing your key, we will store it in a local file: `local.properties`.
 
-In `local.properties`, paste your key
+In `local.properties`, paste your key:
 
 ```properties
 MAPS_API_KEY=xyz
 
 // Do NOT use quotation marks around xyz
 ```
-Make sure you don't upload `local.properties` to your repository. Add `local.properties` to your `.gitignore`  file to prevent it from being tracked by Git.
+Make sure you don't upload `local.properties` to your repository. The template already lists `/local.properties` in `.gitignore`—leave that ignore rule in place.
 
 ## Map Screen
 
-### Checking if it works
+### Checking that it works
 
 To test that your API key is working, you can simply create a composable as in the following example. It should display San Francisco.
 
@@ -77,7 +76,7 @@ Below you can see examples and tutorials on how to use features of Google Maps.
 
 ### Implementing it in your app
 
-By this point, you have already implemented Nominatim to associate coordinates with a ToDo. You can now update your `MapScreen` composable to display the map, with markers for each todo.
+By this point, you have already implemented Nominatim to associate coordinates with a ToDo. You can now update your `MapScreen` composable in `ui/map/Map.kt` to display the map, with markers for each todo. The Maps SDK wiring (`MAPS_API_KEY` placeholder in `AndroidManifest.xml` and the `local.properties` load in `app/build.gradle.kts`) is already in the template.
 
 The final result should be something like this:
 
@@ -179,7 +178,7 @@ android {
 
 #### Uploading to GitHub and usage
 
-Follow [this tutorial](https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets#creating-secrets-for-a-repository) to upload the API key to your repository, and name it `LOCAL_PROPERTIES`. Your key is now ready to be retrieved in the CI, enabling the tests to run properly.
+Follow [this tutorial](https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets#creating-secrets-for-a-repository) to upload the API key to your repository, and name the secret **`LOCAL_PROPERTIES`**. CI reads it when `BOOTCAMP_PART: B3` (Maps instrumented tests need the key). Your key is then retrieved in the workflow without committing `local.properties`.
 
 ## Warning
 
@@ -204,9 +203,12 @@ You should write your own tests to ensure that your implementation is correct.
 > Some tests use the Firebase emulator.
 > Make sure to start it first by running `firebase emulators:start` in your terminal.
 
-As in B1, you will need to attach test tags to your UI components to pass our tests. All required test tags are defined in the `MapScreenTestTags` objects. Check [Figma Testing mockup](https://www.figma.com/design/IDm3NGS988Myo01P0Wa0Cr/TO-DO-APP-Mockup-FALL?node-id=11716-2639) to see where each tag should be placed.
+As in B1, you will need to attach test tags to your UI components to pass our tests. Use `MapScreenTestTags.GOOGLE_MAP_SCREEN` (and any other Compose tags from the Figma testing mockup) with `Modifier.testTag(...)`. Check [Figma Testing mockup](https://www.figma.com/design/IDm3NGS988Myo01P0Wa0Cr/TO-DO-APP-Mockup-FALL?node-id=11716-2639) to see where each tag should be placed.
 
-Finally, make sure that your app builds the signature check files.
+> [!NOTE]
+> `MapScreenTestTags.getTestTagForTodoMarker(todoId)` looks like the other helpers, but android-maps-compose `Marker` has **no** Compose `Modifier`. Its `tag` parameter is the native Google Maps marker tag (e.g. for `onClick`), not a Compose semantics test tag—`onNodeWithTag` will never find it. Our public/staff Maps tests do **not** use that helper; they check todos/locations via the repository. If you write your own tests, assert markers the same way (or via UI state), not with `onNodeWithTag(getTestTagForTodoMarker(...))`.
+
+Do not edit anything under `sigchecks/`. Keep the provided signatures so `SignatureChecks` still compiles.
 
 ---
 
@@ -214,11 +216,11 @@ Congrats, you're done!
 
 ## Solutions
 
-When the **`B3-public`** job is green **on `main`** (push to `main`, or a PR into `main`, with `BOOTCAMP_PART: B3`), a branch named `B3-solution` is created automatically in your repository with the reference solutions. You can browse or check out that branch to compare with your work, it is not merged into `main` for you.
+When the **`part-public`** job is green **on `main`** (push to `main`, or a PR into `main`, with `BOOTCAMP_PART: B3`), a branch named `B3-solution` is created automatically in your repository with the reference solutions. You can browse or check out that branch to compare with your work, it is not merged into `main` for you.
 
 > [!NOTE]
 >
-> The unlock script runs on a schedule. Expect the branch to appear within about **20 minutes to 1 hour** after the CI succeeds on `main`.
+> The unlock script runs on a schedule. Expect the branch to appear within 1 hour after the CI succeeds on `main`.
 
 > [Return to the Table of Contents](./README.md)
 

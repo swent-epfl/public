@@ -14,7 +14,7 @@ In this section, you will use **Google Sign-In** to authenticate users.
 
 To implement the Google Sign-In feature, you will use the [Credential Manager API](https://developers.google.com/identity/android-credential-manager) and [Firebase Authentication](https://firebase.google.com/docs/auth/android/google-signin).
 The required libraries have already been added to your project.
-You can verify that in the `build.gradle` file of your app module.
+You can verify that in the `app/build.gradle.kts` file of your app module.
 
 You will need to add your SHA fingerprints to Firebase so it can use it to verify that sign-in requests really come from your signed app and not from someone else.
 
@@ -25,13 +25,40 @@ To add your SHA-1 fingerprint into your Firebase console, go to **Project Settin
 You need to enable Google as a sign-in method in the Firebase console: go to **Project console** → **Authentication** → **Sign-in method** → **Google**.
 
 After enabling Google Sign-in, you must download an updated `google-services.json` file from Firebase, as enabling this authentication method generates additional configuration data that your app needs.
+Put the new file under `app/google-services.json` (replace the old one).
+
+Then **update the GitHub secret** the same way you did in B2 ([Setup Backend — uploading `GOOGLE_SERVICES`](../B2/1-SetupBackend.md#uploading-on-github)):
+
+1. Base64-encode the new file (same commands as in B2).
+2. Open your repo → **Settings → Secrets and variables → Actions**.
+3. Update the existing secret named **`GOOGLE_SERVICES`** with the new base64 contents (or create it if it is missing).
+
+CI uses that secret, not whatever is only on your laptop. This is **not** the Maps secret (`LOCAL_PROPERTIES` from the [Maps](4-GoogleMaps.md) step)—leave that one alone unless you change your Maps API key.
 
 You will also use the MVVM architecture that you already used for the todos and the map.
-You can take a look at [this lecture](https://github.com/swent-epfl/public/blob/main/bootcamp/docs/MVVM.md) for a quick refresh on the MVVM pattern.
+You can take a look at [this refresher](https://github.com/swent-epfl/public/blob/main/bootcamp/docs/MVVM.md) on the MVVM pattern.
+Read `AGENTS.md` at the repo root for how to work with agents; for authentication, structure the feature as sketched below (same shape as the reference solution).
 
-## Sign-In With Google
+## Recommended structure (not sigchecked)
 
-The Sign-In With Google feature is described by the following user stories:
+These types are **not** in the template stubs and **not** enforced by `sigchecks/`. They are the intended layout:
+
+- `model/authentication/AuthRepository.kt` — interface with `signInWithGoogle(credential: Credential): Result<FirebaseUser>` and `signOut(): Result<Unit>`.
+- `model/authentication/AuthRepositoryFirebase.kt` — Firebase implementation: turn the Credential Manager result into a Google ID token, then `FirebaseAuth.signInWithCredential(...)`; `signOut()` calls `Firebase.auth.signOut()`.
+- `model/authentication/GoogleSignInHelper.kt` — small helper interface (plus a default implementation) to extract the Google ID token from the credential `Bundle` and build a Firebase `AuthCredential`. Keeps the repository unit-testable without statically mocking the Google SDK.
+- `ui/authentication/SignInViewModel.kt` — holds `AuthUIState` (`isLoading`, `user`, `errorMsg`, `signedOut`), takes an `AuthRepository` (default `AuthRepositoryFirebase()`), and exposes `signIn(context, credentialManager)` that:
+  1. builds a `GetSignInWithGoogleOption` with `R.string.default_web_client_id`,
+  2. asks the injected `CredentialManager` for a credential,
+  3. calls `repository.signInWithGoogle(...)`,
+  4. updates the UI state.
+- `SignInScreen` — composable that takes the injected `credentialManager` (and a `SignInViewModel`), shows the Google button, and triggers `viewModel.signIn(...)`.
+- Logout on Overview — use the **same** `credentialManager` instance; clear the Firebase session (via your auth repository / `Firebase.auth`) and navigate back to `SignInScreen`.
+
+Wire `BootcampApp` so unsigned users land on `SignInScreen` and signed-in users on `OverviewScreen`.
+
+## Sign In with Google
+
+This feature is described by the following user stories:
 
 > As a user, I want to sign up and log into the app, so that my ToDos are kept across devices.
 > As a user, I want to sign in with my Google account, so that I can securely access my personal ToDos.
@@ -40,18 +67,19 @@ From these user stories, we define the following acceptance criteria:
 
 - The user can sign in with their Google account.
 - The user can sign out from their account.
-- The user can only see and modify their own ToDos.
-- If a user logs out and logs back in with the same account, they can see their previously created ToDos.
+- If a user logs out and logs back in with the same account, they can see their previously created ToDos (once [access control](2-AccessControl.md) is in place, those ToDos must belong to that account).
+
+> [!NOTE]
+> Restricting which ToDos a user can see or modify is the next step ([Access Control](2-AccessControl.md)). Do not skip it.
 
 You can start by implementing the UI for the sign-in screen.
 You can find a mockup of the screen on [Figma](https://www.figma.com/design/IDm3NGS988Myo01P0Wa0Cr/TO-DO-APP-Mockup-FALL?node-id=435-3350)
 
 > [!NOTE]
 >
-> You should use the provided `credentialManager` default instance in `BootcampApp`.
-> You will probably need to pass it down to your `SignInScreen` composable.
-> To do that, you can add a new parameter with default value to the `SignInScreen` function.
-> Then, you can compose the SignInScreen in `BootcampApp` by passing the `credentialManager` instance, obtained from the parameters of `BootcampApp`.
+> `BootcampApp` already takes a `credentialManager` parameter (default: `CredentialManager.create(context)`).
+> Pass that same instance into your `SignInScreen` (add a parameter with a default value if you need to).
+> Instrumented tests inject a **fake** `CredentialManager` into `BootcampApp` so they can sign in without a real Google account—your code must use the injected instance, not create a second one inside the screen.
 
 Once you are done with the screen, you can implement the sign-in logic.
 We recommend you to read [Authenticate users with Google on Android](https://firebase.google.com/docs/auth/android/google-signin).
@@ -64,11 +92,11 @@ They explain the core concepts to implement the sign-in feature.
 
 The *requirements* for the Sign-In feature are the following:
 
-- Users can sign-in using their Google account.
-  When the sign-in process completes successfully, they should be redirected to the Overview screen.
+- Users can sign in using their Google account.
+  When the sign in process completes successfully, they should be redirected to the Overview screen.
 - Users can log out by pressing the log out button on the Overview screen.
   If the log out is successful, they should be redirected to the Sign-in screen.
-- Users can sign-in with any Google account. The account does not need to be the device's account and should allow users to enter a new Google account.
+- Users can sign in with any Google account. The account does not need to be the device's account and should allow users to enter a new Google account.
 
 You will also need to update your `BootcampApp` composable to satisfy the following requirements:
 
@@ -95,7 +123,7 @@ You should write your own tests to ensure that your implementation is correct.
 
 As in B1, you will need to attach test tags to your UI components to pass our tests. All required test tags are defined in the `SignInScreenTestTags` and `OverviewScreenTestTags` objects. Check [Figma Testing mockup](https://www.figma.com/design/IDm3NGS988Myo01P0Wa0Cr/TO-DO-APP-Mockup-FALL?node-id=435-3350&p=f) to see where each tag should be placed.
 
-Finally, make sure that your app builds the signature check files.
+Do not edit anything under `sigchecks/`. Keep the provided signatures so `SignatureChecks` still compiles.
 
 ---
 

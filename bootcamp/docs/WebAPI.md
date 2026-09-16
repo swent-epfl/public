@@ -167,9 +167,9 @@ Test your app by clicking the button a couple of times, then disabling your Inte
 
 When testing, you will connect to a fake server and you will test that your app behaves correctly when the server returns a response, and when it returns an error.
 
-A mock web server imitates a real server without making internet requests. It allows testing of APIs without hitting rate limits or worrying about too much delay, API unavailability or network issues. It intercepts HTTP requests, processes them offline, and returns specified data.
-
-Now, try using [MockWebServer](https://www.kodeco.com/33855511-testing-rest-apis-using-mockwebserver) to test your app! It was developed by the same people who made Retrofit.
+Now, try using [MockWebServer](https://www.kodeco.com/33855511-testing-rest-apis-using-mockwebserver) to test your app! 
+This is a mock Web server that runs a real HTTP server and lets you enqueue predetermined responses (operating like a stub) and also records incoming requests so tests can inspect things like path, headers, and body (like a mock).
+OkHttp also lets it simulate network failures and other protocol behavior.
 
 In your ViewModel, it is a good workaround to inject the `BoredApi` object, so that you can easily replace it with a mock object when testing. Take a look at [Hilt](https://developer.android.com/training/dependency-injection/hilt-android) to see how to automatically inject the right object (testing vs production) in your ViewModel.
 
