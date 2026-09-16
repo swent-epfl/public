@@ -1,6 +1,6 @@
 # EPFL CS-311 _The Software Enterprise: From Ideas to Products_
 
-_Last updated: September 15, 2026_
+_Last updated: September 16, 2026_
 
 ## Table of Contents
 
@@ -127,7 +127,7 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <!------ WEEK 1 ------>
 
   <!--- WK 1.A --->
-<tr><td rowspan="20" valign="top">Wk1</td><td><b>Agentic SW Development, Requirements, User Stories</b></td><td align="center"><a href="https://drive.google.com/file/d/13kr1tmPjChxrZyv7qhj54qZ3lL-EmpWc/view?usp=sharing"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=3V2ELATIni4&list=PLNdp1V-YAmog"><b>playlist</b></a></td><td rowspan="20" valign="top"><a href="bootcamp/README.md">Bootcamp B1</a> +<br>Team composition in Steve<br> due Fri, 11-Sep @ 23:59</td></tr>
+<tr><td rowspan="20" valign="top">Wk1</td><td><b>Agentic SW Development, Requirements, User Stories</b></td><td align="center"><a href="https://drive.google.com/file/d/13kr1tmPjChxrZyv7qhj54qZ3lL-EmpWc/view?usp=sharing"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=3V2ELATIni4&list=PLNdp1V-YAmog"><b>playlist</b></a></td><td rowspan="20" valign="top"><a href="bootcamp/README.md"><b>Bootcamp B1</b></a> +<br>Team composition in Steve<br> due Fri, 11-Sep @ 23:59</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Introduction</td><td align="center"><a href="https://drive.google.com/file/d/1GXf3MCy-fcfG1s0l9YmQuMwA4PZEPHIt/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=-TU946Pckc8">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Agentic Software Development (part 1)</td><td align="center"><a href="https://drive.google.com/file/d/1AYv7qwH1uKl42Lha-l9lODfYnwy9Evs5/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/6ZEIdlLYiZY">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Agentic Software Development (part 2)</td><td align="center"><a href="https://drive.google.com/file/d/1tBQMQ_FUT6NGSScMMbAfDrkeFw9mToPr/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/bZJ0YpXxxFc">video</a></td></tr>
@@ -153,7 +153,7 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <!------ WEEK 2 ------>
 
   <!--- WK 2.A --->
-<tr><td rowspan="14" valign="top">Wk2</td><td><b>Testing Fundamentals: Concepts &amp; Metrics</b></td><td align="center"><a href="https://drive.google.com/file/d/1-nvjsBlQzczS3AriD9J1V19gD-4JIpk4/view?usp=drive_link"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=URvMd41BIwI&list=PLZHFw7py0sF4"><b>playlist</b></a></td><td rowspan="14" valign="top"><a href="bootcamp/README.md">Bootcamp B2</a> +<br>App description<br>due Thu, 17-Sep @ 23:59</td></tr>
+<tr><td rowspan="14" valign="top">Wk2</td><td><b>Testing Fundamentals: Concepts &amp; Metrics</b></td><td align="center"><a href="https://drive.google.com/file/d/1-nvjsBlQzczS3AriD9J1V19gD-4JIpk4/view?usp=drive_link"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=URvMd41BIwI&list=PLZHFw7py0sF4"><b>playlist</b></a></td><td rowspan="14" valign="top"><a href="bootcamp/README.md"><b>Bootcamp B2</b></a> +<br>App description<br>due Thu, 17-Sep @ 23:59</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Levels of Testing</td><td align="center"><a href="https://drive.google.com/file/d/1lFBondvYlDjHikZuSkCXEqvG5z-KEO7q/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=URvMd41BIwI">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;The Cost of Bugs</td><td align="center"><a href="https://drive.google.com/file/d/10086QBuZSBhiLPEmfzwozM4KAGZQo3oi/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=ykDqtsdtPHI">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;How Well Can We Test?</td><td align="center"><a href="https://drive.google.com/file/d/1yX6vAEacnCy2IFB8UaK8hfMhbjfczwMz/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=wqhCiFLyk4Y">video</a></td></tr>
@@ -171,7 +171,7 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;UI Testing for Your App</td><td align="center"><a href="https://drive.google.com/file/d/1E2JCYZyUf14-5GGsDsj8EZS7XdLr3EUZ/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=SIPYX5ZUEGs">video</a></td></tr>
 
 <!------ WEEK 3 ------>
-<tr><td rowspan="11" valign="top">Wk3</td><td><b>Agile Development, Collaboration Workflows, CI/CD</b></td><td align="center"><!-- <a href="TODO">--><b>full pdf</b></a></td><td align="center"><!--<a href="TODO">--><b>playlist</b></a></td><td rowspan="11" valign="top"><!-- <a href="bootcamp/README.md"> -->Bootcamp B3<!-- </a> --> <br> due Wed, 23-Sep @ 23:59</td></tr>
+<tr><td rowspan="11" valign="top">Wk3</td><td><b>Agile Development, Collaboration Workflows, CI/CD</b></td><td align="center"><!-- <a href="TODO">--><b>full pdf</b></a></td><td align="center"><!--<a href="TODO">--><b>playlist</b></a></td><td rowspan="11" valign="top"><a href="bootcamp/README.md"><b>Bootcamp B3</b></a><br> due Wed, 23-Sep @ 23:59</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Curiosity: Doing the Impossible</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Scrum I: The Team and the Backlog</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Scrum II: The Sprint and Its Events</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
