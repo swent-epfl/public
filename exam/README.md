@@ -69,7 +69,7 @@ The following five steps will ensure success on the exam:
 > [!IMPORTANT]
 > There is no plenary in the week of the exam due to the holiday. Do review the material of that week as early as possible, and if anything does not make sense, post on the course's Ed forum linked from Moodle.
 
-## Mock Exams
+## Practicing for the Exam
 
 We provide you with three exam practice sets, to get you habituated to the real exam:
 
