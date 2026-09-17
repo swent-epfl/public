@@ -1,6 +1,6 @@
 # EPFL CS-311 _The Software Enterprise: From Ideas to Products_
 
-_Last updated: September 16, 2026_
+_Last updated: September 17, 2026_
 
 ## Table of Contents
 
@@ -127,7 +127,7 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <!------ WEEK 1 ------>
 
   <!--- WK 1.A --->
-<tr><td rowspan="20" valign="top">Wk1</td><td><b>Agentic SW Development, Requirements, User Stories</b></td><td align="center"><a href="https://drive.google.com/file/d/13kr1tmPjChxrZyv7qhj54qZ3lL-EmpWc/view?usp=sharing"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=3V2ELATIni4&list=PLNdp1V-YAmog"><b>playlist</b></a></td><td rowspan="20" valign="top"><a href="bootcamp/README.md"><b>Bootcamp B1</b></a> +<br>Team composition in Steve<br> due Fri, 11-Sep @ 23:59</td></tr>
+<tr><td rowspan="21" valign="top">Wk1</td><td><b>Agentic SW Development, Requirements, User Stories</b></td><td align="center"><a href="https://drive.google.com/file/d/13kr1tmPjChxrZyv7qhj54qZ3lL-EmpWc/view?usp=sharing"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=3V2ELATIni4&list=PLNdp1V-YAmog"><b>playlist</b></a></td><td rowspan="21" valign="top"><a href="bootcamp/README.md"><b>Bootcamp B1</b></a> +<br>Team composition in Steve<br> due Fri, 11-Sep @ 23:59</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Introduction</td><td align="center"><a href="https://drive.google.com/file/d/1GXf3MCy-fcfG1s0l9YmQuMwA4PZEPHIt/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=-TU946Pckc8">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Agentic Software Development (part 1)</td><td align="center"><a href="https://drive.google.com/file/d/1AYv7qwH1uKl42Lha-l9lODfYnwy9Evs5/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/6ZEIdlLYiZY">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Agentic Software Development (part 2)</td><td align="center"><a href="https://drive.google.com/file/d/1tBQMQ_FUT6NGSScMMbAfDrkeFw9mToPr/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/bZJ0YpXxxFc">video</a></td></tr>
@@ -149,6 +149,8 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Components of A Mobile App</td><td align="center"><a href="https://drive.google.com/file/d/1QqxpwkUY2DnOKCk4on9RG0dT70SgMkd6/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=X_-CVsngxzQ">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Lifecycle of an Android Activity</td><td align="center"><a href="https://drive.google.com/file/d/1IIg8T3Z1h0YS2hprMiL1WCERPN3slTMY/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=UplTsKuonbM">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Modern Android Development</td><td align="center"><a href="https://drive.google.com/file/d/11cKopMlVmtCwpot6UFlDnvqsvDBvJggU/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=sqrdwCVkvRs">video</a></td></tr>
+
+<tr><td><b>Exam Practice Set 1</b></td><td><A href="https://moodle.epfl.ch/mod/quiz/view.php?id=1380708">questions</a></td><td><a href="/exam/Exam Practice Set 1.md">answers</a></td></tr>
 
 <!------ WEEK 2 ------>
 

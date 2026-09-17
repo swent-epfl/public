@@ -2,11 +2,11 @@
 
 The Bootcamp consists of three milestones, each one with its own set of deliverables and its own deadline:
 
-- [B1: Environment setup and getting started with Android](B1/README.md) should be completed latest by the end of Fri, 11.09.2026
-- [B2: Building a ToDo app](B2/README.md) should be completed latest by the end of Thu, 17.09.2026
-- [B3: Third-party APIs and test coverage](B3/README.md) should be completed latest by the end of Wed, 23.09.2026
+- [B1: Environment setup and getting started with Android](B1/README.md) &ndash; aim to complete latest by the end of Fri, 11.09.2026
+- [B2: Building a ToDo app](B2/README.md) &ndash; aim to complete by the end of Thu, 17.09.2026
+- [B3: Third-party APIs and test coverage](B3/README.md) &ndash; aim to complete latest by the end of Wed, 23.09.2026
 
-These deadlines are there to help you pace yourself; nothing needs to be turned in. If you finish a milestones earlier, just start working on the next one. B1 and B2 ship in your template from day one; B3 arrives later in the same repo, with the same workflow. If you finish one milestone early, edit `BOOTCAMP_PART` (see below) and start the next.
+These deadlines are there to help you pace yourself; nothing needs to be turned in. If you finish a milestone earlier, just start working on the next one. B1 and B2 ship in your template from day one; B3 arrives later in the **same** repo via a `template/B3` → `main` pull request (same `main` branch, same `BOOTCAMP_PART` workflow). If you finish one milestone early, edit `BOOTCAMP_PART` (see below) and start the next once that milestone’s material is in your repo.
 
 The steps you follow as you complete the three milestones will guide you from the basics to more advanced concepts of Android development. Good luck, and happy coding!
 
@@ -27,14 +27,14 @@ Set which milestone you are working on by editing **one line** in `.github/workf
 BOOTCAMP_PART: B1   # or B2 (later B3)
 ```
 
-CI always runs a few always-on checks, plus the tests for the **current part only** (not cumulative).
+CI always runs a few always-on checks, plus the tests for the **current part only** (not cumulative). Staff tests for that part may also run; they do **not** need to pass for solutions. Only the **`{part}-public`** job must be green.
 
 When you finish a part and want to start the next one, edit that same line to `B2` (or later `B3`). Unlocking solutions does **not** change `BOOTCAMP_PART` for you.
 
 Even though the Bootcamp is not graded, there are at least two concrete reasons to push your solutions to the right branch anyway:
 
 - **The CI tells you where you stand.** Every push to `main` (or PR into `main`) runs the public tests for your current `BOOTCAMP_PART`, and a green `{part}-public` job is a good indicator that you have acquired a basic understanding of the material in that milestone.
-- **You get the solutions on a dedicated branch.** When the **`{part}-public`** job is green on `main` (push to `main`, or a PR into `main`), we automatically publish the reference solutions onto a branch in *your* repository (`B1-solution`, `B2-solution`, or later `B3-solution`). That should appear within 1 hour after the CI goes green. This is not tied to the deadline for the milestone: if your public tests are green on Monday, you can get the solutions on Monday and move on to the next milestone (by editing `BOOTCAMP_PART` yourself).
+- **You get the solutions on a dedicated branch.** When the **`{part}-public`** job is green on `main` (push to `main`, or a PR into `main`), we automatically publish the reference solutions onto a branch in *your* repository (`B1-solution`, `B2-solution`, or later `B3-solution`). That usually appears within about 1 hour after the CI goes green. You can browse or check out that branch to compare with your work. This is not tied to the deadline for the milestone: if your public tests are green on Monday, you can get the solutions on Monday and move on to the next milestone (by editing `BOOTCAMP_PART` yourself).
 
 > [!IMPORTANT]
 > A green CI on some other branch (for example a personal feature branch that never reaches `main`) does **not** unlock solutions. Push or open a PR into `main` if you want the unlock.
@@ -48,13 +48,20 @@ You can also run these tests yourself, in your repo.
 - The `Bi` _public tests_ are the ones that you need to pass in order to unlock the solution for `Bi`
 - The `Bi` _staff tests_ go beyond the basics of the public tests, and are not required for you to receive the `Bi` solution; they carry `Staff` in the class name. The CI runs them after the public tests on the **same** emulator; they do **not** need to pass for solutions—only the `{part}-public` job counts for unlocking the solution.
 
-To run one milestone, or one kind of test, pass the `-B1` / `-B2` and `-public` / `-staff` flags. They combine, and with no flag the whole suite runs:
+To run one milestone, or one kind of test, pass the `-B1` / `-B2` / `-B3` and `-public` / `-staff` flags. They combine, and with no flag the whole suite runs:
 
 ```bash
 ./gradlew check -B1                   # only the B1 unit tests
 ./gradlew connectedCheck -B1 -public  # only the B1 public instrumented tests
 ./gradlew connectedCheck -B2 -staff   # only the B2 staff instrumented tests
+./gradlew check -B3 -public           # only the B3 public unit tests
+./gradlew connectedCheck -B3 -public  # only the B3 public instrumented tests
 ```
+
+These flags filter **local** Gradle runs. CI still keys off `BOOTCAMP_PART` in `.github/workflows/CI.yml` (one part at a time). Setting `-B3` on the command line does not change CI; you must edit `BOOTCAMP_PART: B3` yourself when you start B3.
+
+> [!NOTE]
+> B3 arrives later as a pull request from `template/B3` into `main`. See [Getting the B3 template update](B3/README.md#getting-the-b3-template-update) for what to do when it merges cleanly, and what to do if there are conflicts.
 
 To make sure that we can run our tests on your code, we provide you a skeleton of the app. You can modify the skeleton, as long as you keep the original signatures of the provided classes, methods, and functions. The Bootcamp template contains for you a signature check file `sigchecks/SignatureChecks.kt` to ensure that you do not modify the signatures of the provided code. If you modify any signature, building your app is likely to fail, and so none of the provided tests will be able to run. However, this does not mean that you should feel constrained by the template, signature checks, and tests&mdash;if you are an advanced Android programmer, you should feel free to solve the Bootcamp in whichever way you think is best.
 
