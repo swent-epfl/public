@@ -1,6 +1,6 @@
 # SwEnt Exam
 
-_Last updated: September 14, 2026_
+_Last updated: September 17, 2026_
 
 
 After the bootcamp, there will be a written exam covering everything from the first three weeks, both the lectures and the bootcamp.
