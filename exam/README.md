@@ -71,13 +71,13 @@ The following five steps will ensure success on the exam:
 
 ## Mock Exams
 
-We provide you with two mock exams, to get you habituated to the real exam:
+We provide you with three exam practice sets, to get you habituated to the real exam:
 
-| | Released | Covers |
-|---|---|---|
-| **Exam Practice Set 1** | after B1 | week 1 material |
-| **Exam Practice Set 2** | after B2 | weeks 1&ndash;2 material |
-| **Exam Practice Set 3** | after B3 | weeks 1&ndash;3 material |
+| Set       |  Links                    | Released | Covers                   |
+|-------------------------|---------------------------|--------- | -------------------------|
+| #1 | [questions](https://moodle.epfl.ch/mod/quiz/view.php?id=1380708) \| [answers](./Exam%20Practice%20Set%201.md)  | after B1 | week 1 material          |
+| #2 |                           | after B2 | weeks 1&ndash;2 material |
+| #3 |                           | after B3 | weeks 1&ndash;3 material |
 
 They are written in the same style as the real exam, so they tell you what the questions look like as well as whether you know the answers. They are not graded and there is nothing to hand in. They are purely for your own benefit.
 
