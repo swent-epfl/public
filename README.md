@@ -127,7 +127,7 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <!------ WEEK 1 ------>
 
   <!--- WK 1.A --->
-<tr><td rowspan="21" valign="top">Wk1</td><td><b>Agentic SW Development, Requirements, User Stories</b></td><td align="center"><a href="https://drive.google.com/file/d/13kr1tmPjChxrZyv7qhj54qZ3lL-EmpWc/view?usp=sharing"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=3V2ELATIni4&list=PLNdp1V-YAmog"><b>playlist</b></a></td><td rowspan="21" valign="top"><a href="bootcamp/README.md"><b>Bootcamp B1</b></a> +<br>Team composition in Steve<br> due Fri, 11-Sep @ 23:59</td></tr>
+<tr><td rowspan="21" valign="top">Wk1</td><td><b>Agentic SW Development, Requirements, User Stories</b></td><td align="center"><a href="https://drive.google.com/file/d/13kr1tmPjChxrZyv7qhj54qZ3lL-EmpWc/view?usp=sharing"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=3V2ELATIni4&list=PLNdp1V-YAmog"><b>playlist</b></a></td><td rowspan="21" valign="top"><a href="bootcamp/README.md"><b>Bootcamp B1</b></a> +<br><b>Team composition</b><br> due in Steve on Fri,<br> 11-Sep @ 23:59</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Introduction</td><td align="center"><a href="https://drive.google.com/file/d/1GXf3MCy-fcfG1s0l9YmQuMwA4PZEPHIt/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=-TU946Pckc8">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Agentic Software Development (part 1)</td><td align="center"><a href="https://drive.google.com/file/d/1AYv7qwH1uKl42Lha-l9lODfYnwy9Evs5/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/6ZEIdlLYiZY">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Agentic Software Development (part 2)</td><td align="center"><a href="https://drive.google.com/file/d/1tBQMQ_FUT6NGSScMMbAfDrkeFw9mToPr/view?usp=sharing">pdf</a></td><td align="center"><a href="https://youtu.be/bZJ0YpXxxFc">video</a></td></tr>
@@ -155,7 +155,7 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <!------ WEEK 2 ------>
 
   <!--- WK 2.A --->
-<tr><td rowspan="14" valign="top">Wk2</td><td><b>Testing Fundamentals: Concepts &amp; Metrics</b></td><td align="center"><a href="https://drive.google.com/file/d/1-nvjsBlQzczS3AriD9J1V19gD-4JIpk4/view?usp=drive_link"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=URvMd41BIwI&list=PLZHFw7py0sF4"><b>playlist</b></a></td><td rowspan="14" valign="top"><a href="bootcamp/README.md"><b>Bootcamp B2</b></a> +<br>App description<br>due Thu, 17-Sep @ 23:59</td></tr>
+<tr><td rowspan="14" valign="top">Wk2</td><td><b>Testing Fundamentals: Concepts &amp; Metrics</b></td><td align="center"><a href="https://drive.google.com/file/d/1-nvjsBlQzczS3AriD9J1V19gD-4JIpk4/view?usp=drive_link"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=URvMd41BIwI&list=PLZHFw7py0sF4"><b>playlist</b></a></td><td rowspan="14" valign="top"><a href="bootcamp/README.md"><b>Bootcamp B2</b></a><br>due on Thu,<br>17-Sep @ 23.59<br><br><b>App description</b><br>due in Steve on Mon,<br> 21-Sep @ 23:59</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Levels of Testing</td><td align="center"><a href="https://drive.google.com/file/d/1lFBondvYlDjHikZuSkCXEqvG5z-KEO7q/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=URvMd41BIwI">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;The Cost of Bugs</td><td align="center"><a href="https://drive.google.com/file/d/10086QBuZSBhiLPEmfzwozM4KAGZQo3oi/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=ykDqtsdtPHI">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;How Well Can We Test?</td><td align="center"><a href="https://drive.google.com/file/d/1yX6vAEacnCy2IFB8UaK8hfMhbjfczwMz/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=wqhCiFLyk4Y">video</a></td></tr>
@@ -173,7 +173,7 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;UI Testing for Your App</td><td align="center"><a href="https://drive.google.com/file/d/1E2JCYZyUf14-5GGsDsj8EZS7XdLr3EUZ/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=SIPYX5ZUEGs">video</a></td></tr>
 
 <!------ WEEK 3 ------>
-<tr><td rowspan="11" valign="top">Wk3</td><td><b>Agile Development, Collaboration Workflows, CI/CD</b></td><td align="center"><!-- <a href="TODO">--><b>full pdf</b></a></td><td align="center"><!--<a href="TODO">--><b>playlist</b></a></td><td rowspan="11" valign="top"><a href="bootcamp/README.md"><b>Bootcamp B3</b></a><br> due Wed, 23-Sep @ 23:59</td></tr>
+<tr><td rowspan="11" valign="top">Wk3</td><td><b>Agile Development, Collaboration Workflows, CI/CD</b></td><td align="center"><!-- <a href="TODO">--><b>full pdf</b></a></td><td align="center"><!--<a href="TODO">--><b>playlist</b></a></td><td rowspan="11" valign="top"><a href="bootcamp/README.md"><b>Bootcamp B3</b></a><br> due on Wed,<br>23-Sep @ 23:59</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Curiosity: Doing the Impossible</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Scrum I: The Team and the Backlog</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Scrum II: The Sprint and Its Events</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
@@ -187,18 +187,18 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 
 
 
-<tr><td valign="top">Wk4</td><td><a href="project/README.md"><b>Project</b></a>: Warmup</td><td align="center"></td><td align="center"></td><td valign="top"><!-- <a href="project/Warmup.md"> --> Warmup<!-- </a> --> due 2-Oct @ 08:45</td></tr>
+<tr><td valign="top">Wk4</td><td><a href="project/README.md"><b>Project</b></a>: Warmup</td><td align="center"></td><td align="center"></td><td valign="top"><!-- <a href="project/Warmup.md"> --> Warmup<!-- </a> --> due on<br>Fri, 2-Oct @ 08:45</td></tr>
 <tr><td valign="top">Wk5</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 1</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
-<tr><td valign="top">Wk6</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 2</td><td align="center"></td><td align="center"></td><td valign="top"><!-- <a href="project/M1.md"> --> M1<!-- </a> --> due 16-Oct @ 08:45</td></tr>
+<tr><td valign="top">Wk6</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 2</td><td align="center"></td><td align="center"></td><td valign="top"><!-- <a href="project/M1.md"> --> M1<!-- </a> --> due on Fri,<br> 16-Oct @ 08:45</td></tr>
 <tr><td valign="top"></td><td><i>Fall Break &mdash; no classes</i></td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
 <tr><td valign="top">Wk7</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 3</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
 <tr><td valign="top">Wk8</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 4</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
-<tr><td valign="top">Wk9</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 5</td><td align="center"></td><td align="center"></td><td valign="top"><!-- <a href="project/M2.md"> --> M2<!-- </a> --> due 13-Nov @ 08:45</td></tr>
+<tr><td valign="top">Wk9</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 5</td><td align="center"></td><td align="center"></td><td valign="top"><!-- <a href="project/M2.md"> --> M2<!-- </a> --> due on Fri,<br>13-Nov @ 08:45</td></tr>
 <tr><td valign="top">Wk10</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 6</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
 <tr><td valign="top">Wk11</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 7</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
 <tr><td valign="top">Wk12</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 8</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
 <tr><td valign="top">Wk13</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 9</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
-<tr><td valign="top">Wk14</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 10<br><a href="project/BOTA.md">Battle of the Apps</a></td><td align="center"></td><td align="center"></td><td valign="top"><!-- <a href="project/M3.md"> --> M3<!-- </a> --> due 18-Dec @ 08:45 <br> Feedback survey<!-- <a href="TODO">Feedback survey</a> --> due 18-Dec @ 23:59</td></tr>
+<tr><td valign="top">Wk14</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 10<br><a href="project/BOTA.md">Battle of the Apps</a></td><td align="center"></td><td align="center"></td><td valign="top"><!-- <a href="project/M3.md"> --> M3<!-- </a> --> due on Fri,<br>18-Dec @ 08:45 <br> Feedback survey<!-- <a href="TODO">Feedback survey</a> --> <br>due on Fri,<br>18-Dec @ 23:59</td></tr>
 </tbody>
 </table>
 
