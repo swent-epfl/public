@@ -174,7 +174,7 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 
 <!------ WEEK 3 ------>
 <tr><td rowspan="11" valign="top">Wk3</td><td><b>Agile Development, Collaboration Workflows, CI/CD</b></td><td align="center"><!-- <a href="TODO">--><b>full pdf</b></a></td><td align="center"><!--<a href="TODO">--><b>playlist</b></a></td><td rowspan="11" valign="top"><a href="bootcamp/README.md"><b>Bootcamp B3</b></a><br> due on Wed,<br>23-Sep @ 23:59</td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Curiosity: Doing the Impossible</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;The Seven Minutes of Terror</td><td align="center"><a href="https://drive.google.com/file/d/1zmgXVaiaxJ8-02uoiLpymSXiZXMfZHKQ/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=U2p0noMkzYY">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Scrum I: The Team and the Backlog</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Scrum II: The Sprint and Its Events</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Branching and Pull Requests</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
