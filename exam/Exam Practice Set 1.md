@@ -2,7 +2,7 @@
 
 This is a set of questions meant to get you habituated to the exam that will be held at the end of week 3. Each question will present 5 choices, of which 0, 1, 2, 3, 4, or 5 are correct. They are the same kind of questions you can expect to see on the exam (except that the exam will cover all the material of the first three weeks).
 
-This exercise set is not graded; it is provided purely for your benefit. The actual exam will count toward 20% of your SwEnt course grade.
+This exercise set is not graded; it is provided purely for your benefit. The actual exam will count toward 25% of your SwEnt course grade.
 
 This exercise set contains 15 questions meant to take on the order of 30 minutes to answer. Don't worry about the amount of time it takes you to answer, the point of the exam is to test your knowledge, not the speed with which you can answer. The exam will of course have many more questions.
 
@@ -198,7 +198,7 @@ A repository method is marked `suspend`. What is the main reason for doing this?
 
 A and B state the same property from two angles, and both are true. A `suspend` function can pause at a suspension point while a Firestore read or a disk write is in flight; the thread it was running on is released to do other work and the function resumes when the result arrives. The caller is typically the main thread, which is why B matters in practice: a 300 ms blocking read on the main thread is 18 dropped frames and a visible stutter.
 
-C is wrong, and is close to the opposite of the truth. `suspend` says nothing about which thread the work runs on; that is what dispatchers and scopes are for, and in the bootcamp the call goes through `viewModelScope`, which runs it off the main thread.
+C is wrong, and is close to the opposite of the truth. `suspend` says nothing about which thread the work runs on; that is what dispatchers and scopes are for, and in the bootcamp the call goes through `viewModelScope`, which runs it on the main thread.
 
 D is wrong. There is nothing test-specific about `suspend`. It is callable from any coroutine or from another `suspend` function, in production code just as much as in tests.
 
@@ -554,7 +554,7 @@ E is wrong: `LazyColumn` has no item limit. The one with a practical limit is `C
 You want to write a test that needs to interact with Compose buttons and text fields on an emulator. Where would you place it, and why?
 
 - **A.** In `androidTest`, because it requires an Android runtime and UI environment
-- **B.** In `androidTest`, because tests that interact with Compose must modify the Gradle files
+- **B.** In `test`, because it tests only pure Kotlin logic
 - **C.** In `androidTest`, because tests that interact with Compose must modify the Gradle files
 - **D.** In `test`, because in `androidTest` it cannot use assertions
 - **E.** In `test`, because it should run independently of Android
@@ -566,18 +566,18 @@ You want to write a test that needs to interact with Compose buttons and text fi
 
 Driving a Compose UI means clicking real nodes and typing into real text fields, which needs the Android framework and a running Compose hierarchy. That makes it an instrumented test: it goes in `src/androidTest` and executes on an emulator or a device. Tests in `src/test` run on the JVM, which is why they are much faster and why the bootcamp's `ToDosRepositoryLocalTest` lives there while the UI tests do not.
 
-B and C give the reason as a Gradle change. You do declare an `androidTestImplementation` dependency for the Compose test library, but that follows from the test being instrumented; it is not what decides where the test goes. (These two options are identical, which is a defect in this practice set, not a hint.)
+C gives the reason as a Gradle change. You do declare an `androidTestImplementation` dependency for the Compose test library, but that follows from the test being instrumented; it is not what decides where the test goes. (These two options are identical, which is a defect in this practice set, not a hint.)
 
 D is wrong: instrumented tests use the same assertion machinery as unit tests, plus the Compose assertions such as `assertIsDisplayed()`.
 
-E is wrong on the facts: a test that clicks Compose nodes cannot run independently of Android, which is the whole reason it is slower and needs a device.
+B and E are wrong on the facts: a test that clicks Compose nodes is not pure Kotlin logic and cannot run independently of Android, which is the whole reason it is slower and needs a device.
 
 **Scoring**
 
 - `{A}`: 100%.
-- `{A, B}`, `{A, C}`, or `{A, B, C}`: 60%. Right location, wrong reason. Since B and C are the same statement, marking both is the same error twice, not two errors.
+- `{A, C}`: 60%. Right location, wrong reason.
 - Any pattern that includes D: 0%. Instrumented tests use the assertions you already use, plus the Compose ones.
-- Any pattern that includes E: 0%. Putting a Compose interaction test in `test/` means it will not run at all, and a student who believes otherwise will spend an evening on the resulting error message.
+- Any pattern that includes B or E: 0%. Putting a Compose interaction test in `test/` means it will not run at all, and a student who believes otherwise will spend an evening on the resulting error message.
 
 **Reference material:** [Unit testing guide](https://github.com/swent-epfl/public/blob/main/bootcamp/docs/UnitTesting.md) (project structure for tests) &middot; [Android testing guide](https://github.com/swent-epfl/public/blob/main/bootcamp/docs/AndroidTesting.md) &middot; [B1 &sect;3 Todo List](https://github.com/swent-epfl/public/blob/main/bootcamp/deliverables/B1/3-TodoList.md) (`test` vs. `androidTest`)
 
