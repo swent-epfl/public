@@ -45,12 +45,11 @@ Each week has one deliverable, corresponding to one milestone. The deliverables 
 > The Bootcamp is not a graded assignment. Its role is to help you ground in practice the concepts taught in lecture, and to get you ready for the project. 
 
 > [!WARNING]  
-> The Bootcamp is required material for the [exam](/exam/README.md). Do not use an LLM or agents to write the code, because that will deprive you of gaining the knowledge and practice needed on the exam. You are encouraged however to use an LLM to help you understand deeper the bootcamp, and an agent can review the code you write and suggest improvements.
+> The Bootcamp is required material for the [exam](/exam/README.md). Do not use an LLM or AI agents to write the code (unless instructed so), otherwise you will deprive yourself of gaining the knowledge and practice needed on the exam. You are encouraged however to use an LLM to help you understand deeper the bootcamp, and an AI agent can review the code you write, give you feedback, and suggest improvements.
 
-By pushing your solution to your individual repository `https://github.com/swent-epfl/bootcamp-26-<your GitHub username>`, you will receive quick feedback: the CI runs tests on each milestone work branch (`main` for B1, `B2` for B2, `B3` for B3), and a green CI is a good indicator that you have understood the milestone and wrote the right code.
-
-> [!NOTE]  
-> Once all the public tests pass in the CI on a milestone branch (or on a PR for it), we will push the reference solution to your repo on a branch called `Bi-solution`, where `i`∈ {*1,2,3*}. This will allow you to advance in the bootcamp at your own pace.
+By pushing your solution to your individual repository `https://github.com/swent-epfl/bootcamp-26-<your GitHub username>`, you get feedback: you work on **`main`**, set the current milestone with `BOOTCAMP_PART` in `.github/workflows/CI.yml`, and CI runs the public tests for that part only. A green `part-public` job is a good indicator that you have understood the milestone.
+On top of that, as soon as that public job is green on `main` (or on a PR into `main`), we publish the reference solutions onto `Bn-solution` in your repo, however early in the week that happens.
+See [here](deliverables/README.md) for more details.
 
 ## Levels
 

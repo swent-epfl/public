@@ -1,6 +1,10 @@
 # Your first coding agent
 
-*From B2 on, you build the app with an AI **agent**. This is your first hands-on: a **single agent** builds a real feature, and you stay the final validator.*
+> [!IMPORTANT]
+> At this point in the Bootcamp, we deliberately change mode and ask that you use an AI agent to help you write the remainder of the app. Follow the agentic workflow taught in lecture, including the key rule that you "own" anything that gets pushed to the repo, no matter who or what wrote it. That code is your responsibility, and you need to understand it and be able to explain it as if you had written it yourself. All the Bootcamp code (B1, B2, B3) is fair game for questions in the exam.
+
+In B2, you will complete your first hands-on exercise in agentic development: a **single agent** will build a real feature, and you stay the final validator.
+In B3, you will extend this to a multi-agent loop.
 
 An **agent** is different from a chatbot: instead of answering in a chat window for you to copy from, it **acts on the repo** (reads files, edits them, runs the build and the tests, reads the failures, commits). Your job shifts from writing code to **specifying and reviewing**.
 
