@@ -1,6 +1,6 @@
 # SwEnt Exam
 
-_Last updated: September 17, 2026_
+_Last updated: September 19, 2026_
 
 
 After the bootcamp, there will be a written exam covering everything from the first three weeks, both the lectures and the bootcamp.
@@ -30,27 +30,40 @@ It is also why the bootcamp is not graded directly. The bootcamp is individual, 
 Everything in the lecture videos and associated material, and everything you did in the bootcamp's B1, B2 and B3.
 
 We test **judgement, not recall**. Expect questions built around situations you have already seen: a user story to critique, a diff to review, a test suite to judge, a coverage number to interpret, a design decision to defend. You will not be asked to reproduce API names, exact syntax, or definitions you could look up quickly.
-
 That means memorizing the lecture slides is a poor strategy&mdash;you must *understand* the material and be able to apply it.  
 
-During your project, nobody will ask you what INVEST stands for or to define branch coverage.
-Instead, a teammate will make a mistake and you need to know how to correct it, or an agent will hand you 400 lines you did not write and you need to review them, or a coach will ask why you designed your Activity in the way you did. 
-Every one of those is the skill this exam tests: taking a concept you understand and applying it to a situation you haven't seen before.
+This is because, during your project, nobody will ask you what INVEST stands for or to define branch coverage.
+Instead, a teammate will make a mistake and you need to know how to correct it, or an agent will hand you 400 lines of code and you need to review them, or a coach will ask why you designed your Activity in the way you did. 
+These are things that the exam tests: taking a concept you understand and applying it to a situation you haven't seen before.
 
-And on a team, this isn't only about you. The person who spots the flaw during a design discussion changes what the whole team ships. 
-The person who memorized the definitions but cannot apply them stays silent at exactly the moment it matters, and the work shifts onto everyone else.
-Your understanding is a contribution to your teammates; its absence is a cost they pay.
+This impacts the team: The person who spots the flaw during a design discussion changes what the whole team ships. 
+The person who memorized the definitions but cannot apply them stays silent when their input would actually matter, and that shifts the work onto everyone else.
+Your understanding is a contribution to your teammates, while its absence is a liability to them.
 
 ## Format and Rules
 
-- The whole exam is *multiple-response questions with pattern-based partial credit* (MRQP)&mdash;there is no code to write, no essay to compose, no explanations to provide.
-    - For each question there will be five answer candidates, and 0 to 5 of these can be correct, the others false. Your score for each question is determined by the whole pattern of your answers, not on each option separately. 
-    - An MRQP exam is specifically designed to assess deeply your understanding and critical thinking, despite the multiple-choice format. E.g., if *{A,C}* is the correct answer, then selecting *{A,B,C}* might score well or might score zero&mdash;it depends on how wrong it is to choose *B* and what that reveals about your understanding. The same is true of selecting only *{A}*&mdash;it depends on how wrong it is to leave *C* out. 
-    - The right strategy is to mark exactly what you believe is right; don't "play it safe", and don't "hedge".
 - Closed-book: no notes, no cheat sheet, no textbook.
 - No electronic devices of any kind. Phones and smart watches off and in your bag.  No headphones.
 - Bring your **CAMIPRO card**, a **black or dark blue ballpoint pen**, and **Tipp-Ex**&mdash;nothing else is needed (or permitted).
 - The usual EPFL rules on academic honesty apply, and we enforce them.
+
+## Scoring
+
+The exam is *multiple-response questions with pattern-based partial credit* (MRQP)&mdash;there is no code to write, no essay to compose, no explanations to provide.
+For each question there will be 5 answer candidates, and 0 to 5 of these can be correct, the others false. 
+Your score for each question is determined by the whole pattern of your answers, not on each checkbox separately. 
+
+An MRQP exam is specifically designed to assess deeply your understanding and critical thinking, despite the multiple-choice format. 
+Two patterns that differ by a single box can score very differently, because what is graded is what the pattern reveals about your understanding. 
+Leaving out a correct choice usually means your picture is incomplete, and costs part of the point. 
+But checking a choice that only someone who has the concept backwards would check can cost all the points on the question, no matter how much else you got right.
+
+For example, if *{A,C}* is the correct answer, then selecting *{A,B,C}* might score well or might score zero&mdash;it depends on how wrong it is to choose *B* and what that reveals about your understanding. 
+The same is true of selecting only *{A}*&mdash;it depends on how wrong it is to leave *C* out. 
+
+This is why hedging is a bad strategy for answering.
+Marking everything plausible does not end up being a cautious approach, but rather an indication that like you cannot tell the options apart.
+The right strategy is to mark exactly what you believe is right.
 
 ## How to Prepare
 
@@ -69,26 +82,31 @@ The following five steps will ensure success on the exam:
 > [!IMPORTANT]
 > There is no plenary in the week of the exam due to the holiday. Do review the material of that week as early as possible, and if anything does not make sense, post on the course's Ed forum linked from Moodle.
 
-## Practicing for the Exam
+## Exam Practice Sets
 
-We provide you with three exam practice sets, to get you habituated to the real exam:
+We provide you with three sets of questions to help you practice for the exam. These practice sets will get you habituated to the exam: they are the same kind of questions you can expect to see on the exam (except that the exam will cover **all** the material of the first three weeks).
 
-| Set       |  Links                    | Released | Covers                   |
-|-------------------------|---------------------------|--------- | -------------------------|
-| #1 | [questions](https://moodle.epfl.ch/mod/quiz/view.php?id=1380708) \| [answers](./Exam%20Practice%20Set%201.md)  | after B1 | week 1 material          |
-| #2 |                           | after B2 | weeks 1&ndash;2 material |
-| #3 |                           | after B3 | weeks 1&ndash;3 material |
+| | Released | Covers |
+|---|---|---|
+| **Exam Practice Set 1** | after B1 | All of week 1          |
+| **Exam Practice Set 2** | after B2 | All of weeks 1 and 2   |
+| **Exam Practice Set 3** | after B3 | All of weeks 1&ndash;3 |
 
-They are written in the same style as the real exam, so they tell you what the questions look like as well as whether you know the answers. They are not graded and there is nothing to hand in. They are purely for your own benefit.
+The exercise sets, along with answers and explanations, are linked from the [main schedule](../README.md#schedule).
+Since Moodle does not support MRQP, ignore the automated grading it does.
+
+These exercise sets are not graded&mdash;they are provided purely for your benefit. 
+The real exam will be graded.
 
 > [!IMPORTANT]
 > **Attempt the practice sets closed-book, in one sitting, before you look at the answers.**
 >
-> This is crucial. Reading through the questions and the answer key together feels productive but teaches you almost nothing. Recognizing a correct answer is far easier than producing one, and it will leave you confident and unprepared. Sit down, give yourself the time, write your answers, and only then check the answer key.
+> This is crucial. Reading through the questions and the answer key together feels productive but teaches you almost nothing. Recognizing a correct answer is easier than producing one, and it will leave you confident and unprepared. Sit down, give yourself the time, write your answers, and only then check the answer key.
 
-If you do badly on Mock 1, that is useful information arriving early enough to act on. That is what it's for, and it gives you ample time to prepare for the real exam.
+If you do badly on a practice set, that is useful information that arrives early enough to act on (provided you solved the practice set in the week to which it corresponds).
+That is what it's for, and it gives you ample time to correct course and arrive fully prepared at the real exam.
 
-## On the Day of the Exam
+## The Day of the Exam
 
 - Check Moodle the day before for your room assignment.
 - Arrive **15 minutes early** and find your seat.
