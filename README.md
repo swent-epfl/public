@@ -1,6 +1,6 @@
 # EPFL CS-311 _The Software Enterprise: From Ideas to Products_
 
-_Last updated: September 17, 2026_
+_Last updated: September 20, 2026_
 
 ## Table of Contents
 
@@ -179,7 +179,7 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;The Seven Minutes of Terror</td><td align="center"><a href="https://drive.google.com/file/d/1zmgXVaiaxJ8-02uoiLpymSXiZXMfZHKQ/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=U2p0noMkzYY">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Scrum &ndash; The Team and the Backlog</td><td align="center"><a href="https://drive.google.com/file/d/1s7lvoaiKihvt26yf0cymYqN3lUbi8Uo8/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=f2EAI5u3GcU">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Scrum &ndash; The Sprint and Its Events</td><td align="center"><a href="https://drive.google.com/file/d/17iSI0hso5XlcxSkoyM0vTmSMGry4lrqw/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=GIjtLefk164">video</a></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Branching and Pull Requests</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Branches and Pull Requests</td><td align="center"><a href="https://drive.google.com/file/d/19YBisRY1N3zL-WzPAgv7t6sg0Sh661It/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=zRzpq-qFEs8">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Code Review</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;CI/CD</td><td align="center"><!-- <a href="TODO">pdf</a> --></td><td align="center"><!-- <a href="TODO">video</a> --></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Writing Good Commit Messages</td><td align="center"><a href="https://drive.google.com/file/d/1JjXkOzGVbd-3MIclaial4zcmi67X0BMc/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=vbNDUFe5U6I">video</a></td></tr>
