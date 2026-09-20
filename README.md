@@ -155,7 +155,7 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <!------ WEEK 2 ------>
 
   <!--- WK 2.A --->
-<tr><td rowspan="14" valign="top">Wk2</td><td><b>Testing Fundamentals: Concepts &amp; Metrics</b></td><td align="center"><a href="https://drive.google.com/file/d/1-nvjsBlQzczS3AriD9J1V19gD-4JIpk4/view?usp=drive_link"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=URvMd41BIwI&list=PLZHFw7py0sF4"><b>playlist</b></a></td><td rowspan="14" valign="top"><a href="bootcamp/README.md"><b>Bootcamp B2</b></a><br>due on Thu,<br>17-Sep @ 23.59<br><br><b>App description</b><br>due in Steve on Mon,<br> 21-Sep @ 23:59</td></tr>
+<tr><td rowspan="15" valign="top">Wk2</td><td><b>Testing Fundamentals: Concepts &amp; Metrics</b></td><td align="center"><a href="https://drive.google.com/file/d/1-nvjsBlQzczS3AriD9J1V19gD-4JIpk4/view?usp=drive_link"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=URvMd41BIwI&list=PLZHFw7py0sF4"><b>playlist</b></a></td><td rowspan="15" valign="top"><a href="bootcamp/README.md"><b>Bootcamp B2</b></a><br>due on Thu,<br>17-Sep @ 23.59<br><br><b>App description</b><br>due in Steve on Mon,<br> 21-Sep @ 23:59</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Levels of Testing</td><td align="center"><a href="https://drive.google.com/file/d/1lFBondvYlDjHikZuSkCXEqvG5z-KEO7q/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=URvMd41BIwI">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;The Cost of Bugs</td><td align="center"><a href="https://drive.google.com/file/d/10086QBuZSBhiLPEmfzwozM4KAGZQo3oi/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=ykDqtsdtPHI">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;How Well Can We Test?</td><td align="center"><a href="https://drive.google.com/file/d/1yX6vAEacnCy2IFB8UaK8hfMhbjfczwMz/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=wqhCiFLyk4Y">video</a></td></tr>
@@ -171,6 +171,8 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dependency Injection</td><td align="center"><a href="https://drive.google.com/file/d/1Gs4JAkJ73bZ5rJf2HxO7wt3bXCXNlVYc/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=nS6A4Kaiupc">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Regression Testing</td><td align="center"><a href="https://drive.google.com/file/d/1jvjD5hflB1mwTaEw0LXY6VLyDodhhQuV/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=kNFqffUBj8o">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;UI Testing for Your App</td><td align="center"><a href="https://drive.google.com/file/d/1E2JCYZyUf14-5GGsDsj8EZS7XdLr3EUZ/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=SIPYX5ZUEGs">video</a></td></tr>
+
+<tr><td><b>Exam Practice Set 2</b></td><td><A href="https://moodle.epfl.ch/mod/quiz/view.php?id=1382093">questions</a></td><td><a href="/exam/Exam Practice Set 2.md">answers</a></td></tr>
 
 <!------ WEEK 3 ------>
 <tr><td rowspan="11" valign="top">Wk3</td><td><b>Agile Development, Collaboration Workflows, CI/CD</b></td><td align="center"><!-- <a href="TODO">--><b>full pdf</b></a></td><td align="center"><!--<a href="TODO">--><b>playlist</b></a></td><td rowspan="11" valign="top"><a href="bootcamp/README.md"><b>Bootcamp B3</b></a><br> due on Wed,<br>23-Sep @ 23:59</td></tr>
