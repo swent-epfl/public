@@ -1,6 +1,6 @@
 # EPFL CS-311 _The Software Enterprise: From Ideas to Products_
 
-_Last updated: September 20, 2026_
+_Last updated: September 22, 2026_
 
 ## Table of Contents
 
@@ -170,7 +170,7 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Test Doubles: Mocks, Stubs, and Fakes</td><td align="center"><a href="https://drive.google.com/file/d/1XKh1dFWOIUSnI2Bi7-n0t9a_A7dIMoAB/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=QqUIqVwLhzE">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Dependency Injection</td><td align="center"><a href="https://drive.google.com/file/d/1Gs4JAkJ73bZ5rJf2HxO7wt3bXCXNlVYc/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=nS6A4Kaiupc">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Regression Testing</td><td align="center"><a href="https://drive.google.com/file/d/1jvjD5hflB1mwTaEw0LXY6VLyDodhhQuV/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=kNFqffUBj8o">video</a></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;UI Testing for Your App</td><td align="center"><a href="https://drive.google.com/file/d/1E2JCYZyUf14-5GGsDsj8EZS7XdLr3EUZ/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=SIPYX5ZUEGs">video</a></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;UI Testing for Your App</td><td align="center"><a href="https://drive.google.com/file/d/1E2JCYZyUf14-5GGsDsj8EZS7XdLr3EUZ/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=V6u6icCwOSU">video</a></td></tr>
 
 <tr><td><b>Exam Practice Set 2</b></td><td><A href="https://moodle.epfl.ch/mod/quiz/view.php?id=1382093">questions</a></td><td><a href="/exam/Exam Practice Set 2.md">answers</a></td></tr>
 
