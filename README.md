@@ -1,6 +1,6 @@
 # EPFL CS-311 _The Software Enterprise: From Ideas to Products_
 
-_Last updated: September 22, 2026_
+_Last updated: September 23, 2026_
 
 ## Table of Contents
 
@@ -64,7 +64,7 @@ For questions whose answers could benefit other students, use the [Ed forum](htt
 </tr>
 <tr>
 <td valign="top"><a href="exam/README.md">Exam</a></td>
-<td>Friday 25-Sep / 9:15-12:00 in <a href="https://plan.epfl.ch/?room==CM%201%202">CM2</a> + <a href="https://plan.epfl.ch/?room==CM%200%2013">CM 0 13</a> <!-- 60 seats --> +  <a href="https://plan.epfl.ch/?room==CM%201%20105">CM 1 105</a></td>
+<td>Friday 25-Sep / 9:15-12:00 in <a href="https://plan.epfl.ch/?room==CM%201%202">CM2</a> and <a href="https://plan.epfl.ch/?room==CM%201%20105">CM 1 105</a></td>
 </tr>
 <tr>
 <td valign="top">Coaching</td>
@@ -175,7 +175,7 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td><b>Exam Practice Set 2</b></td><td><A href="https://moodle.epfl.ch/mod/quiz/view.php?id=1382093">questions</a></td><td><a href="/exam/Exam Practice Set 2.md">answers</a></td></tr>
 
 <!------ WEEK 3 ------>
-<tr><td rowspan="11" valign="top">Wk3</td><td><b>Agile Development, Collaboration Workflows, CI/CD</b></td><td align="center"><a href="https://drive.google.com/file/d/1_DFC1fCkpRgGv_sQy61CNGpaKMzx-X4I/view?usp=drive_link"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=U2p0noMkzYY&list=PLGEx-fKcQObQ"><b>playlist</b></a></td><td rowspan="11" valign="top"><a href="bootcamp/README.md"><b>Bootcamp B3</b></a><br> due on Wed,<br>23-Sep @ 23:59</td></tr>
+<tr><td rowspan="12" valign="top">Wk3</td><td><b>Agile Development, Collaboration Workflows, CI/CD</b></td><td align="center"><a href="https://drive.google.com/file/d/1_DFC1fCkpRgGv_sQy61CNGpaKMzx-X4I/view?usp=drive_link"><b>full pdf</b></a></td><td align="center"><a href="https://www.youtube.com/watch?v=U2p0noMkzYY&list=PLGEx-fKcQObQ"><b>playlist</b></a></td><td rowspan="12" valign="top"><a href="bootcamp/README.md"><b>Bootcamp B3</b></a><br> due on Wed,<br>23-Sep @ 23:59</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;The Seven Minutes of Terror</td><td align="center"><a href="https://drive.google.com/file/d/1zmgXVaiaxJ8-02uoiLpymSXiZXMfZHKQ/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=U2p0noMkzYY">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Scrum &ndash; The Team and the Backlog</td><td align="center"><a href="https://drive.google.com/file/d/1s7lvoaiKihvt26yf0cymYqN3lUbi8Uo8/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=f2EAI5u3GcU">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Scrum &ndash; The Sprint and Its Events</td><td align="center"><a href="https://drive.google.com/file/d/17iSI0hso5XlcxSkoyM0vTmSMGry4lrqw/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=GIjtLefk164">video</a></td></tr>
@@ -184,7 +184,10 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Writing Good Commit Messages</td><td align="center"><a href="https://drive.google.com/file/d/1JjXkOzGVbd-3MIclaial4zcmi67X0BMc/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=vbNDUFe5U6I">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Coding Standards</td><td align="center"><a href="https://drive.google.com/file/d/1AIb53C4Ad_KcnBorQ8v6v7zt6PED_blg/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=t5fAWsdzBzA">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Continuous Integration &amp; Continuous Delivery</td><td align="center"><a href="https://drive.google.com/file/d/1ctfJFpo_jvppAl4nqzpIt8OhtjGIyGVU/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=35S_p3B0E_4">video</a></td></tr>
-<tr><td><a href="exam/README.md"><b>Exam</b></a>: Friday 25-Sep, 9:15&ndash;12:00</td><td align="center"></td><td align="center"></td></tr>
+
+<tr><td><b>Exam Practice Set 3</b></td><td><A href="https://moodle.epfl.ch/course/view.php?id=18350">questions</a></td><td><a href="/exam/Exam Practice Set 3.md">answers</a></td></tr>
+
+<tr><td><span style="color: red;"><a href="exam/README.md"><span style="color: red;"><b>Exam</b></span></a>: Friday 25-Sep, 9:15&ndash;12:00</span></td><td align="center"></td><td align="center"></td></tr>
 <tr><td>&raquo;&nbsp;Set up a get-to-know-you meeting with your coaches</td><td align="center"></td><td align="center"></td></tr>
 
 

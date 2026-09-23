@@ -1,6 +1,6 @@
 # SwEnt Exam
 
-_Last updated: September 19, 2026_
+_Last updated: September 23, 2026_
 
 
 After the bootcamp, there will be a written exam covering everything from the first three weeks, both the lectures and the bootcamp.
@@ -8,7 +8,9 @@ After the bootcamp, there will be a written exam covering everything from the fi
 ## At a Glance
 
 <table>
-<tr><td valign="top">When &amp; Where</td><td>See <a href="../README.md#schedule">schedule</a>.<br>Your room assignment will be announced on Moodle before the exam.</td></tr>
+<tr><td valign="top">When &amp; Where</td><td>See <a href="../README.md#schedule">schedule</a>.<br>If your SCIPER ≥ 390500 then go to <a href="https://plan.epfl.ch/?room==CM%201%202">CM2</a>, otherwise go to <a href="https://plan.epfl.ch/?room==CM%201%20105">CM 1 105</a>.<br>
+    Special-needs students with 1/3 more time will have until 12:55 to complete the exam.</td>
+    </tr>
 <tr><td valign="top">Format</td><td>Pen-and-paper, multiple-response questions with pattern-based partial credit (MRQP)</td></tr>
 <tr><td valign="top">Materials</td><td>Closed-book. No notes, no Internet, no LLMs, no phone, no laptop</td></tr>
 <tr><td valign="top">Covers</td><td>All lecture videos from weeks 1&ndash;3, and bootcamp deliverables B1, B2 and B3</td></tr>
