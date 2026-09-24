@@ -1,6 +1,6 @@
 # EPFL CS-311 _The Software Enterprise: From Ideas to Products_
 
-_Last updated: September 23, 2026_
+_Last updated: September 24, 2026_
 
 ## Table of Contents
 
@@ -64,7 +64,7 @@ For questions whose answers could benefit other students, use the [Ed forum](htt
 </tr>
 <tr>
 <td valign="top"><a href="exam/README.md">Exam</a></td>
-<td>Friday 25-Sep / 9:15-12:00 in <a href="https://plan.epfl.ch/?room==CM%201%202">CM2</a> and <a href="https://plan.epfl.ch/?room==CM%201%20105">CM 1 105</a></td>
+<td>Friday 25-Sep / 9:15-12:00 in <a href="https://plan.epfl.ch/?room==CM%201%202">CM2</a>, <a href="https://plan.epfl.ch/?room==CM%201%20105">CM 1 105</a>, and <a href="https://plan.epfl.ch/?room==CM%200%2013">CM 0 13</a></td>
 </tr>
 <tr>
 <td valign="top">Coaching</td>
