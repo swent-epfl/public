@@ -1,6 +1,6 @@
 # Project Warmup
 
-_Last updated: September 29, 2025_
+_Last updated: September 25, 2026_
 
 ## Table of Contents
 
@@ -34,14 +34,22 @@ To ensure smooth collaboration throughout the semester, you need to have a relia
 
 **2. Set up GitHub:**
 GitHub provides many tools to help manage your project efficiently. Do the following to set it up (we let you research how to do these things):
-- [ ] Create a GitHub organization with all team members, your coaches, and Prof. Candea (GitHub ID _candea_) in it.
-- [ ] Create a project repository; make sure it's public, so that you can use tools like SonarCloud for free.
-- [ ] Grant _Maintainer_ access to your coaches and Prof. Candea, so they can give you the right level of help.
+- [ ] Create a GitHub organization with all team members, your coaches, and the teaching team in it. Decide now which of you is an owner of the organization: some steps below can only be done by an owner.
+- [ ] Create a project repository and make sure it is public. STEVE checks this.
+- [ ] Install the Steve app on your organization. Start from the **Technical setup** screen in STEVE, at [steve.dslab.org/technical-setup](https://steve.dslab.org/technical-setup), and press **Install the Steve app**. Do not start from the app's page on GitHub: the button is what links the installation to your team.
+     - **Install it on your organization, not on your personal account.** GitHub lists your personal account first. An installation on a personal account cannot be linked to your team.
+     - **An owner of the organization must be the one who clicks.** If a member who is not an owner does it, GitHub only sends a request to the owners, and nothing happens until an owner approves it.
+     - Choose **Only select repositories** and select **exactly your project repository**, nothing else. STEVE finds your project from what the installation can see, so an installation with access to all repositories, or to a bootcamp repository as well, cannot be linked.
+     - The Steve app only reads your repository. It never writes to it.
+- [ ] Give your coaches and the teaching team the **Maintain** role **on the repository**: the repository's `Settings`, then `Collaborators and teams`, then `Add people`, and pick the role `Maintain`. The exact GitHub logins are listed on the **Technical setup** screen in STEVE. Adding someone to the organization, or setting the organization's base permission, does **not** give them Maintain on the repository.
+- [ ] Give every team member the **Write** role on the repository, in the same place. Each invited member must **accept the invitation**, from their GitHub notifications or email: until they do, they do not count.
 - [ ] Set up branch protection rules:
      - No direct push to `main`
      - Require pull request reviews with at least one reviewer
      - Require status checks before merging (e.g., Android tests)
 - [ ] Add the description of your app to the README of the new repository.
+
+The **Technical setup** screen in STEVE checks that the repository is public, that the Steve app is installed on it, that your coaches and the teaching team have Maintain, that every team member can push, and that your SonarCloud organization and project are set up as described in step 5. Everything else in this warmup is on your coaches, and a green Technical setup screen says nothing about it: in particular your **branch protection rules** are required and checked by your coaches, not by STEVE, and so are the app description in your README, your CI pipeline, your Scrum board, your Figma project and your Discord setup.
 
 **3. Initialize the Project:**
 - [ ] Initialize the Android project in GitHub using your own bootcamp, or our [sample Android project](https://github.com/swent-epfl/Android-Sample).
@@ -75,7 +83,9 @@ Having this is essential for managing collaborative work, and it will significan
 
 **5. Set up your CI:**
 - [ ] Set up a CI pipeline to run tests on your repository
-- [ ] Integrate [SonarCloud](https://www.sonarsource.com/plans-and-pricing/sonarcloud/) for code quality checks. This service is free for public repositories, but unfortunately it limits the number of seats to 5, which means that only 5 of your team members will be able to see it.
+- [ ] Import your GitHub organization into [SonarCloud](https://sonarcloud.io/projects/create) first: choose the GitHub organization that holds your project repository. **Accept the organization key SonarCloud proposes, without editing it.** STEVE derives that key from your GitHub organization's name, so an edited key makes the SonarCloud checks fail, and you cannot fix it from STEVE.
+- [ ] Add the EPFL SonarCloud account, **`TODO-EPFL-SONAR-LOGIN`**, to your SonarCloud organization and give it the **Administer Organization** permission: `Organization settings`, then `Members` to add the account, then `Groups` to add it to `Owners`. Without it the course cannot read your quality metrics, and STEVE reports your setup as not done. Keep it for the whole semester: removing it later breaks your technical setup.
+- [ ] Then import your project repository into that SonarCloud organization as a project. **Accept the project key SonarCloud proposes, without editing it** as well. It looks like `<organization>_<repository>`.
 
 **6. Set up Figma:**
 You will use Figma to create mockups and track design work
