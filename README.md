@@ -94,7 +94,7 @@ See the [exam page](exam/README.md) for details.
 #### Coaching
 
 Each student team will be assigned 2 coaches, who will guide and support the team throughout the semester, providing expertise and feedback to help students achieve their project goals.
-The team meets with their coaches once a week on Friday, for 1h in the 9:15&ndash;13:00 interval, in one of the following rooms:
+The team meets with their coaches once a week on Friday, for 1.5 h in the 9:00&ndash;13:00 interval, in one of the following rooms:
 [INF 019](https://plan.epfl.ch/?room==INF%20019), 
 [INM 11](https://plan.epfl.ch/?room==INM%2011), 
 [CO 017](https://plan.epfl.ch/?room==CO%20017), 
