@@ -1,6 +1,6 @@
 # Project Warmup
 
-_Last updated: September 29, 2025_
+_Last updated: September 26, 2026_
 
 ## Table of Contents
 
@@ -19,10 +19,9 @@ The goal of this warmup is to:
 - Ensure that your team has a good collaborative setup; and
 - Be ready to plan. As the saying goes, _the difference between a dream and a goal is a plan._  While dreams and goals may start as similar ideas, a plan is what turns a dream into an achievable, concrete goal. So you need to lay the groundwork for your project by setting up tools, planning tasks, and preparing for the first coaching meeting.
 
-The last bootcamp milestone (B3) is due on Monday at midnight.
-After you complete B3, take a short break, then do the [initial infrastructure setup](#initial-setup), and then meet as a team in-person to [prepare for Sprint 1](#preparation-for-sprint-1).
-In your first informal meeting with the coaches, you already got to know each other and to familiarize yourself with the preparation tasks.
-In your first _formal_ meeting you will plan Sprint 1, and your entire project must be ready to go.
+After the exam, take a short break, then do the [initial infrastructure setup](#initial-setup), and then meet as a team in-person to [prepare for Sprint 1](#preparation-for-sprint-1).
+In your first informal meeting with the coaches, you already got to know each other and familiarized yourselves with the preparation tasks.
+The Warmup is due **Fri 2-Oct at 08:45**, at your first _formal_ coaching meeting, where you will plan Sprint 1; by then, your entire project must be ready to go.
 
 ## Initial Setup
 
@@ -34,9 +33,9 @@ To ensure smooth collaboration throughout the semester, you need to have a relia
 
 **2. Set up GitHub:**
 GitHub provides many tools to help manage your project efficiently. Do the following to set it up (we let you research how to do these things):
-- [ ] Create a GitHub organization with all team members, your coaches, and Prof. Candea (GitHub ID _candea_) in it.
-- [ ] Create a project repository; make sure it's public, so that you can use tools like SonarCloud for free.
-- [ ] Grant _Maintainer_ access to your coaches and Prof. Candea, so they can give you the right level of help.
+- [ ] Create a GitHub organization with all team members, your coaches, head TA Zhekai Jiang (GitHub ID _zhekai-jiang_), and Prof. Candea (GitHub ID _candea_) in it.
+- [ ] Create a project repository; make sure it's public.
+- [ ] Grant the _Maintain_ role on the repository to your coaches, Zhekai, and Prof. Candea, so they can give you the right level of help.
 - [ ] Set up branch protection rules:
      - No direct push to `main`
      - Require pull request reviews with at least one reviewer
@@ -45,9 +44,18 @@ GitHub provides many tools to help manage your project efficiently. Do the follo
 
 **3. Initialize the Project:**
 - [ ] Initialize the Android project in GitHub using your own bootcamp, or our [sample Android project](https://github.com/swent-epfl/Android-Sample).
-- [ ] Add a `.gitignore` for Android projects.
+- [ ] Make sure your repository has a `.gitignore` for Android projects (the sample project already includes one).
 - [ ] Make sure all team members can clone the repository and run this new project locally.
-- [ ] Set up Firebase, including API keys. For backend code, you'd normally configure secrets via Firebase config or a secrets manager, instead of putting them in the repo, but for a frontend app, API keys can remain in config since they aren’t secret.
+- [ ] Add an `AGENTS.md` at the root of your repository with the rules your coding agents must follow (architecture, how to run `./gradlew check`, commit conventions, how to acknowledge AI), like in the bootcamp. Optionally, add your team's code-review checklist as a skill in `.github/skills/`.
+- [ ] Set up your cloud backend (Firebase or Supabase), including API keys. For backend code, you'd normally configure secrets via Firebase config or a secrets manager, instead of putting them in the repo, but for a frontend app, API keys can remain in config since they aren’t secret. The one exception is the Supabase `service_role` key: it bypasses all access rules, so never put it in the app, and enable Row Level Security on every table.
+
+> [!NOTE]
+> Firebase Auth and Firestore work on the free Spark plan, with no credit card needed. Cloud Storage (videos, documents, etc.) and Cloud Functions need the Blaze plan, which requires a credit card (new accounts get a time-limited $300 trial credit). If you upgrade, set a budget alert.
+> If you are not comfortable with that, Supabase is a good alternative (auth, SQL database, storage), and your MVVM architecture stays the same. But keep in mind:
+> - the bootcamp, the sample project, and the Firebase emulator are Firebase-based, so you will have less starter code and a different test setup;
+> - Firestore gives you offline support for free, whereas with Supabase you have to implement local caching yourself (e.g., with Room) to meet the offline-mode requirement.
+>
+> Tell your coaches early if you go with Supabase.
 
 **4. Set up a Scrum Board:**
 Having this is essential for managing collaborative work, and it will significantly boost your team's efficiency. Here are our suggestions:
@@ -57,7 +65,7 @@ Having this is essential for managing collaborative work, and it will significan
      - `Sprint Backlog` for the tasks to be completed during the current Sprint
      - `In Development` for the tasks that are currently being worked on
      - `In Review` for the tasks under review by other team members before being merged
-     - `Done in Si` for tasks completed in Sprint _i_, where _i = 1, 2, ..., 11_.
+     - `Done in Si` for tasks completed in Sprint _i_, where _i = 1, 2, ..., 10_.
 - [ ] Define properties for tasks on the Scrum board:
      - `Sprint` to identify the sprint to which that task belongs
      - `Type` (e.g., Frontend, Backend, Figma)
@@ -75,14 +83,22 @@ Having this is essential for managing collaborative work, and it will significan
 
 **5. Set up your CI:**
 - [ ] Set up a CI pipeline to run tests on your repository
-- [ ] Integrate [SonarCloud](https://www.sonarsource.com/plans-and-pricing/sonarcloud/) for code quality checks. This service is free for public repositories, but unfortunately it limits the number of seats to 5, which means that only 5 of your team members will be able to see it.
+- [ ] Integrate [SonarCloud](https://sonarcloud.io) for code quality checks. It is free for public repositories, but the free plan is limited to 5 members; adding our account as an administrator lets us move you to the SwEnt enterprise plan. An **owner of your GitHub organization** should:
+     1. Create a SonarCloud organization by importing the GitHub organization of your SwEnt project, and select **only your project repository**.
+     2. Analyze your repository **With GitHub Actions**, and keep the organization and project keys that SonarCloud proposes.
+     3. In `Administration` > `Members`, add `justin.favey@epfl.ch` and put it in the `Owners` group. Keep it there all semester.
 
 **6. Set up Figma:**
 You will use Figma to create mockups and track design work
 - [ ] Create a Figma project and share it with the entire team
 - [ ] Link the Figma file from your project's README
-- [ ] Ensure all team members have edit access and can access Figma in dev mode
+- [ ] Ensure all team members have edit access and can access Figma in dev mode (Dev Mode requires a paid seat, which you can get for free with the [Figma Education plan](https://www.figma.com/education/))
 - [ ] Ensure your Figma is publicly accessible, so that the course staff have access to it
+
+**7. Connect your project to Steve:**
+Do this last: Steve checks your GitHub organization, your repository and your SonarCloud setup. Its Technical setup screen opens once your app description has been approved.
+- [ ] An **owner** of your project's GitHub organization clicks **Install the Steve app** on that screen, installs it on your organization, and gives it access to your project repository and no other.
+- [ ] Steve then tells you what is missing. Fix it and run the checks again until everything is green.
 
 ## Preparation for Sprint 1
 
@@ -91,11 +107,11 @@ During this meeting you should:
 
 **1. Define Process**
 
-- [ ] Define a clear _code review process_ and set expectations for what a good pull request should look like (see [these guidelines](https://github.com/swent-epfl/public/tree/main/project/README.md#code-reviews)).
+- [ ] Define a clear _code review process_ and set expectations for what a good pull request should look like (see [these guidelines](./README.md#reviewing-code)).
 - [ ] Agree on a communication protocol for handling complex merges or potential conflicts.
 - [ ] Create branch naming conventions (e.g., `feature/feature-name`, `bugfix/issue-number`, etc.).
 - [ ] Decide on the time and place of your regular Stand-Up meetings; these meetings are crucial to keeping the team on track.
-- [ ] Each member should have a clear time budget for working on the project (see [this example](https://github.com/swent-epfl/public/tree/main/project/README.md#m1-and-m2)); discuss any exceptions.
+- [ ] Each member should have a clear time budget for working on the project (see [this example](./README.md#m1-and-m2)); discuss any exceptions.
 - [ ] For each Sprint, one of you will have to be Scrum Master and another will be Product Owner.  Discuss how you want to rotate these roles, such that each team member gets as much practice with these roles as possible.  (In SwEnt, the SM and PO will also be Developers during the Sprint, just not at 100%.)
 
 **2. Risk Planning:**
@@ -111,7 +127,7 @@ While the formal Sprint planning will occur during the first formal meeting with
 - [ ] Nominate a Scrum Master for Sprint 1.
 - [ ] Start developing Figma wireframes for the main screens to outline the user interface and experience.
 
-After every meeting, you will need to keep track of all important decisions in one place. This will help team members refer back to them when needed, ensuring that everyone knows how to handle defined procedures and avoid confusion. A good place to define this is in the Wiki of your organization in GitHub. Capture in this Wiki the results of this first team meeting (decisions, code review processes, communication protocol, naming conventions, etc.) Make it a habit to update the Wiki as new decisions are made in the team.
+After every meeting, you will need to keep track of all important decisions in one place. This will help team members refer back to them when needed, ensuring that everyone knows how to handle defined procedures and avoid confusion. A good place to define this is in the Wiki of your project repository in GitHub. Capture in this Wiki the results of this first team meeting (decisions, code review processes, communication protocol, naming conventions, etc.) Make it a habit to update the Wiki as new decisions are made in the team.
 
 **4. Prepare for the Coaching Meeting**
 
@@ -123,8 +139,8 @@ After every meeting, you will need to keep track of all important decisions in o
  - [ ] Make sure you have a Scrum Master (SM) from among the team members
  - [ ] Make sure you have a Product Owner (PO) from among the team members
  - [ ] Make sure all the infrastructure is set up, and the CI is running
- - [ ] Have at least two in-person stand-up meetings before the next Friday
- - [ ] The SM keeps minutes of the stand-up meetings (see [README](./README.md) for details)
+ - [ ] Have at least two in-person Stand-ups before the next Friday
+ - [ ] The SM keeps minutes of the Stand-ups meetings (see [README](./README.md) for details)
  - [ ] Ensure that the Scrum board is updated regularly
  - [ ] When you complete a task, submit a PR as described in the [README](./README.md)
 
