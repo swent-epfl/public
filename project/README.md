@@ -1,6 +1,6 @@
 # Software Enterprise Project
 
-_Last updated: September 29, 2025_
+_Last updated: September 6, 2026_
 
 ## Table of Contents
 
@@ -70,7 +70,7 @@ Having reflected on the previous Sprint, you are now ready to plan the next one:
 - __Clarifications &amp; Risk__: All uncertainties or ambiguities regarding the selected PB items need to be clarified during Sprint Planning. Give ample thought to potential risks or dependencies that could impact the Sprint, and develop mitigation strategies if necessary.
 
 > [!IMPORTANT]  
-> The dev team decides autonomously how much work it can take on in a Sprint, and is collectively responsible for finishing on time and deliver value by the end of the Sprint.  It is not the coaches who decide or impose the workload.
+> The dev team decides autonomously how much work it can take on in a Sprint, and is collectively responsible for finishing on time and delivering value by the end of the Sprint.  It is not the coaches who decide or impose the workload.
 
 > [!NOTE]
 > You can expect your time estimates to be (way) off in the beginning of the project. As the course progresses and you acquire experience, these estimates should become increasingly more accurate, and be spot-on by the end of the semester.
@@ -136,10 +136,10 @@ and some examples from large open-source projects [
 
 ### Stand-Up Meetings
 
-You are expected to hold **at least two Scrum stand-ups** a week outside the Friday meeting, at least one of which is in-person. As described in the [Collaborative Development](../README.md#schedule) lecture, these meetings last a few minutes, never more than 15 minutes. The SM is responsible to make sure that these happen. We will provide _**a template**_ for the SM to take minutes of the meetings; this helps keep things organized and gives coaches visibility into how things are going.
+You are expected to hold **at least two Scrum stand-ups** a week outside the Friday meeting, at least one of which is in-person. As described in the [Collaborative Development](../README.md#schedule) lecture, these meetings last a few minutes, never more than 15 minutes. The SM is responsible for making sure that these happen. We will provide _**a template**_ for the SM to take minutes of the meetings; this helps keep things organized and gives coaches visibility into how things are going.
 
 For reasons of efficiency and time savings, stand-ups are not for extended discussions&mdash;those happen one-on-one outside the team-wide stand-up.
-The SM is responsible to coordinate the removal of impediments (e.g., by organizing a separate meeting to discuss specific design issues), and all team members are responsible for doing their utmost to remove those impediments.
+The SM is responsible for coordinating the removal of impediments (e.g., by organizing a separate meeting to discuss specific design issues), and all team members are responsible for doing their utmost to remove those impediments.
 
 If you find that your team is being inefficient, ask yourself whether there is sufficient intra-team communication.  Lack of communication is the number-one reason why teams operate poorly. Reach out to your coaches if you need help.
 
@@ -151,10 +151,10 @@ If you lean on them blindly, you’ll usually create more work for yourself (and
 Follow the workflow shown in the first lecture to make AI work _for_ you, not _against_ you.
 
 > [!WARNING]
-> As mentioned [here](https://github.com/swent-epfl/private/blob/main/faq.md#how-can-i-accurately-acknowledge-contributions-to-my-codebase), 
+> As mentioned [here](../faq.md#how-can-i-accurately-acknowledge-contributions-to-my-codebase), 
 you must always acknowledge the use of AI, or else it will be considered plagiarism.
 
-Think of AI as a summer intern: it can write boilerplate code, draft, review and suggest things, etc. but you are the senior engineer. You are responsible for quality, clarity, and correctness of everything you commit.
+Think of AI as a summer intern: it can write boilerplate code, draft, review and suggest things, etc., but you are the senior engineer. You are responsible for quality, clarity, and correctness of everything you commit.
 
 Coaches will regularly ask you to justify your work. For example: 
 
