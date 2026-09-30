@@ -184,17 +184,27 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Writing Good Commit Messages</td><td align="center"><a href="https://drive.google.com/file/d/1JjXkOzGVbd-3MIclaial4zcmi67X0BMc/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=vbNDUFe5U6I">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Coding Standards</td><td align="center"><a href="https://drive.google.com/file/d/1AIb53C4Ad_KcnBorQ8v6v7zt6PED_blg/view?usp=sharing">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=t5fAWsdzBzA">video</a></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Continuous Integration &amp; Continuous Delivery</td><td align="center"><a href="https://drive.google.com/file/d/1ctfJFpo_jvppAl4nqzpIt8OhtjGIyGVU/view?usp=drive_link">pdf</a></td><td align="center"><a href="https://www.youtube.com/watch?v=35S_p3B0E_4">video</a></td></tr>
-
 <tr><td><b>Exam Practice Set 3</b></td><td><A href="https://moodle.epfl.ch/course/view.php?id=18350">questions</a></td><td><a href="/exam/Exam Practice Set 3.md">answers</a></td></tr>
-
 <tr><td><span style="color: red;"><a href="exam/README.md"><span style="color: red;"><b>Exam</b></span></a>: Friday 25-Sep, 9:15&ndash;12:00</span></td><td align="center"></td><td align="center"></td></tr>
 <tr><td>&raquo;&nbsp;Set up a get-to-know-you meeting with your coaches</td><td align="center"></td><td align="center"></td></tr>
-
-
-
 <tr><td valign="top">Wk4</td><td><a href="project/README.md"><b>Project</b></a>: Warmup</td><td align="center"></td><td align="center"></td><td valign="top"><a href="project/Warmup.md"><b>Warmup</b></a> due on<br>Fri, 2-Oct @ 08:45</td></tr>
 <tr><td valign="top">Wk5</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 1</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
-<tr><td valign="top">Wk6</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 2</td><td align="center"></td><td align="center"></td><td valign="top"><!-- <a href="project/M1.md"> --> M1<!-- </a> --> due on Fri,<br> 16-Oct @ 08:45</td></tr>
+<tr><td valign="top">Wk6</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 2</td><td align="center"></td><td align="center"></td><td valign="top"><a href="project/M1.md"><b>M1</b></a> due on Fri,<br> 16-Oct @ 08:45</td></tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <tr><td valign="top"></td><td><i>Fall Break &mdash; no classes</i></td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
 <tr><td valign="top">Wk7</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 3</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
 <tr><td valign="top">Wk8</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 4</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
