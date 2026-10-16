@@ -31,7 +31,7 @@ A coding agent is asked to fix a bug in which the total of an order is computed 
 - **D.** If CI passes, the PR can be merged
 - **E.** Having a second agent review the PR, and approving the PR if that agent finds no problems, is an adequate review
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B, C**
@@ -73,7 +73,7 @@ A Family Calendar app keeps the user's events (date, time, place, participants) 
 - **D.** SQLite / Jetpack Room
 - **E.** A cloud/backend service
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: B**
@@ -114,7 +114,7 @@ Which of the following is/are true about mobile operating systems and/or server 
 - **D.** Both are used interactively all the time, so both need a smooth, real-time, visually appealing GUI
 - **E.** Mobile operating systems prioritize battery efficiency, while server operating systems prioritize throughput and uptime, because power consumption is rarely a primary constraint for servers
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: B, C, E**
@@ -157,7 +157,7 @@ Bob uses a SwEnt app to record an audio note. While he is recording, a low-batte
 - **D.** The app should release the microphone as soon as the dialog appears
 - **E.** The app should write the elapsed recording time to storage when the dialog appears, because this is the app's last guaranteed opportunity to save data
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B, C**
@@ -203,7 +203,7 @@ A mobile app lets woodworking enthusiasts create and post detailed project plans
 - **D.** The request is reasonable: users always make mistakes, and a content creation workflow should let users correct or remove their mistakes.
 - **E.** The team does not need to add the feature; the team should instead work on unrelated features that make the app more enjoyable, so that the complaints matter less.
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, D**
@@ -249,7 +249,7 @@ Which of the following is/are true when this story is checked against the INVEST
 - **D.** Replacing its benefit with a more specific one, such as "so that I can check my next room between classes", would be enough to make the story satisfy "Valuable"
 - **E.** Replacing "fast" with "in under 3 seconds" would be enough to make the story satisfy all INVEST criteria
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B, C, D**
@@ -294,7 +294,7 @@ You want to verify that the coordinator correctly calculates exponential delay i
 - **C.** System
 - **D.** End-to-end
 - **E.** Acceptance
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A**
@@ -333,7 +333,7 @@ Which statement best describes the difference between Test-Driven Development (T
 - **D.** TDD and BDD are two names for the same practice, with no meaningful difference.
 - **E.** BDD requires writing the tests after the implementation is complete, while TDD requires writing the tests first.
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: C**
@@ -376,7 +376,7 @@ Which scenario matches this story?
 - **D.** Given a registered user has forgotten the password, When the user emails the support team, Then an administrator should set a new password for the user.
 - **E.** Given a registered user, When the user wants to change the password, Then a form for changing the password should be displayed.
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A**
@@ -416,7 +416,7 @@ Your app identifies plants by scanning them with the camera, and scanning requir
 - **D.** Creating an account and signing in for the first time
 - **E.** Rating a plant
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: B, D**
@@ -462,7 +462,7 @@ Which of the following critiques of this commit message are correct?
 - **D.** The body narrates the code change ("changed line 42 from `== null` to `!= null`"), which the diff already shows.
 - **E.** The commit message should be one-line only.
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B, C, D**
@@ -508,7 +508,7 @@ How should Bob proceed according to professional code review best practices?
 - **D.** If the automated CI build is currently green, Bob should approve the PR without questioning the architectural design.
 - **E.** Bob should spend his review session meticulously writing 40 individual comments pointing out each tab character across all 38 files.
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B, C**
@@ -560,7 +560,7 @@ Which of the following statements correctly evaluate(s) Alice's actions and the 
 - **D.** Alice is correct to declare a task ready for milestone delivery. The team can add tests and fix bugs later in separate issues.
 - **E.** The team could relax the standards a task must meet to count as done right before milestone deadlines to be able to ship features on time, as long as they know what are missing.
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, C**
@@ -608,7 +608,7 @@ Which of the following statements correctly evaluate(s) these events?
 - **D.** The Daily Scrum should be extended to 45 minutes in case team members want to brainstorm an architectural solution.
 - **E.** The primary objective of the Daily Scrum is for the Scrum Master to assign tasks and evaluate individual developer's work in full detail.
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B, C**
@@ -651,7 +651,7 @@ How should these discussions be structured in Scrum events within a Sprint?
 - **D.** External stakeholders and customers should participate in the Retrospective to help judge individual developer friction.
 - **E.** The Sprint Retrospective should conclude with concrete, actionable steps that the team commits to implementing in the upcoming Sprint.
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B, C, E**
@@ -717,7 +717,7 @@ Teammate Sarah reviews the code. Which of the following critiques correctly iden
 - **D.** Relying on a nullable `var` for the in-memory cache (`var c: MutableMap<...>?`) introduces needless null checks and mutable state hazards, whereas a `val` with a non-null map would be more robust.
 - **E.** Dave's implementation of the `try`-`catch` block is a recommended defensive coding technique because mobile applications should always try to suppress runtime exceptions to ensure the user never experiences an error message.
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B, C, D**
@@ -758,7 +758,7 @@ In the architecture of the bootcamp Todo app, what is the primary responsibility
 - **D.** Navigating between screens by starting a new Activity for each screen
 - **E.** Defining the `ToDo` data class and its fields
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: C**
@@ -796,7 +796,7 @@ In the bootcamp Todo app, which of the following responsibilities belong to the 
 - **D.** Using a `LazyColumn` to display the list
 - **E.** Deciding when to call `getAllTodos()`
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B, D**
@@ -850,7 +850,7 @@ In the bootcamp Todo app, a student decides to write the UI code for every todo 
 - **D.** Replacing the per-todo code with a single `Text` that joins all todos into one formatted string
 - **E.** Wrapping each todo's code in its own `Column`, with all of these `Column`s nested inside one scrollable parent `Column`
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: B**
@@ -889,7 +889,7 @@ In the bootcamp Todo app, is `StateFlow` appropriate for exposing the Overview s
 - **D.** No, because exposing state through a `StateFlow` prevents the `ViewModel` from updating it
 - **E.** No, because `StateFlow` is intended only for one-time events
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A**
@@ -930,7 +930,7 @@ A developer puts navigation decisions, repository calls, and UI rendering all in
 - **D.** The design loses the main benefit of repositories, which is to access data and render that data in the UI
 - **E.** The design makes the APK significantly larger
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, C**
@@ -986,7 +986,7 @@ A user of the bootcamp Todo app rotates the phone while the Overview screen show
 - **D.** Because `ToDosRepositoryLocal` works offline, the todos also survive closing the app
 - **E.** The composable must query the repository again on every recomposition for the list to stay correct
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B, C**
@@ -1030,7 +1030,7 @@ The `app/build.gradle.kts` file of an app contains `compileSdk = 37` and `minSdk
 - **D.** `compileSdk` determines the oldest Android version on which the app can run
 - **E.** In the bootcamp template, plugin and library versions are defined centrally in `gradle/libs.versions.toml`
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B, C, E**
@@ -1072,7 +1072,7 @@ In the bootcamp Todo app, a developer wants to replace the local todo storage wi
 - **D.** Each composable calls Firestore directly
 - **E.** All todo state is moved into `MainActivity`
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B, C**
@@ -1112,7 +1112,7 @@ In the bootcamp Todo app, why should the Firestore operations in `ToDosRepositor
 - **D.** `suspend` functions can be called from a composable body without a coroutine scope
 - **E.** `suspend` functions make the returned data survive configuration changes
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A**
@@ -1153,7 +1153,7 @@ In the bootcamp Todo app, a user saves a new todo, and the Firestore write fails
 - **D.** The repository returns normally without reporting the error, so that the UI stays simple
 - **E.** The app treats the todo as saved, because the user pressed Save
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B, C**
@@ -1196,7 +1196,7 @@ In the bootcamp Todo app, a student is writing repository tests and must choose 
 - **D.** The production database, because only the production database reproduces real-world network latency and offline caching
 - **E.** The Emulator Suite, because the emulator makes network operations synchronous
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, C**
@@ -1237,7 +1237,7 @@ In the bootcamp Todo app, a user fills in the Add Todo form with valid data and 
 - **D.** The todo can be saved only if the Location field is not blank
 - **E.** The app sets the todo's due date to the current date and time
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B, C**
@@ -1288,7 +1288,7 @@ In the bootcamp Todo app, a user scrolls down the Overview list and opens a todo
 - **D.** The next time the user opens this todo, the Edit Todo screen should show the values that the user typed before pressing Back
 - **E.** Pressing Back counts as forward navigation to the Overview screen, so the Overview list starts again at the top
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B**
@@ -1328,7 +1328,7 @@ In the bootcamp Todo app, a developer copies the entire Add Todo form into the E
 - **D.** Each screen will recompose twice as often, because the same code exists in two places
 - **E.** The Kotlin compiler will reject two composables with identical bodies in the same package
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A**
@@ -1367,7 +1367,7 @@ In the bootcamp Todo app, a todo with `uid` `task-7` is already stored in Firest
 - **D.** The repository must store both todos, because Firestore identifies documents by their contents rather than by `uid`
 - **E.** The repository must compare the titles of the two todos, and keep both todos if the titles differ
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A**
@@ -1406,7 +1406,7 @@ A user who is not signed in opens the bootcamp Todo app. Which of the following 
 - **D.** The user can sign in only with the Google account that is already set up on the phone
 - **E.** If the user was signed in the last time the app was closed, the app must ask the user to sign in again
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, C**
@@ -1449,7 +1449,7 @@ A user of the bootcamp Todo app signs out successfully. Which outcome(s) is/are 
 - **D.** If the user signs in again with the same account, the user's previous todos are still there
 - **E.** The app keeps showing the `Overview` screen without checking authentication
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, D**
@@ -1512,7 +1512,7 @@ You are developing the bootcamp Todo app and want to establish an automated agen
   2. The agent refactors the entire navigation graph and updates Gradle build dependencies across 20 files.
   3. The agent executes `git add .`, commits with message `"update"`, and runs `git push origin main`.
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B**
@@ -1553,7 +1553,7 @@ The bootcamp Todo app sends a Firestore query for all todos, without filtering b
 - **D.** If the same query is sent from a third-party client instead of the app, Firestore returns all todos, because the rules apply only to requests sent by the app
 - **E.** The app receives an arbitrary subset of the todos
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A**
@@ -1625,7 +1625,7 @@ Which of the following review comments accurately identify defects or poor pract
 - **D.** UI state out of sync: Directly mutating the repository from the UI bypasses the ViewModel's state management, preventing the ViewModel from coordinating UI state transitions, displaying loading indicators, or capturing error messages if the update fails.
 - **E.** State encapsulation: In MVVM, composables can be allowed to talk directly to repositories if a ViewModel becomes too large.
 
-<details open>
+<details>
 <summary><b>Show the answer & explanation</b></summary>
 
 **Full credit: A, B, C, D**
@@ -1666,7 +1666,7 @@ Why is it difficult to reach high unit-test coverage for code that integrates Go
 - **D.** The recommended approach is to keep the logic independent of the map components, so that the logic can still be tested
 - **E.** JaCoCo cannot measure coverage of files that import the Google Maps SDK
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B, D**
@@ -1710,7 +1710,7 @@ You prompt a test agent to write unit tests for `NominatimLocationRepository`. T
 - **D.** The test configures a fake HTTP client (such as `FakeHttpClient` using an `Interceptor`) that intercepts the request and returns a simulated HTTP 500 response to verify that the repository handles server errors gracefully, instead of sending requests to the real sesrver.
 - **E.** The test intercepts the outgoing HTTP request and verifies that the `User-Agent` header is set to a descriptive application identifier in compliance with the Nominatim usage policy.
 
-<details open>
+<details>
 <summary><b>Show the answer & explanation</b></summary>
 
 **Full credit: A, B, C**
@@ -1776,7 +1776,7 @@ Which of the following is/are true?
 - **D.** `shippingFee` has 2 × 2 × 2 = 8 paths, one for each combination of outcomes of its three `if` statements
 - **E.** If the `for` loop is moved into a new function `fragileSurcharge(items)` and `shippingFee` calls that function, the cyclomatic complexity of `shippingFee` drops to 4
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B, E**
@@ -1857,7 +1857,7 @@ Which of the following is/are true?
 - **D.** Adding a test T4 that invokes `ticketPrice(30, isStudent = false, isWeekend = false)` raises path coverage to 4/6 and branch coverage to 100%
 - **E.** `ticketPrice` has 8 paths, because the path depends on three Boolean conditions
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B, D**
@@ -1912,7 +1912,7 @@ Ana's PR is approved, and the team is deciding how to merge it into `main`. Whic
 - **D.** If the team squash-merges Ana's branch and a bug is later traced to her feature, the history of `main` still lets the team find which of her 14 commits introduced the bug.
 - **E.** Rebase and merge gives `main` a straight-line history while keeping Ana's original commits with their original identifiers.
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B, C**
@@ -1962,7 +1962,7 @@ Which of the following statements is/are true?
 - **D.** If Team Stream's canary servers show a higher error rate than the rest of production, the new build is rolled back, and only the users served by the canary servers were exposed to it.
 - **E.** Because canary analysis catches a bad build before it reaches most users, Team Stream can skip unit and integration tests in its pipeline.
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, C, D**
@@ -2006,7 +2006,7 @@ A SwEnt team uses coding agents and now produces about three times as much code 
 - **D.** Because the agents write tests along with the code, producing three times as much code does not increase the number of bugs that reach the last week of the Sprint.
 - **E.** Testing against fakes of the backend lets the team test code that depends on the backend before the backend exists, which moves the detection of these bugs earlier.
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, C, E**
@@ -2073,7 +2073,7 @@ Which of the following review comments is/are correct?
 - **D.** This UI test is also the right place to check that `onConnectivityChanged(false)` sets `isOffline` to true, because only a test with a real screen shows whether the offline logic works.
 - **E.** Since UI tests are slow, the team should replace this test with a ViewModel unit test that checks `isOffline`: if a teammate later renames a field in the UI state and the banner stops appearing, that ViewModel test will fail.
 
-<details open>
+<details>
 <summary><b>Show the answer</b></summary>
 
 **Full credit: A, B, C**
