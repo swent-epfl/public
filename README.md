@@ -1,6 +1,6 @@
 # EPFL CS-311 _The Software Enterprise: From Ideas to Products_
 
-_Last updated: September 27, 2026_
+_Last updated: October 16, 2026_
 
 ## Table of Contents
 
@@ -208,7 +208,7 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td valign="top"></td><td><i>Fall Break &mdash; no classes</i></td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
 <tr><td valign="top">Wk7</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 3</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
 <tr><td valign="top">Wk8</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 4</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
-<tr><td valign="top">Wk9</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 5</td><td align="center"></td><td align="center"></td><td valign="top"><!-- <a href="project/M2.md"> --> M2<!-- </a> --> due on Fri,<br>13-Nov @ 08:45</td></tr>
+<tr><td valign="top">Wk9</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 5</td><td align="center"></td><td align="center"></td><td valign="top"><a href="project/M2.md"><b>M2</b></a> due on Fri,<br>13-Nov @ 08:45</td></tr>
 <tr><td valign="top">Wk10</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 6</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
 <tr><td valign="top">Wk11</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 7</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
 <tr><td valign="top">Wk12</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 8</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
