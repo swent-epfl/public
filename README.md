@@ -1,6 +1,6 @@
 # EPFL CS-311 _The Software Enterprise: From Ideas to Products_
 
-_Last updated: October 16, 2026_
+_Last updated: November 13, 2026_
 
 ## Table of Contents
 
@@ -213,14 +213,13 @@ The BOTA will take place in [STCC](https://plan.epfl.ch/?room==STCC%207%208025)&
 <tr><td valign="top">Wk11</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 7</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
 <tr><td valign="top">Wk12</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 8</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
 <tr><td valign="top">Wk13</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 9</td><td align="center"></td><td align="center"></td><td valign="top"></td></tr>
-<tr><td valign="top">Wk14</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 10<br><a href="project/BOTA.md">Battle of the Apps</a></td><td align="center"></td><td align="center"></td><td valign="top"><!-- <a href="project/M3.md"> --> M3<!-- </a> --> due on Fri,<br>18-Dec @ 08:45 <br> Feedback survey<!-- <a href="TODO">Feedback survey</a> --> <br>due on Fri,<br>18-Dec @ 23:59</td></tr>
+<tr><td valign="top">Wk14</td><td><a href="project/README.md"><b>Project</b></a>: Sprint 10<br><a href="project/BOTA.md">Battle of the Apps</a></td><td align="center"></td><td align="center"></td><td valign="top"><a href="project/M3.md"><b>M3</b></a> due on Fri,<br>11-Dec @ 08:45 <br> Feedback survey<!-- <a href="TODO">Feedback survey</a> --> <br>due on Fri,<br>18-Dec @ 23:59</td></tr>
 </tbody>
 </table>
 
 
-We use a survey to collect systematic student feedback that is statistically significant.
-We use it as input to improving the course.
-The survey is not graded, but is a required part of the corresponding deliverable, so a submission is incomplete until the survey has been filled in.
+We use an online, anonymized survey to collect SwEnt-specific student feedback that helps us improve the course.
+The survey is not graded, but it is a required part of the M3 deliverables, so an M3 submission remains incomplete until the survey has been submitted.
 Budget 15 minutes to complete the survey.
 
 > [!IMPORTANT]  
